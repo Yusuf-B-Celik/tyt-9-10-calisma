@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "TYT 9-10 Çalışma",
+    "program": "Türkiye Yüzyılı Maarif Modeli (2025-2026)",
+    "soruDagilimi": "TYT 120 soru: Türkçe 40, Matematik 40, Fen 20 (Fizik 7, Kimya 7, Biyoloji 6), Sosyal 20 (Tarih 5, Coğrafya 5, Felsefe 5, Din 5). Süre 165 dk."
+  },
+  "siniflar": [
+    {
+      "id": "9",
+      "ad": "9. Sınıf",
+      "dersler": [
+        {
+          "id": "9-mat",
+          "ad": "Matematik",
+          "uniteler": [
+            { "id": "9-mat-u1", "ad": "Sayılar", "konular": ["Üslü ve köklü gösterimler", "Gerçek sayı aralıkları", "Sayı kümeleri ve işlem özellikleri", "İki kare farkı ve tamkare özdeşlikleri"] },
+            { "id": "9-mat-u2", "ad": "Nicelikler ve Değişimler", "konular": ["Doğrusal fonksiyonlar ve mutlak değer", "Fonksiyonların nitel özellikleri", "Doğrusal denklem ve eşitsizlikler"] },
+            { "id": "9-mat-u3", "ad": "Algoritma ve Bilişim", "konular": ["Algoritma temelli problemler", "Mantık bağlaçları ve niceleyiciler"] },
+            { "id": "9-mat-u4", "ad": "Geometrik Şekiller", "konular": ["Üçgende açı özellikleri", "Üçgende kenar özellikleri"] },
+            { "id": "9-mat-u5", "ad": "Eşlik ve Benzerlik", "konular": ["Yansıma, öteleme, dönme", "Üçgende eşlik ve benzerlik koşulları"] },
+            { "id": "9-mat-u6", "ad": "İstatistik ve Olasılık", "konular": ["İstatistiksel araştırma süreci", "Veri toplama ve yorumlama"] }
+          ]
+        },
+        {
+          "id": "9-fiz",
+          "ad": "Fizik",
+          "uniteler": [
+            { "id": "9-fiz-u1", "ad": "Fizik Bilimi ve Kariyer Keşfi", "konular": ["Fizik bilimi ve alt dalları", "Fizik bilimine yön verenler"] },
+            { "id": "9-fiz-u2", "ad": "Kuvvet ve Hareket", "konular": ["Temel ve türetilmiş nicelikler", "Skaler ve vektörel nicelikler, vektörler", "Doğadaki temel kuvvetler", "Hareket türleri"] },
+            { "id": "9-fiz-u3", "ad": "Akışkanlar", "konular": ["Basınç ve sıvı basıncı", "Açık hava basıncı", "Kaldırma kuvveti", "Bernoulli ilkesi"] },
+            { "id": "9-fiz-u4", "ad": "Enerji", "konular": ["Enerji, ısı, sıcaklık ilişkisi", "Öz ısı ve ısı sığası", "Hal değişimi ve ısıl denge", "Isı aktarım yolları"] }
+          ]
+        },
+        {
+          "id": "9-kim",
+          "ad": "Kimya",
+          "uniteler": [
+            { "id": "9-kim-u1", "ad": "Etkileşim", "konular": ["Günlük hayatta kimya ve güvenlik", "Atom teorileri ve atomun yapısı", "Orbital ve elektron dizilimi", "Periyodik tablo ve özellikler"] },
+            { "id": "9-kim-u2", "ad": "Çeşitlilik", "konular": ["Metalik, iyonik, kovalent bağ", "Lewis yapısı ve polarlık", "Bileşik adlandırma", "Moleküller arası etkileşimler, katı ve sıvılar"] },
+            { "id": "9-kim-u3", "ad": "Sürdürülebilirlik", "konular": ["Nanoparçacıklar", "Yeşil kimya ve atık önleme"] }
+          ]
+        },
+        {
+          "id": "9-biy",
+          "ad": "Biyoloji",
+          "uniteler": [
+            { "id": "9-biy-u1", "ad": "Yaşam", "konular": ["Biyolojinin önemi ve bilimsel süreç", "Canlıların ortak özellikleri", "Sınıflandırma ve 3 üst alem", "Biyoçeşitlilik"] },
+            { "id": "9-biy-u2", "ad": "Organizasyon", "konular": ["Su ve mineraller", "Karbonhidrat, yağ, protein, nükleik asit, vitamin", "Hücre zarı, sitoplazma, organeller", "Madde geçişleri, doku-organ-sistem"] }
+          ]
+        },
+        {
+          "id": "9-tde",
+          "ad": "Türk Dili ve Edebiyatı",
+          "uniteler": [
+            { "id": "9-tde-u1", "ad": "Sözün İnceliği", "konular": ["Şiir ve deneme", "Edebiyat-güzel sanatlar ilişkisi", "Dil-kültür ilişkisi"] },
+            { "id": "9-tde-u2", "ad": "Anlam Arayışı", "konular": ["Hikaye ve anı", "Yazım kuralları ve noktalama", "İsimler"] },
+            { "id": "9-tde-u3", "ad": "Anlamın Yapı Taşları", "konular": ["Gezi yazısı ve belgesel", "Sıfatlar, edat-bağlaç-ünlem"] },
+            { "id": "9-tde-u4", "ad": "Dilin Zenginliği", "konular": ["Roman ve tiyatro", "Zamir, zarf, fiil", "Biyografi, mektup, günlük-blog"] }
+          ]
+        },
+        {
+          "id": "9-tar",
+          "ad": "Tarih",
+          "uniteler": [
+            { "id": "9-tar-u1", "ad": "Geçmişin İnşa Sürecinde Tarih", "konular": ["Tarih öğrenmenin faydaları", "Tarihin doğası ve bilgi üretim süreci"] },
+            { "id": "9-tar-u2", "ad": "Eski Çağ Medeniyetleri", "konular": ["Tarım devrimi", "Yönetenler ve savaşanlar", "Hukuk, inanç, bilim-sanat", "Konargöçer Türkler"] },
+            { "id": "9-tar-u3", "ad": "Orta Çağ Medeniyetleri", "konular": ["Kitlesel göçler", "Siyasi-askeri gelişmeler", "Ticaret yolları", "Bilim-kültür-sanat"] }
+          ]
+        },
+        {
+          "id": "9-cog",
+          "ad": "Coğrafya",
+          "uniteler": [
+            { "id": "9-cog-u1", "ad": "Coğrafyanın Doğası", "konular": ["Coğrafyanın konusu ve bölümleri", "Coğrafya biliminin gelişimi"] },
+            { "id": "9-cog-u2", "ad": "Mekansal Bilgi Teknolojileri", "konular": ["Haritalar", "Türkiye'nin konumu"] },
+            { "id": "9-cog-u3", "ad": "Doğal Sistemler", "konular": ["Hava olayları", "İklim bileşenleri ve türleri"] },
+            { "id": "9-cog-u4", "ad": "Beşeri ve Ekonomik Sistemler", "konular": ["Nüfus değişimi ve hareketleri", "Ekonomik faaliyetler"] },
+            { "id": "9-cog-u5", "ad": "Afetler ve Bölgeler", "konular": ["Afet türleri ve yönetimi", "Bölge ve sınır"] }
+          ]
+        },
+        {
+          "id": "9-din",
+          "ad": "Din Kültürü",
+          "uniteler": [
+            { "id": "9-din-u1", "ad": "Allah-İnsan İlişkisi", "konular": ["İnsanın yaratılışı", "Doğruyu arayan varlık", "İbadet ve dua"] },
+            { "id": "9-din-u2", "ad": "İnanç ve İbadet", "konular": ["İman esasları", "Temel ibadetler"] },
+            { "id": "9-din-u3", "ad": "Ahlak ve Hz. Muhammed", "konular": ["Ahlak ilkeleri", "Hz. Muhammed'in örnekliği"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "ad": "10. Sınıf",
+      "dersler": [
+        {
+          "id": "10-mat",
+          "ad": "Matematik",
+          "uniteler": [
+            { "id": "10-mat-u1", "ad": "Üçgenler ve Trigonometri", "konular": ["Üçgenler", "Trigonometrik oranlar"] },
+            { "id": "10-mat-u2", "ad": "Sayılar ve Bölünebilme", "konular": ["Asal çarpan-bölen ilişkisi", "EBOB-EKOK", "Bölme ve kalan"] },
+            { "id": "10-mat-u3", "ad": "Fonksiyonlar", "konular": ["Fonksiyon olma şartı", "Doğrusal-karesel-karekök-rasyonel fonksiyonlar", "Ters fonksiyon, denklem-eşitsizlik"] },
+            { "id": "10-mat-u4", "ad": "Analitik ve Olasılık", "konular": ["Sayma ve algoritmik dil", "Nokta-doğrunun analitiği", "Koşullu olasılık"] },
+            { "id": "10-mat-u5", "ad": "Geometri", "konular": ["Dörtgen-çokgen", "Katı cisimler: alan-hacim"] }
+          ]
+        },
+        {
+          "id": "10-fiz",
+          "ad": "Fizik",
+          "uniteler": [
+            { "id": "10-fiz-u1", "ad": "Hareket", "konular": ["Sabit hızlı hareket", "Sabit ivmeli hareket ve serbest düşme", "İki boyutta hareket"] },
+            { "id": "10-fiz-u2", "ad": "İş, Güç, Enerji", "konular": ["İş-enerji-güç", "Mekanik enerji"] },
+            { "id": "10-fiz-u3", "ad": "Elektrik ve Dalgalar", "konular": ["Elektrik akımı", "Dalga türleri ve özellikleri"] }
+          ]
+        },
+        {
+          "id": "10-kim",
+          "ad": "Kimya",
+          "uniteler": [
+            { "id": "10-kim-u1", "ad": "Kimyasal Tepkimeler", "konular": ["Tepkime türleri", "Mol kavramı", "Stokiyometrik hesaplar"] },
+            { "id": "10-kim-u2", "ad": "Gazlar ve Çözeltiler", "konular": ["Gaz yasaları ve ideal gaz", "Derişim ve çözünürlük", "Koligatif özellikler"] },
+            { "id": "10-kim-u3", "ad": "Yeşil Kimya", "konular": ["Sürdürülebilirlik"] }
+          ]
+        },
+        {
+          "id": "10-biy",
+          "ad": "Biyoloji",
+          "uniteler": [
+            { "id": "10-biy-u1", "ad": "Enerji", "konular": ["ATP ve enerjinin önemi", "Fotosentez ve hızını etkileyen faktörler", "Kemosentez"] },
+            { "id": "10-biy-u2", "ad": "Ekoloji", "konular": ["Ekosistem ve madde döngüleri", "Güncel çevre sorunları"] }
+          ]
+        },
+        {
+          "id": "10-tde",
+          "ad": "Türk Dili ve Edebiyatı",
+          "uniteler": [
+            { "id": "10-tde-u1", "ad": "Sözün Ezgisi", "konular": ["Destan"] },
+            { "id": "10-tde-u2", "ad": "Kelimelerin Ritmi", "konular": ["Mesnevi ve halk hikayesi"] },
+            { "id": "10-tde-u3", "ad": "Dünden Bugüne", "konular": ["Tanzimat-edebiyat dönemleri"] },
+            { "id": "10-tde-u4", "ad": "Nesillerin Mirası", "konular": ["Milli edebiyat"] }
+          ]
+        },
+        {
+          "id": "10-tar",
+          "ad": "Tarih",
+          "uniteler": [
+            { "id": "10-tar-u1", "ad": "Türkistan'dan Türkiye'ye (1040-1299)", "konular": ["Anadolu'ya göç ve yerleşme"] },
+            { "id": "10-tar-u2", "ad": "Beylikten Devlete (1299-1453)", "konular": ["Osmanlı kuruluş dönemi"] },
+            { "id": "10-tar-u3", "ad": "Cihan Devleti (1453-1683)", "konular": ["Yükselme dönemi"] }
+          ]
+        },
+        {
+          "id": "10-cog",
+          "ad": "Coğrafya",
+          "uniteler": [
+            { "id": "10-cog-u1", "ad": "Doğal Sistemler", "konular": ["Tektonik süreçler ve yeryüzü şekilleri"] },
+            { "id": "10-cog-u2", "ad": "Beşeri Sistemler", "konular": ["Yerleşmeler", "Ekonomik faaliyetler"] },
+            { "id": "10-cog-u3", "ad": "Afetler ve Kültür", "konular": ["Afetler", "Türk kültürü"] }
+          ]
+        },
+        {
+          "id": "10-fel",
+          "ad": "Felsefe",
+          "uniteler": [
+            { "id": "10-fel-u1", "ad": "Felsefeye Giriş", "konular": ["Felsefenin doğası", "Mantık ve argümantasyon"] },
+            { "id": "10-fel-u2", "ad": "Felsefe Alanları", "konular": ["Varlık, bilgi, ahlak", "Estetik, siyaset, din, bilim felsefesi"] }
+          ]
+        },
+        {
+          "id": "10-din",
+          "ad": "Din Kültürü",
+          "uniteler": [
+            { "id": "10-din-u1", "ad": "İslam'da Varlık ve Birlik", "konular": ["Varlık ve tevhid"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

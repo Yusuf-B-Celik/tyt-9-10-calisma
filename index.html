@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TYT 9-10 Çalışma</title>
+<meta name="description" content="9 ve 10. sınıf TYT dersleri: sıralı konu, video, not ve quiz. Vercel uyumlu, mobil öncelikli." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1>TYT 9–10 Çalışma</h1>
+    <p id="tagline">Sırayla öğren: not → video → quiz. İlerleme bu cihazda saklanır.</p>
+  </div>
+  <div class="top-actions">
+    <select id="sinifSec" aria-label="Sınıf seç"></select>
+    <button id="sifirlaBtn" title="İlerlemeyi sıfırla">Sıfırla</button>
+  </div>
+</header>
+
+<div class="tyt-bilgi" id="tytBilgi"></div>
+
+<main class="layout">
+  <aside class="sidebar">
+    <input id="ara" type="search" placeholder="Ders / ünite / konu ara..." />
+    <div id="dersListe"></div>
+    <div class="kaynak-kutu">
+      <h3>Resmi kaynaklar</h3>
+      <div id="mebListe"></div>
+    </div>
+  </aside>
+
+  <section class="icerik">
+    <div id="kirinti"></div>
+    <h2 id="baslik">Bir ders seç</h2>
+    <div class="sekmeler">
+      <button data-sekme="yol" class="aktif">Çalışma yolu</button>
+      <button data-sekme="videolar">Videolar</button>
+      <button data-sekme="quiz">Quiz</button>
+    </div>
+    <div id="panel"></div>
+  </section>
+</main>
+
+<footer>
+  <span>Maarif Modeli 2025-2026 müfredat sırası. Video içerikleri gömülmez, kaynağına yönlendirilir.</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
