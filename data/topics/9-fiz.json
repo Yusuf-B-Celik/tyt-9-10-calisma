@@ -1,0 +1,1138 @@
+{
+  "9-fiz": {
+    "9|9-fiz|9-fiz-u1|Fizik bilimi ve alt dalları": {
+      "ozet": "Fizik, madde ile enerji arasındaki etkileşimleri ve evrende gerçekleşen doğa olaylarını gözlem, deney ve ölçme yoluyla inceleyen deneysel doğa bilimidir. Mekanik, elektromanyetizma, termodinamik, optik, atom ve nükleer fizik, katıhal fiziği gibi alt dallara ayrılır ve bu dallar modern teknolojinin temelini oluşturur.",
+      "anlatim": [
+        "Fizik, maddeyi, enerjiyi ve bunlar arasındaki etkileşimleri inceleyen deneysel bir doğa bilimidir; amacı doğa olaylarını açıklamak ve önceden tahmin edebilmektir.",
+        "Bilimsel bilgi gözlem → hipotez → deney → teori → kanun sırasıyla oluşur; yeni deliller elde edildiğinde teoriler değişebilir, bu yüzden bilimsel bilgi kesin ve değişmez değildir.",
+        "Ölçme, bir büyüklüğü kendisiyle aynı türden bir birimle karşılaştırmaktır; fiziğin ortak dili büyüklük, birim ve sayısal değerdir.",
+        "Mekanik: kuvvet, hareket ve denge olaylarını inceler (araba hareketi, köprü taşıyıcıları, makara sistemleri).",
+        "Elektromanyetizma: elektrik yükü, elektrik akımı, manyetizma ve elektromanyetik dalgaları inceler (elektrik motoru, jeneratör, radyo dalgaları).",
+        "Termodinamik: ısı, sıcaklık, iç enerji ve enerji dönüşümlerini inceler (buzdolabı, otomobil motoru, ısıtıcı).",
+        "Optik: ışığın yansıması, kırılması, mercekler ve renk olaylarını inceler (gözlük, teleskop, mikroskop, fiber optik).",
+        "Atom fiziği atomun yapısını ve elektron düzenlerini; nükleer fizik ise atom çekirdeğini, radyoaktiviteyi ve nükleer tepkimeleri inceler (nükleer santral, radyoterapi).",
+        "Katıhal fiziği kristal yapıları ve yarı iletkenleri inceler; transistör, diyot ve bilgisayar çipleri bu alanın ürünüdür.",
+        "Fizik bilimi kariyer açısından geniştir: mühendislik, sağlık fiziği (radyasyon), uzay ve havacılık, malzeme bilimi, veri bilimi ve fizik öğretmenliği başlıca meslek yollarıdır."
+      ],
+      "formuller": [
+        "Uzunluk: metre (m) | 1 m = 100 cm = 1000 mm",
+        "Kütle: kilogram (kg) | 1 kg = 1000 g",
+        "Zaman: saniye (s) | 1 dk = 60 s, 1 saat = 3600 s",
+        "Sıcaklık: kelvin (K) | T(K) = t(°C) + 273",
+        "Bilimsel gösterim: 0,0032 m = 3,2×10⁻³ m"
+      ],
+      "ornek": "Bir öğrenci 1,5 kg kütleli kitabın masaya etkisini ve bir elektrik motorunun çalışmasını inceliyor. Kitap-masa olayı kuvvet ve denge ile ilgili olduğu için mekanik, elektrik motoru akım ve manyetizma ile ilgili olduğu için elektromanyetizma dalına girer. 1,5 kg = 1500 g birim çevrimi yapılır. Sonuç: bir olayı doğru alt dalla eşleştirmek için olayda hangi büyüklüklerin rol oynadığına bakılır.",
+      "ipucu": "TYT'de genelde bir günlük olay verilip hangi fizik alt dalına girdiği sorulur; tuzak, olaydaki cihazın yanlış eşleştirilmesidir (buzdolabı → termodinamik, gözlük → optik, çip → katıhal fiziği). Ayrıca bilimsel bilginin değişebilir olması ve bilimsel yöntem sırası sıkça çeldirici olarak kullanılır.",
+      "quiz": [
+        {
+          "soru": "Aşağıdakilerden hangisi fiziğin alt dalı değildir?",
+          "siklar": [
+            "Mekanik",
+            "Optik",
+            "Termodinamik",
+            "Tarih"
+          ],
+          "cevap": 3,
+          "aciklama": "Tarih bir sosyal bilimdir; mekanik, optik ve termodinamik fiziğin alt dallarıdır."
+        },
+        {
+          "soru": "Gözlük camlarının ışığı kırması hangi alt dalın konusudur?",
+          "siklar": [
+            "Optik",
+            "Mekanik",
+            "Nükleer fizik",
+            "Termodinamik"
+          ],
+          "cevap": 0,
+          "aciklama": "Işığın kırılması ve mercekler optik dalının konusudur."
+        },
+        {
+          "soru": "Atom çekirdeğindeki tepkimeleri ve radyoaktiviteyi inceleyen alt dal hangisidir?",
+          "siklar": [
+            "Atom fiziği",
+            "Nükleer fizik",
+            "Katıhal fiziği",
+            "Mekanik"
+          ],
+          "cevap": 1,
+          "aciklama": "Çekirdek tepkimeleri ve radyoaktivite nükleer fiziğin konusudur; atom fiziği elektron düzenlerini inceler."
+        },
+        {
+          "soru": "Bilimsel bilgiyle ilgili aşağıdakilerden hangisi doğrudur?",
+          "siklar": [
+            "Hiç değişmez",
+            "Yeni delillerle değişebilir",
+            "Sadece tahminlere dayanır",
+            "Deney gerektirmez"
+          ],
+          "cevap": 1,
+          "aciklama": "Bilimsel bilgi yeni gözlem ve deneylerle gelişir, gerekirse değişir."
+        },
+        {
+          "soru": "Elektrik motorunun çalışma ilkesi hangi alt dal kapsamında incelenir?",
+          "siklar": [
+            "Optik",
+            "Termodinamik",
+            "Elektromanyetizma",
+            "Mekanik"
+          ],
+          "cevap": 2,
+          "aciklama": "Elektrik akımı ile manyetik alanın etkileşimi elektromanyetizma dalına girer."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u1|Fizik bilimine yön verenler": {
+      "ozet": "Fizik, Arşimet'ten Einstein'a uzanan birçok bilim insanının gözlem ve deneyleriyle bugünkü hâline gelmiştir. Bu bilim insanları hareket, kuvvet, ısı, elektrik, ışık ve atom konularında temel yasaları ortaya koymuş ve adları birimlere verilmiştir.",
+      "anlatim": [
+        "Arşimet (MÖ 287-212): Kaldırma kuvveti ilkesini bulmuş; kaldıraç, denge ve yoğunluk üzerine çalışmıştır.",
+        "Galileo Galilei (1564-1642): Serbest düşme ve sarkaç deneyleriyle deneysel fiziğin öncüsü olmuş, gök cisimlerini teleskopla inceleyerek gözleme dayalı bilimin önünü açmıştır.",
+        "Isaac Newton (1643-1727): Hareket yasalarını ve genel çekim yasasını ortaya koymuştur; kuvvet birimi newton (N) onun adını taşır.",
+        "James Prescott Joule (1818-1889): Isı ile işin eşdeğerliğini (enerjinin korunumunu) deneysel olarak göstermiştir; enerji birimi joule (J) onun adına verilmiştir.",
+        "Michael Faraday (1791-1867): Elektromanyetik indüksiyonu bulmuş, elektrik enerjisinin üretim yolunu açmıştır; Faraday kafesi ve elektroliz yasaları da ona aittir.",
+        "James Clerk Maxwell (1831-1879): Elektrik ve manyetizmayı tek kuramda birleştirmiş, ışığın elektromanyetik dalga olduğunu ortaya koymuştur.",
+        "William Thomson, Lord Kelvin (1824-1907): Mutlak sıcaklık ölçeğini geliştirmiştir; 0 K = -273 °C'dir ve sıcaklık birimi kelvin (K) onun adını taşır.",
+        "Marie Curie (1867-1934) ve Pierre Curie: Radyoaktivite üzerine çalışmış; Marie Curie fizik ve kimya dallarında iki Nobel ödülü kazanan ilk bilim insanı olmuştur.",
+        "Ernest Rutherford (1871-1937): Atomun çekirdekli yapısını (içi boş, merkezde yoğun çekirdek) deneysel olarak göstermiştir.",
+        "Albert Einstein (1879-1955): Özel ve genel görelilik kuramlarını geliştirmiş, ışığın fotonlardan oluştuğunu açıklamasıyla Nobel Fizik Ödülü kazanmıştır."
+      ],
+      "formuller": [
+        "Kuvvet birimi: Newton (N) = 1 kg·m/s² (Newton)",
+        "Enerji/Isı birimi: Joule (J) = 1 N·m (Joule)",
+        "Güç birimi: Watt (W) = 1 J/s (Watt)",
+        "Elektrik akımı birimi: Amper (A, Ampère); yük birimi Coulomb (C)",
+        "Mutlak sıcaklık: 0 K = -273 °C (Lord Kelvin)"
+      ],
+      "ornek": "Bir eşleştirme sorusu çözelim: 'Isı ile işin birbirine dönüşebildiğini deneylerle gösteren bilim insanı kimdir?' Adım 1: Anahtar sözcük 'ısı ve iş eşdeğerliği'dir. Adım 2: Bu konuda çalışan kişi Joule'dür; enerji birimi de joule'dür. Adım 3: Soru 'ışığın elektromanyetik dalga olduğu' olsaydı cevap Maxwell, 'radyoaktivite' olsaydı Marie Curie, 'hareket yasaları' olsaydı Newton olurdu. Sonuç: Bilim insanı-konu eşleştirmesinde çalışmanın anahtar sözcüğü yakalanmalıdır.",
+      "ipucu": "TYT'de 'hangi bilim insanı hangi konuda çalıştı' eşleştirmesi ve adı verilen birimler (N, J, W, K, A, C) sık sorulur. Tuzak: Faraday ile Maxwell'in, atom fiziği ile nükleer fiziğin karıştırılması ve 0 K = -273 °C bilgisinin unutulmasıdır.",
+      "quiz": [
+        {
+          "soru": "Hareket yasalarını ortaya koyan ve adı kuvvet birimine verilen bilim insanı kimdir?",
+          "siklar": [
+            "Galileo",
+            "Newton",
+            "Joule",
+            "Faraday"
+          ],
+          "cevap": 1,
+          "aciklama": "Newton hareket yasalarını bulmuş; kuvvet birimi newton (N) onun adını taşır."
+        },
+        {
+          "soru": "Isı ile işin (enerjinin) eşdeğerliğini deneylerle gösteren bilim insanı kimdir?",
+          "siklar": [
+            "Joule",
+            "Maxwell",
+            "Rutherford",
+            "Arşimet"
+          ],
+          "cevap": 0,
+          "aciklama": "Joule ısı ve enerji eşdeğerliğini göstermiştir; enerji birimi joule'dür."
+        },
+        {
+          "soru": "Elektrik ve manyetizmayı tek kuramda birleştirip ışığın elektromanyetik dalga olduğunu öne süren bilim insanı kimdir?",
+          "siklar": [
+            "Faraday",
+            "Maxwell",
+            "Einstein",
+            "Curie"
+          ],
+          "cevap": 1,
+          "aciklama": "Maxwell elektrik ve manyetizmayı birleştirmiş, ışığın elektromanyetik dalga olduğunu göstermiştir."
+        },
+        {
+          "soru": "Mutlak sıcaklık ölçeğini geliştiren bilim insanı ve 0 K'in Celsius karşılığı hangi seçenekte doğru verilmiştir?",
+          "siklar": [
+            "Kelvin — -273 °C",
+            "Newton — 0 °C",
+            "Einstein — -273 °C",
+            "Joule — 273 °C"
+          ],
+          "cevap": 0,
+          "aciklama": "Lord Kelvin mutlak sıcaklık ölçeğini geliştirdi; 0 K = -273 °C'dir."
+        },
+        {
+          "soru": "Radyoaktivite üzerine çalışan ve iki Nobel ödülü kazanan ilk bilim insanı kimdir?",
+          "siklar": [
+            "Marie Curie",
+            "Faraday",
+            "Arşimet",
+            "Galileo"
+          ],
+          "cevap": 0,
+          "aciklama": "Marie Curie radyoaktivite çalışmalarıyla iki Nobel ödülü kazanan ilk bilim insanıdır."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u2|Temel ve türetilmiş nicelikler": {
+      "ozet": "Fiziksel büyüklükler, başka bir büyüklükten türetilmeden tanımlanan temel büyüklükler ile bunlardan elde edilen türetilmiş büyüklükler olarak ikiye ayrılır. SI sisteminde 7 temel büyüklük vardır; hız, kuvvet, basınç ve enerji gibi büyüklükler bunlardan türetilir.",
+      "anlatim": [
+        "Temel büyüklükler başka bir büyüklükten türetilmeden tanımlanır; SI'da 7 tanedir: uzunluk, kütle, zaman, elektrik akımı, sıcaklık, madde miktarı ve ışık şiddeti.",
+        "SI (Uluslararası Birim Sistemi) birimleri: uzunluk metre (m), kütle kilogram (kg), zaman saniye (s), akım amper (A), sıcaklık kelvin (K), madde miktarı mol (mol), ışık şiddeti candela (cd).",
+        "Türetilmiş büyüklükler temel büyüklüklerin çarpımı veya bölümüyle elde edilir: alan (m²), hacim (m³), yoğunluk (kg/m³), hız (m/s), ivme (m/s²), kuvvet (N), basınç (Pa), enerji (J), güç (W).",
+        "Hacim türetilmiş bir büyüklüktür: küp için V = a³, dikdörtgenler prizması için V = a·b·c; 1 L = 1 dm³ = 1000 cm³ ve 1 mL = 1 cm³'tür.",
+        "Yoğunluk d = m/V bağıntısıyla bulunur ve birimi kg/m³'tür; suyun yoğunluğu 1000 kg/m³ = 1 g/cm³'tür.",
+        "Kuvvetin birimi newton (N): 1 N = 1 kg·m/s²'dir; yani 1 kg kütleye 1 m/s² ivme veren kuvvettir (F = m·a).",
+        "Basınç P = F/A bağıntısıyla bulunur, birimi pascal (Pa): 1 Pa = 1 N/m²'dir.",
+        "Enerji birimi joule (J): 1 J = 1 N·m = 1 kg·m²/s²; güç birimi watt (W): 1 W = 1 J/s'dir.",
+        "Birim çevrimleri: 1 km = 1000 m, 1 m = 100 cm, 1 kg = 1000 g, 1 saat = 3600 s, 1 atm = 1013 hPa; büyüklükleri karşılaştırmadan önce mutlaka aynı birime çevrilmelidir.",
+        "Temel-türetilmiş ayrımı ile skaler-vektörel ayrımı karıştırılmamalıdır: kütle hem temel hem skalerdir; kuvvet hem türetilmiş hem vektöreldir."
+      ],
+      "formuller": [
+        "Temel büyüklükler: uzunluk (m), kütle (kg), zaman (s), akım (A), sıcaklık (K), madde miktarı (mol), ışık şiddeti (cd)",
+        "Yoğunluk: d = m / V (kg/m³)",
+        "Hacim (prizma): V = a · b · c (m³) ; 1 L = 1000 cm³",
+        "Kuvvet: F = m · a → 1 N = 1 kg·m/s²",
+        "Basınç: P = F / A → 1 Pa = 1 N/m²",
+        "Güç: P = W / t → 1 W = 1 J/s"
+      ],
+      "ornek": "Kenar uzunlukları 2 cm, 5 cm ve 10 cm olan bir metal bloğun hacmini ve kütlesi 80 g ise yoğunluğunu bulalım. Adım 1: V = a·b·c = 2·5·10 = 100 cm³. Adım 2: d = m/V = 80/100 = 0,8 g/cm³. Adım 3: kg/m³'e çevirelim: 0,8 g/cm³ = 0,8 · 1000 = 800 kg/m³. Sonuç: bloğun yoğunluğu 0,8 g/cm³ (800 kg/m³) olduğundan suda yüzer, çünkü suyun yoğunluğu 1 g/cm³'tür.",
+      "ipucu": "TYT'de 'aşağıdakilerden hangisi temel/türetilmiş büyüklüktür' ve birim soruları sık çıkar; en büyük tuzak birim çevrimidir. Örneğin uzunluğu karışık birimle (2 m 30 cm) vermek, kütleyi g ile verirken yoğunluk birimini kg/m³ istemek ya da g/cm³ ile kg/m³ arasındaki 1000 kat farkı unutturmaktır.",
+      "quiz": [
+        {
+          "soru": "Aşağıdakilerden hangisi SI'da temel büyüklüktür?",
+          "siklar": [
+            "Kuvvet",
+            "Basınç",
+            "Sıcaklık",
+            "Enerji"
+          ],
+          "cevap": 2,
+          "aciklama": "Sıcaklık temel büyüklüktür (K); kuvvet, basınç ve enerji türetilmiş büyüklüklerdir."
+        },
+        {
+          "soru": "1 N kaç kg·m/s²'ye eşittir?",
+          "siklar": [
+            "1",
+            "10",
+            "100",
+            "0,1"
+          ],
+          "cevap": 0,
+          "aciklama": "1 N = 1 kg·m/s²'ye eşittir."
+        },
+        {
+          "soru": "Kenar uzunlukları 3 cm, 4 cm ve 5 cm olan dikdörtgenler prizmasının hacmi kaç cm³'tür?",
+          "siklar": [
+            "60",
+            "12",
+            "47",
+            "120"
+          ],
+          "cevap": 0,
+          "aciklama": "V = 3·4·5 = 60 cm³."
+        },
+        {
+          "soru": "Kütlesi 250 g, hacmi 50 cm³ olan maddenin yoğunluğu kaç g/cm³'tür?",
+          "siklar": [
+            "0,2",
+            "5",
+            "0,5",
+            "20"
+          ],
+          "cevap": 1,
+          "aciklama": "d = m/V = 250/50 = 5 g/cm³."
+        },
+        {
+          "soru": "1,5 kg kaç gramdır ve bu büyüklük hangi türdendir?",
+          "siklar": [
+            "15 g — uzunluk",
+            "150 g — zaman",
+            "1500 g — kütle",
+            "15000 g — akım"
+          ],
+          "cevap": 2,
+          "aciklama": "1 kg = 1000 g olduğundan 1,5 kg = 1500 g; kütle temel büyüklüktür, birimi kilogramdır."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u2|Skaler ve vektörel nicelikler, vektörler": {
+      "ozet": "Yalnızca sayısal değer ve birimle ifade edilen büyüklükler skalerdir; sayısal değerin yanında yön de gerektiren büyüklükler vektöreldir. Vektörler yönlü doğru parçalarıyla gösterilir ve toplama yöntemleriyle bileşkeleri bulunur.",
+      "anlatim": [
+        "Skaler büyüklük sadece sayısal değer ve birimle belirtilir; kütle, zaman, sıcaklık, hacim, yoğunluk, enerji, alan ve sürat skalerdir.",
+        "Vektörel büyüklük sayısal değer ve birimin yanında yön de gerektirir; yer değiştirme, hız, ivme, kuvvet, ağırlık ve momentum vektöreldir.",
+        "Bir vektörün büyüklüğü uzunluğuyla, yönü ise doğrultusu ve okuyla gösterilir; sembolün üzerine ok konularak yazılır.",
+        "Aynı yönlü iki vektörün bileşkesi: R = F₁ + F₂ olur ve bileşkenin yönü vektörlerle aynıdır.",
+        "Zıt yönlü iki vektörün bileşkesi: R = |F₁ − F₂| olur ve bileşkenin yönü büyük olan vektörün yönündedir.",
+        "Birbirine dik iki vektörün bileşkesi Pisagor bağıntısıyla bulunur: R = √(F₁² + F₂²); örneğin 3 N ile 4 N dik ise bileşke 5 N'dur.",
+        "Aralarında θ açısı bulunan iki vektörün bileşkesi kosinüs teoremiyle bulunur: R² = F₁² + F₂² + 2·F₁·F₂·cosθ. θ = 0° ise R = F₁ + F₂, θ = 180° ise R = |F₁ − F₂|, θ = 90° ise R = √(F₁² + F₂²) olur.",
+        "Bir vektörün bileşenleri: yatay bileşen Fx = F·cosθ, dikey bileşen Fy = F·sinθ; büyüklük F = √(Fx² + Fy²)'dir.",
+        "İki vektörün bileşkesi en büyük F₁ + F₂ (aynı yön), en küçük |F₁ − F₂| (zıt yön) değerini alır; bu iki değer arasındaki tüm değerleri alabilir.",
+        "İki vektörün eşit olması için hem büyüklükleri hem yönleri aynı olmalıdır; bir vektörün negatifi aynı büyüklükte fakat zıt yönlü vektördür."
+      ],
+      "formuller": [
+        "Aynı yön: R = F₁ + F₂ | Zıt yön: R = |F₁ − F₂|",
+        "Dik vektörler: R = √(F₁² + F₂²)",
+        "Genel bileşke: R² = F₁² + F₂² + 2·F₁·F₂·cosθ",
+        "Bileşenler: Fx = F·cosθ , Fy = F·sinθ , F = √(Fx² + Fy²)",
+        "En büyük bileşke: F₁ + F₂ | En küçük bileşke: |F₁ − F₂|"
+      ],
+      "ornek": "Büyüklükleri 6 N ve 8 N olan, aralarında 90° açı bulunan iki kuvvetin bileşkesini bulalım. Adım 1: Vektörler dik olduğu için Pisagor kullanılır. Adım 2: R = √(6² + 8²) = √(36 + 64) = √100. Adım 3: R = 10 N bulunur. Sonuç: bileşke kuvvet 10 N olup yönü büyük kuvvete (8 N) daha yakındır; dik vektörlerde 6-8-10 üçgeni klasik bir örnektir.",
+      "ipucu": "TYT'de dik vektörlerin bileşkesi (3-4-5, 6-8-10, 5-12-13 üçgenleri) ve skaler-vektörel ayrımı sık sorulur. Tuzak: bileşkenin her zaman büyük vektörden büyük, toplamdan küçük olduğunun unutulması ve 'sürat-hız', 'kütle-ağırlık' gibi ikili büyüklüklerin karıştırılmasıdır.",
+      "quiz": [
+        {
+          "soru": "Aşağıdakilerden hangisi vektörel bir büyüklüktür?",
+          "siklar": [
+            "Kütle",
+            "Sıcaklık",
+            "Hız",
+            "Enerji"
+          ],
+          "cevap": 2,
+          "aciklama": "Hız yön gerektirdiği için vektöreldir; kütle, sıcaklık ve enerji skalerdir."
+        },
+        {
+          "soru": "Aynı yönlü 5 N ve 7 N'luk iki kuvvetin bileşkesi kaç N'dur?",
+          "siklar": [
+            "12",
+            "2",
+            "6",
+            "35"
+          ],
+          "cevap": 0,
+          "aciklama": "Aynı yönlü kuvvetler toplanır: R = 5 + 7 = 12 N."
+        },
+        {
+          "soru": "Zıt yönlü 12 N ve 5 N'luk kuvvetlerin bileşkesi kaç N'dur?",
+          "siklar": [
+            "17",
+            "7",
+            "60",
+            "12"
+          ],
+          "cevap": 1,
+          "aciklama": "Zıt yönlü kuvvetlerde R = |12 − 5| = 7 N'dur."
+        },
+        {
+          "soru": "Aralarında 90° açı bulunan 3 N ve 4 N'luk kuvvetlerin bileşkesi kaç N'dur?",
+          "siklar": [
+            "1",
+            "7",
+            "5",
+            "25"
+          ],
+          "cevap": 2,
+          "aciklama": "Dik vektörlerde R = √(3² + 4²) = √25 = 5 N."
+        },
+        {
+          "soru": "Büyüklükleri 4 N ve 10 N olan iki kuvvetin bileşkesi aşağıdakilerden hangisi olamaz?",
+          "siklar": [
+            "6 N",
+            "10 N",
+            "14 N",
+            "16 N"
+          ],
+          "cevap": 3,
+          "aciklama": "Bileşke en az |10 − 4| = 6 N, en çok 10 + 4 = 14 N olur; 16 N bu aralığın dışındadır."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u2|Doğadaki temel kuvvetler": {
+      "ozet": "Evrendeki tüm etkileşimler dört temel kuvvete indirgenebilir: kütle çekim kuvveti, elektromanyetik kuvvet, güçlü çekirdek kuvveti ve zayıf çekirdek kuvveti. Bu kuvvetler şiddet ve etki menzili bakımından birbirinden ayrılır; günlük hayatta karşılaşılan sürtünme gibi kuvvetler ise bu temel kuvvetlerin sonucudur.",
+      "anlatim": [
+        "Kütle çekim kuvveti: Kütlesi olan her cisim arasında çekim kuvveti vardır; F = G·m₁·m₂/d² bağıntısıyla bulunur, etki menzili sonsuzdur ve dört temel kuvvetin en zayıfıdır.",
+        "Elektromanyetik kuvvet: Elektrik yükleri arasında etki eder; aynı işaretli yükler birbirini iter, zıt işaretli yükler çeker; menzili sonsuzdur ve kütle çekimden çok daha şiddetlidir.",
+        "Güçlü (yeğin) çekirdek kuvveti: Protonları ve nötronları çekirdekte bir arada tutar; dört temel kuvvetin en şiddetlisidir ve menzili çekirdek boyutu kadar kısadır.",
+        "Zayıf çekirdek kuvveti: Radyoaktif bozunmalar (beta bozunması) gibi olaylarda etkindir; menzili çok kısa, şiddeti güçlü kuvvetten küçüktür.",
+        "Şiddet sıralaması (büyükten küçüğe): güçlü çekirdek > elektromanyetik > zayıf çekirdek > kütle çekim.",
+        "Menzil sıralaması: kütle çekim ve elektromanyetik kuvvetin menzili sonsuz; güçlü ve zayıf çekirdek kuvvetlerinin menzili çok kısadır.",
+        "Ağırlık, kütle çekim kuvvetinin bir sonucudur: G = m·g bağıntısıyla bulunur; Dünya yüzeyinde g ≈ 9,8 N/kg'dır (sorularda 10 N/kg alınabilir).",
+        "Kütle ile ağırlık farklıdır: kütle skalerdir, madde miktarının ölçüsüdür ve birimi kilogramdır; ağırlık vektöreldir, yer çekimi kaynaklı bir kuvvettir ve birimi newtondur. Ay'da kütle değişmez, ağırlık azalır (Ay'da g ≈ 1,6 N/kg).",
+        "Sürtünme, itme-çekme ve esneklik kuvvetleri temel kuvvet değildir; bunlar atomlar ve moleküller arası elektromanyetik etkileşimlerin makroskobik sonuçlarıdır.",
+        "Kuvvet dinamometre ile ölçülür, birimi newtondur (N) ve hem büyüklüğü hem yönü olduğu için vektörel bir büyüklüktür."
+      ],
+      "formuller": [
+        "Kütle çekim yasası: F = G·m₁·m₂ / d² (G = 6,67×10⁻¹¹ N·m²/kg²)",
+        "Ağırlık: G = m · g ; g ≈ 9,8 N/kg (sorularda ≈10 N/kg) ; birim: N",
+        "Şiddet sırası: güçlü > elektromanyetik > zayıf > kütle çekim",
+        "Menzil sırası: kütle çekim = elektromanyetik (sonsuz) > zayıf > güçlü",
+        "Ay'da çekim ivmesi g ≈ 1,6 N/kg"
+      ],
+      "ornek": "Kütlesi 20 kg olan bir cismin Dünya'da ve Ay'da ağırlığını bulalım (g_Dünya = 10 N/kg, g_Ay = 1,6 N/kg). Adım 1: Dünya için G = m·g = 20·10 = 200 N. Adım 2: Ay için G = 20·1,6 = 32 N. Adım 3: Kütle her iki yerde de 20 kg'dır, değişmez. Sonuç: cismin ağırlığı Dünya'da 200 N, Ay'da 32 N'dur; ağırlık azalırken kütle sabit kalır.",
+      "ipucu": "TYT'de ağırlık hesabı (G = m·g), kütle-ağırlık ayrımı ve temel kuvvetlerin şiddet-menzil sıralaması sorulur. Tuzak: kütleyi newton, ağırlığı kilogram olarak vermek; 'sürtünme kuvveti temel kuvvettir' gibi yanlış öncüller ve Ay'da kütlenin de azaldığının sanılmasıdır.",
+      "quiz": [
+        {
+          "soru": "Dört temel kuvvetten hangisi en şiddetlidir?",
+          "siklar": [
+            "Kütle çekim",
+            "Elektromanyetik",
+            "Güçlü çekirdek kuvveti",
+            "Zayıf çekirdek kuvveti"
+          ],
+          "cevap": 2,
+          "aciklama": "Güçlü (yeğin) çekirdek kuvveti dört temel kuvvetin en şiddetlisidir."
+        },
+        {
+          "soru": "Kütlesi 5 kg olan cismin Dünya'daki ağırlığı kaç N'dur? (g = 10 N/kg)",
+          "siklar": [
+            "0,5",
+            "5",
+            "50",
+            "500"
+          ],
+          "cevap": 2,
+          "aciklama": "G = m·g = 5·10 = 50 N."
+        },
+        {
+          "soru": "Aşağıdaki kuvvetlerden hangisinin etki menzili sonsuzdur?",
+          "siklar": [
+            "Güçlü çekirdek kuvveti",
+            "Zayıf çekirdek kuvveti",
+            "Kütle çekim kuvveti",
+            "Hiçbiri"
+          ],
+          "cevap": 2,
+          "aciklama": "Kütle çekim ve elektromanyetik kuvvetin menzili sonsuzdur; nükleer kuvvetler çok kısa menzillidir."
+        },
+        {
+          "soru": "Ay yüzeyine götürülen bir cismin kütlesi ve ağırlığı için hangisi doğrudur?",
+          "siklar": [
+            "Kütle azalır, ağırlık artar",
+            "İkisi de değişmez",
+            "Kütle değişmez, ağırlık azalır",
+            "İkisi de azalır"
+          ],
+          "cevap": 2,
+          "aciklama": "Kütle her yerde aynıdır; Ay'ın çekim ivmesi daha küçük olduğundan ağırlık azalır."
+        },
+        {
+          "soru": "Sürtünme kuvvetiyle ilgili hangi ifade doğrudur?",
+          "siklar": [
+            "Temel kuvvetlerden biridir",
+            "Elektromanyetik etkileşimin sonucudur",
+            "Kütle çekimin sonucudur",
+            "Zayıf çekirdek kuvvetidir"
+          ],
+          "cevap": 1,
+          "aciklama": "Sürtünme, yüzey atomları arasındaki elektromanyetik etkileşimlerin makroskobik sonucudur; başlı başına temel kuvvet değildir."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u2|Hareket türleri": {
+      "ozet": "Bir cismin konumunun zamanla değişmesine hareket denir. Hareket; sabit hızlı, düzgün hızlanan-yavaşlayan, düşme ve dairesel hareket gibi türlere ayrılır ve hız, ivme, yol bağıntılarıyla hesaplanır.",
+      "anlatim": [
+        "Konum, cismin seçilen bir referans noktasına göre yeridir; yer değiştirme ilk ve son konum arasındaki vektörel büyüklük (Δx), alınan yol ise izlenen rotanın skaler uzunluğudur.",
+        "Sürat alınan yolun zamana oranıdır (skaler), hız ise yer değiştirmenin zamana oranıdır (vektörel): sürat = yol/t, hız = Δx/Δt.",
+        "Sabit (düzgün) hızlı hareket: hızın büyüklüğü ve yönü sabittir, ivme sıfırdır; alınan yol x = v·t bağıntısıyla bulunur.",
+        "Düzgün hızlanan hareket: hız her saniye eşit miktarda artar, ivme sabittir; v = v₀ + a·t, x = v₀·t + ½·a·t², v² = v₀² + 2·a·x bağıntıları kullanılır.",
+        "İvme, hız değişiminin zamana oranıdır: a = Δv/Δt, birimi m/s²'dir; hız artıyorsa ivme hızla aynı yönde, yavaşlıyorsa zıt yöndedir.",
+        "Hız-zaman grafiğinde doğrunun altındaki alan alınan yolu verir; sabit hızlı harekette grafik yatay, düzgün hızlanan harekette eğimli doğrudur ve alan yamuk alanına eşittir.",
+        "Serbest düşme: ilk hızı sıfır olan cismin yalnızca yer çekimi etkisiyle düşmesidir; v = g·t ve h = ½·g·t² bağıntıları geçerlidir (g ≈ 10 m/s²).",
+        "Serbest düşen cismin hızı her saniye g kadar artar; 3 saniye düşen bir cisim v = 10·3 = 30 m/s hıza ulaşır ve h = ½·10·9 = 45 m yol alır.",
+        "Dairesel hareket: cisim çembersel yörüngede dolanır; sürat sabit olsa bile yön sürekli değiştiği için ivme sıfırdan farklıdır (merkezcil ivme).",
+        "Ortalama hız, toplam yer değiştirmenin toplam zamana bölümüdür; düzgün hızlanan harekette ortalama hız v_ort = (v₀ + v)/2'dir."
+      ],
+      "formuller": [
+        "Hız: v = Δx / Δt (m/s) | Sürat: s = yol / t (m/s)",
+        "İvme: a = Δv / Δt (m/s²)",
+        "Sabit hızlı hareket: x = v · t",
+        "Düzgün hızlanan: v = v₀ + a·t ; x = v₀·t + ½·a·t² ; v² = v₀² + 2·a·x",
+        "Ortalama hız: v_ort = (v₀ + v) / 2",
+        "Serbest düşme: v = g·t ; h = ½·g·t² (g ≈ 10 m/s²)"
+      ],
+      "ornek": "Durgun hâlden 2 m/s² ivmeyle hızlanan bir otobüsün 4 saniye sonundaki hızını ve aldığı yolu bulalım. Adım 1: v = v₀ + a·t = 0 + 2·4 = 8 m/s. Adım 2: x = v₀·t + ½·a·t² = 0 + ½·2·16 = 16 m. Adım 3: Kontrol: ortalama hız (0+8)/2 = 4 m/s, x = 4·4 = 16 m. Sonuç: otobüsün hızı 8 m/s, aldığı yol 16 m'dir.",
+      "ipucu": "TYT'de grafik okuma (hız-zaman, konum-zaman), serbest düşme ve ivmeli hareket hesapları sık çıkar. Tuzak: sürat ile hızın karıştırılması (gidip gelinen harekette yol büyük, yer değiştirme sıfır olabilir), negatif ivmenin her zaman yavaşlama anlamına gelmemesi ve g değerinin yanlış alınmasıdır.",
+      "quiz": [
+        {
+          "soru": "Durgun hâlden 3 m/s² ivmeyle harekete geçen cisim 5 saniye sonra kaç m/s hıza ulaşır?",
+          "siklar": [
+            "8",
+            "15",
+            "5",
+            "45"
+          ],
+          "cevap": 1,
+          "aciklama": "v = a·t = 3·5 = 15 m/s."
+        },
+        {
+          "soru": "Sabit 20 m/s hızla giden araç 6 saniyede kaç metre yol alır?",
+          "siklar": [
+            "26",
+            "120",
+            "60",
+            "200"
+          ],
+          "cevap": 1,
+          "aciklama": "x = v·t = 20·6 = 120 m."
+        },
+        {
+          "soru": "Serbest düşen cisim 3 saniyede yaklaşık kaç metre düşer? (g = 10 m/s²)",
+          "siklar": [
+            "15",
+            "30",
+            "45",
+            "90"
+          ],
+          "cevap": 2,
+          "aciklama": "h = ½·g·t² = ½·10·9 = 45 m."
+        },
+        {
+          "soru": "Bir cisim 100 m yolu 20 saniyede alıp ilk noktasına dönüyor. Cismin sürati ve yer değiştirmesi için hangisi doğrudur?",
+          "siklar": [
+            "Sürat 5 m/s, yer değiştirme 0",
+            "Sürat 0, yer değiştirme 5 m",
+            "İkisi de 5",
+            "Sürat 20 m/s, yer değiştirme 100 m"
+          ],
+          "cevap": 0,
+          "aciklama": "Sürat = yol/t = 100/20 = 5 m/s; başlangıca döndüğü için yer değiştirme 0'dır."
+        },
+        {
+          "soru": "Hız-zaman grafiğinde doğrunun altındaki alan neyi verir?",
+          "siklar": [
+            "İvmeyi",
+            "Alınan yolu",
+            "Kütleyi",
+            "Kuvveti"
+          ],
+          "cevap": 1,
+          "aciklama": "Hız-zaman grafiğinde alan, alınan yolu (yer değiştirmeyi) verir."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u3|Basınç ve sıvı basıncı": {
+      "ozet": "Basınç, birim yüzeye dik etki eden kuvvettir ve katılarda P = F/A bağıntısıyla bulunur. Sıvılar ağırlıkları nedeniyle bulundukları kabın her yüzeyine basınç uygular; bu basınç derinliğe ve özkütleye bağlı olup P = h·d·g ile hesaplanır.",
+      "anlatim": [
+        "Basınç P = F/A bağıntısıyla bulunur; birimi pascal (Pa) olup 1 Pa = 1 N/m²'dir. Aynı kuvvet küçük yüzeye daha büyük basınç yapar (çivi ucu, bıçak sırtı).",
+        "Katı bir cismin zemine yaptığı basınç P = F/A'dır; burada F cismin ağırlığı (G = m·g), A ise temas yüzey alanıdır.",
+        "Sıvılar bulundukları kabın her yüzeyine dik basınç uygular; sıvı basıncı P = h·d·g bağıntısıyla bulunur (h: derinlik, d: özkütle, g: çekim ivmesi).",
+        "Sıvı basıncı derinlikle ve özkütleyle doğru orantılıdır; kabın şekline ve genişliğine bağlı değildir. Aynı derinlikte aynı sıvının basıncı her yönde eşittir.",
+        "Birim kontrolü: h metre (m), d kg/m³, g N/kg alınırsa basınç N/m² = Pa çıkar. Örnek: 2 m derinlikte su (d = 1000 kg/m³, g = 10 N/kg) için P = 2·1000·10 = 20000 Pa = 20 kPa.",
+        "Sıvı tabana ağırlığından dolayı kuvvet uygular; taban alanı A olan kaba etkiyen sıvı kuvveti F = P·A = h·d·g·A bağıntısıyla bulunur.",
+        "Birden fazla sıvı bulunuyorsa (birbiriyle karışmayan) toplam basınç her sıvının basıncının toplamıdır: P = h₁·d₁·g + h₂·d₂·g.",
+        "Sıvı yüzeyine açık hava basıncı da etki ettiğinden toplam basınç P_toplam = P_açık hava + h·d·g şeklindedir.",
+        "Bileşik kaplar: birbiriyle bağlantılı kaplarda aynı sıvı aynı derinlikte aynı basınca sahip olduğundan yüzeyler eşit düzeyde durur (su terazisi).",
+        "Sıvılar kendilerine uygulanan basıncı her yöne aynen iletir (Pascal ilkesi); hidrolik fren ve hidrolik kriko bu ilkeyle çalışır: F₁/A₁ = F₂/A₂."
+      ],
+      "formuller": [
+        "Basınç: P = F / A → 1 Pa = 1 N/m²",
+        "Sıvı basıncı: P = h · d · g (N/m² = Pa)",
+        "Toplam basınç: P = P_açık hava + h · d · g",
+        "Sıvı kuvveti: F = P · A = h · d · g · A",
+        "Pascal ilkesi: F₁ / A₁ = F₂ / A₂",
+        "Su: d = 1000 kg/m³ ; g ≈ 10 N/kg"
+      ],
+      "ornek": "İçinde su bulunan bir kabın tabanından 3 m derinlikteki sıvı basıncını bulalım (d_su = 1000 kg/m³, g = 10 N/kg). Adım 1: Bağıntıyı yazalım: P = h·d·g. Adım 2: P = 3 · 1000 · 10 = 30000. Adım 3: Birim N/m² = Pa olduğundan 30000 Pa = 30 kPa. Sonuç: 3 m derinlikte sıvı basıncı 30 kPa'dır; açık hava basıncı da eklenirse toplam basınç yaklaşık 131 kPa olur.",
+      "ipucu": "TYT'de P = h·d·g ile karşılaştırma soruları ve 'şekli farklı kaplar aynı derinlikte aynı basıncı yapar mı' tipi tuzaklar çıkar. Sıvı basıncı kabın genişliğine ve toplam sıvı kütlesine bağlı değildir, sadece derinlik ve özkütleye bağlıdır. Katı basıncında ise temas yüzeyi büyükse basınç küçülür.",
+      "quiz": [
+        {
+          "soru": "100 N'luk kuvvetin 2 m²'lik yüzeye yaptığı basınç kaç Pa'dır?",
+          "siklar": [
+            "200",
+            "50",
+            "0,02",
+            "100"
+          ],
+          "cevap": 1,
+          "aciklama": "P = F/A = 100/2 = 50 Pa."
+        },
+        {
+          "soru": "Sıvı basıncı aşağıdakilerden hangisine bağlı değildir?",
+          "siklar": [
+            "Derinlik",
+            "Sıvının özkütlesi",
+            "Yer çekimi ivmesi",
+            "Kabın genişliği"
+          ],
+          "cevap": 3,
+          "aciklama": "P = h·d·g olduğundan derinlik, özkütle ve g etkilidir; kabın şekli ve genişliği basıncı değiştirmez."
+        },
+        {
+          "soru": "Özkütlesi 800 kg/m³ olan sıvının 2 m derinlikte yaptığı basınç kaç Pa'dır? (g = 10 N/kg)",
+          "siklar": [
+            "1600",
+            "16000",
+            "400",
+            "8000"
+          ],
+          "cevap": 1,
+          "aciklama": "P = h·d·g = 2·800·10 = 16000 Pa."
+        },
+        {
+          "soru": "Aynı sıvıyla doldurulmuş geniş ve dar iki kabın 1 m derinliğindeki basınçları için hangisi doğrudur?",
+          "siklar": [
+            "Geniş kapta büyük",
+            "Dar kapta büyük",
+            "Eşittir",
+            "Kabın yüksekliğine bağlıdır"
+          ],
+          "cevap": 2,
+          "aciklama": "Basınç derinlik ve özkütleye bağlıdır; aynı derinlikte basınçlar eşittir."
+        },
+        {
+          "soru": "Hidrolik krikoda küçük pistona uygulanan kuvvet nasıl büyük kuvvete dönüşür?",
+          "siklar": [
+            "Basınç azaltılarak",
+            "Pascal ilkesiyle basınç aynen iletilip büyük yüzeyde büyük kuvvet oluşturarak",
+            "Sıvı ısıtılarak",
+            "Ağırlık artırılarak"
+          ],
+          "cevap": 1,
+          "aciklama": "Sıvılar basıncı her yöne aynen iletir (Pascal ilkesi); basınç sabitken büyük piston alanında F = P·A daha büyük olur."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u3|Açık hava basıncı": {
+      "ozet": "Atmosferi oluşturan gazların ağırlıkları nedeniyle yeryüzüne uyguladıkları basınca açık hava basıncı denir. Torricelli deneyiyle ölçülür, deniz seviyesinde 76 cmHg ≈ 1 atm değerindedir ve yükseldikçe azalır.",
+      "anlatim": [
+        "Havayı oluşturan gaz molekülleri ağırlıkları ve hareketleriyle temas ettikleri yüzeye basınç uygular; bu basınca açık hava (atmosfer) basıncı denir.",
+        "Açık hava basıncı barometre ile ölçülür; barometrede genellikle sıvı olarak cıva kullanılır.",
+        "Torricelli deneyi: Bir ucu kapalı yaklaşık 1 m'lik cam boru cıvayla doldurulup cıva dolu kaba ters çevrilir; borudaki cıva seviyesi deniz seviyesinde 76 cm yükseklikte dengelenir.",
+        "Deniz seviyesinde 0 °C'de 76 cm yükseklikteki cıva sütununun basıncı 1 atmosferdir: 1 atm = 76 cmHg = 760 mmHg ≈ 1,013×10⁵ Pa ≈ 1013 hPa.",
+        "Cıva yerine su kullanılsaydı aynı basıncı dengeleyen su sütunu yaklaşık 10,3 m olurdu; cıvanın özkütlesi suyun 13,6 katı olduğu için yükseklikler arasında bu oran ortaya çıkar.",
+        "Açık hava basıncı yükseldikçe azalır: deniz seviyesinden yukarı çıkıldıkça üstteki hava miktarı ve yoğunluğu azalır, barometre daha düşük değer gösterir.",
+        "Açık hava basıncı deneyle gösterilebilir: Magdeburg yarım kürelerinin içi boşaltıldığında ayrılmaması, içi su dolu bardağın ağzına kâğıt kapatılıp ters çevrildiğinde suyun dökülmemesi, pipetle su içilmesi.",
+        "İçi boşaltılmış kapalı kaplarda iç basınç düşer; açık hava basıncı ile iç basınç arasındaki fark nedeniyle ortaya çıkan emme etkisi damacana pompası ve vakumlu ambalajda kullanılır.",
+        "Kapalı bir kaptaki gazın basıncı manometre ile ölçülür; bu basınç sıcaklık ve hacimle değişir ve açık hava basıncından bağımsızdır.",
+        "Açık hava basıncı bir basınç olduğu için birimi pascal (Pa) veya atmosferdir; 1 atm ≈ 101,3 kPa ≈ 1013 hPa'dır."
+      ],
+      "formuller": [
+        "1 atm = 76 cmHg = 760 mmHg ≈ 1,013×10⁵ Pa = 1013 hPa",
+        "Cıva sütunu basıncı: P = h · d · g (cıva d = 13600 kg/m³)",
+        "1 atm'i dengeleyen su sütunu: h = P / (d·g) ≈ 10,3 m",
+        "Deniz seviyesinden yükseldikçe açık hava basıncı azalır"
+      ],
+      "ornek": "76 cm yüksekliğindeki cıva sütununun yaptığı basıncı Pa cinsinden bulalım (d_cıva = 13600 kg/m³, g = 10 N/kg). Adım 1: Yüksekliği metreye çevirelim: 76 cm = 0,76 m. Adım 2: P = h·d·g = 0,76 · 13600 · 10. Adım 3: P = 103360 Pa bulunur. Sonuç: bu değer yaklaşık 1,03×10⁵ Pa olup deniz seviyesindeki 1 atmosferlik açık hava basıncına eşittir.",
+      "ipucu": "TYT'de 76 cmHg = 760 mmHg = 1 atm eşitlikleri ve cıva-su sütunu karşılaştırması (cıva 13,6 kat yoğun olduğundan su sütunu yaklaşık 13,6 kat yüksek olur) sık sorulur. Tuzak: borunun kalınlığının, şeklinin veya eğilmesinin basınç yüksekliğini değiştirmeyeceğini (yalnızca dikey yüksekliğin önemli olduğunu) kaçırmaktır.",
+      "quiz": [
+        {
+          "soru": "Deniz seviyesindeki açık hava basıncı kaç cmHg'dir?",
+          "siklar": [
+            "10",
+            "76",
+            "136",
+            "760"
+          ],
+          "cevap": 1,
+          "aciklama": "Deniz seviyesinde açık hava basıncı 76 cmHg = 760 mmHg'dır."
+        },
+        {
+          "soru": "1 atm basınç aşağıdakilerden hangisine eşit değildir?",
+          "siklar": [
+            "76 cmHg",
+            "760 mmHg",
+            "1,013×10⁵ Pa",
+            "13,6 cmHg"
+          ],
+          "cevap": 3,
+          "aciklama": "1 atm = 76 cmHg = 760 mmHg = 1,013×10⁵ Pa; 13,6 cıva ile suyun özkütle oranıdır, basınç değeri değildir."
+        },
+        {
+          "soru": "Torricelli deneyinde cıva yerine su kullanılsaydı basıncı dengeleyen su sütunu yaklaşık kaç metre olurdu?",
+          "siklar": [
+            "0,76",
+            "7,6",
+            "10,3",
+            "76"
+          ],
+          "cevap": 2,
+          "aciklama": "Cıva sudan 13,6 kat yoğun olduğundan 0,76 m cıva ≈ 13,6·0,76 ≈ 10,3 m su sütununa karşılık gelir."
+        },
+        {
+          "soru": "Yüksek bir dağın tepesine çıkıldığında açık hava basıncı için hangisi doğrudur?",
+          "siklar": [
+            "Artar",
+            "Değişmez",
+            "Azalır",
+            "Önce artar sonra azalır"
+          ],
+          "cevap": 2,
+          "aciklama": "Yükseldikçe üstteki hava miktarı ve yoğunluğu azaldığından açık hava basıncı azalır."
+        },
+        {
+          "soru": "Açık hava basıncını ölçen alet hangisidir?",
+          "siklar": [
+            "Manometre",
+            "Barometre",
+            "Dinamometre",
+            "Termometre"
+          ],
+          "cevap": 1,
+          "aciklama": "Açık hava basıncı barometreyle, kapalı kaptaki gaz basıncı manometreyle ölçülür."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u3|Kaldırma kuvveti": {
+      "ozet": "Bir sıvıya veya gaza batırılan cismin yüzeylerine etkiyen basınç farkı nedeniyle yukarı yönlü bir kaldırma kuvveti oluşur. Arşimet ilkesine göre kaldırma kuvveti, cismin taşırdığı sıvının ağırlığına eşittir ve F_k = V_batan·d_sıvı·g bağıntısıyla bulunur.",
+      "anlatim": [
+        "Kaldırma kuvveti, cismin sıvı içindeki alt ve üst yüzeylerine etkiyen basınçların farkından doğar ve daima yukarı yönlüdür.",
+        "Arşimet ilkesi: Kaldırma kuvveti, cismin taşırdığı (yer değiştirdiği) sıvının ağırlığına eşittir: F_k = V_batan · d_sıvı · g.",
+        "Kaldırma kuvveti cismin yapıldığı maddeye ve özkütlesine bağlı değildir; cismin batan hacmine, sıvının özkütlesine ve g'ye bağlıdır.",
+        "Yüzme koşulu: d_cisim < d_sıvı ise cisim yüzer ve F_k = G olur; batan hacim oranı V_batan/V_cisim = d_cisim/d_sıvı bağıntısıyla bulunur.",
+        "Askıda kalma koşulu: d_cisim = d_sıvı ise cisim tamamen batmış hâlde sıvı içinde dengede kalır ve F_k = G olur.",
+        "Batma koşulu: d_cisim > d_sıvı ise cisim tabana iner; bu durumda F_k < G olur ve cisim tabana net bir kuvvet uygular.",
+        "Kap doluysa kaldırma kuvveti kadar sıvı taşar; taşan sıvının ağırlığı kaldırma kuvvetine eşittir (Arşimet'in taşırma deneyi).",
+        "Sıvıya batırılan cisim ağırlığı ile kaldırma kuvveti arasındaki fark kadar hafifler; dinamometrenin gösterdiği görünür ağırlık G − F_k'dır.",
+        "Gazların da kaldırma kuvveti vardır; helyum balonu ve sıcak hava balonu bu kaldırma kuvvetiyle yükselir.",
+        "Gemi demirden yapılmasına rağmen içi boş ve geniş hacimli olduğundan ortalama özkütlesi suyunkinden küçük kalır ve yüzer."
+      ],
+      "formuller": [
+        "Kaldırma kuvveti: F_k = V_batan · d_sıvı · g (N)",
+        "Yüzme: F_k = G → V_batan / V_cisim = d_cisim / d_sıvı",
+        "Görünür ağırlık: G_görünen = G − F_k",
+        "Taşan sıvının ağırlığı = Kaldırma kuvveti (Arşimet ilkesi)",
+        "Su: d = 1000 kg/m³ ; g ≈ 10 N/kg ; 1 cm³ = 10⁻⁶ m³"
+      ],
+      "ornek": "Hacmi 500 cm³ olan bir cisim tamamen suya batırılıyor. Cisme etki eden kaldırma kuvvetini bulalım (d_su = 1000 kg/m³, g = 10 N/kg). Adım 1: Hacmi m³'e çevirelim: 500 cm³ = 500×10⁻⁶ m³ = 5×10⁻⁴ m³. Adım 2: F_k = V·d·g = 5×10⁻⁴ · 1000 · 10. Adım 3: F_k = 5 N bulunur. Sonuç: kaldırma kuvveti 5 N'dur; cismin ağırlığı 8 N olsaydı görünür ağırlığı 8 − 5 = 3 N olur ve cisim tabana inerdi.",
+      "ipucu": "TYT'de özellikle 'batan hacim / toplam hacim = cismin özkütlesi / sıvının özkütlesi' ilişkisi ve görünür ağırlık soruları çıkar. Tuzak: kaldırma kuvvetinin derinliğe veya cismin kütlesine bağlı olduğunun sanılmasıdır; oysa kaldırma kuvveti yalnızca batan hacme, sıvının özkütlesine ve g'ye bağlıdır. Ayrıca hacmi cm³ verip m³'e çevirmeyi unutmak klasik hatadır.",
+      "quiz": [
+        {
+          "soru": "Hacmi 200 cm³ olan cisim tamamen suya batırıldığında kaldırma kuvveti kaç N'dur? (d_su = 1000 kg/m³, g = 10 N/kg)",
+          "siklar": [
+            "2",
+            "20",
+            "0,2",
+            "200"
+          ],
+          "cevap": 0,
+          "aciklama": "200 cm³ = 2×10⁻⁴ m³; F_k = 2×10⁻⁴·1000·10 = 2 N."
+        },
+        {
+          "soru": "Kaldırma kuvveti aşağıdakilerden hangisine bağlı değildir?",
+          "siklar": [
+            "Cismin batan hacmi",
+            "Sıvının özkütlesi",
+            "Yer çekimi ivmesi",
+            "Cismin kütlesi"
+          ],
+          "cevap": 3,
+          "aciklama": "F_k = V_batan·d·g olduğundan kaldırma kuvveti cismin kütlesine ve özkütlesine bağlı değildir."
+        },
+        {
+          "soru": "Özkütlesi 0,6 g/cm³ olan cisim suda yüzerken hacminin kaçta kaçı batar?",
+          "siklar": [
+            "Tamamı",
+            "Yarısı",
+            "0,6'sı",
+            "0,4'ü"
+          ],
+          "cevap": 2,
+          "aciklama": "V_batan/V = d_cisim/d_sıvı = 0,6/1 = 0,6; yani hacminin 0,6'sı batar."
+        },
+        {
+          "soru": "Ağırlığı 12 N olan cisim suda tamamen batarken 4 N kaldırma kuvveti etki ediyor. Dinamometrenin gösterdiği değer kaç N'dur?",
+          "siklar": [
+            "16",
+            "8",
+            "4",
+            "12"
+          ],
+          "cevap": 1,
+          "aciklama": "Görünür ağırlık = G − F_k = 12 − 4 = 8 N."
+        },
+        {
+          "soru": "Bir cismin sıvıda askıda kalabilmesi için hangi koşul sağlanmalıdır?",
+          "siklar": [
+            "d_cisim > d_sıvı",
+            "d_cisim = d_sıvı",
+            "d_cisim < d_sıvı",
+            "Kütlesi sıfır olmalı"
+          ],
+          "cevap": 1,
+          "aciklama": "Cismin özkütlesi sıvınınkine eşitse cisim sıvı içinde dengede askıda kalır."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u3|Bernoulli ilkesi": {
+      "ozet": "Bernoulli ilkesine göre bir akışkanın hızı arttığı yerde basıncı azalır. Bu ilke uçak kanadının kaldırma üretmesini, parfüm püskürtmeyi, rüzgârda çatının uçmasını ve Venturi ölçeri açıklar.",
+      "anlatim": [
+        "Akışkanların (sıvı ve gaz) hareketine akış denir; akışta akışkanın hızı ile basıncı arasında ters bir ilişki vardır.",
+        "Bernoulli ilkesi: Bir akışkanın akış hızı arttığında basıncı azalır, akış hızı azaldığında basıncı artar.",
+        "Kesiti daralan boruda akışkanın hızı artar; bunun sonucunda o bölgede basınç düşer. Bu ilişki süreklilik denklemi A₁·v₁ = A₂·v₂ ile birlikte kullanılır.",
+        "Süreklilik denklemi: Aynı borudan geçen akışkan için kesit alanı ile hız ters orantılıdır: A₁·v₁ = A₂·v₂.",
+        "Bernoulli denklemi (ideal akışkan): P + ½·d·v² + d·g·h = sabit; burada P basınç, ½·d·v² hıza bağlı, d·g·h yüksekliğe bağlı terimdir.",
+        "Uçak kanadı: Kanadın üst yüzeyindeki hava daha hızlı aktığı için üstte basınç azalır, altta basınç yüksek kalır ve yukarı yönlü kaldırma kuvveti oluşur.",
+        "Parfüm püskürtme (atomizer): Balon sıkıldığında lülenin ağzındaki hava hızlanır, o bölgede basınç düşer ve parfüm yukarı emilerek püskürtülür.",
+        "Rüzgârda çatının uçması: Çatının üstündeki hava hızlı hareket ettiğinden üstte basınç azalır, alttaki yüksek basınç çatıyı yukarı doğru iter.",
+        "Yan yana hızlı geçen iki araç arasındaki hava hızlanır, basınç düşer ve araçlar birbirine doğru çekilir.",
+        "Venturi ölçer ve aspiratör (sprey) Bernoulli ilkesinin teknolojik uygulamalarıdır."
+      ],
+      "formuller": [
+        "Süreklilik: A₁ · v₁ = A₂ · v₂ (hız ile kesit ters orantılı)",
+        "Bernoulli: P + ½·d·v² + d·g·h = sabit",
+        "Kural: hız artarsa basınç azalır, hız azalırsa basınç artar",
+        "Basınç birimi: Pa (N/m²) ; kesit alanı birimi: m² ; hız birimi: m/s"
+      ],
+      "ornek": "Su geçen bir borunun kesiti 4 cm² olan bölümünde hız 2 m/s'dir. Boru kesiti 1 cm²'ye düşerse hız kaç m/s olur? Adım 1: Süreklilik denklemini yazalım: A₁·v₁ = A₂·v₂. Adım 2: 4 · 2 = 1 · v₂ → v₂ = 8 m/s. Adım 3: Hız 4 kat artmıştır. Sonuç: dar bölümde hız 8 m/s olur; Bernoulli ilkesine göre bu bölümde basınç azalır.",
+      "ipucu": "TYT'de günlük yaşam örnekleri verilip 'hangisi Bernoulli ilkesiyle açıklanır' şeklinde sorulur. Tuzak: Bernoulli ilkesini Pascal ilkesi (basıncın sıvılarda aynen iletilmesi, hidrolik sistem) veya Arşimet ilkesi (kaldırma kuvveti) ile karıştırmaktır; hızlı akan havanın olduğu yerde basıncın azaldığı unutulmamalıdır.",
+      "quiz": [
+        {
+          "soru": "Bernoulli ilkesine göre bir akışkanın hızı arttığında basıncı için hangisi doğrudur?",
+          "siklar": [
+            "Artar",
+            "Azalır",
+            "Değişmez",
+            "Sıfır olur"
+          ],
+          "cevap": 1,
+          "aciklama": "Hız arttığında akışkanın basıncı azalır; hız ile basınç ters ilişkilidir."
+        },
+        {
+          "soru": "Kesiti 10 cm² olan borudan 3 m/s hızla akan su, kesiti 5 cm² olan bölüme geçerse hızı kaç m/s olur?",
+          "siklar": [
+            "1,5",
+            "3",
+            "6",
+            "15"
+          ],
+          "cevap": 2,
+          "aciklama": "A₁·v₁ = A₂·v₂ → 10·3 = 5·v₂ → v₂ = 6 m/s."
+        },
+        {
+          "soru": "Uçakların havalanmasını sağlayan kaldırma kuvvetinin nedeni hangisidir?",
+          "siklar": [
+            "Kanat üstünde hava hızlı, basınç düşük olduğundan",
+            "Uçağın özkütlesi azaldığından",
+            "Yer çekiminin azalmasıyla",
+            "Sürtünme kuvveti azaldığından"
+          ],
+          "cevap": 0,
+          "aciklama": "Kanat üstünde hızlı akan havanın basıncı düşer, alttaki yüksek basınç kaldırma kuvveti oluşturur."
+        },
+        {
+          "soru": "Aşağıdaki olaylardan hangisi Bernoulli ilkesiyle açıklanır?",
+          "siklar": [
+            "Cıva sütununun boruda yükselmesi",
+            "Parfüm şişesinden sıvının püskürülmesi",
+            "Hidrolik frenin çalışması",
+            "Balonun helyumla uçması"
+          ],
+          "cevap": 1,
+          "aciklama": "Parfüm püskürtme, hızlı hava akımıyla basınç düşmesi temeline dayanır (Bernoulli)."
+        },
+        {
+          "soru": "Rüzgârlı bir günde çatının uçmasının nedeni nedir?",
+          "siklar": [
+            "Çatı üstünde hızlı hava akımı basıncı düşürüp alttaki yüksek basıncın çatıyı itmesi",
+            "Çatının ağırlığının azalması",
+            "Yer çekiminin ters dönmesi",
+            "Sürtünme kuvvetinin artması"
+          ],
+          "cevap": 0,
+          "aciklama": "Çatı üstünde hız artınca basınç düşer; alttaki yüksek basınç çatıyı yukarı doğru iter."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u4|Enerji, ısı, sıcaklık ilişkisi": {
+      "ozet": "Isı, sıcaklıkları farklı iki cisim arasında aktarılan enerjidir ve birimi joule'dür; sıcaklık ise taneciklerin ortalama kinetik enerjisinin ölçüsüdür ve termometreyle ölçülür. Isı akışı her zaman sıcaktan soğuğa doğru olur ve ısıl denge sağlanana kadar sürer.",
+      "anlatim": [
+        "Enerji iş yapabilme yeteneğidir, birimi joule (J)'dür ve enerji yok edilemez, yalnızca bir türden diğerine dönüşür (enerjinin korunumu).",
+        "Isı, sıcaklık farkından dolayı bir cisimden diğerine aktarılan enerjidir; depolanan bir büyüklük değil aktarılan enerjidir ve birimi joule (J)'dür.",
+        "Kalori de bir ısı birimidir: 1 cal = 4,18 J ve 1 kcal = 1000 cal = 4180 J'dür.",
+        "Sıcaklık, bir maddenin taneciklerinin ortalama kinetik enerjisinin göstergesidir; termometreyle ölçülür ve birimi °C, K veya °F olabilir.",
+        "Celsius ile Kelvin arasında T(K) = t(°C) + 273 bağıntısı vardır; 0 °C = 273 K ve 100 °C = 373 K'dir.",
+        "Isı alışverişi yalnızca sıcaklık farkı varsa gerçekleşir ve yüksek sıcaklıktan düşük sıcaklığa doğru olur; sıcaklıklar eşitlendiğinde ısı akışı durur (ısıl denge).",
+        "Bir cismin aldığı veya verdiği ısı kütlesine ve cinsine bağlıdır; sıcaklık ise cisim miktarından bağımsız bir özelliktir (bir bardak su ile bir kova suyun sıcaklığı aynı olabilir ama iç enerjileri farklıdır).",
+        "Bir cisim ısı alsa da hâl değiştiriyorsa sıcaklığı sabit kalabilir; örneğin erimekte olan buz 0 °C'de kalır.",
+        "İç enerji, maddenin taneciklerinin kinetik ve potansiyel enerjilerinin toplamıdır; ısı alan cismin iç enerjisi artar.",
+        "Günlük yaşamda gıdaların enerjisi kilokalori (kcal) ile verilir; 1 kcal = 4180 J'dür."
+      ],
+      "formuller": [
+        "Isı birimi: 1 cal = 4,18 J ; 1 kcal = 1000 cal = 4180 J",
+        "Sıcaklık çevrimi: T(K) = t(°C) + 273 ; 0 °C = 273 K, 100 °C = 373 K",
+        "Enerjinin korunumu: enerji yoktan var olmaz, vardan yok olmaz, dönüşür",
+        "Isı akış yönü: sıcaktan soğuğa; ısıl denge sıcaklığında durur"
+      ],
+      "ornek": "200 g suyun sıcaklığını 25 °C'den 75 °C'ye çıkarmak için verilmesi gereken ısıyı hem kalori hem joule olarak bulalım (c_su = 1 cal/g·°C). Adım 1: Δt = 75 − 25 = 50 °C. Adım 2: Q = m·c·Δt = 200·1·50 = 10000 cal = 10 kcal. Adım 3: Joule karşılığı Q = 10000 · 4,18 = 41800 J ≈ 41,8 kJ. Sonuç: suya 10000 cal (yaklaşık 41,8 kJ) ısı verilmelidir.",
+      "ipucu": "TYT'de ısı-sıcaklık kavram ayrımı ve 1 cal = 4,18 J çevrimi sorulur. Tuzak: 'ısı ile sıcaklık aynı şeydir' veya 'cismin sıcaklığı arttıkça ısısı da artar' gibi yanlış öncüller; ayrıca 0 °C'nin 273 K olduğunu karıştırmak ve hâl değişiminde sıcaklığın sabit kaldığını unutmak.",
+      "quiz": [
+        {
+          "soru": "1 kalori yaklaşık kaç joule'dür?",
+          "siklar": [
+            "1",
+            "4,18",
+            "10",
+            "1000"
+          ],
+          "cevap": 1,
+          "aciklama": "1 cal = 4,18 J'dür."
+        },
+        {
+          "soru": "Sıcaklığı 27 °C olan cismin Kelvin cinsinden sıcaklığı kaç K'dir?",
+          "siklar": [
+            "246",
+            "300",
+            "273",
+            "327"
+          ],
+          "cevap": 1,
+          "aciklama": "T = 27 + 273 = 300 K."
+        },
+        {
+          "soru": "Isı ile ilgili hangisi doğrudur?",
+          "siklar": [
+            "Isı maddede depolanan enerjidir ve birimi °C'dir",
+            "Isı sıcaklık farkı nedeniyle aktarılan enerjidir ve birimi J'dür",
+            "Isı ve sıcaklık aynı büyüklüktür",
+            "Isı soğuktan sıcağa akar"
+          ],
+          "cevap": 1,
+          "aciklama": "Isı sıcaklık farkından doğan aktarılan enerjidir, birimi joule'dür ve sıcaktan soğuğa akar."
+        },
+        {
+          "soru": "100 g suyun sıcaklığını 20 °C'den 30 °C'ye çıkarmak için gereken ısı kaç kaloridir? (c_su = 1 cal/g·°C)",
+          "siklar": [
+            "100",
+            "1000",
+            "10",
+            "418"
+          ],
+          "cevap": 1,
+          "aciklama": "Q = m·c·Δt = 100·1·10 = 1000 cal."
+        },
+        {
+          "soru": "Hâl değişimi sırasında maddenin sıcaklığı için hangisi doğrudur?",
+          "siklar": [
+            "Sürekli artar",
+            "Sürekli azalır",
+            "Sabit kalır",
+            "Önce artar sonra sıfır olur"
+          ],
+          "cevap": 2,
+          "aciklama": "Hâl değişimi boyunca alınan veya verilen ısı tanecikler arası bağları değiştirir; sıcaklık sabit kalır."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u4|Öz ısı ve ısı sığası": {
+      "ozet": "Öz ısı, 1 gram maddenin sıcaklığını 1 °C değiştirmek için gereken ısıdır ve maddenin ayırt edici bir özelliğidir. Isı sığası ise bir cismin sıcaklığını 1 °C değiştirmek için gereken ısı olup kütle ile öz ısının çarpımına eşittir.",
+      "anlatim": [
+        "Öz ısı (c), bir maddenin 1 gramının sıcaklığını 1 °C değiştirmek için gereken ısı miktarıdır; birimi cal/g·°C veya J/kg·K'dir.",
+        "Öz ısı maddenin cinsine bağlı ayırt edici bir özelliktir; aynı maddenin farklı kütlelerinde öz ısı aynı kalır.",
+        "Suyun öz ısısı c = 1 cal/g·°C = 4180 J/kg·K'dir; öz ısısı yüksek olduğundan denizler geç ısınıp geç soğur ve iklimi yumuşatır.",
+        "Isı sığası (C), bir cismin sıcaklığını 1 °C değiştirmek için gereken ısıdır ve C = m·c bağıntısıyla bulunur; birimi cal/°C veya J/K'dir.",
+        "Alınan veya verilen ısı Q = m·c·Δt bağıntısıyla hesaplanır; Δt = son sıcaklık − ilk sıcaklıktır.",
+        "Isı sığası ile hesaplama Q = C·Δt bağıntısıyla yapılır; C = m·c olduğundan iki bağıntı aynı sonucu verir.",
+        "Öz ısılar karşılaştırıldığında aynı kütle ve aynı ısı için öz ısısı büyük olan maddenin sıcaklık artışı az olur: Δt = Q/(m·c).",
+        "Metallerin öz ısısı suyunkinden küçüktür (demir c ≈ 0,11 cal/g·°C, alüminyum c ≈ 0,22 cal/g·°C); bu yüzden metaller çabuk ısınıp çabuk soğur.",
+        "Farklı sıcaklıktaki cisimler karıştırıldığında ısıl denge için Q_alinan = Q_verilen yazılır ve ortak sıcaklık bulunur.",
+        "Sıcaklık değişimini Δt olarak °C veya Kelvin farkı almak sonucu değiştirmez, çünkü 1 °C'lik fark 1 K'lik farka eşittir."
+      ],
+      "formuller": [
+        "Isı: Q = m · c · Δt (J veya cal)",
+        "Isı sığası: C = m · c → Q = C · Δt (J/°C)",
+        "Su: c = 1 cal/g·°C = 4180 J/kg·K",
+        "Sıcaklık değişimi: Δt = t_son − t_ilk ; 1 °C'lik fark = 1 K'lik fark",
+        "Isıl denge: Q_alinan = Q_verilen"
+      ],
+      "ornek": "Kütlesi 200 g olan suyu 20 °C'den 70 °C'ye ısıtmak için gereken ısıyı bulalım (c_su = 1 cal/g·°C). Adım 1: Δt = 70 − 20 = 50 °C. Adım 2: Q = m·c·Δt = 200 · 1 · 50 = 10000 cal. Adım 3: Isı sığası C = m·c = 200·1 = 200 cal/°C; kontrol: Q = C·Δt = 200·50 = 10000 cal. Sonuç: gereken ısı 10000 cal = 10 kcal (yaklaşık 41,8 kJ)'dir.",
+      "ipucu": "TYT'de Q = m·c·Δt ile ısı hesabı ve öz ısısı büyük maddenin geç ısınması yorumu sık sorulur. Tuzak: öz ısının kütleye bağlı olduğunun sanılması (oysa ayırt edici özelliktir), ısı sığası ile öz ısının karıştırılması ve birim olarak cal kullanılırken 4,18 çarpanının unutulmasıdır.",
+      "quiz": [
+        {
+          "soru": "Öz ısı için hangisi doğrudur?",
+          "siklar": [
+            "Maddenin kütlesine bağlıdır",
+            "Maddenin cinsine bağlı ayırt edici özelliktir",
+            "Sıcaklığa bağlıdır",
+            "Her madde için aynıdır"
+          ],
+          "cevap": 1,
+          "aciklama": "Öz ısı maddenin cinsine bağlı ayırt edici bir özelliktir, kütleye bağlı değildir."
+        },
+        {
+          "soru": "500 g suyun sıcaklığını 10 °C'den 40 °C'ye çıkarmak için gereken ısı kaç kaloridir? (c_su = 1 cal/g·°C)",
+          "siklar": [
+            "500",
+            "1500",
+            "15000",
+            "5000"
+          ],
+          "cevap": 2,
+          "aciklama": "Q = m·c·Δt = 500·1·30 = 15000 cal."
+        },
+        {
+          "soru": "Kütlesi 2 kg ve öz ısısı 0,5 cal/g·°C olan cismin ısı sığası kaç cal/°C'dir?",
+          "siklar": [
+            "1000",
+            "2000",
+            "1",
+            "500"
+          ],
+          "cevap": 0,
+          "aciklama": "m = 2000 g; C = m·c = 2000·0,5 = 1000 cal/°C."
+        },
+        {
+          "soru": "Aynı kütlede olup aynı ısıyı alan iki maddeden öz ısısı büyük olanın sıcaklık artışı için hangisi doğrudur?",
+          "siklar": [
+            "Daha büyük",
+            "Daha küçük",
+            "Eşit",
+            "Sıfır"
+          ],
+          "cevap": 1,
+          "aciklama": "Δt = Q/(m·c) olduğundan c büyükse sıcaklık artışı küçük olur."
+        },
+        {
+          "soru": "1 cal/g·°C kaç J/kg·K'ye eşittir?",
+          "siklar": [
+            "4,18",
+            "418",
+            "4180",
+            "41,8"
+          ],
+          "cevap": 2,
+          "aciklama": "1 cal = 4,18 J ve 1 g = 10⁻³ kg olduğundan 1 cal/g·°C = 4180 J/kg·K."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u4|Hal değişimi ve ısıl denge": {
+      "ozet": "Maddenin katı, sıvı ve gaz hâlleri arasındaki geçişlere hal değişimi denir; bu sırada sıcaklık sabit kalır ve alınan veya verilen ısı gizli ısı olarak kullanılır. Farklı sıcaklıktaki cisimler bir araya geldiğinde ısı sıcaktan soğuğa akar ve ısıl denge sağlanana kadar sürer.",
+      "anlatim": [
+        "Hal değişimi, maddenin bir hâlden başka bir hâle geçmesidir: erime, donma, buharlaşma, yoğuşma, süblimleşme ve kırağılaşma.",
+        "Erime (katıdan sıvıya) ve buharlaşma (sıvıdan gaza) ısı alan; donma (sıvıdan katıya) ve yoğuşma (gazdan sıvıya) ısı veren olaylardır.",
+        "Hal değişimi sırasında sıcaklık sabit kalır; alınan veya verilen ısı tanecikler arası bağların kopması ya da oluşması için kullanılır.",
+        "Erime-donma gizli ısısı (L_e), 1 gram maddenin erimesi veya donması için gereken ısıdır; su için L_e = 80 cal/g = 334 J/g'dir.",
+        "Buharlaşma-yoğuşma gizli ısısı (L_b), 1 gram maddenin buharlaşması veya yoğuşması için gereken ısıdır; su için L_b = 540 cal/g ≈ 2260 J/g'dir.",
+        "Hal değişimi ısısı Q = m·L bağıntısıyla hesaplanır (L: gizli ısı); bu bağıntıda sıcaklık değişimi yer almaz.",
+        "Saf maddelerin erime-donma ve kaynama noktaları ayırt edici özelliktir; su 1 atm'de 0 °C'de erir, 100 °C'de kaynar.",
+        "Süblimleşme katıdan doğrudan gaza geçiştir (naftalin, kuru buz); kırağılaşma ise gazdan doğrudan katıya geçiştir.",
+        "Isıl denge: Farklı sıcaklıktaki cisimler bir araya geldiğinde ısı sıcaktan soğuğa akar; sıcaklıklar eşitlenince akış durur ve bu duruma ısıl denge denir.",
+        "Isıl dengede enerjinin korunumu yazılır: alınan ısı = verilen ısı, yani Q_alinan = Q_verilen bağıntısıyla ortak sıcaklık bulunur."
+      ],
+      "formuller": [
+        "Hal değişimi ısısı: Q = m · L (L: gizli ısı, cal/g veya J/g)",
+        "Su: L_erime = 80 cal/g = 334 J/g ; L_buharlaşma = 540 cal/g ≈ 2260 J/g",
+        "Isıl denge: Q_alinan = Q_verilen",
+        "Karışım: m₁·c₁·(T − t₁) = m₂·c₂·(t₂ − T)",
+        "Hal değişimi boyunca sıcaklık sabit kalır"
+      ],
+      "ornek": "0 °C'deki 100 g buzu tamamen eritmek için gereken ısıyı bulalım (L_erime = 80 cal/g). Adım 1: Buz erirken sıcaklık 0 °C'de sabit kaldığından Q = m·L kullanılır. Adım 2: Q = 100 · 80 = 8000 cal. Adım 3: Oluşan suyu sonradan 0 °C'den 20 °C'ye ısıtmak isteseydik Q = m·c·Δt = 100·1·20 = 2000 cal daha gerekirdi. Sonuç: buzun tamamen erimesi için 8000 cal = 8 kcal ısı gereklidir.",
+      "ipucu": "TYT'de 'erirken sıcaklık değişir mi' ve Q = m·L ile Q = m·c·Δt bağıntılarının karıştırıldığı sorular çıkar. Tuzak: hal değişimi sırasında sıcaklığın sabit kaldığını unutmak, ısı-sıcaklık grafiğini yanlış okumak ve buz-su karışımında hangi maddenin ısı aldığını, hangisinin verdiğini karıştırmaktır.",
+      "quiz": [
+        {
+          "soru": "0 °C'deki 50 g buzun tamamen erimesi için gereken ısı kaç kaloridir? (L_erime = 80 cal/g)",
+          "siklar": [
+            "400",
+            "4000",
+            "50",
+            "40"
+          ],
+          "cevap": 1,
+          "aciklama": "Q = m·L = 50·80 = 4000 cal."
+        },
+        {
+          "soru": "Hal değişimi sırasında maddenin sıcaklığı için hangisi doğrudur?",
+          "siklar": [
+            "Artan hızla artar",
+            "Sabit kalır",
+            "Azalır",
+            "Sıfır olur"
+          ],
+          "cevap": 1,
+          "aciklama": "Hal değişiminde alınan veya verilen ısı bağ enerjisinde kullanılır, sıcaklık sabit kalır."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi ısı veren bir hal değişimidir?",
+          "siklar": [
+            "Erime",
+            "Buharlaşma",
+            "Süblimleşme",
+            "Yoğuşma"
+          ],
+          "cevap": 3,
+          "aciklama": "Yoğuşma gazın sıvıya geçişidir ve ısı verir; erime, buharlaşma ve süblimleşme ısı alır."
+        },
+        {
+          "soru": "Katı hâlden doğrudan gaz hâline geçme olayına ne denir?",
+          "siklar": [
+            "Yoğuşma",
+            "Süblimleşme",
+            "Kırağılaşma",
+            "Donma"
+          ],
+          "cevap": 1,
+          "aciklama": "Katıdan doğrudan gaza geçiş süblimleşmedir (naftalin, kuru buz)."
+        },
+        {
+          "soru": "Farklı sıcaklıktaki iki cismin ısıl dengesi için hangisi doğrudur?",
+          "siklar": [
+            "Alınan ısı verilen ısıdan büyüktür",
+            "Alınan ısı = verilen ısı olur; ısı sıcaktan soğuğa akar",
+            "Isı soğuktan sıcağa akar",
+            "Isı akışı hep sürer"
+          ],
+          "cevap": 1,
+          "aciklama": "Isıl dengede Q_alinan = Q_verilen olur; ısı sıcaktan soğuğa akar ve sıcaklıklar eşitlenince durur."
+        }
+      ]
+    },
+    "9|9-fiz|9-fiz-u4|Isı aktarım yolları": {
+      "ozet": "Isı üç yolla aktarılır: iletim, konveksiyon (taşıma) ve ışıma (radyasyon). İletim katılarda taneciklerin temasıyla, konveksiyon sıvı ve gazlarda akışkan hareketiyle, ışıma ise elektromanyetik dalgalarla boşlukta da gerçekleşebilir.",
+      "anlatim": [
+        "İletim (kondüksiyon): Isı, katı maddelerde taneciklerin birbirine çarparak enerji aktarmasıyla iletilir; madde yer değiştirmez (metal kaşığın sapının ısınması).",
+        "İletim ısıtılan bölgeden soğuk bölgeye doğru gerçekleşir ve maddenin ısı iletkenliğine bağlıdır.",
+        "Isı iletkeni maddeler (gümüş, bakır, alüminyum, demir) ısıyı iyi iletir; ısı yalıtkanı maddeler (hava, ahşap, plastik, cam yünü, strafor) ısıyı az iletir.",
+        "Tencere çelikten, sapı plastikten yapılır: çelik ısıyı iyi ilettiği için yemeği pişirir, plastik yalıtkan olduğu için eli yakmaz.",
+        "Konveksiyon (taşıma): Sıvı ve gazlarda ısınan akışkanın yoğunluğu azalır ve yükselir, soğuk akışkan aşağı iner; oluşan akım ısıyı taşır (kalorifer peteğinin odayı ısıtması).",
+        "Konveksiyon yalnızca akışkanlarda (sıvı ve gaz) gerçekleşir; katılarda akışkan hareket olmadığı için konveksiyon görülmez.",
+        "Işıma (radyasyon): Isı elektromanyetik dalgalarla aktarılır ve maddesel ortama gereksinim duymaz, bu nedenle boşlukta da gerçekleşir.",
+        "Güneş'ten gelen ısı ve ışık Dünya'ya ışıma yoluyla ulaşır; arada madde olmadığı için tek olası aktarım yolu ışımadır.",
+        "Koyu renkli ve pürüzlü yüzeyler ışımayı iyi soğurur ve iyi yayar; açık renkli ve parlak (cilalı) yüzeyler ışımayı yansıtır ve az soğurur.",
+        "Termosta iç hava boşluğu ve yalıtkan malzeme iletim ile konveksiyonu azaltır; vakum ve parlak yüzey ise ışımayı azaltır, böylece ısı korunur."
+      ],
+      "formuller": [
+        "İletim: Isı, yüksek sıcaklıktan düşük sıcaklığa taneciklerin temasıyla geçer (katılarda etkin)",
+        "Isı iletkenleri: gümüş, bakır, alüminyum, demir | Yalıtkanlar: hava, strafor, cam yünü, plastik, ahşap",
+        "Konveksiyon: Isınan akışkanın yoğunluğu azalır ve yükselir (yalnızca sıvı ve gazlarda)",
+        "Işıma: Elektromanyetik dalgayla aktarım; boşlukta da olur (Güneş ısısı)",
+        "Koyu-pürüzlü yüzey iyi soğurur ve yayar; parlak-açık yüzey yansıtır"
+      ],
+      "ornek": "Bir çelik tencere ocağa konulduğunda ısı tencere tabanından önce iletimle çeliğin içinden suya geçer; suyun ısınan kısmı hafifleyip yükselir, soğuk su aşağı iner ve konveksiyon akımı oluşur. Tencerenin kapağı açık bırakılırsa sıcak su buharı çevreye ışımayla da ısı verir. Sonuç: aynı olayda üç aktarım yolu birlikte çalışır; ancak tabandaki ısı aktarımı temel olarak iletimle, suyun içindeki ısı yayılması ise konveksiyonla gerçekleşir.",
+      "ipucu": "TYT'de verilen olayın hangi aktarım yoluyla gerçekleştiği sorulur (Güneş ısısı → ışıma, petek ısıtma → konveksiyon, metal kaşık → iletim, termos → yalıtım). Tuzak: 'konveksiyon boşlukta olur', 'iletim gazlarda olmaz' veya 'ışıma için ortam gerekir' gibi yanlış öncüllerdir; ışımanın ortam gerektirmediği ve konveksiyonun yalnızca akışkanlarda olduğu unutulmamalıdır.",
+      "quiz": [
+        {
+          "soru": "Güneş'ten Dünya'ya ısı hangi yolla ulaşır?",
+          "siklar": [
+            "İletim",
+            "Konveksiyon",
+            "Işıma",
+            "Sürtünmeyle"
+          ],
+          "cevap": 2,
+          "aciklama": "Arada madde olmadığından Güneş ısısı boşlukta ışıma (radyasyon) ile yayılır."
+        },
+        {
+          "soru": "Kalorifer peteğinin bir odayı ısıtması temel olarak hangi ısı aktarım yoluyla olur?",
+          "siklar": [
+            "İletim",
+            "Konveksiyon",
+            "Işıma",
+            "Yalıtım"
+          ],
+          "cevap": 1,
+          "aciklama": "Isınan hava yükselip yerine soğuk hava geçtiğinden oluşan akım ısıyı konveksiyonla taşır."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi ısı yalıtkanıdır?",
+          "siklar": [
+            "Bakır",
+            "Alüminyum",
+            "Strafor",
+            "Demir"
+          ],
+          "cevap": 2,
+          "aciklama": "Strafor (ve hava, cam yünü, plastik, ahşap) ısıyı az iletir; bakır, alüminyum ve demir iyi iletkendir."
+        },
+        {
+          "soru": "Işıma ile ilgili hangisi doğrudur?",
+          "siklar": [
+            "Yalnızca katılarda gerçekleşir",
+            "Aktarım için maddesel ortam gerekmez",
+            "Akışkan hareketiyle olur",
+            "Yalnızca sıvılarda olur"
+          ],
+          "cevap": 1,
+          "aciklama": "Işıma elektromanyetik dalgalarla olur ve boşlukta da gerçekleşir."
+        },
+        {
+          "soru": "Metallerin ısı iletimiyle ilgili hangi ifade doğrudur?",
+          "siklar": [
+            "Metaller ısıyı iyi iletir",
+            "Metaller ısı yalıtkanıdır",
+            "Metaller konveksiyonla ısıtır",
+            "Metaller ısıyı hiç iletmez"
+          ],
+          "cevap": 0,
+          "aciklama": "Metaller serbest elektronları sayesinde ısıyı iyi iletir; bu yüzden çabuk ısınır."
+        }
+      ]
+    }
+  }
+}

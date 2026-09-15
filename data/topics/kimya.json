@@ -1,0 +1,1383 @@
+{
+  "9-kim": {
+    "9|9-kim|9-kim-u1|Günlük hayatta kimya ve güvenlik": {
+      "ozet": "Kimya, maddenin yapısını, özelliklerini ve maddeler arası dönüşümleri inceleyen bilimdir. Bu konuda kimyanın günlük hayattaki yeri, kimya alt dalları, laboratuvar güvenlik kuralları ve GHS tehlike sembolleri TYT düzeyinde ele alınır.",
+      "anlatim": [
+        "Kimya bilimi maddenin yapısını, özelliklerini ve maddeler arası etkileşim ve dönüşümlerini inceler.",
+        "Kimyanın başlıca alt dalları: analitik kimya (madde analizi), organik kimya (karbon bileşikleri), anorganik kimya (mineral kökenli bileşikler), fizikokimya (enerji-hız ilişkisi), biyokimya (canlıdaki kimyasal süreçler), polimer kimyası ve elektrokimya.",
+        "Günlük hayatta kimya: temizlik ve bakım ürünleri, ilaçlar, gıda katkı maddeleri, kozmetikler, yakıtlar, gübreler, plastik/polimer malzemeler, tekstil boyaları.",
+        "Laboratuvar güvenlik sembolleri: alev (yanıcı), patlama (patlayıcı), yüzeyde aşınma/damla (aşındırıcı-koroziv), kafatası (toksik/zehirli), ünlem (tahriş edici), daire üzerinde alev (oksitleyici/yakıcı), üç yaprak (çevreye zararlı), ışın (radyoaktif).",
+        "Kişisel koruma: önlük, koruyucu gözlük, eldiven, kapalı ayakkabı ve uzun saç için toplama zorunludur.",
+        "Kimyasal maddeler asla tatlılmaz; kokusu doğrudan burna götürülmez, buhar el ile hafifçe yelpazelenerek koklanır.",
+        "Cam malzeme kırılırsa elle toplanmaz, faraş ve fırça kullanılır; kimyasal dökülmede hemen öğretmene haber verilir ve uygun nötralizasyon/emici madde kullanılır.",
+        "Asit veya baz deriye/göze temas ederse bol su ile en az 15 dakika yıkanır, göze kaçan madde ovalanmaz ve sağlık birimine başvurulur.",
+        "Deney tüpü ısıtılırken ağzı kendinden ve arkadaşlarından uzağa çevrilir, tüp hareket ettirilerek ısıtılır; sıcak cam soğumadan tutulmaz.",
+        "Kimyasal atıklar lavaboya dökülmez, türüne göre etiketli atık kaplarında toplanır; kâğıt, cam, plastik ve piller geri dönüşüme ayrılır."
+      ],
+      "formuller": [
+        "Tehlike piktogramı - anlam eşleşmesi: alev = yanıcı, patlama = patlayıcı, damla/kesik yüzey = aşındırıcı, kafatası = toksik, daire üzerinde alev = oksitleyici (yanmayı artıran), ünlem = tahriş edici.",
+        "GHS/CLP etiketi iki bilgi taşır: tehlike ifadesi (H kodu, ör. H225 kolay alevlenir sıvı) ve önlem ifadesi (P kodu, ör. P210 ısıdan uzak tut).",
+        "Laboratuvar güvenliğinin altın kuralı: atık, kaynağına göre ayrılır ve asla lavaboya dökülmez; kaza durumunda ilk adım öğretmeni haberdar etmektir.",
+        "Oksitleyici madde yakar, yanıcı madde yanar: oksitleyici kendi başına yakıt değildir, yanmayı şiddetlendirir."
+      ],
+      "ornek": "Soru: Öğrenci sodyum hidroksit (NaOH) çözeltisini hazırlarken birkaç damlası eline sıçrar ve elinde kaygan bir his oluşur. Ne yapmalıdır? Çözüm: NaOH güçlü bir bazdır ve piktogramı 'aşındırıcı'dır. El hemen bol akan su altında en az 15 dakika yıkanır, ovalanmaz; öğretmene haber verilir ve gerekirse sağlık birimine yönlendirilir. Nötralizasyon için kendi başına asit kullanmak doğru değildir, çünkü asit-baz tepkimesi ısı açığa çıkarıp zararı artırabilir.",
+      "ipucu": "TYT tuzağı: 'yakıcı (oksitleyici)' ile 'yanıcı'yı karıştırmak. Oksitleyici madde yanmayı artıran oksijen sağlayıcıdır (ör. H2O2, KMnO4), yanıcı ise yakıtın kendisidir (ör. benzin, aseton). Ayrıca 'koklama yasağı' ifadesindeki ayrıntı sorulur: koklamak yasak değil, doğrudan burna götürmek yasaktır; el ile yelpazeleyerek koklanır.",
+      "quiz": [
+        {
+          "soru": "Laboratuvarda bir asit çözeltisi deriye sıçradığında ilk yapılması gereken nedir?",
+          "siklar": [
+            "Bölgeyi asit ile nötralize etmek",
+            "Bol akan su ile en az 15 dakika yıkamak",
+            "Üzerine kuru bez bastırmak",
+            "Bekleyip kendiliğinden geçmesini görmek"
+          ],
+          "cevap": 1,
+          "aciklama": "Asit/baz temasında doğru ilk yardım bol su ile en az 15 dakika yıkamaktır; nötralizasyon ısı açığa çıkarıp dokuyu daha çok zedeleyebilir."
+        },
+        {
+          "soru": "Daire üzerinde alev şeklindeki tehlike piktogramı hangi anlama gelir?",
+          "siklar": [
+            "Yanıcı",
+            "Oksitleyici (yakıcı)",
+            "Toksik",
+            "Aşındırıcı"
+          ],
+          "cevap": 1,
+          "aciklama": "Daire üzerindeki alev oksitleyici madde sembolüdür; madde yanmayı şiddetlendirir ancak kendisi yakıt değildir. Sade alev sembolü 'yanıcı'yı gösterir."
+        },
+        {
+          "soru": "Kimyanın, canlı organizmalarda gerçekleşen kimyasal olayları inceleyen alt dalı hangisidir?",
+          "siklar": [
+            "Analitik kimya",
+            "Anorganik kimya",
+            "Biyokimya",
+            "Fizikokimya"
+          ],
+          "cevap": 2,
+          "aciklama": "Biyokimya canlılardaki kimyasal süreçleri (metabolizma, enzimler, nükleik asitler) inceler."
+        },
+        {
+          "soru": "Deney tüpünde bir sıvı ısıtılırken uyulması gereken kural hangisidir?",
+          "siklar": [
+            "Tüpün ağzı arkadaşlara doğru tutulur",
+            "Tüp tamamen ağzına kadar doldurulur",
+            "Tüpün ağzı kendinden ve arkadaşlardan uzağa çevrilir",
+            "Tüp ısıtılmadan önce tıpa ile kapatılır"
+          ],
+          "cevap": 2,
+          "aciklama": "Isıtılan tüpün ağzı sıçrama riskine karşı kendinden ve çevredekilerden uzağa çevrilir; kapalı kap içinde ısıtma patlama riski taşır."
+        },
+        {
+          "soru": "Kullanılmış organik çözücü atığı için doğru davranış hangisidir?",
+          "siklar": [
+            "Lavaboya dökülür",
+            "Bahçeye dökülür",
+            "Etiketli kimyasal atık kabında toplanır",
+            "Normal çöp kutusuna atılır"
+          ],
+          "cevap": 2,
+          "aciklama": "Kimyasal atıklar su kaynaklarını kirletmemek için türüne göre etiketli atık kaplarında toplanır ve yetkili bertaraf birimine verilir."
+        }
+      ]
+    },
+    "9|9-kim|9-kim-u1|Atom teorileri ve atomun yapısı": {
+      "ozet": "Atomun yapısına ilişkin tarihsel modeller (Dalton, Thomson, Rutherford, Bohr, modern kuantum modeli) ve atomu oluşturan temel tanecikler ile atom numarası, kütle numarası, izotop, iyon kavramları ele alınır.",
+      "anlatim": [
+        "Dalton (1803): Atomlar içi dolu, bölünemez kürelerdir; aynı elementin atomları özdeştir, atomlar arası tepkimede yeniden düzenlenir. (Bugün nükleer olaylar bu varsayımı çürütmüştür.)",
+        "Thomson (1897): Katot ışını tüpü deneyiyle elektronu keşfetti; atomun içine dağılmış negatif tanecikler düşüncesiyle 'üzümlü kek / erikli puding' modelini önerdi. Elektron kütlesi/yükü (e/m) ölçüldü.",
+        "Millikan (1909): Yağ damlası deneyiyle elektronun yükünü (−1,602x10^−19 C) belirledi ve kütlesi yaklaşık 9,11x10^−28 g bulundu.",
+        "Rutherford (1911): Altın folyo (alfa parçacığı) deneyinde parçacıkların çoğu geçti, bazıları geri saçıldı; atomun büyük kısmının boşluk olduğunu, kütlenin çok küçük hacimli pozitif çekirdekte toplandığını gösterdi.",
+        "Bohr (1913): Elektronlar çekirdek çevresinde belirli (kararlı) enerji düzeylerinde bulunur; enerji alan elektron üst katmana çıkar, geri dönerken belirli dalga boyunda ışıma yapar (hidrojen spektrumu).",
+        "Modern (kuantum) model: Elektronun yeri ve hızı aynı anda kesin bilinemez (Heisenberg belirsizlik ilkesi); elektronun bulunma olasılığının yüksek olduğu bölgeye orbital denir.",
+        "Atomun yapısı: proton (p+, çekirdekte, +1 yük, yaklaşık 1,007 u), nötron (n, çekirdekte, yüksüz, yaklaşık 1,009 u), elektron (e−, katmanlarda, −1 yük, protonun yaklaşık 1/1836 katı kütle).",
+        "Atom numarası (Z) = proton sayısı; nötr atomda elektron sayısına eşittir. Kütle numarası (A) = proton + nötron sayısı.",
+        "İzotoplar: proton sayısı aynı, nötron sayısı farklı atomlar (¹H, ²H, ³H). Kimyasal özellikler benzer, kütle ve fiziksel özellikler farklıdır.",
+        "İyonlar: elektron veren atom pozitif yüklü katyon, elektron alan atom negatif yüklü anyon olur. İzobar: kütle numarası aynı, proton sayısı farklı; izoton: nötron sayısı aynı."
+      ],
+      "formuller": [
+        "Kütle numarası: A = Z + n  (Z = proton sayısı, n = nötron sayısı)",
+        "Nötr atomda: proton sayısı = elektron sayısı = atom numarası (Z)",
+        "İyon yükü = proton sayısı − elektron sayısı  (katyonda +, anyonda −)",
+        "Elektron kütlesi ≈ proton kütlesinin 1/1836'sı → atom kütlesini proton ve nötron belirler",
+        "İzotop ortalama atom kütlesi = Σ (izotop kütlesi x doğada bulunma yüzdesi / 100)"
+      ],
+      "ornek": "Soru: X atomunun kütle numarası 35, nötron sayısı 18'dir. X'in proton ve elektron sayısı kaçtır? X bir elektron kaybederse yükü ne olur? Çözüm: Z = A − n = 35 − 18 = 17 → proton sayısı 17. Nötr atomda elektron sayısı da 17'dir. Klorun izotopu olan bu atom 1 elektron kaybederse yükü 17 − 16 = +1 olur; yani X+ katyonuna dönüşür.",
+      "ipucu": "TYT tuzağı: Elektron veren atomun yarıçapı KÜÇÜLÜR, elektron alan atomunki BÜYÜR; ayrıca izotopta kimyasal özellik değişmez, nükleer/fiziksel özellikler değişir. Rutherford deneyinde 'geri saçılan' çok az parçacık, çekirdeğin çok küçük ve yoğun olduğunu kanıtlar; 'çoğunun geçmesi' atomun boşluklu olduğunu gösterir, ikisini ayrı ayrı sorarlar.",
+      "quiz": [
+        {
+          "soru": "Rutherford'un altın folyo deneyinde alfa parçacıklarının büyük çoğunluğunun folyodan geçmesi neyi gösterir?",
+          "siklar": [
+            "Atomun içi dolu küredir",
+            "Atomun büyük kısmı boşluktur",
+            "Elektronlar çekirdektedir",
+            "Atom kütlesi elektronlardan oluşur"
+          ],
+          "cevap": 1,
+          "aciklama": "Parçacıkların çoğunun sapmadan geçmesi atomun büyük kısmının boşluk olduğunu, az sayıda parçacığın geri saçılması ise çok küçük ve yoğun pozitif çekirdeği gösterir."
+        },
+        {
+          "soru": "Atom numarası 12, kütle numarası 25 olan X atomunun nötron sayısı kaçtır?",
+          "siklar": [
+            "12",
+            "13",
+            "25",
+            "37"
+          ],
+          "cevap": 1,
+          "aciklama": "n = A − Z = 25 − 12 = 13."
+        },
+        {
+          "soru": "Bir atomun elektron alması durumunda hangisi doğrudur?",
+          "siklar": [
+            "Katyon oluşur, yarıçap küçülür",
+            "Anyon oluşur, yarıçap büyür",
+            "Proton sayısı artar",
+            "Nötron sayısı azalır"
+          ],
+          "cevap": 1,
+          "aciklama": "Elektron alan atom anyon (negatif iyon) olur; elektron-elektron itmesi arttığı için yarıçap da büyür. Proton ve nötron sayısı değişmez."
+        },
+        {
+          "soru": "Elektronun bulunma olasılığının yüksek olduğu bölgeyi ifade eden kavram hangisidir?",
+          "siklar": [
+            "Yörünge çizgisi",
+            "Orbital",
+            "Çekirdek",
+            "İzotop"
+          ],
+          "cevap": 1,
+          "aciklama": "Modern modele göre elektronun yeri kesin bir çizgi üzerinde değil, bulunma olasılığının yüksek olduğu orbital denilen bölgede tanımlanır (Heisenberg belirsizlik ilkesi)."
+        },
+        {
+          "soru": "Aşağıdaki tanecik çiftlerinden hangisi izotoptur?",
+          "siklar": [
+            "¹²C ve ¹⁴C",
+            "²³Na ve ²⁴Mg",
+            "¹⁶O ve ¹⁶O²⁻",
+            "³⁵Cl⁻ ve ³⁷Cl"
+          ],
+          "cevap": 0,
+          "aciklama": "İzotoplar proton sayısı aynı, nötron sayısı farklı atomlardır: ¹²C ve ¹⁴C her ikisi de 6 protonlu karbon atomudur. ²³Na-²⁴Mg izobardır."
+        }
+      ]
+    },
+    "9|9-kim|9-kim-u1|Orbital ve elektron dizilimi": {
+      "ozet": "Orbital kavramı, s-p-d-f orbitallerinin kapasiteleri, orbitallerin enerji sırası, Aufbau, Pauli ve Hund kuralları ile nötr atom ve iyonların elektron dizilimleri incelenir.",
+      "anlatim": [
+        "Orbital, elektronun 3 boyutlu uzayda bulunma olasılığının yüksek olduğu bölgedir; her orbital en fazla 2 elektron barındırır (Pauli dışarlama ilkesi).",
+        "Orbital türleri ve kapasiteleri: s → 1 orbital, 2 elektron; p → 3 orbital, 6 elektron; d → 5 orbital, 10 elektron; f → 7 orbital, 14 elektron.",
+        "Baş kuantum sayısı n katmanı (enerji düzeyini) belirtir; bir katmana yerleşebilecek en fazla elektron sayısı 2n²'dir (n=1 için 2, n=2 için 8, n=3 için 18).",
+        "Orbitallerin enerji sırası (Aufbau): 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p 7s... Bu nedenle 4s orbitali 3d'den önce dolar.",
+        "Aufbau (yapılandırma) ilkesi: Elektronlar en düşük enerjili orbitalden başlanarak yerleştirilir.",
+        "Pauli dışarlama ilkesi: Aynı orbitalde en fazla iki elektron bulunur ve bu ikisinin spinleri (ms = +1/2 ve −1/2) zıt yönlüdür.",
+        "Hund kuralı: Eş enerjili (dejenere) orbitallere elektronlar önce tek tek ve paralel spinli olarak yerleşir, sonra eşleşir.",
+        "Küresel simetri (yarı dolu ve tam dolu orbital kararlılığı): Cr (24) = [Ar]3d⁵4s¹, Cu (29) = [Ar]3d¹⁰4s¹ (beklenen 3d⁴4s² ve 3d⁹4s² yerine).",
+        "Değerlik elektronları en yüksek baş kuantum sayısına sahip katmandaki elektronlardır; A grubu elementlerde değerlik elektron sayısı grup numarasını verir.",
+        "İyon diziliminde nötr atomdaki elektron sayısından iyon yükü kadar elektron çıkarılır/eklenir: Fe (26) = [Ar]3d⁶4s² iken Fe³⁺ = [Ar]3d⁵."
+      ],
+      "formuller": [
+        "Orbital kapasiteleri: s = 2 e, p = 6 e, d = 10 e, f = 14 e (1, 3, 5, 7 orbital x 2 elektron)",
+        "Katman kapasitesi: 2n²  (n=1: 2; n=2: 8; n=3: 18)",
+        "Kuantum sayıları: n = 1,2,3...; l = 0...(n−1) [s=0, p=1, d=2, f=3]; m(l) = −l...+l; ms = ±1/2",
+        "Enerji sırası: 1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p < 5s < 4d < 5p < 6s < 4f...",
+        "Kararlılık istisnaları: Cr = [Ar]3d⁵4s¹, Cu = [Ar]3d¹⁰4s¹ (yarı dolu/tam dolu d orbitali kararlıdır)"
+      ],
+      "ornek": "Soru: Atom numarası 26 olan demirin (Fe) temel hâl elektron dizilimini yazınız ve Fe³⁺ iyonunun dizilimini bulunuz. Çözüm: 26 elektron sırayla yerleştirilir: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶ → kısaltılmış gösterim [Ar]3d⁶4s². Fe³⁺ oluşurken elektronlar önce en yüksek n'li katmandan (4s) verilir: 4s²'deki 2 elektron ve 3d'den 1 elektron çıkar → [Ar]3d⁵. 3d⁵ yarı dolu orbital olduğu için kararlıdır.",
+      "ipucu": "TYT tuzağı: İyon diziliminde elektronlar sanılanın aksine önce 4s'den çıkarılır (4s dolarken sonra, boşalırken ilk gider). Ayrıca Cr ve Cu'nun istisnai dizilimleri ve 3d'nin 4s'den sonra yazılması klasik soru kalıbıdır.",
+      "quiz": [
+        {
+          "soru": "3. katmanda (n = 3) bulunabilecek en fazla elektron sayısı kaçtır?",
+          "siklar": [
+            "8",
+            "10",
+            "18",
+            "32"
+          ],
+          "cevap": 2,
+          "aciklama": "2n² kuralı: 2 x 3² = 18 elektron (3s 2 + 3p 6 + 3d 10)."
+        },
+        {
+          "soru": "Atom numarası 24 olan kromun (Cr) temel hâl dizilimi hangisidir?",
+          "siklar": [
+            "[Ar]3d⁴4s²",
+            "[Ar]3d⁵4s¹",
+            "[Ar]3d⁶4s⁰",
+            "[Ar]3d³4s³"
+          ],
+          "cevap": 1,
+          "aciklama": "Yarı dolu 3d⁵ orbitali tam dolu 4s¹ ile birlikte daha kararlıdır; Cr = 1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹ 3d⁵ = [Ar]3d⁵4s¹."
+        },
+        {
+          "soru": "Eş enerjili orbitallere elektronların önce tek tek, paralel spinli yerleşmesi kuralı hangisidir?",
+          "siklar": [
+            "Aufbau ilkesi",
+            "Pauli dışarlama ilkesi",
+            "Hund kuralı",
+            "Heisenberg belirsizlik ilkesi"
+          ],
+          "cevap": 2,
+          "aciklama": "Hund kuralı, dejenere orbitallere elektronların önce tek tek ve aynı yönlü spinle yerleşmesini söyler; Pauli aynı orbitalde iki elektronun spininin zıt olmasını gerektirir."
+        },
+        {
+          "soru": "Bir p orbitali en fazla kaç elektron barındırabilir?",
+          "siklar": [
+            "2",
+            "4",
+            "6",
+            "10"
+          ],
+          "cevap": 2,
+          "aciklama": "p alt katmanı 3 orbitalden (px, py, pz) oluşur; her orbilde 2 elektron → 3 x 2 = 6 elektron."
+        },
+        {
+          "soru": "Elektron diziliminde 4s orbitalinin 3d'den önce dolmasının nedeni nedir?",
+          "siklar": [
+            "4s yarıçapının küçük olması",
+            "4s enerjisinin 3d'den düşük olması",
+            "4s'in d orbitali olması",
+            "4s'in daha az elektron alması"
+          ],
+          "cevap": 1,
+          "aciklama": "Aufbau ilkesine göre elektronlar en düşük enerjili orbitale önce yerleşir; bu dizilimde 4s'nin enerjisi 3d'den düşüktür (n + l kuralı)."
+        }
+      ]
+    },
+    "9|9-kim|9-kim-u1|Periyodik tablo ve özellikler": {
+      "ozet": "Periyodik tablonun tarihsel gelişimi, grup ve periyot kavramları, bloklar, metal-ametal sınıflaması ve periyodik özelliklerin (yarıçap, iyonlaşma enerjisi, elektron ilgisi, elektronegatiflik) değişim eğilimleri incelenir.",
+      "anlatim": [
+        "Mendeleyev, elementleri artan atom kütlesine göre sıralayıp benzer özellik gösterenleri alt alta yerleştirdi; boş bıraktığı yerlerdeki elementlerin özelliklerini önceden tahmin etti.",
+        "Moseley, elementlerin artan atom numarasına (proton sayısına göre) sıralanması gerektiğini gösterdi; modern periyodik tablonun temeli budur.",
+        "Periyodik yasa: Elementlerin fiziksel ve kimyasal özellikleri atom numarasının periyodik fonksiyonudur.",
+        "Tabloda 7 periyot (yatay sıra) ve 18 grup (dikey sütun) vardır. A grupları (1A-8A) baş grup, B grupları (3B-2B) geçiş elementleridir.",
+        "Grup özel adları: 1A alkali metaller, 2A toprak alkali metaller, 7A halojenler, 8A soy gazlar (asal gazlar).",
+        "Bloklar: 1A ve 2A s bloğu, 3A-8A p bloğu, B grupları d bloğu, lantanit/aktinitler f bloğu.",
+        "Metal-ametal sınıflaması: Metalik özellik tabloda soldan sağa ve aşağıdan yukarıya azalır. Bor, silisyum, germanyum, arsenik, antimon, tellür yarı metal (amfoter karakterli) kabul edilir.",
+        "Periyotta (soldan sağa): Atom yarıçapı azalır; iyonlaşma enerjisi, elektron ilgisi, elektronegatiflik ve ametalik karakter artar; metalik karakter azalır.",
+        "Grupta (yukarıdan aşağıya): Katman sayısı arttığı için atom yarıçapı artar; iyonlaşma enerjisi ve elektronegatiflik azalır; metalik karakter ve iyonluğu artan bağ eğilimi artar.",
+        "Değerlik elektron sayısı A grubu elementlerde grup numarasının birler basamağına eşittir (ör. 2A → 2, 7A → 7). Soy gazlar kararlı olup iyonlaşma enerjileri en yüksektir (He en yüksek)."
+      ],
+      "formuller": [
+        "A grubu elementlerde değerlik elektron sayısı = grup numarası (birler basamağı)",
+        "Atom yarıçapı eğilimi: periyotta soldan sağa ↓ (proton çekimi artar), grupta yukarıdan aşağıya ↑ (katman sayısı artar)",
+        "İyonlaşma enerjisi (bir atomdan elektron koparma enerjisi, endotermik) eğilimi: periyotta sağa ↑, grupta aşağı ↓",
+        "Elektron ilgisi: gaz hâlindeki nötr bir atomun elektron kazanırken açığa çıkardığı enerji; periyotta sağa doğru genel olarak artar (halojenler en yüksek, soy gazlarda değer alınmaz/çok küçük)",
+        "Metal-ametal ayrımı: metalik karakter sol-aşağı diyagonalinde artar; yarı metaller B, Si, Ge, As, Sb, Te"
+      ],
+      "ornek": "Soru: 11Na, 12Mg ve 17Cl elementlerini atom yarıçapı ve birinci iyonlaşma enerjisi bakımından sıralayınız. Çözüm: Üçü de 3. periyottadır; periyotta soldan sağa proton sayısı artar, çekirdek çekimi büyür. Buna göre atom yarıçapı: Na > Mg > Cl olarak azalır. İyonlaşma enerjisi ise yarıçapın tersi yönde: Cl > Mg > Na şeklinde artar, çünkü küçük atomda dış elektron çekirdeğe daha sıkı bağlıdır.",
+      "ipucu": "TYT tuzağı: Atom yarıçapını iyonlaşma enerjisiyle karıştırmak. Yarıçap azalırken iyonlaşma enerjisi ve elektronegatiflik artar (ters yönlü). Ayrıca 8A soy gazlarının elektron ilgisi ve tepkime verme eğilimi çok düşüktür; 'soy gazın elektronegatifliği en yüksektir' gibi ifadeler yanlıştır.",
+      "quiz": [
+        {
+          "soru": "3. periyotta soldan sağa doğru gidildikçe birinci iyonlaşma enerjisi nasıl değişir?",
+          "siklar": [
+            "Azalır",
+            "Artar",
+            "Değişmez",
+            "Önce azalır sonra sabit kalır"
+          ],
+          "cevap": 1,
+          "aciklama": "Periyotta sağa doğru atom yarıçapı küçülür ve çekirdeğin dış elektronu çekimi artar; elektron koparmak zorlaştığı için iyonlaşma enerjisi artar."
+        },
+        {
+          "soru": "Aynı grupta yukarıdan aşağıya inildikçe metalik karakter için doğru olan hangisidir?",
+          "siklar": [
+            "Azalır",
+            "Artar",
+            "Değişmez",
+            "Önce artar sonra sıfırlanır"
+          ],
+          "cevap": 1,
+          "aciklama": "Katman sayısı artar, değerlik elektronu çekirdekten uzaklaşır ve kolay verilir; bu nedenle metalik karakter artar."
+        },
+        {
+          "soru": "Aşağıdaki elementlerden hangisi yarı metal (amfoter) olarak sınıflandırılır?",
+          "siklar": [
+            "Sodyum",
+            "Klor",
+            "Silisyum",
+            "Argon"
+          ],
+          "cevap": 2,
+          "aciklama": "Silisyum (Si), metaller ile ametaller arasındaki basamakta yer alan yarı metallerdendir (B, Si, Ge, As, Sb, Te)."
+        },
+        {
+          "soru": "7A grubundaki elementlerin ortak adı nedir?",
+          "siklar": [
+            "Alkali metaller",
+            "Toprak alkali metaller",
+            "Halojenler",
+            "Soy gazlar"
+          ],
+          "cevap": 2,
+          "aciklama": "7A grubu halojenlerdir (F, Cl, Br, I, At); soy gazlar 8A, alkali metaller 1A, toprak alkali metaller 2A grubudur."
+        },
+        {
+          "soru": "Periyodik tablonun modern sıralama ölçütü nedir?",
+          "siklar": [
+            "Atom kütlesi",
+            "Atom numarası (proton sayısı)",
+            "Nötron sayısı",
+            "Yoğunluk"
+          ],
+          "cevap": 1,
+          "aciklama": "Moseley'in katkısıyla elementler artan atom numarasına göre sıralanır; Mendeleyev'in kullandığı atom kütlesi ölçütü bazı sıralama hatalarına yol açıyordu."
+        }
+      ]
+    },
+    "9|9-kim|9-kim-u2|Metalik, iyonik, kovalent bağ": {
+      "ozet": "Kimyasal bağ türleri: iyonik bağ (elektron aktarımı), kovalent bağ (elektron ortaklaşması) ve metalik bağ (elektron denizi modeli). Bağ türünün elektronegatiflik farkı ile tahmini ve bağ türüne bağlı madde özellikleri ele alınır.",
+      "anlatim": [
+        "Kimyasal bağ, atomları bir arada tutan ve son katman elektron dizilimini soy gaz kararlılığına (H için duet = 2, diğer atomlar için oktet = 8 elektron) yaklaştıran etkileşimdir.",
+        "İyonik bağ: Metal atomu elektron verip katyon, ametal atomu elektron alıp anyon olur; zıt yüklerin elektrostatik çekimiyle iyonik kristal oluşur (ör. NaCl, MgO, CaF2).",
+        "İyonik bileşiklerin özellikleri: sert ve kırılgan kristaller, yüksek erime/kaynama noktası, katı hâlde elektriği iletmez, eriyik ve sulu çözeltisinde iletir.",
+        "Kovalent bağ: İki ametal atomunun değerlik elektronlarını ortaklaşa kullanmasıyla oluşur; tek, çift ve üçlü bağ olabilir (ör. H2 tek, O2 çift, N2 üçlü bağ).",
+        "Kovalent bağlı moleküler maddelerin özellikleri: erime/kaynama noktası düşük, uçucu, suda/çözücüde seçici çözünür, katı ve sıvı hâlde genellikle elektrik iletmez (grafit ve yarı metaller istisnadır).",
+        "Polar kovalent bağ: Farklı elektronegatifliğe sahip ametaller arasında ortak elektron bir atoma daha yakın durur; kısmi + ve kısmi − uçları oluşur (ör. H−Cl).",
+        "Metalik bağ: Metal atomları değerlik elektronlarını bırakıp pozitif iyon hâlinde düzenli kafes oluşturur, serbest dolaşan bu elektronlar 'elektron denizi'ni oluşturur.",
+        "Metalik bağ sayesinde metaller elektriği ve ısıyı iletir, dövülebilir ve tel/levha hâline gelebilir, yüzeyleri parlak görünür; erime noktaları bağ kuvvetine göre değişir (ör. tungsten çok yüksek).",
+        "Bağ türünü tahmin etmede elektronegatiflik farkı (ΔEN) kullanılır: fark büyükse iyonik, küçükse apolar kovalent karakter artar.",
+        "Bağ enerjisi bir bağı koparmak için gereken enerjidir (kJ/mol, ekzotermik oluşum); bağ uzunluğu azaldıkça ve bağ sayısı arttıkça bağ enerjisi artar (C≡C > C=C > C−C)."
+      ],
+      "formuller": [
+        "Bağ türü tahmini (elektronegatiflik farkı): ΔEN < 0,4 apolar kovalent; 0,4 - 1,7 polar kovalent; ΔEN > 1,7 iyonik (yaklaşık sınır değerler)",
+        "İyonik bileşik formülü yazma: iyon yükleri çaprazlanır → Al³⁺ ve O²⁻ → Al2O3",
+        "Kovalent bağda bir bağ = paylaşılan 2 elektron; N2'de 3 bağ = 6 paylaşılan elektron",
+        "Bağ enerjisi ilişkisi: bağ uzunluğu ↑ → bağ enerjisi ↓ (ters orantılı eğilim)",
+        "Oktet kuralı: son katmanda 8 elektron (H için 2 elektron/duet) kararlı soygaz dizilimidir"
+      ],
+      "ornek": "Soru: Magnezyum (Z=12) ile klor (Z=17) arasında oluşan bileşiğin bağ türünü ve formülünü bulunuz. Çözüm: Mg 3. periyot 2A grubundadır; 2 değerlik elektronunu vererek Mg²⁺ iyonuna dönüşür. Cl 7A grubundadır; 1 elektron alarak Cl⁻ olur. Yükler çaprazlandığında formül MgCl2 olur. Bir metal ile bir ametal arasında elektron aktarımı olduğu için bağ türü iyonik bağdır. Bileşik katı hâlde elektriği iletmez, erimiş/çözünmüş hâlde iletir.",
+      "ipucu": "TYT tuzağı: 'Kovalent bağlı her madde molekülerdir ve elektrik iletmez' genellemesi yanlıştır: grafit kovalent ağ yapılı olduğu hâlde elektriği iletir. Ayrıca iyonik bileşiklerin KATI hâlde iletmediği, yalnızca eriyik/sulu çözeltide ilettiği sıkça sorulur.",
+      "quiz": [
+        {
+          "soru": "Magnezyum ile klor arasındaki bağ türü ve bileşiğin formülü hangisidir?",
+          "siklar": [
+            "Kovalent bağ, MgCl",
+            "İyonik bağ, MgCl2",
+            "Metalik bağ, MgCl2",
+            "İyonik bağ, Mg2Cl"
+          ],
+          "cevap": 1,
+          "aciklama": "Mg 2 elektron vererek Mg²⁺, her Cl 1 elektron alarak Cl⁻ olur; yükler çaprazlanınca MgCl2 elde edilir ve bağ iyoniktir."
+        },
+        {
+          "soru": "İyonik bileşiklerin elektrik iletkenliği için doğru olan hangisidir?",
+          "siklar": [
+            "Katı hâlde iyi iletir",
+            "Katı hâlde iletmez, eriyik ve sulu çözeltide iletir",
+            "Hiçbir hâlde iletmez",
+            "Yalnızca gaz hâlinde iletir"
+          ],
+          "cevap": 1,
+          "aciklama": "Katı iyonik kristalde iyonlar yerlerine sabitlenmiştir; eriyince veya suda çözülünce iyonlar serbest hareket ederek akımı taşır."
+        },
+        {
+          "soru": "Metallerin tel ve levha hâline gelebilmesinin (dövülebilirliğinin) nedeni nedir?",
+          "siklar": [
+            "Kovalent bağların kırılgan olması",
+            "Metalik bağda iyonların kaymaya izin vermesi",
+            "London kuvvetlerinin güçlü olması",
+            "İyonik kristal yapının sertliği"
+          ],
+          "cevap": 1,
+          "aciklama": "Metalik bağda pozitif iyonlar serbest elektron denizi içinde bulunur; tabakalar kaydığında bağ yeniden kurulduğu için metal kırılmaz, şekil verilebilir."
+        },
+        {
+          "soru": "Azot molekülünde (N2) atomlar arasındaki bağ hangi türdendir?",
+          "siklar": [
+            "Tek kovalent bağ",
+            "İkili (çift) kovalent bağ",
+            "Üçlü kovalent bağ",
+            "İyonik bağ"
+          ],
+          "cevap": 2,
+          "aciklama": "Her azot atomunun 5 değerlik elektronu vardır; oktet için 3 elektron paylaşırlar → üçlü kovalent bağ (N≡N), bağ enerjisi çok yüksektir."
+        },
+        {
+          "soru": "Elektronegatiflik farkı yaklaşık 0,3 olan iki ametal atomu arasında oluşan bağ hangisidir?",
+          "siklar": [
+            "Apolar kovalent bağ",
+            "Polar kovalent bağ",
+            "İyonik bağ",
+            "Metalik bağ"
+          ],
+          "cevap": 0,
+          "aciklama": "ΔEN değeri 0,4'ten küçük olduğunda elektronlar hemen hemen eşit paylaşılır; bağ apolar kovalent kabul edilir."
+        }
+      ]
+    },
+    "9|9-kim|9-kim-u2|Lewis yapısı ve polarlık": {
+      "ozet": "Lewis (elektron nokta) yapısının çizimi, oktet/duet kuralları ve istisnaları, molekül geometrisi (VSEPR) ile bağ ve molekül polarlığının belirlenmesi ele alınır.",
+      "anlatim": [
+        "Lewis yapısında değerlik elektronları noktalarla gösterilir: bağ yapan elektron çiftleri atomların arasına, ortaklanmamış (serbest) çiftler atomun çevresine yazılır.",
+        "Lewis çizim sırası: atomların değerlik elektron sayıları toplanır, iskelet kurulur, elektronlar önce tek tek sonra eşleşerek yerleştirilir ve oktet sağlanana kadar çoklu bağ yapılır.",
+        "Oktet kuralına uymayan istisnalar: Be (2 bağ, 4 elektron), B (3 bağ, 6 elektron), H ve He (duet/2 elektron); P, S, Cl gibi 3. periyot elementleri genişletilmiş oktet yapabilir (ör. S'de 12 elektron).",
+        "Formül yükü (FY) = değerlik elektron sayısı − (ortaklanmamış elektron sayısı + bağ çifti sayısı); en küçük formül yükleri ve yüklerin dağılımı kararlı yapıyı verir.",
+        "VSEPR (değerlik kabuğu elektron çifti itmesi) modeli: Elektron çiftleri birbirini iter, bu yüzden molekül geometrisi çiftleri olabildiğince uzağa yerleştirir.",
+        "Yapı geometrileri: 2 elektron bölgesi → doğrusal (180°), 3 bölge → düzlem üçgen (120°), 4 bölge → dört yüzlü/tetrahedral (109,5°); ortaklanmamış çift varlığında açı azalır (üçgen piramit 107°, kırık/açısal 104,5°).",
+        "Bağ polarlığı ΔEN ile belirlenir; molekül polarlığı ise bağ polarlıklarının vektörel toplamına (simetriye, yani dipol momentin sıfır olup olmamasına) bağlıdır.",
+        "Polar bağ içerdiği hâlde simetriden dolayı apolar olan moleküller: CO2 (doğrusal), CH4 (tetrahedral), CCl4, BF3.",
+        "Polar moleküllere örnekler: H2O (kırık yapı, 104,5°), NH3 (üçgen piramit), HCl, SO2, CHCl3; apolar moleküler örnekler: H2, Cl2, CO2, CH4.",
+        "Polarlık maddenin çözünürlüğünü belirler: 'Benzer benzeri çözer.' Polar çözünen polar çözücüde (tuz-su, şeker-su), apolar çözünen apolar çözücüde (iyot-CCl4, yağ-benzen) iyi çözünür."
+      ],
+      "formuller": [
+        "Formül yükü: FY = (değerlik elektron sayısı) − (ortaklanmamış elektron sayısı) − (bağ çifti sayısı)",
+        "VSEPR geometri haritası: 2 çift → doğrusal 180°; 3 çift → düzlem üçgen 120°; 4 çift → tetrahedral 109,5°; 3 bağ + 1 serbest çift → üçgen piramit 107°; 2 bağ + 2 serbest çift → kırık (açısal) 104,5°",
+        "Molekül polarlığı: bağ dipollerinin vektörel toplamı ≠ 0 ise polar; simetrik yapıda toplam = 0 ise apolar",
+        "Toplam değerlik elektron sayısı = moleküldeki atomların değerlik elektron sayıları toplamı (anyonlarda +yük, katyonda −yük eklenir)",
+        "Çözünürlük ilkesi: polar çözücü-polar çözünen, apolar çözücü-apolar çözünen (benzer benzeri çözer)"
+      ],
+      "ornek": "Soru: CO2 molekülü polar bağ(lar) içerdiği hâlde neden apolardır? Çözüm: O (ΔEN = 3,5) ile C (ΔEN = 2,5) arasındaki fark 1,0 olduğu için her C=O bağı polardır. Ancak VSEPR'a göre CO2 doğrusal (O=C=O, 180°) bir moleküldür; iki bağ dipolü eşit büyüklükte ve tam zıt yönlüdür, vektörel toplamları sıfırdır. Bu nedenle molekülün dipol momenti yoktur ve CO2 apolardır. H2O'da ise kırık geometri dipollerin toplamını sıfırlamadığı için molekül polardır.",
+      "ipucu": "TYT tuzağı: 'Polar bağ varsa molekül polardır' yanlıştır (CO2, CH4, CCl4, BF3 istisnadır). Doğru ölçüt simetri ve dipol moment toplamıdır. Ayrıca serbest elektron çifti olan moleküllerde bağ açısı tetrahedral 109,5°'den küçülür: CH4 109,5°, NH3 107°, H2O 104,5°.",
+      "quiz": [
+        {
+          "soru": "Aşağıdaki moleküllerden hangisi polar bağ içerdiği hâlde apolardır?",
+          "siklar": [
+            "H2O",
+            "NH3",
+            "CO2",
+            "HCl"
+          ],
+          "cevap": 2,
+          "aciklama": "CO2 doğrusal ve simetrik olduğundan iki C=O bağ dipolü birbirini götürür; molekül apolardır. H2O kırık, NH3 üçgen piramit olduğu için polardır."
+        },
+        {
+          "soru": "CH4 molekülünde bağ açısı kaç derecedir?",
+          "siklar": [
+            "90°",
+            "104,5°",
+            "107°",
+            "109,5°"
+          ],
+          "cevap": 3,
+          "aciklama": "CH4 tetrahedral (dört yüzlü) geometriye sahiptir ve serbest elektron çifti yoktur; bağ açısı 109,5°dir."
+        },
+        {
+          "soru": "Pf5 benzeri moleküllerde olduğu gibi bazı 3. periyot elementlerinin 8'den fazla elektronla bağ yapmasına ne denir?",
+          "siklar": [
+            "Duet kuralı",
+            "Genişletilmiş oktet",
+            "Formül yükü",
+            "Dipol moment"
+          ],
+          "cevap": 1,
+          "aciklama": "3. periyot ve sonrasındaki elementler (P, S, Cl gibi) d orbitallerini de kullanarak 8'den fazla elektronla bağ yapabilir; bu duruma genişletilmiş oktet denir."
+        },
+        {
+          "soru": "Aşağıdaki moleküllerden hangisi VSEPR'a göre kırık (açısal) yapıdadır?",
+          "siklar": [
+            "CH4",
+            "BF3",
+            "H2O",
+            "CO2"
+          ],
+          "cevap": 2,
+          "aciklama": "Oksijen atomunda 2 bağ çifti ve 2 serbest elektron çifti bulunur; 4 elektron bölgesi itmesi sonucu molekül kırık (açısal) yapıda ve bağ açısı 104,5° olur."
+        },
+        {
+          "soru": "İyot (I2) hangi çözücüde iyi çözünür?",
+          "siklar": [
+            "Su",
+            "Karbon tetraklorür (CCl4)",
+            "Tuzlu su",
+            "Sıvı amonyak"
+          ],
+          "cevap": 1,
+          "aciklama": "İyot apolar bir moleküldür; 'benzer benzeri çözer' ilkesine göre apolar çözücü CCl4'te iyi, polar suda çok az çözünür."
+        }
+      ]
+    },
+    "9|9-kim|9-kim-u2|Bileşik adlandırma": {
+      "ozet": "İyonik ve kovalent bileşiklerin, asitlerin, bazların ve tuzların sistematik adlandırılması; sayı önekleri, geçiş metallerinde yük belirtme ve formülden ad, addan formül yazma becerileri ele alınır.",
+      "anlatim": [
+        "İkili iyonik bileşiklerde (metal + ametal): metalin adı olduğu gibi yazılır, ametale '-ür' eki getirilir → NaCl sodyum klorür, MgO magnezyum oksit, CaS kalsiyum sülfür.",
+        "Ametal kökleri: klor → klorür, oksijen → oksit, sülfür/S → sülfür, azot → nitrür, flor → florür, iyot → iyodür, brom → bromür, hidrojen → hidrür.",
+        "Değişken değerlikli geçiş metallerinde yük Romen rakamıyla parantez içinde belirtilir: FeCl2 demir(II) klorür, FeCl3 demir(III) klorür, Cu2O bakır(I) oksit, CuO bakır(II) oksit.",
+        "Ametaller arası ikili kovalent bileşiklerde atom sayısı Latince sayı önekleriyle belirtilir: 1 mono (tek atomlu oksitte kullanılmaz), 2 di, 3 tri, 4 tetra, 5 penta, 6 heksa, 7 hepta, 8 okta, 9 nona, 10 deka.",
+        "Kovalent bileşik örnekleri: CO karbon monoksit, CO2 karbon dioksit, N2O diazot monoksit, NO2 azot dioksit, PCl3 fosfor triklorür, SO3 kükürt trioksit.",
+        "Asitler (suda çözündüğünde H+ veren bileşikler): HCl hidroklorik asit, HBr hidrobromik asit, HF hidroflorik asit, H2S hidrosülfürik asit (sülfhydrik).",
+        "Oksijenli (okso) asitler: HNO3 nitrik asit, H2SO4 sülfürik asit, H2CO3 karbonik asit, H3PO4 fosforik asit, HClO4 perklorik asit, HClO3 klorik asit, HNO2 nitröz asit.",
+        "Bazlar (suda OH− veren veya H+ alan bileşikler): NaOH sodyum hidroksit, KOH potasyum hidroksit, Ca(OH)2 kalsiyum hidroksit, Al(OH)3 alüminyum hidroksit, NH3 amonyak.",
+        "Tuzlar: katyon adı + anyon kökünün adı → KCl potasyum klorür, KNO3 potasyum nitrat, Na2CO3 sodyum karbonat, NaHCO3 sodyum hidrojen karbonat, CaCO3 kalsiyum karbonat, NaClO sodyum hipoklorit.",
+        "Günlük adlar da sorulur: NaHCO3 yemek sodası, NaClO çamaşır suyunun etken maddesi, CaCO3 kireç taşı/mermer, H2O2 hidrojen peroksit, C3H8 propan."
+      ],
+      "formuller": [
+        "Sayı önekleri: mono 1, di 2, tri 3, tetra 4, penta 5, heksa 6, hepta 7, okta 8, nona 9, deka 10",
+        "İkili iyonik adlandırma: metal adı + ametal kökü + '-ür'  → NaCl: sodyum klorür",
+        "Değişken değerlikli metaller: parantez içinde Romen rakamıyla iyon yükü → FeCl3 = demir(III) klorür",
+        "Anyon kökleri: SO4²⁻ sülfat, NO3⁻ nitrat, NO2⁻ nitrit, CO3²⁻ karbonat, HCO3⁻ hidrojen karbonat, PO4³⁻ fosfat, OH⁻ hidroksit, ClO⁻ hipoklorit, ClO4⁻ perklorat, S²⁻ sülfür",
+        "Formülden ad yazarken önce iyon yükleri belirlenir: yükler çaprazlanarak nötr formül kurulur"
+      ],
+      "ornek": "Soru: Fe2O3 bileşiğini adlandırınız ve CuSO4 bileşiğinin adını yazınız. Çözüm: Fe2O3'te oksijen −2 yüklüdür; 3 oksijen toplam −6 yük taşır, nötrlük için 2 demir atomu +6 yük yani her biri +3 değerliktedir. Adı demir(III) oksit olur. CuSO4 ise Cu²⁺ katyonu ile SO4²⁻ sülfat kökünden oluşur; adı bakır(II) sülfattır. (Geçiş metallerinde yük belirtilmezse bileşik adı eksik olur.)",
+      "ipucu": "TYT tuzağı: 'mono' öneki yalnızca ikinci elementte kullanılır (CO → karbon monoksit), birinci elementte kullanılmaz; 'monooksit' yazımı yanlıştır. Ayrıca nitrat/nitrit ve sülfat/sülfit kökleri karıştırılır: NO3⁻ nitrat, NO2⁻ nitrit, SO4²⁻ sülfat, SO3²⁻ sülfit. Geçiş metallerinde yük parantezini unutmak da en sık yapılan hatadır.",
+      "quiz": [
+        {
+          "soru": "FeCl3 bileşiğinin doğru adı hangisidir?",
+          "siklar": [
+            "Demir klorür",
+            "Demir(II) klorür",
+            "Demir(III) klorür",
+            "Demir triklorür"
+          ],
+          "cevap": 2,
+          "aciklama": "3 klor atomu toplam −3 yük taşır; demir +3 değerliktedir. Değişken değerlikli geçiş metallerinde yük Romen rakamıyla belirtilir: demir(III) klorür."
+        },
+        {
+          "soru": "N2O bileşiğinin adı nedir?",
+          "siklar": [
+            "Azot oksit",
+            "Diazot monoksit",
+            "Azot dioksit",
+            "Diazot dioksit"
+          ],
+          "cevap": 1,
+          "aciklama": "2 azot (di) ve 1 oksijen (mono) içerdiğinden adı diazot monoksittir. NO2 ise azot dioksittir."
+        },
+        {
+          "soru": "H2SO4 bileşiğinin adı hangisidir?",
+          "siklar": [
+            "Hidrosülfürik asit",
+            "Sülfürik asit",
+            "Sülfüröz asit",
+            "Perklorik asit"
+          ],
+          "cevap": 1,
+          "aciklama": "H2SO4 oksijenli (okso) bir asittir ve sülfürik asit olarak adlandırılır; sülfüröz asit H2SO3'tür."
+        },
+        {
+          "soru": "NaHCO3 bileşiğinin sistematik adı nedir?",
+          "siklar": [
+            "Sodyum karbonat",
+            "Sodyum hidrojen karbonat",
+            "Sodyum hidroksit",
+            "Sodyum hipoklorit"
+          ],
+          "cevap": 1,
+          "aciklama": "HCO3⁻ kökü hidrojen karbonattır; bileşik sodyum hidrojen karbonattır (yemek sodası). Na2CO3 ise sodyum karbonattır."
+        },
+        {
+          "soru": "Kalsiyum hidroksit bileşiğinin formülü hangisidir?",
+          "siklar": [
+            "CaOH",
+            "Ca(OH)2",
+            "Ca2OH",
+            "CaH2"
+          ],
+          "cevap": 1,
+          "aciklama": "Ca²⁺ ile OH⁻ yükleri çaprazlanır: Ca²⁺ ve 2 OH⁻ → Ca(OH)2. Hidroksit kökü birden fazla olduğunda parantez kullanılır."
+        }
+      ]
+    },
+    "9|9-kim|9-kim-u2|Moleküller arası etkileşimler, katı ve sıvılar": {
+      "ozet": "Moleküller arası zayıf etkileşimler (London dağılma kuvvetleri, dipol-dipol, iyon-dipol, hidrojen bağı), katıların sınıflandırılması, sıvıların özellikleri ve hâl değişimleri ile ısı hesapları ele alınır.",
+      "anlatim": [
+        "Moleküller arası etkileşimler kimyasal bağdan zayıftır ve maddenin fiziksel özelliklerini (erime/kaynama noktası, çözünürlük, viskozite) belirler.",
+        "London (dağılma) kuvvetleri: Apolar moleküllerde elektron hareketiyle oluşan geçici kutuplanmadan doğar; her molekülde bulunur ve elektron sayısı/molekül büyüklüğü arttıkça güçlenir.",
+        "Dipol-dipol etkileşimi: Kalıcı dipol momenti olan polar moleküller arasında (HCl, SO2) görülür ve London kuvvetlerinden daha güçlüdür.",
+        "İyon-dipol etkileşimi: İyonik bir maddenin polar çözücüde (ör. suda) çözünmesini sağlar; Na+ iyonu suyun oksijen ucuna, Cl⁻ iyonu hidrojen uçlarına yönelir.",
+        "Hidrojen bağı: F, O veya N atomlarına bağlı hidrojenin komşu moleküldeki F, O veya N'in serbest elektron çiftiyle yaptığı güçlü dipol-dipol etkileşimidir; HF, H2O, NH3 ve alkollerde görülür.",
+        "Hidrojen bağının sonuçları: Suyun kaynama noktası beklenenden çok yüksektir, buz suda yüzer (buzun yoğunluğu suyunkinden küçüktür), suyun yüzey gerilimi yüksektir, DNA çift sarmal yapısı ve proteinlerin katlanması bu bağlarla sağlanır.",
+        "Buhar basıncı: Sıvı moleküllerinin yüzeyden kaçarak buhar oluşturma eğilimidir; sıcaklık artınca buhar basıncı artar, moleküller arası kuvvet artınca azalır. Buhar basıncı dış basınca eşitlendiğinde sıvı kaynar.",
+        "Sıcaklık artışıyla moleküller arası kuvvet azaldıkça viskozite azalır, yüzey gerilimi azalır.",
+        "Katıların sınıflandırılması: iyonik (NaCl), kovalent ağ (elmas, SiO2), moleküler (iyot, şeker), metalik (bakır, demir); atom dizilimi düzenli = kristal, düzensiz = amorf (cam, plastik).",
+        "Hâl değişimleri: erime/donma, buharlaşma/yoğuşma, süblimleşme/kırağılaşma. Enerji alan (erime, buharlaşma, süblimleşme) ve enerji veren (donma, yoğuşma) olaylardır; hâl değişimi boyunca sıcaklık sabit kalır."
+      ],
+      "formuller": [
+        "Zayıf etkileşim gücü sırası (kabaca): iyon-dipol > hidrojen bağı > dipol-dipol > London dağılma",
+        "London kuvvetleri molekül kütlesi/elektron sayısı ile artar → F2 < Cl2 < Br2 < I2 kaynama noktası sırası",
+        "Isı hesabı: Q = m x c x ΔT  (c = öz ısı, J/g.°C; ΔT = son sıcaklık − ilk sıcaklık)",
+        "Hâl değişimi ısısı: Q = m x L  (L: erime veya buharlaşma gizli ısısı, hâl değişimi sırasında sıcaklık sabit)",
+        "Moleküller arası kuvvet ↑ → erime/kaynama noktası ↑, buhar basıncı ↓, viskozite ↑, uçuculuk ↓"
+      ],
+      "ornek": "Soru: 100 g suyun sıcaklığını 20 °C'den 70 °C'ye çıkarmak için kaç J ısı gerekir? (c(su) = 4,18 J/g.°C) Çözüm: ΔT = 70 − 20 = 50 °C. Q = m x c x ΔT = 100 g x 4,18 J/g.°C x 50 °C = 20.900 J ≈ 20,9 kJ. Suyun hidrojen bağları güçlü olduğundan öz ısısı yüksektir; bu yüzden su ısınması gecikir ve iklim düzenleyici etkisi olur.",
+      "ipucu": "TYT tuzağı: London kuvvetlerini 'zayıf olduğu için önemsiz' sanmak yanlıştır; büyük apolar moleküllerde (I2, C8H18) London kuvvetleri toplandığı için kaynama noktası yüksek olabilir. Ayrıca hâl değişimi sırasında sıcaklık sabit kalırken ısı alışverişinin devam ettiği grafik sorularında klasik bir tuzaktır.",
+      "quiz": [
+        {
+          "soru": "Aşağıdaki moleküllerden hangileri arasında hidrojen bağı bulunur?",
+          "siklar": [
+            "HCl molekülleri",
+            "CH4 molekülleri",
+            "NH3 molekülleri",
+            "CO2 molekülleri"
+          ],
+          "cevap": 2,
+          "aciklama": "Hidrojen bağı için H'in F, O veya N'e bağlı olması gerekir. NH3'te N−H bağı vardır; HCl'de klor (F, O, N değil) olduğu için orada dipol-dipol etkileşimi etkindir."
+        },
+        {
+          "soru": "Suyun kaynama noktasının aynı molekül kütlesindeki diğer bileşiklerden çok yüksek olmasının nedeni nedir?",
+          "siklar": [
+            "London kuvvetlerinin çok güçlü olması",
+            "Güçlü hidrojen bağlarının bulunması",
+            "Suyun apolar olması",
+            "İyonik yapıda olması"
+          ],
+          "cevap": 1,
+          "aciklama": "H2O'da O−H bağları hidrojen bağı oluşturur; bu güçlü etkileşimler molekülleri bir arada tutarak kaynama noktasını yükseltir."
+        },
+        {
+          "soru": "F2, Cl2, Br2, I2 moleküllerinin kaynama noktası sırası neden F2 < Cl2 < Br2 < I2 şeklindedir?",
+          "siklar": [
+            "Kovalent bağ enerjisi arttığı için",
+            "Molekül büyüdükçe London kuvvetleri arttığı için",
+            "Polarlık arttığı için",
+            "Hidrojen bağı güçlendiği için"
+          ],
+          "cevap": 1,
+          "aciklama": "Bu moleküller apolar olduğundan aralarındaki tek etkileşim London kuvvetleridir; elektron sayısı ve molekül hacmi arttıkça bu kuvvetler güçlenir ve kaynama noktası yükselir."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi kovalent ağ (ağ örgülü) katı sınıfına girer?",
+          "siklar": [
+            "NaCl",
+            "Bakır",
+            "Elmas",
+            "İyot"
+          ],
+          "cevap": 2,
+          "aciklama": "Elmasta karbon atomları kovalent bağlarla üç boyutlu ağ oluşturur; erime noktası çok yüksektir. NaCl iyonik, bakır metalik, iyot moleküler katıdır."
+        },
+        {
+          "soru": "50 g suyun sıcaklığını 10 °C artırmak için gereken ısı kaç J'dir? (c(su) = 4,2 J/g.°C)",
+          "siklar": [
+            "210 J",
+            "1050 J",
+            "2100 J",
+            "4200 J"
+          ],
+          "cevap": 2,
+          "aciklama": "Q = m x c x ΔT = 50 x 4,2 x 10 = 2100 J."
+        }
+      ]
+    },
+    "9|9-kim|9-kim-u3|Nanoparçacıklar": {
+      "ozet": "Nanometre ölçeği (1-100 nm), nanoparçacıkların yüzey alanı/hacim oranına bağlı değişen özellikleri, üretim yaklaşımları, kullanım alanları, doğadaki nanoyapılar ve riskleri ele alınır.",
+      "anlatim": [
+        "1 nanometre (nm) = 10^−9 m; nanoparçacıklar genellikle 1-100 nm aralığındaki boyutlara sahip taneciklerdir ve bu ölçek 'nano ölçek' olarak adlandırılır.",
+        "Boyut küçüldükçe yüzey alanının hacme oranı çok artar; yüzeydeki atomların toplam atomlara oranı yükseldiğinden maddenin kimyasal reaktivitesi, erime noktası, renk ve manyetik özellikleri makro hâlden farklı olabilir.",
+        "Üretim yaklaşımları: yukarıdan aşağıya (top-down) yöntemler öğütme, aşındırma ve litografi; aşağıdan yukarıya (bottom-up) yöntemler ise kimyasal sentez, çöktürme ve buhar biriktirmedir.",
+        "Karbon esaslı nanomalzemeler: fulleren (C60 futbol topu yapısı), karbon nanotüp (CNT, çok yüksek dayanım ve iletkenlik), grafen (tek atom kalınlığında karbon tabakası, çok iyi iletken ve şeffaf).",
+        "Kuantum noktaları (kuantum dot) ve metal nanoparçacıklar boyuta bağlı renk verir: Altın nanoparçacıklar boyuta göre kırmızı, mor, mavi tonlarda görünebilirken dökme altın sarıdır.",
+        "Sağlık uygulamaları: Hedefli ilaç taşıma (kanserli hücreye yönlendirilen nanotaşıyıcı), görüntüleme (kontrast ajanları), antibakteriyel gümüş nanoparçacıklar, hızlı teşhis sensörleri, aşı taşıyıcıları.",
+        "Enerji ve çevre uygulamaları: Güneş pillerinde verim artışı, batarya elektrotları, katalizörler (egzoz katalizörü), su arıtmada nanofiltreler, çevre kirliliği sensörleri.",
+        "Malzeme ve günlük kullanım: Kirlenmeyen (leke tutmayan) ve güçlendirilmiş tekstil ürünleri, gıda paketlemede bariyer katmanları, spor malzemeleri, hafif ve dayanıklı kompozitler.",
+        "Doğadaki nanoyapılar: Lotus yaprağının suyu iten (süperhidrofobik) yüzeyi, geko ayak parmaklarındaki Van der Waals etkileşimi, kemikteki hidroksiapatit nanokristalleri, bazı kelebek kanatlarında yapısal renk.",
+        "Bilinen riskler: Nanoparçacıklar solunum yoluyla alınabilir ve hücrelere girebilir; çevrede birikebilir. Etkileri tam bilinmediğinden nanomalzemelerin üretimi, etiketlenmesi ve bertarafı için önlem alınmalıdır (risk yönetimi, KKD kullanımı, yeşil sentez yöntemleri)."
+      ],
+      "formuller": [
+        "Birim dönüşümü: 1 nm = 10^−9 m; 1 μm = 10^−6 m; 1 nm = 10 Å",
+        "Nanoparçacık boyut aralığı: 1 nm ile 100 nm arası (büyük bir molekül ile küçük hücre arasında)",
+        "Yüzey/hacim oranı boyutla ters orantılıdır: küre için yüzey/hacim = 3/r → boyut (r) küçüldükçe oran büyür",
+        "Örnek boyut ölçüleri: C60 fulleren ≈ 0,7 nm; DNA çift sarmalı ≈ 2 nm; kırmızı kan hücresi ≈ 7000 nm"
+      ],
+      "ornek": "Soru: Aynı kütlede makro hâlde altın ve altın nanoparçacık suya atıldığında hangisinin kimyasal tepkimeye girmeye daha yatkın olması beklenir? Neden? Çözüm: Nanoparçacık hâli çok daha yatkındır. Makro altını aynı kütlede 1 cm³'lük tek bir parça (yüzey/hacim oranı küçük), nanoparçacık hâlini ise 5 nm yarıçaplı milyonlarca tanecik (yüzey/hacim oranı ≈ 3/r = 3/5, birim başına çok büyük) düşünelim. Yüzey atomlarının oranı yükseldikçe reaksiyona girebilen atom sayısı ve dolayısıyla reaktivite artar; bu nedenle altın nanoparçacıklar katalizör olarak kullanılır.",
+      "ipucu": "TYT tuzağı: 'Nanoparçacık yeni bir elementtir' veya 'kimyasal özellikleri büsbütün değişir' gibi ifadeler yanlıştır; nanoparçacıklar aynı elementtin tanecikleridir, değişen şey boyuta bağlı yüzey etkileridir. Ayrıca 1 nm = 10^−9 m dönüşümü ve '1-100 nm aralığı' ezberlenmelidir.",
+      "quiz": [
+        {
+          "soru": "1 nm kaç metredir?",
+          "siklar": [
+            "10^−3 m",
+            "10^−6 m",
+            "10^−9 m",
+            "10^−12 m"
+          ],
+          "cevap": 2,
+          "aciklama": "Nano, 10^−9 anlamına gelen önektir; 1 nm = 10^−9 m = 10 Å. 10^−6 m mikrometredir."
+        },
+        {
+          "soru": "Nanoparçacıkların makro hâle göre daha reaktif olmasının temel nedeni nedir?",
+          "siklar": [
+            "Atom numarasının değişmesi",
+            "Yüzey alanının hacme oranının büyümesi",
+            "Kütlesinin artması",
+            "Elektron sayısının azalması"
+          ],
+          "cevap": 1,
+          "aciklama": "Boyut küçüldükçe yüzey atomlarının oranı artar; yüzeydeki doyurulmamış bağlar reaktiviteyi yükseltir."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi aşağıdan yukarıya (bottom-up) nanomalzeme üretim yöntemidir?",
+          "siklar": [
+            "Öğütme",
+            "Litografi ile aşındırma",
+            "Kimyasal sentez ve çöktürme",
+            "Mekanik parçalama"
+          ],
+          "cevap": 2,
+          "aciklama": "Bottom-up yöntemlerde atom/moleküller bir araya getirilerek büyük yapı kurulur (kimyasal sentez, buharla biriktirme); öğütme ve litografi top-down yöntemlerdir."
+        },
+        {
+          "soru": "Lotus yaprağının suyu iten yüzey davranışı hangi kavramla açıklanır?",
+          "siklar": [
+            "Süperhidrofobik yüzey (yapısal nano pürüzlülük)",
+            "İyonik bağ",
+            "Metalik bağ",
+            "Yüksek viskozite"
+          ],
+          "cevap": 0,
+          "aciklama": "Lotus yaprağındaki mikro-nano pürüzlülük suyun yüzeye yapışmasını engeller; su damlası küresel kalıp akıp gider (lotus etkisi, süperhidrofobisite)."
+        },
+        {
+          "soru": "Nanoparçacıkların sağlık ve çevre açısından önemli bir riski hangisidir?",
+          "siklar": [
+            "Radyoaktif olmaları",
+            "Solunumla alınıp hücrelere girebilmeleri ve etkilerinin tam bilinmemesi",
+            "Suyla hiç tepkime vermemeleri",
+            "Manyetik alandan hiç etkilenmemeleri"
+          ],
+          "cevap": 1,
+          "aciklama": "Çok küçük boyutları nedeniyle nanoparçacıklar akciğerden kana geçebilir ve hücrelere girebilir; uzun dönem etkileri bilinmediğinden risk yönetimi (KKD, yeşil sentez) gereklidir."
+        }
+      ]
+    },
+    "9|9-kim|9-kim-u3|Yeşil kimya ve atık önleme": {
+      "ozet": "Yeşil kimyanın 12 ilkesi, atık önleme hiyerarşisi, atom ekonomisi, katalizör ve çözücü seçiminin çevresel etkisi ile sürdürülebilirlik yaklaşımları ele alınır.",
+      "anlatim": [
+        "Yeşil kimya, kimyasal süreçleri kirlilik oluştuktan sonra temizlemek yerine baştan kirlilik oluşturmayacak biçimde tasarlamayı amaçlar.",
+        "Atık önleme ilkesi: Mümkünse atık üretmemek, üretilen atığı temizlemekten önce gelir (prevention first).",
+        "Atom ekonomisi: Elde edilen ürünün mol kütlesinin, kullanılan tüm reaktanların mol kütleleri toplamına oranıdır; yüksek atom ekonomisi hedeflenir.",
+        "Daha az tehlikeli kimyasal sentez: Tepkimeler insan sağlığı ve çevre için toksik olmayan maddelerle tasarlanmalı; yardımcı madde ve çözücü miktarı azaltılmalı.",
+        "Enerji verimliliği: Tepkimeler mümkünse oda sıcaklığı ve basıncında yürütülür; katalizör kullanımı aktivasyon enerjisini düşürerek sıcaklık ihtiyacını azaltır.",
+        "Yenilenebilir hammadde kullanımı: Petrol türevi yerine biyokütle (bitkisel yağlar, nişasta, tarımsal atıklar) gibi yenilenebilir kaynaklara yönelmek.",
+        "Daha az tehlikeli çözücüler: Uçucu organik çözücüler yerine su, süper kritik CO2 veya iyonik sıvılar; su bazlı boyalar ve temizleyiciler.",
+        "Tasarımda bozunabilirlik: Ürünlerin çevrede birikmemesi için biyobozunur madde tasarımı (biyobozunur plastikler, PLA) ve gerçek zamanlı analizle süreç takibi.",
+        "Atık hiyerarşisi: Önleme > azaltma (reduce) > tekrar kullanım (reuse) > geri dönüşüm (recycle) > enerji geri kazanımı > bertaraf (disposal) sırasıyla önceliklidir.",
+        "Plastik geri dönüşüm kodları: 1 PET, 2 HDPE, 3 PVC, 4 LDPE, 5 PP, 6 PS, 7 diğer; piller ve elektronik atıklar (e-atık) ağır metal içerdiğinden ayrı toplanmalıdır."
+      ],
+      "formuller": [
+        "Atom ekonomisi (%) = (ürünün mol kütlesi / tüm reaktanların mol kütleleri toplamı) x 100",
+        "Atık hiyerarşisi sırası: önleme → azaltma → tekrar kullanım → geri dönüşüm → enerji geri kazanımı → bertaraf",
+        "Katalizör: Tepkimede harcanmadan aktivasyon enerjisini düşürür, hızı artırır; daha düşük sıcaklıkta çalışmaya izin vererek enerji tasarrufu sağlar (yeşil kimyanın 9. ilkesi)",
+        "Yeşil kimyanın 12 ilkesi içinde öne çıkanlar: atık önleme, atom ekonomisi, güvenli kimyasallar, güvenli çözücüler, enerji verimliliği, yenilenebilir hammadde, kataliz, bozunabilir tasarım, gerçek zamanlı analiz, kaza önleme"
+      ],
+      "ornek": "Soru: Aşağıdaki tepkimeye göre atom ekonomisini hesaplayınız: C2H4 + H2O → C2H5OH (mol kütleleri: C2H4 = 28, H2O = 18, C2H5OH = 46 g/mol). Çözüm: Ürünün mol kütlesi 46 g/mol, reaktanların toplamı 28 + 18 = 46 g/mol'dür. Atom ekonomisi = (46 / 46) x 100 = %100. Tüm reaktan atomları üründe yer aldığı için bu tepkime yeşil kimya açısından ideal bir katılma tepkimesidir; yan ürün oluşmaz.",
+      "ipucu": "TYT tuzağı: Atom ekonomisi ile yüzde verimi karıştırmak. Atom ekonomisi tepkime denkleminin kendisiyle ilgilidir (teorik, %100 olabilir); yüzde verim ise deneyde elde edilen ürün miktarıyla ilgilidir ve deneysel kayıplardan dolayı %100'ün altındadır. Ayrıca katalizörün 'tepkimede harcandığı' yanılgısına dikkat edin: katalizör tepkime sonunda kütlece değişmeden geri alınır.",
+      "quiz": [
+        {
+          "soru": "Yeşil kimyanın temel amacı nedir?",
+          "siklar": [
+            "Kirlilik oluştuktan sonra temizlemek",
+            "Kirliliği kaynağında önleyecek süreçler tasarlamak",
+            "Sadece üretim maliyetini düşürmek",
+            "Tüm kimyasal üretimi durdurmak"
+          ],
+          "cevap": 1,
+          "aciklama": "Yeşil kimya kirliliği oluşmadan önlemeyi (prevention) esas alır; temizleme yaklaşımı (end-of-pipe) ikincil ve daha pahalıdır."
+        },
+        {
+          "soru": "N2 + 3H2 → 2NH3 tepkimesinde atom ekonomisi yüzdesi kaçtır? (N2 = 28, H2 = 2, NH3 = 17 g/mol)",
+          "siklar": [
+            "%50",
+            "%100",
+            "%34",
+            "%17"
+          ],
+          "cevap": 1,
+          "aciklama": "Ürün kütlesi = 2 x 17 = 34 g; reaktanların toplamı = 28 + 3 x 2 = 34 g. Atom ekonomisi = (34/34) x 100 = %100, çünkü yan ürün oluşmaz."
+        },
+        {
+          "soru": "Atık yönetimi hiyerarşisinde en öncelikli (ilk) adım hangisidir?",
+          "siklar": [
+            "Geri dönüşüm",
+            "Bertaraf",
+            "Atık önleme",
+            "Enerji geri kazanımı"
+          ],
+          "cevap": 2,
+          "aciklama": "Hiç atık oluşturmamak, oluşan atığı işlemekten her zaman daha etkilidir; bu nedenle hiyerarşinin başında önleme yer alır."
+        },
+        {
+          "soru": "Katalizör kullanımının yeşil kimya açısından sağladığı temel yarar nedir?",
+          "siklar": [
+            "Ürün miktarını teorik verimin üzerine çıkarması",
+            "Aktivasyon enerjisini düşürüp daha düşük enerjiyle çalışmayı sağlaması",
+            "Reaktanları tüketmesi",
+            "Atık miktarını artırması"
+          ],
+          "cevap": 1,
+          "aciklama": "Katalizör tepkimeyi kendisi harcanmadan hızlandırır, aktivasyon enerjisini düşürür; daha düşük sıcaklık/basınçta üretim mümkün olur ve enerji tasarrufu sağlanır."
+        },
+        {
+          "soru": "Plastik geri dönüşüm kodlarında 1 hangi plastik türünü gösterir?",
+          "siklar": [
+            "PET (polietilen tereftalat)",
+            "HDPE",
+            "PVC",
+            "PS"
+          ],
+          "cevap": 0,
+          "aciklama": "Kod 1 PET (şeffaf içecek şişeleri), 2 HDPE, 3 PVC, 4 LDPE, 5 PP, 6 PS, 7 diğer plastiklerdir."
+        }
+      ]
+    }
+  },
+  "10-kim": {
+    "10|10-kim|10-kim-u1|Tepkime türleri": {
+      "ozet": "Kimyasal tepkimelerin sınıflandırılması: sentez (birleşme), analiz (ayrışma), yer değiştirme, çift yer değiştirme, yanma ve nötralleşme tepkimeleri; ekzotermik-endotermik tepkimeler, denklem denkleştirme ve redoks kavramı.",
+      "anlatim": [
+        "Sentez (birleşme) tepkimesi: İki veya daha fazla madde birleşerek tek ürün oluşturur → A + B → AB; örnek: 2Mg + O2 → 2MgO, CaO + H2O → Ca(OH)2.",
+        "Analiz (ayrışma) tepkimesi: Tek bileşik ısı, elektrik veya ışık etkisiyle daha basit maddelere ayrılır → AB → A + B; örnek: 2H2O → 2H2 + O2 (elektroliz), CaCO3 → CaO + CO2 (ısıtma).",
+        "Yer değiştirme (tek yer değiştirme) tepkimesi: Aktif bir element bileşikteki daha az aktif elementi yerinden çıkarır → A + BC → AC + B; örnek: Zn + 2HCl → ZnCl2 + H2.",
+        "Metal aktiflik sırası (elektron verme eğilimi): Li > K > Ba > Ca > Na > Mg > Al > Zn > Fe > Ni > Sn > Pb > (H) > Cu > Hg > Ag > Au → Soldaki metaller sağdakileri tuz çözeltisinden çıkarabilir.",
+        "Çift yer değiştirme tepkimesi: İki bileşiğin iyonları yer değiştirir → AB + CD → AD + CB; çökelme tepkimesi örneği: AgNO3 + NaCl → AgCl(k) + NaNO3.",
+        "Yanma tepkimesi: Bir yakıtın oksijenle hızlı ve ısı/ışık veren tepkimesidir; hidrokarbonların tam yanmasında ürünler CO2 ve H2O olur: CH4 + 2O2 → CO2 + 2H2O.",
+        "Nötralleşme tepkimesi: Asit + baz → tuz + su; HCl + NaOH → NaCl + H2O, H2SO4 + 2KOH → K2SO4 + 2H2O.",
+        "Ekzotermik tepkimede ısı açığa çıkar (ΔH < 0), ürünlerin enerjisi reaktanlardan düşüktür; endotermik tepkimede ısı alınır (ΔH > 0), ürünlerin enerjisi daha yüksektir. Her tepkimede bağ kopması enerji ister (endotermik adım), bağ oluşumu enerji verir (ekzotermik adım).",
+        "Denklem denkleştirme kütle korunumuna dayanır: Tepkimenin her iki tarafında her elementin atom sayısı eşitlenir; katsayılar en küçük tam sayılar olacak şekilde yazılır. Alt indeksler asla değiştirilmez.",
+        "Yükseltgenme-indirgenme (redoks) tepkimelerinin ortak özelliği elektron alışverişidir: elektron veren madde yükseltgenir (indirgen ajan), elektron alan madde indirgenir (yükseltgen ajan)."
+      ],
+      "formuller": [
+        "Sentez: A + B → AB | Analiz: AB → A + B | Yer değiştirme: A + BC → AC + B | Çift yer değiştirme: AB + CD → AD + CB",
+        "Yanma (hidrokarbon): CxHy + O2 → x CO2 + (y/2) H2O",
+        "Nötralleşme: asit + baz → tuz + su  (H+ + OH− → H2O)",
+        "Enerji işareti: ekzotermik ΔH < 0 (ısı verir), endotermik ΔH > 0 (ısı alır)",
+        "Denklem denkleştirmede atom sayısı korunumu: soldaki atom sayısı = sağdaki atom sayısı (katsayılarla sağlanır, alt indeksler değiştirilmez)"
+      ],
+      "ornek": "Soru: AgNO3 + NaCl → AgCl + NaNO3 tepkimesini denkleştiriniz ve türünü belirtiniz. Çözüm: Sol tarafta Ag 1, N 1, O 3, Na 1, Cl 1; sağ tarafta da aynı sayıda atom vardır, denklem zaten denktir (tüm katsayılar 1). İyonlar (Ag+ ile Cl−, Na+ ile NO3−) yer değiştirdiği için tepkime çift yer değiştirmedir. AgCl suda çözünmediğinden katı hâlde çöker; bu nedenle çökelme tepkimesi olarak da adlandırılır.",
+      "ipucu": "TYT tuzağı: Denklem denkleştirirken alt indeksleri değiştirmek (H2O yerine H2O2 yazmak gibi) en klasik hatadır; yalnızca katsayı değiştirilir. Ayrıca 'yanma tepkimesinde ürün her zaman CO2 ve H2O'dur' ifadesi yalnızca hidrokarbonların tam yanması için geçerlidir; eksik yanmada CO veya C (is) de oluşabilir.",
+      "quiz": [
+        {
+          "soru": "2H2O → 2H2 + O2 tepkimesi hangi türdendir?",
+          "siklar": [
+            "Sentez",
+            "Analiz",
+            "Yer değiştirme",
+            "Nötralleşme"
+          ],
+          "cevap": 1,
+          "aciklama": "Tek bileşik (su) elektroliz/ısı etkisiyle daha basit maddelere ayrıldığı için tepkime analiz (ayrışma) türündendir."
+        },
+        {
+          "soru": "CH4 + 2O2 → CO2 + 2H2O tepkimesinde 0,5 mol CH4 tam yanması için kaç mol O2 gerekir?",
+          "siklar": [
+            "0,5 mol",
+            "1 mol",
+            "2 mol",
+            "4 mol"
+          ],
+          "cevap": 1,
+          "aciklama": "Katsayı oranından 1 mol CH4 için 2 mol O2 gereklidir; doğru orantı ile 0,5 mol CH4 için 1 mol O2 gerekir."
+        },
+        {
+          "soru": "Aşağıdaki tepkimelerden hangisi ekzotermiktir?",
+          "siklar": [
+            "CaCO3 → CaO + CO2 (ısıtma)",
+            "2H2O → 2H2 + O2 (elektroliz)",
+            "CH4 + 2O2 → CO2 + 2H2O",
+            "N2 + O2 → 2NO (yüksek sıcaklık)"
+          ],
+          "cevap": 2,
+          "aciklama": "Yanma tepkimeleri ısı açığa çıkarır (ΔH < 0). Karbonatın ayrışması, elektroliz ve NO oluşumu ısı gerektiren endotermik tepkimelerdir."
+        },
+        {
+          "soru": "Zn + 2HCl → ZnCl2 + H2 tepkimesinin türü nedir?",
+          "siklar": [
+            "Sentez",
+            "Analiz",
+            "Yer değiştirme",
+            "Çift yer değiştirme"
+          ],
+          "cevap": 2,
+          "aciklama": "Çinko, asitteki hidrojeni yerinden çıkararak tuz oluşturur; tek bir element yer değiştirdiği için tepkime yer değiştirme tepkimesidir."
+        },
+        {
+          "soru": "H2SO4 + 2KOH → K2SO4 + 2H2O tepkimesi hangi türdendir?",
+          "siklar": [
+            "Nötralleşme",
+            "Sentez",
+            "Analiz",
+            "Yanma"
+          ],
+          "cevap": 0,
+          "aciklama": "Asit (H2SO4) ile baz (KOH) tepkimeye girip tuz (K2SO4) ve su oluşturduğu için bu bir nötralleşme tepkimesidir."
+        }
+      ]
+    },
+    "10|10-kim|10-kim-u1|Mol kavramı": {
+      "ozet": "Mol kavramı, Avogadro sayısı, mol kütlesi hesaplama, tanecik sayısı-kütle-mol ilişkileri, normal koşullarda molar hacim ve kütlece yüzde bileşim hesapları.",
+      "anlatim": [
+        "Mol, 6,02x10^23 tane tanecik (atom, molekül veya iyon) içeren madde miktarıdır; bu sayı Avogadro sayısıdır (NA).",
+        "Mol kütlesi (MA), 1 mol maddenin gram cinsinden kütlesidir ve sayısal olarak formül kütlesine eşittir: C = 12 g/mol, H = 1 g/mol, O = 16 g/mol.",
+        "Mol kütlesi hesaplama: H2O = 2 x 1 + 16 = 18 g/mol, CO2 = 12 + 2 x 16 = 44 g/mol, H2SO4 = 2 + 32 + 4 x 16 = 98 g/mol.",
+        "Mol-tanecik ilişkisi: tanecik sayısı N = n x NA; 0,5 mol suda 0,5 x 6,02x10^23 = 3,01x10^23 molekül bulunur.",
+        "Mol-kütle ilişkisi: n = m / MA; 36 g su 36/18 = 2 mol, 88 g CO2 88/44 = 2 moldür.",
+        "Gazlarda normal koşullarda (NK: 0 °C ve 1 atm) 1 mol gazın hacmi 22,4 L'dir → n = V / 22,4. Oda koşullarında (25 °C, 1 atm) molar hacim yaklaşık 24,5 L/mol olur.",
+        "Mol; kütle, tanecik sayısı ve gaz hacmi arasında köprü kurar. Kimyasal hesapların neredeyse tamamı önce mollere çevirme adımıyla çözülür.",
+        "Kütlece yüzde bileşim: Bileşikteki bir elementin yüzdesi, elementin toplam kütlesinin bileşiğin mol kütlesine oranının 100 ile çarpımıdır.",
+        "Kesin (moleküler) formül, basit (ampirik) formülün tam sayı katıdır: ampirik CH2O → moleküler formül C6H12O6 (glikoz).",
+        "Atomik kütle birimi (a.k.b. / u): Bir karbon-12 atomunun kütlesinin 1/12'sidir; bağıl atom kütleleri bu birimle ifade edilir."
+      ],
+      "formuller": [
+        "Avogadro sayısı: NA = 6,02x10^23 tanecik/mol",
+        "Mol-kütle: n = m / MA   (MA: mol kütlesi, g/mol)",
+        "Mol-tanecik: N = n x NA  →  n = N / NA",
+        "Normal koşullarda gaz: n = V / 22,4  (NK: 0 °C, 1 atm; 1 mol gaz = 22,4 L)",
+        "Kütlece yüzde: %X = (bileşikteki X kütlesi / bileşiğin mol kütlesi) x 100"
+      ],
+      "ornek": "Soru: 8,8 g CO2 gazı kaç moldür, kaç molekül içerir ve NK'da kaç litre hacim kaplar? (C = 12, O = 16, NA = 6,02x10^23) Çözüm: Önce mol kütlesi bulunur: CO2 = 12 + 2 x 16 = 44 g/mol. n = m / MA = 8,8 / 44 = 0,2 mol. Molekül sayısı: N = n x NA = 0,2 x 6,02x10^23 = 1,204x10^23 molekül. NK'da hacim: V = n x 22,4 = 0,2 x 22,4 = 4,48 L.",
+      "ipucu": "TYT tuzağı: NK ile oda koşullarını karıştırmak. NK (0 °C, 1 atm) molar hacmi 22,4 L/mol iken oda koşulları (25 °C, 1 atm) 24,5 L/mol'dür; soru kökünde hangi koşulun verildiği mutlaka okunmalıdır. İkinci tuzak: '1 mol madde' ile '1 mol atom' ayrımıdır — 1 mol O2 gazı 2 mol oksijen atomu içerir.",
+      "quiz": [
+        {
+          "soru": "36 gram su (H2O) kaç moldür? (H = 1, O = 16)",
+          "siklar": [
+            "0,5 mol",
+            "1 mol",
+            "2 mol",
+            "18 mol"
+          ],
+          "cevap": 2,
+          "aciklama": "MA(H2O) = 2 x 1 + 16 = 18 g/mol; n = m/MA = 36/18 = 2 mol."
+        },
+        {
+          "soru": "Normal koşullarda 11,2 L hacim kaplayan bir gaz kaç moldür?",
+          "siklar": [
+            "0,25 mol",
+            "0,5 mol",
+            "1 mol",
+            "2 mol"
+          ],
+          "cevap": 1,
+          "aciklama": "NK'da 1 mol gaz 22,4 L'dir; n = V/22,4 = 11,2/22,4 = 0,5 mol."
+        },
+        {
+          "soru": "1 mol H2SO4 bileşiğinin mol kütlesi kaç g/mol'dür? (H = 1, S = 32, O = 16)",
+          "siklar": [
+            "49",
+            "80",
+            "98",
+            "108"
+          ],
+          "cevap": 2,
+          "aciklama": "H2SO4 = 2 x 1 + 32 + 4 x 16 = 2 + 32 + 64 = 98 g/mol."
+        },
+        {
+          "soru": "3 mol karbon (C) atomu kaç gramdır? (C = 12)",
+          "siklar": [
+            "12 g",
+            "24 g",
+            "36 g",
+            "48 g"
+          ],
+          "cevap": 2,
+          "aciklama": "m = n x MA = 3 x 12 = 36 g."
+        },
+        {
+          "soru": "0,5 mol CO2 molekülünde kaç tane oksijen atomu bulunur? (NA = 6,02x10^23)",
+          "siklar": [
+            "3,01x10^23",
+            "6,02x10^23",
+            "1,204x10^24",
+            "2,408x10^23"
+          ],
+          "cevap": 1,
+          "aciklama": "0,5 mol CO2'de 0,5 mol molekül, yani 1 mol oksijen atomu vardır: 1 x 6,02x10^23 = 6,02x10^23 oksijen atomu."
+        }
+      ]
+    },
+    "10|10-kim|10-kim-u1|Stokiyometrik hesaplar": {
+      "ozet": "Denklem katsayılarına dayalı mol-mol, mol-kütle ve mol-hacim hesapları; sınırlayıcı ve artan reaktan belirleme, teorik verim, gerçek verim ve yüzde verim hesapları ile çözelti tepkimesi hesapları.",
+      "anlatim": [
+        "Stokiyometri, denklemdeki katsayıların mol oranını vermesi ilkesine dayanır: N2 + 3H2 → 2NH3 denkleminde 1 mol N2, 3 mol H2 ile tepkimeye girip 2 mol NH3 verir.",
+        "Hesaplarda izlenen yol: Verilen miktarı (kütle, hacim, tanecik) önce mole çevir, mol oranıyla istenen maddenin molünü bul, sonra istenen birime (kütle, hacim) dönüştür.",
+        "Gaz tepkimelerinde aynı koşullarda hacim oranı mol oranına eşittir (Gay-Lussac hacim yasası): 2H2 + O2 → 2H2O için 2 L H2 ile 1 L O2 tepkimeye girer.",
+        "Sınırlayıcı reaktan: En az mol/katsayı oranına sahip olan reaktandır; ürün miktarını sınırlar. Diğer reaktan artan maddedir ve bir kısmı tepkimeye girmeden kalır.",
+        "Teorik verim, sınırlayıcı reaktana göre hesaplanan en büyük ürün miktarıdır; gerçek verim deneyde elde edilen miktardır ve teorik verimden büyük olamaz.",
+        "Yüzde verim, gerçek verimin teorik verime oranının 100 ile çarpımıdır; kayıplar (sıçrama, yan tepkime, eksik tepkime) verimi düşürür.",
+        "Kütle korunumu yasası gereği tepkimeye giren toplam kütle, oluşan toplam kütleye eşittir; kapalı kapta bu denetim yapılabilir.",
+        "Çözelti tepkimelerinde mol sayısı molarite ve hacimden bulunur: n = M x V (V litre cinsinden).",
+        "Nötralleşme hesaplarında eşdeğerlik ilişkisi kullanılır: M1 x V1 / n1 (H+ sayısı) = M2 x V2 / n2 (OH− sayısı).",
+        "Safsızlık içeren örneklerde önce saf maddenin kütlesi bulunur: m(saf) = m(örnek) x saflık yüzdesi / 100, sonra mol hesabına geçilir."
+      ],
+      "formuller": [
+        "Mol oranı yöntemi: n(istenen) = n(verilen) x (istenenin katsayısı / verilenin katsayısı)",
+        "Çözeltide mol: n = M x V (V litre)  |  Saf madde kütlesi: m(saf) = m(örnek) x (saflık % / 100)",
+        "Yüzde verim = (gerçek verim / teorik verim) x 100",
+        "Sınırlayıcı reaktan: mol sayısı / denklem katsayısı oranı en küçük olan reaktan",
+        "Nötralleşme: M1 x V1 / n1 = M2 x V2 / n2  (n1, n2: asit ve bazın verdiği H+/OH− sayısı)"
+      ],
+      "ornek": "Soru: 2H2 + O2 → 2H2O tepkimesine göre 4 mol H2 ile 1 mol O2 tepkimeye girerse hangi madde sınırlayıcıdır, kaç mol H2O oluşur, kaç mol madde artar? Çözüm: Mol/katsayı oranları: H2 için 4/2 = 2, O2 için 1/1 = 1 bulunur. O2'nin oranı daha küçük olduğundan sınırlayıcı reaktan O2'dir. 1 mol O2, 2 mol H2 ile tepkimeye girip 2 mol H2O oluşturur. Artan H2 miktarı: 4 − 2 = 2 mol H2 tepkimeye girmeden kalır.",
+      "ipucu": "TYT tuzağı: Yüzde verim ile atom ekonomisini karıştırmak (yüzde verim deneyseldir, %100'ü geçemez) ve sınırlayıcı reaktanı 'mutlak mol sayısı en küçük olan madde' sanmak. Sınırlayıcı reaktan mol sayısına değil, mol sayısının denklem katsayısına bölümüne bakılarak bulunur.",
+      "quiz": [
+        {
+          "soru": "N2 + 3H2 → 2NH3 tepkimesine göre 2 mol N2 tam tepkimeye girerse kaç mol NH3 oluşur?",
+          "siklar": [
+            "2 mol",
+            "3 mol",
+            "4 mol",
+            "6 mol"
+          ],
+          "cevap": 2,
+          "aciklama": "Katsayı oranı: 1 mol N2 → 2 mol NH3 olduğundan 2 mol N2 → 4 mol NH3 oluşur."
+        },
+        {
+          "soru": "Bir tepkimede teorik verim 20 g, gerçek verim 15 g ise yüzde verim kaçtır?",
+          "siklar": [
+            "%15",
+            "%33",
+            "%75",
+            "%133"
+          ],
+          "cevap": 2,
+          "aciklama": "Yüzde verim = (gerçek verim / teorik verim) x 100 = (15/20) x 100 = %75."
+        },
+        {
+          "soru": "0,5 M 200 mL NaOH çözeltisinde kaç mol NaOH çözünmüştür?",
+          "siklar": [
+            "0,01 mol",
+            "0,1 mol",
+            "0,5 mol",
+            "1 mol"
+          ],
+          "cevap": 1,
+          "aciklama": "n = M x V = 0,5 mol/L x 0,200 L = 0,1 mol. Hacim litreye çevrilmeyi unutmayın (200 mL = 0,2 L)."
+        },
+        {
+          "soru": "2H2 + O2 → 2H2O tepkimesine göre 3 mol H2 ile 3 mol O2 karıştırılırsa sınırlayıcı reaktan hangisidir?",
+          "siklar": [
+            "H2 (oran 1,5)",
+            "O2 (oran 3)",
+            "İkisi de sınırlayıcıdır",
+            "Tepkime olmaz"
+          ],
+          "cevap": 0,
+          "aciklama": "H2 için 3/2 = 1,5, O2 için 3/1 = 3. Küçük oran H2'ye ait olduğundan sınırlayıcı reaktan H2'dir; O2 artan maddedir."
+        },
+        {
+          "soru": "Aynı koşullarda 4 L H2 gazının tam yanması için kaç litre O2 gazı gerekir? (2H2 + O2 → 2H2O)",
+          "siklar": [
+            "1 L",
+            "2 L",
+            "4 L",
+            "8 L"
+          ],
+          "cevap": 1,
+          "aciklama": "Aynı koşullarda gaz hacimleri mol sayılarıyla doğru orantılıdır: 2 hacim H2 için 1 hacim O2 gerekir, yani 4 L H2 için 2 L O2."
+        }
+      ]
+    },
+    "10|10-kim|10-kim-u2|Gaz yasaları ve ideal gaz": {
+      "ozet": "Gazların genel özellikleri, Boyle, Charles ve Gay-Lussac yasaları, birleşik gaz yasası, ideal gaz denklemi (PV = nRT), Dalton kısmi basınçlar yasası ve kinetik-moleküler teori.",
+      "anlatim": [
+        "Gazlar bulundukları kabı tamamen doldurur, kolay sıkıştırılır, akışkandır ve tanecikleri arasındaki boşluk çok büyüktür; bu nedenle gazlar birbiriyle her oranda karışır (difüzyon).",
+        "Gaz basıncı, taneciklerin kabın yüzeyine çarpmasından doğar. Basınç birimleri: 1 atm = 760 mmHg = 760 torr = 101,325 kPa = 1,013 bar = 1,013x10^5 Pa.",
+        "Boyle yasası: Sabit sıcaklıkta gazın hacmi basıncıyla ters orantılıdır → P1 x V1 = P2 x V2 (n ve T sabit).",
+        "Charles yasası: Sabit basınçta bir gazın hacmi mutlak sıcaklıkla (Kelvin) doğru orantılıdır → V1/T1 = V2/T2. Sıcaklık hesaplarında mutlaka Kelvin kullanılır: T(K) = t(°C) + 273.",
+        "Gay-Lussac yasası: Sabit hacimde gazın basıncı mutlak sıcaklıkla doğru orantılıdır → P1/T1 = P2/T2 (kapalı kaplarda lastik/konserve kutularının güneşte patlaması bu nedendendir).",
+        "Avogadro yasası: Aynı sıcaklık ve basınçta eşit hacimdeki gazlar eşit sayıda tanecik içerir → V orantılı n.",
+        "Birleşik gaz yasası: P1V1/T1 = P2V2/T2. İdeal gaz denklemi ise bunları tek ifadede toplar: P x V = n x R x T.",
+        "İdeal gaz sabiti R = 0,082 L x atm/(mol x K) veya R = 62,4 L x mmHg/(mol x K). NK'da (0 °C, 1 atm) 1 mol ideal gaz 22,4 L yer kaplar (P x V = n x R x T denkleminde yerine konularak doğrulanır).",
+        "Dalton kısmi basınçlar yasası: Birbiriyle tepkimeye girmeyen gazlar karışımının toplam basıncı, gazların kısmi basınçları toplamına eşittir: Ptoplam = P1 + P2 + P3...",
+        "Kinetik-moleküler teori: Gaz tanecikleri sürekli ve rastgele hareket eder, çarpışmaları esnektir, tanecik hacmi kabın hacmine göre ihmal edilebilir; ortalama kinetik enerji yalnızca mutlak sıcaklığa bağlıdır (aynı sıcaklıkta tüm gazların ortalama kinetik enerjisi eşittir).",
+        "Gerçek gazlar; yüksek basınç ve düşük sıcaklıkta tanecik hacmi ve moleküller arası çekim etkili olduğu için ideal davranıştan sapar. Van der Waals denklemi bu sapmayı düzeltir: (P + an²/V²)(V − nb) = nRT."
+      ],
+      "formuller": [
+        "Boyle: P1 x V1 = P2 x V2 (T, n sabit)  |  Birleşik gaz: P1V1 / T1 = P2V2 / T2",
+        "Charles: V1 / T1 = V2 / T2 (P, n sabit) | Gay-Lussac: P1 / T1 = P2 / T2 (V, n sabit)",
+        "İdeal gaz denklemi: P x V = n x R x T   (R = 0,082 L x atm / mol x K)",
+        "Dalton: Ptoplam = P1 + P2 + ... + Pn",
+        "Sıcaklık dönüşümü: T(K) = t(°C) + 273"
+      ],
+      "ornek": "Soru: 2 atm basınç altında 5,6 L hacim kaplayan bir gaz NK'da kaç litre hacim kaplar? Ayrıca bu gazın mol sayısı kaçtır? (Başlangıç sıcaklığı 0 °C kabul edilecek) Çözüm: Sıcaklık sabit olduğundan Boyle yasası uygulanır: P1V1 = P2V2 → 2 x 5,6 = 1 x V2 → V2 = 11,2 L. Mol sayısı için NK'da molar hacim kullanılır: n = V / 22,4 = 11,2 / 22,4 = 0,5 mol. Alternatif yol: n = PV/RT = (2 x 5,6) / (0,082 x 273) = 11,2 / 22,386 ≈ 0,5 mol.",
+      "ipucu": "TYT tuzağı: Sıcaklığı Celsius olarak denkleme koymak. Gaz yasalarında sıcaklık daima Kelvin'dir; 0 °C = 273 K. İkinci tuzak: R sabitinin birimine dikkat etmemektir — basınç mmHg verilip R = 0,082 kullanılırsa sonuç yanlış çıkar (mmHg için R = 62,4 alınır).",
+      "quiz": [
+        {
+          "soru": "Sabit sıcaklıkta 4 L hacim kaplayan bir gazın basıncı 2 atm'den 4 atm'ye çıkarılırsa yeni hacmi kaç litre olur?",
+          "siklar": [
+            "1 L",
+            "2 L",
+            "4 L",
+            "8 L"
+          ],
+          "cevap": 1,
+          "aciklama": "Boyle yasası: P1V1 = P2V2 → 2 x 4 = 4 x V2 → V2 = 2 L. Basınç iki katına çıktığı için hacim yarıya iner."
+        },
+        {
+          "soru": "0 °C sıcaklık kaç Kelvindir?",
+          "siklar": [
+            "0 K",
+            "100 K",
+            "273 K",
+            "373 K"
+          ],
+          "cevap": 2,
+          "aciklama": "T(K) = t(°C) + 273 olduğundan 0 °C = 273 K; 25 °C = 298 K, 100 °C = 373 K'dir."
+        },
+        {
+          "soru": "Normal koşullarda 0,5 mol ideal gaz kaç litre hacim kaplar?",
+          "siklar": [
+            "5,6 L",
+            "11,2 L",
+            "22,4 L",
+            "44,8 L"
+          ],
+          "cevap": 1,
+          "aciklama": "NK'da 1 mol gaz 22,4 L olduğundan 0,5 mol gaz 0,5 x 22,4 = 11,2 L hacim kaplar."
+        },
+        {
+          "soru": "İdeal gaz denkleminde (P x V = n x R x T) R sabitinin değeri ve birimi hangisidir?",
+          "siklar": [
+            "0,082 L x atm / mol x K",
+            "8,314 L x atm / mol x K",
+            "62,4 L x atm / mol x K",
+            "0,082 atm / mol x °C"
+          ],
+          "cevap": 0,
+          "aciklama": "Basınç atm, hacim litre, sıcaklık Kelvin alındığında R = 0,082 L x atm/(mol x K) olur. 62,4 değeri basınç mmHg verildiğinde kullanılır."
+        },
+        {
+          "soru": "Bir kapta 2 atm O2 ve 3 atm N2 gazı karıştırılmıştır. Karışımın toplam basıncı kaç atm'dir?",
+          "siklar": [
+            "1 atm",
+            "2,5 atm",
+            "5 atm",
+            "6 atm"
+          ],
+          "cevap": 2,
+          "aciklama": "Dalton yasası: Ptoplam = PO2 + PN2 = 2 + 3 = 5 atm."
+        }
+      ]
+    },
+    "10|10-kim|10-kim-u2|Derişim ve çözünürlük": {
+      "ozet": "Çözelti kavramı, kütlece yüzde derişim, molarite ve molalite hesapları, ppm, seyreltme, çözünürlük tanımı ve çözünürlüğü etkileyen faktörler (sıcaklık, basınç, tür, tanecik boyutu).",
+      "anlatim": [
+        "Çözelti, çözünen ve çözücüden oluşan homojen karışımdır; genellikle miktarı çok olan bileşen çözücüdür (suda çözünen tuzda su çözücüdür).",
+        "Kütlece yüzde derişim, 100 g çözeltide çözünen maddenin gram cinsinden miktarıdır: %20'lik 500 g çözeltide 100 g çözünen vardır.",
+        "Molarite (molar derişim), 1 litre çözeltide çözünen maddenin mol sayısıdır: 1 L çözeltide 2 mol çözünen varsa derişim 2 M'dir.",
+        "Molalite, 1 kilogram çözücüde çözünen maddenin mol sayısıdır; sıcaklıktan etkilenmez (çünkü hacim yerine kütle kullanılır), koligatif özellik hesaplarında tercih edilir.",
+        "Seyreltme işleminde çözünenin mol sayısı değişmediğinden M1 x V1 = M2 x V2 bağıntısı kullanılır.",
+        "ppm (milyonda bir kısım) = mg çözünen / kg çözelti (sulu çözeltilerde yaklaşık mg/L); içme suyundaki kirleticiler genellikle ppm ile ifade edilir.",
+        "Çözünürlük: Belirli bir sıcaklıkta 100 g çözücüde çözünebilen en fazla madde miktarıdır (g/100 g çözücü); doygun çözeltide çözünme ve çökelme hızları eşittir.",
+        "Çözünürlüğü etkileyen faktörler: tanecik türü ('benzer benzeri çözer'), sıcaklık (endotermik çözünen çoğu katıda sıcaklıkla artar), gazlarda basınç (Henry yasası: çözünürlük kısmi basınçla doğru orantılıdır), tanecik boyutu (küçüldükçe yüzey artar, çözünme hızlanır) ve karıştırma.",
+        "Gazların çözünürlüğü sıcaklık arttıkça azalır (soğuk suda çözünmüş oksijen daha fazladır; ısınan gölde balıkların zorlanması bu nedenledir).",
+        "Çözünürlüğe göre çözelti türleri: doymamış (daha fazla çözebilir), doymuş (dengedeki sınır), aşırı doymuş (çözünürlük sınırının üstünde, kararsız, çekirdeklenme ile çöker).",
+        "Çözünenin iyonlarına ayrılarak çözündüğü çözeltiler elektrik akımını iletir (elektrolit: NaCl, HCl), moleküler çözünenler iletmez (elektrolit olmayan: şeker, glikoz)."
+      ],
+      "formuller": [
+        "Kütlece yüzde derişim: % = (m(çözünen) / m(çözelti)) x 100   (m(çözelti) = m(çözünen) + m(çözücü))",
+        "Molarite: M = n / V(L)   →   n = M x V",
+        "Molalite: m = n(çözünen) / kütle(çözücü, kg)  |  ppm = mg çözünen / kg çözelti (sulu çözeltilerde ≈ mg/L)",
+        "Seyreltme: M1 x V1 = M2 x V2 (çözünen mol sayısı sabit)",
+        "Gazlar için Henry yasası: C = kH x P (çözünürlük, gazın kısmi basıncı ile doğru orantılı)"
+      ],
+      "ornek": "Soru: 0,4 mol NaOH suya eklenerek 200 mL çözelti hazırlanıyor. Çözeltinin molaritesi kaçtır? Bu çözeltiden 50 mL alınıp 250 mL'ye seyreltilirse yeni derişim ne olur? Çözüm: Hacmi litreye çeviririz: 200 mL = 0,2 L. M = n/V = 0,4/0,2 = 2 M. Seyreltmede mol sayısı değişmez: M1V1 = M2V2 → 2 x 50 = M2 x 250 → M2 = (2 x 50)/250 = 0,4 M. Yani 5 kat seyreltme derişimi 5 kat azaltır.",
+      "ipucu": "TYT tuzağı: Çözelti hacminin 'çözücü hacmi' sanılması. Derişim hesabında V toplam ÇÖZELTİ hacmidir (çözünen + çözücü). Ayrıca molarite sıcaklığa bağlıdır (hacim genleşir, derişim azalır), molalite bağlı değildir — bu ayrım sorularda sıkça test edilir.",
+      "quiz": [
+        {
+          "soru": "200 mL çözeltide 0,4 mol çözünen bulunan çözeltinin molaritesi kaçtır?",
+          "siklar": [
+            "0,8 M",
+            "2 M",
+            "4 M",
+            "5 M"
+          ],
+          "cevap": 1,
+          "aciklama": "V = 0,2 L; M = n/V = 0,4/0,2 = 2 M. Hacmi litreye çevirmeyi unutmak en sık hatadır."
+        },
+        {
+          "soru": "Kütlece %20'lik 500 g çözeltide kaç gram çözünen vardır?",
+          "siklar": [
+            "20 g",
+            "50 g",
+            "100 g",
+            "400 g"
+          ],
+          "cevap": 2,
+          "aciklama": "%20 demek 100 g çözeltide 20 g çözünen demektir; 500 g çözeltide 5 x 20 = 100 g çözünen bulunur (çözücü 400 g'dır)."
+        },
+        {
+          "soru": "2 M 100 mL çözelti su eklenerek 250 mL'ye tamamlanırsa yeni derişim kaç M olur?",
+          "siklar": [
+            "0,4 M",
+            "0,8 M",
+            "1,25 M",
+            "5 M"
+          ],
+          "cevap": 1,
+          "aciklama": "Seyreltmede mol sabittir: M1V1 = M2V2 → 2 x 100 = M2 x 250 → M2 = 0,8 M."
+        },
+        {
+          "soru": "Gazların sıvıdaki çözünürlüğü için doğru olan hangisidir?",
+          "siklar": [
+            "Sıcaklık artınca artar, basınç artınca azalır",
+            "Sıcaklık artınca azalır, basınç artınca artar",
+            "Sıcaklık ve basınçtan etkilenmez",
+            "Sıcaklık artınca artar, basınçtan etkilenmez"
+          ],
+          "cevap": 1,
+          "aciklama": "Gazların çözünürlüğü sıcaklıkla azalır, kısmi basınçla (Henry yasası) doğru orantılı olarak artar; bu yüzden gazlı içecekler basınç altında şişelenir."
+        },
+        {
+          "soru": "İyotlu su karışımında iyot suda az çözünür. Buna göre iyot, hangi çözücüde en iyi çözünür?",
+          "siklar": [
+            "Saf su",
+            "Tuzlu su",
+            "Karbon tetraklorür (CCl4)",
+            "Sıcak su"
+          ],
+          "cevap": 2,
+          "aciklama": "İyot apolar bir moleküldür; 'benzer benzeri çözer' ilkesine göre apolar çözücü CCl4'te çok iyi çözünür."
+        }
+      ]
+    },
+    "10|10-kim|10-kim-u2|Koligatif özellikler": {
+      "ozet": "Çözeltilerin koligatif (sayısal) özellikleri: buhar basıncı düşmesi (Raoult yasası), kaynama noktası yükselmesi, donma noktası düşmesi ve osmotik basınç; Van't Hoff faktörü ve günlük hayat uygulamaları.",
+      "anlatim": [
+        "Koligatif özellikler yalnızca çözeltideki çözünen tanecik SAYISINA bağlıdır; çözünenin kimyasal türü (kütlesi, rengi, yapısı) önemsizdir.",
+        "Uçucu olmayan bir çözünen eklendiğinde çözücünün buhar basıncı düşer; Raoult yasasına göre çözeltinin buhar basıncı, çözücünün mol kesri ile saf buhar basıncının çarpımına eşittir.",
+        "Kaynama noktası yükselmesi: Çözeltinin buhar basıncı düştüğü için kaynama için daha yüksek sıcaklık gerekir → ΔTk = Kk x m x i (suyun Kk değeri 0,52 °C/m).",
+        "Donma noktası düşmesi: Çözünen tanecikler buz kristalinin oluşumunu zorlaştırdığı için çözelti daha düşük sıcaklıkta donar → ΔTd = Kd x m x i (suyun Kd değeri 1,86 °C/m).",
+        "Osmotik basınç: Yarı geçirgen zardan çözücü molekülerinin derişik taraftan seyrek tarafa geçme eğiliminden doğan basınçtır; π = M x R x T (i ile birlikte π = i x M x R x T).",
+        "Osmoz, suyun derişimi düşük (çözüneni çok) olan tarafa geçmesidir; hücre zarı yarı geçirgendir, bu nedenle osmoz canlılar için hayatîdir.",
+        "Van't Hoff faktörü (i): Çözünenin suda iyonlaşma sayısıdır. Glikoz i = 1, NaCl i = 2, CaCl2 i = 3, Al2(SO4)3 i = 5 alınır (tam iyonlaşma varsayımı).",
+        "Aynı molalitede çözeltiler karşılaştırıldığında iyonlaşan çözünen daha büyük etki yapar: 1 molal NaCl'in donma noktası düşmesi, 1 molal glikozun yaklaşık iki katıdır.",
+        "Günlük hayat uygulamaları: Kışın kar ve buzlanmada yola tuz serpilmesi (donma noktasını düşürür), otomobil radyatöründe antifriz (etilen glikol), gıdaların tuzlanması/şekerlenmesi (osmotik basınç nedeniyle mikroorganizmaların suyunu kaybetmesi ve bozulmanın azalması), tuzlu suyun daha yüksek sıcaklıkta kaynaması, hemşirelerin serumda izotonik %0,9 NaCl kullanması.",
+        "Koligatif özelliklerin kullanımı: Molekül kütlesi bulma (donma noktası düşmesinden yararlanma) ve izotonik çözelti hazırlama; ayrıca ters osmoz ile deniz suyunun arıtılması bu ilkeye dayanır."
+      ],
+      "formuller": [
+        "Buhar basıncı düşmesi (Raoult): P(çözelti) = X(çözücü) x P°(çözücü)  ve  ΔP = P° x X(çözünen)",
+        "Kaynama noktası yükselmesi: ΔTk = Kk x m x i   (su için Kk = 0,52 °C/m)",
+        "Donma noktası düşmesi: ΔTd = Kd x m x i   (su için Kd = 1,86 °C/m)",
+        "Osmotik basınç: π = i x M x R x T   (M: molarite, R = 0,082 L x atm/mol x K, T: Kelvin)",
+        "Van't Hoff faktörü i: iyonlaşan tanecik sayısı → glikoz 1, NaCl 2, CaCl2 3, Al2(SO4)3 5"
+      ],
+      "ornek": "Soru: 1 molal NaCl çözeltisinin kaynama noktası yükselmesi kaç °C'dir? Aynı molalitede glikoz çözeltisi ile karşılaştırınız. (Su için Kk = 0,52 °C/m) Çözüm: NaCl suda Na+ ve Cl− iyonlarına ayrıldığı için i = 2 alınır. ΔTk = Kk x m x i = 0,52 x 1 x 2 = 1,04 °C. Glikoz moleküler hâlde çözündüğü için i = 1'dir: ΔTk = 0,52 x 1 x 1 = 0,52 °C. Yani aynı molalitede iyonlaşan çözünen, tanecik sayısı iki kat olduğu için kaynama noktasını iki kat fazla yükseltir.",
+      "ipucu": "TYT tuzağı: Koligatif özellikleri 'çözünenin cinsine/molekül kütlesine bağlı' sanmak; oysa yalnızca TANECİK SAYISINA bağlıdır. Ayrıca CaCl2'de i = 3, NaCl'de i = 2 olduğu unutulur ve '1 mol çözünen her zaman aynı etkiyi yapar' yanılgısı tuzak olarak sorulur.",
+      "quiz": [
+        {
+          "soru": "Koligatif (sayısal) özellikler aşağıdakilerden hangisine bağlıdır?",
+          "siklar": [
+            "Çözünenin moleküller arası yapısına",
+            "Çözeltideki çözünen tanecik sayısına",
+            "Çözünenin rengine",
+            "Kabın biçimine"
+          ],
+          "cevap": 1,
+          "aciklama": "Koligatif özellikler tanecik sayısına bağlıdır; çözünenin türü, kütlesi veya yapısı sonucu değiştirmez."
+        },
+        {
+          "soru": "Kışın buzlanmayı önlemek için yollara tuz serpilmesinin nedeni hangisidir?",
+          "siklar": [
+            "Donma noktasının düşmesi",
+            "Kaynama noktasının düşmesi",
+            "Buhar basıncının artması",
+            "Osmotik basıncın artması"
+          ],
+          "cevap": 0,
+          "aciklama": "Tuz, suyun donma noktasını düşürür (ΔTd = Kd m i); böylece su 0 °C'nin altında da sıvı kalır ve buzlanma azalır."
+        },
+        {
+          "soru": "1 molal NaCl çözeltisinin kaynama noktası yükselmesi kaç °C'dir? (Kk = 0,52 °C/m, i = 2)",
+          "siklar": [
+            "0,26",
+            "0,52",
+            "1,04",
+            "2,08"
+          ],
+          "cevap": 2,
+          "aciklama": "ΔTk = Kk x m x i = 0,52 x 1 x 2 = 1,04 °C."
+        },
+        {
+          "soru": "Aşağıdaki 1 molal çözeltilerden hangisinin donma noktası en düşüktür?",
+          "siklar": [
+            "Glikoz (i = 1)",
+            "NaCl (i = 2)",
+            "CaCl2 (i = 3)",
+            "Hepsi aynıdır"
+          ],
+          "cevap": 2,
+          "aciklama": "En çok tanecik oluşturan çözünen etkiyi büyütür: CaCl2'de i = 3 olduğundan ΔTd en büyük, dolayısıyla donma noktası en düşüktür."
+        },
+        {
+          "soru": "Osmotik basınç için doğru bağıntı hangisidir?",
+          "siklar": [
+            "π = m x Kd",
+            "π = i x M x R x T",
+            "π = P° x X",
+            "π = Kk x m"
+          ],
+          "cevap": 1,
+          "aciklama": "Osmotik basınç π = i x M x R x T bağıntısıyla hesaplanır; molarite (M), gaz sabiti (R) ve mutlak sıcaklığa (T) bağlıdır. Diğer seçenekler kaynama/donma ve buhar basıncı bağıntılarıdır."
+        }
+      ]
+    },
+    "10|10-kim|10-kim-u3|Sürdürülebilirlik": {
+      "ozet": "Yeşil kimya yaklaşımıyla sürdürülebilirlik: karbon ayak izi ve sera gazları, yenilenebilir enerji ve hidrojen ekonomisi, geri dönüşüm, karbon yakalama, yaşam döngüsü analizi ve kimyasal üretimde atık yönetimi.",
+      "anlatim": [
+        "Sürdürülebilirlik, bugünün ihtiyaçlarını gelecek nesillerin kaynaklarını tüketmeden karşılamaktır; kimya bu hedefte süreç tasarımı, malzeme seçimi ve atık yönetimiyle doğrudan rol alır.",
+        "Yeşil kimya, süreçleri baştan verimli ve güvenli tasarlayarak kaynak tüketimini ve atık oluşumunu en aza indirir; endüstride bu yaklaşım hem çevresel hem ekonomik kazanç sağlar.",
+        "Karbon ayak izi, bir ürün veya etkinliğin doğrudan ve dolaylı olarak neden olduğu sera gazı salımının karbondioksit eşdeğeri (kg CO2e) cinsinden ifadesidir.",
+        "Başlıca sera gazları: CO2 (en yaygın), CH4 (metan, ısı tutma etkisi yüksek), N2O (diazo monoksit), florlu gazlar (HFC, PFC, SF6) ve su buharı.",
+        "Yenilenebilir enerji kaynakları: güneş, rüzgâr, hidroelektrik, jeotermal, biyokütle ve dalga-gelgit; bunlar fosil yakıtların yerini aldıkça karbon salımı azalır.",
+        "Hidrojen ekonomiye katkı sağlar: 2H2 + O2 → 2H2O tepkimesiyle çalışan yakıt pillerinde tek atık ürün sudur; ancak hidrojenin üretimi de enerji gerektirdiğinden kaynağının temiz olması (yeşil hidrojen) önemlidir.",
+        "Geri dönüşüm ve 3R (reduce-azalt, reuse-tekrar kullan, recycle-geri dönüştür) ilkeleri hammadde tüketimini ve enerji ihtiyacını azaltır; metal geri dönüşümü cevherden üretime göre çok daha az enerji gerektirir.",
+        "Karbon yakalama ve depolama (CCS): Bacagazlarındaki CO2 ayrıştırılıp yer altında depolanır veya endüstriyel hammaddede kullanılır; karbon-nötr ve net-sıfır hedefleri bu tür teknolojilerle desteklenir.",
+        "Yaşam döngüsü analizi (LCA): Bir ürünün hammaddeden bertarafa kadar tüm aşamalarındaki çevresel etkisi (enerji, su, emisyon) ölçülerek karşılaştırılır.",
+        "Yeşil kimya uygulamaları: Süper kritik CO2'nin çözücü olarak kullanılması, biyobozunur polimerler (PLA, polilaktik asit), enzimatik/katalitik süreçler, su bazlı boyalar, katalitik konvertörler, tehlikeli çözücülerin yerine iyonik sıvılar.",
+        "Küresel çerçeve: Birleşmiş Milletler Sürdürülebilir Kalkınma Amaçları (özellikle 6 temiz su, 7 erişilebilir enerji, 12 sorumlu üretim, 13 iklim eylemi) kimya endüstrisinin atık yönetimi, süreç verimliliği ve enerji politikalarıyla ilişkilidir."
+      ],
+      "formuller": [
+        "Atom ekonomisi (%) = (ürünün mol kütlesi / tüm reaktanların mol kütleleri toplamı) x 100 → atık oluşumunu teorik olarak en aza indiren süreç seçilir",
+        "Yüzde verim = (gerçek verim / teorik verim) x 100 → verim arttıkça birim ürün için enerji ve hammadde tüketimi azalır",
+        "Hidrojen yakıt pili tepkimesi: 2H2 + O2 → 2H2O (ürün yalnızca su; karbon salımı yok)",
+        "Sera gazı salımı: karbon ayak izi kg CO2e birimiyle ifade edilir (her gazın küresel ısınma potansiyeli ile çarpılır)",
+        "3R öncelik sırası: azalt (reduce) → tekrar kullan (reuse) → geri dönüştür (recycle)"
+      ],
+      "ornek": "Soru: Aynı ürünü iki farklı yolla üreten süreçlerde A sürecinin atom ekonomisi %80, B sürecinin %100'dür ve ikisinin de yüzde verimi %95'tir. Yeşil kimya açısından hangi süreç tercih edilir ve neden? Çözüm: Her iki süreç de aynı verimle çalışsa da A sürecinde kullanılan reaktan atomlarının %20'si yan ürün/atık olarak ayrılmakta, B sürecinde ise tüm atomlar ürüne girmektedir. Yani B süreci aynı miktar ürün için daha az hammadde tüketir ve bertaraf edilmesi gereken daha az atık üretir. Bu nedenle atom ekonomisi yüksek olan B süreci yeşil kimya ilkelerine (atık önleme ve atom ekonomisi) daha uygundur.",
+      "ipucu": "TYT tuzağı: 'Yenilenebilir enerji kaynaklarının hiç çevresel etkisi yoktur' ifadesi yanlıştır (panel/batarya üretimi ve arazinin dönüşümü de etki yaratır). Ayrıca atom ekonomisi ile yüzde verimin farklı kavramlar olduğu ve geri dönüşümün hiyerarşide 'azaltma'dan sonra geldiği soru köklerinde sıkça karıştırılır.",
+      "quiz": [
+        {
+          "soru": "Aşağıdakilerden hangisi bir sera gazı değildir?",
+          "siklar": [
+            "CO2",
+            "CH4",
+            "N2O",
+            "N2"
+          ],
+          "cevap": 3,
+          "aciklama": "N2 (moleküler azot) atmosferin büyük kısmını oluşturmasına karşın sera etkisi yapmayan inert bir gazdır; CO2, CH4 ve N2O başlıca sera gazlarıdır."
+        },
+        {
+          "soru": "Hidrojen yakıt pilinin çevre açısından en büyük avantajı nedir?",
+          "siklar": [
+            "Maliyetinin düşük olması",
+            "Tek atık ürününün su olması",
+            "Karbondioksit üretmesi",
+            "Yalnızca fosil yakıtla çalışması"
+          ],
+          "cevap": 1,
+          "aciklama": "2H2 + O2 → 2H2O tepkimesinde yalnızca su oluşur; karbon salımı olmaz (hidrojenin üretim yöntemi de temizse çevresel yarar tam olur)."
+        },
+        {
+          "soru": "Atık yönetiminde 3R ilkelerinin doğru öncelik sırası hangisidir?",
+          "siklar": [
+            "Geri dönüştür → azalt → tekrar kullan",
+            "Azalt → tekrar kullan → geri dönüştür",
+            "Tekrar kullan → bertaraf → azalt",
+            "Geri dönüştür → bertaraf → azalt"
+          ],
+          "cevap": 1,
+          "aciklama": "En etkili adım hiç üretmemek/azaltmaktır (reduce); sonra ürünü yeniden kullanmak (reuse), en son maddesel geri kazanım (recycle) gelir."
+        },
+        {
+          "soru": "Bir sürecin ürünü 44 g, kullanılan reaktanların toplam mol kütlesi 55 g'dır. Bu sürecin atom ekonomisi yüzdesi kaçtır?",
+          "siklar": [
+            "%44",
+            "%55",
+            "%80",
+            "%100"
+          ],
+          "cevap": 2,
+          "aciklama": "Atom ekonomisi = (44/55) x 100 = %80. Kalan %20, yan ürün/atık olarak ayrılan atomlardır."
+        },
+        {
+          "soru": "Karbon yakalama ve depolama (CCS) teknolojilerinin temel amacı nedir?",
+          "siklar": [
+            "Atmosfere verilen CO2 miktarını azaltmak",
+            "Ozon tabakasını onarmak",
+            "Radyasyonu soğurmak",
+            "Yenilenebilir enerji üretmek"
+          ],
+          "cevap": 0,
+          "aciklama": "CCS, bacagazındaki CO2'yi ayrıştırıp depolayarak veya kullanarak atmosfere salınan sera gazı miktarını azaltmayı amaçlar."
+        }
+      ]
+    }
+  }
+}

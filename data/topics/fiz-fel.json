@@ -1,0 +1,645 @@
+{
+  "10-fiz": {
+    "10|10-fiz|10-fiz-u1|Sabit hızlı hareket": {
+      "ozet": "Bir cismin eşit zaman aralıklarında eşit yollar almasına sabit hızlı (düzgün doğrusal) hareket denir. Hızın büyüklüğü de yönü de değişmediği için ivme sıfırdır. Alınan yol, hız ile zamanın çarpımına eşittir: x = v·t.",
+      "anlatim": [
+        "Hareket, gözlemcinin seçtiği referans noktasına göre anlam kazanır; referans değişirse konum ve hız da değişir.",
+        "Konum, yer değiştirme ve alınan yol farklı kavramlardır: yer değiştirme vektörel, alınan yol skalerdir.",
+        "Sabit hızlı hareket doğrusal yörüngede olur; hızın büyüklüğü ve yönü zamanla değişmez.",
+        "İvme, hızın zamanla değişim oranıdır; sabit hızda hız değişmediği için ivme sıfırdır.",
+        "Alınan yol, hız-zaman grafiğinin altında kalan alana eşittir.",
+        "Sabit hızlı hareketin hız-zaman grafiği yatay doğru, konum-zaman grafiği ise eğimi hızı veren bir doğrudur.",
+        "Ortalama hız, toplam yer değiştirmenin toplam zamana bölümüdür; ortalama sürat ise toplam yolun toplam zamana bölümüdür.",
+        "Grafiklerde eğim ve alan yorumu yapabilmek TYT'de en çok soru gelen beceridir.",
+        "Birim tutarlılığı şarttır: hız m/s, zaman s, konum m cinsinden alınmalıdır; km/h verilen hız 3,6'ya bölünerek m/s'ye çevrilir."
+      ],
+      "formuller": [
+        "x = v·t (alınan yol)",
+        "v = x / t (sabit hız)",
+        "v_ort = Δx / Δt (ortalama hız, yer değiştirme üzerinden)",
+        "sürat_ort = toplam yol / toplam zaman",
+        "1 km/h = 1/3,6 m/s"
+      ],
+      "ornek": "Bir araç 54 km/h sabit hızla 20 saniye hareket ediyor. Aldığı yol kaç metredir? Çözüm: 54 km/h = 54/3,6 = 15 m/s; x = v·t = 15·20 = 300 m.",
+      "ipucu": "km/h değerlerini 3,6'ya bölerek m/s'ye çevirmeyi unutma; ayrıca ortalama hız sorularında yer değiştirmeyi, ortalama sürat sorularında ise alınan yolu kullanmalısın. İkisini karıştırmak en sık TYT tuzağıdır.",
+      "quiz": [
+        {
+          "soru": "Bir bisikletli 72 km/h sabit hızla 10 saniye hareket ediyor. Aldığı yol kaç metredir?",
+          "siklar": ["72 m", "200 m", "720 m", "20 m"],
+          "cevap": 1,
+          "aciklama": "72 km/h = 72/3,6 = 20 m/s; x = v·t = 20·10 = 200 m."
+        },
+        {
+          "soru": "Sabit hızla hareket eden bir cismin hız-zaman grafiği nasıldır?",
+          "siklar": ["Yatay eksene paralel bir doğru", "Orijinden geçen artan bir doğru", "Azalan bir doğru", "Bir parabol"],
+          "cevap": 0,
+          "aciklama": "Hız sabit olduğundan grafik zaman eksenine paralel yatay bir doğrudur."
+        },
+        {
+          "soru": "Hızı 10 m/s olan bir araç 300 metrelik yolu kaç saniyede alır?",
+          "siklar": ["3 s", "10 s", "30 s", "3000 s"],
+          "cevap": 2,
+          "aciklama": "t = x/v = 300/10 = 30 s."
+        },
+        {
+          "soru": "Sabit hızlı hareketle ilgili aşağıdakilerden hangisi yanlıştır?",
+          "siklar": ["İvmesi sıfırdır.", "Yörüngesi doğrusaldır.", "Eşit zaman aralıklarında eşit yol alır.", "Hız vektörünün büyüklüğü sürekli değişir."],
+          "cevap": 3,
+          "aciklama": "Sabit hızda hız vektörünün ne büyüklüğü ne yönü değişir; bu nedenle D yanlıştır."
+        },
+        {
+          "soru": "Bir koşucu düz bir parkurun ilk yarısını 4 m/s, ikinci yarısını 6 m/s hızla koşuyor. Koşucunun tüm parkur için ortalama sürati kaç m/s'dir?",
+          "siklar": ["5 m/s", "4,8 m/s", "5,2 m/s", "4,5 m/s"],
+          "cevap": 1,
+          "aciklama": "Eşit uzunluktaki iki yol için ortalama sürat = 2·v1·v2/(v1+v2) = 2·4·6/(4+6) = 48/10 = 4,8 m/s."
+        }
+      ]
+    },
+    "10|10-fiz|10-fiz-u1|Sabit ivmeli hareket ve serbest düşme": {
+      "ozet": "İvme, hızın zamanla değişim oranıdır ve vektörel bir niceliktir. Sabit ivmeli doğrusal harekette hız her saniye aynı miktarda değişir; yalnızca yer çekimi etkisiyle yapılan harekete serbest düşme denir ve serbest düşmede ivme g (yaklaşık 10 m/s²)'dir.",
+      "anlatim": [
+        "İvme, hızın birim zamandaki değişimidir (a = Δv/Δt); birimi m/s²'dir.",
+        "Düzgün hızlanan harekette hız zamanla artar, ivme pozitiftir; yavaşlayan harekette ivme negatiftir ve hareket zıt yönlüdür.",
+        "Kuvvet yola paralel değilse; ivmeyi, net kuvvet belirler (F_net = m·a).",
+        "Sabit ivmeli harekette alınan yol, hız-zaman grafiğinin altındaki alana eşittir ve bu alan bir yamuktur.",
+        "Hız-zaman grafiğinin eğimi ivmeyi, altında kalan alan yer değiştirmeyi verir.",
+        "Serbest düşmede hava sürtünmesi ihmal edilir; cisim başlangıçta duruyorsa v = g·t ve h = 0,5·g·t² bağıntıları kullanılır.",
+        "Serbest düşmede cisim, düştüğü sürenin karesiyle doğru orantılı yol alır; ilk 1 s'de 5 m, ilk 2 s'de 20 m, ilk 3 s'de 45 m düşer (g = 10 m/s²).",
+        "Yukarıdan aşağıya atışta cismin ilk hızı olduğu için h = v0·t + 0,5·g·t² kullanılır.",
+        "Aşağıdan yukarıya doğru düşey atışta ivme a = -g olur; cisim çıkarken yavaşlar, en yüksek noktada hızı sıfırdır, sonra serbest düşme yapar.",
+        "Kütle serbest düşme ivmesini etkilemez; hava sürtünmesi yoksa tüm cisimler aynı ivmeyle düşer."
+      ],
+      "formuller": [
+        "v = v0 + a·t",
+        "x = v0·t + 0,5·a·t²",
+        "v² = v0² + 2·a·x",
+        "v_ort = (v0 + v) / 2",
+        "Serbest düşme: v = g·t",
+        "Serbest düşme: h = 0,5·g·t²",
+        "g ≈ 9,8 m/s² ≈ 10 m/s²"
+      ],
+      "ornek": "20 m/s hızla giden bir araç 4 m/s² ivmeyle yavaşlıyor. Duruncaya kadar kaç metre yol alır? Çözüm: v = 0 alınır; v² = v0² - 2·a·x → 0 = 400 - 2·4·x → 8x = 400 → x = 50 m.",
+      "ipucu": "İvmenin işareti yön bilgisidir; yavaşlayan hareket sorularında ivmeyi negatif almalısın. Ayrıca serbest düşmede süre iki katına çıkınca yol dört katına çıkar (h ∝ t²), doğrusal sanıp tuzak şıkkı işaretlemek çok yaygındır.",
+      "quiz": [
+        {
+          "soru": "Durgun hâlden 2 m/s² ivmeyle harekete geçen bir araç 5 saniye sonra kaç m/s hıza ulaşır?",
+          "siklar": ["5 m/s", "10 m/s", "20 m/s", "25 m/s"],
+          "cevap": 1,
+          "aciklama": "v = v0 + a·t = 0 + 2·5 = 10 m/s."
+        },
+        {
+          "soru": "20 m/s hızla giden bir araç 4 m/s² ivmeyle yavaşlıyor. Duruncaya kadar kaç metre yol alır?",
+          "siklar": ["25 m", "50 m", "100 m", "200 m"],
+          "cevap": 1,
+          "aciklama": "v² = v0² - 2·a·x → 0 = 400 - 8x → x = 50 m."
+        },
+        {
+          "soru": "Serbest düşmeye bırakılan bir cisim 3 saniyede kaç metre düşer? (g = 10 m/s²)",
+          "siklar": ["15 m", "30 m", "45 m", "90 m"],
+          "cevap": 2,
+          "aciklama": "h = 0,5·g·t² = 0,5·10·9 = 45 m."
+        },
+        {
+          "soru": "Serbest düşen bir cismin hız-zaman grafiği nasıldır?",
+          "siklar": ["Yatay doğru", "Orijinden geçen sabit eğimli artan doğru", "Parabol", "Azalan doğru"],
+          "cevap": 1,
+          "aciklama": "Hız sabit ivmeyle arttığından grafik orijinden geçen sabit eğimli (doğrusal) bir doğrudur; eğimi g'dir."
+        },
+        {
+          "soru": "İvme ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "siklar": ["İvme her zaman hız vektörüyle aynı yönlüdür.", "İvme, hızın zamanla değişim oranıdır ve vektörel bir niceliktir.", "İvme skaler bir niceliktir.", "Durmakta olan bir cismin ivmesi her zaman sıfırdır."],
+          "cevap": 1,
+          "aciklama": "İvme, hızın zamana göre değişimidir, vektörel bir niceliktir. Yavaşlayan harekette hıza zıt yönlü olabilir; duran bir cisme kuvvet uygulanırsa ivme kazanır."
+        }
+      ]
+    },
+    "10|10-fiz|10-fiz-u1|İki boyutta hareket": {
+      "ozet": "İki boyutta hareket; yatay ve düşey hareketlerin bağımsız olarak incelendiği atış hareketlerini kapsar. Bir atışın yatay hareketi sabit hızlı, düşey hareketi sabit ivmeli (g ivmeli) iki bağımsız harekettir.",
+      "anlatim": [
+        "Bağımsızlık ilkesi: yatay ve düşey hareketler birbirini etkilemez; aynı yükseklikten serbest bırakılan cisim ile yatay atılan cisim aynı anda yere düşer.",
+        "Yatay atışta başlangıçta düşey hız v0y = 0'dır; cisim yatayda atış hızıyla sabit hızda ilerlerken düşeyde serbest düşme yapar.",
+        "Yatay atışta uçuş süresi yalnızca yüksekliğe bağlıdır: t = √(2h/g).",
+        "Yatay atışta menzil, uçuş süresi ile yatay hızın çarpımıdır: x = v0·t.",
+        "Yatay atışta cismin herhangi bir andaki hızı, yatay ve düşey hız bileşenlerinin bileşkesidir (Pisagor bağıntısı).",
+        "Eğik atışta başlangıç hız vektörü yatayla bir açı yapar; hızın yatay bileşeni v_x = v0·cosθ, düşey bileşeni v0y = v0·sinθ'dır.",
+        "Hava sürtünmesi yoksa eğik atışta yatay hız bileşeni sabit kalır; cisim sürekli olarak g ivmesiyle aşağı yönde ivmelenir.",
+        "Eğik atışta cismin en yüksek noktasında düşey hız bileşeni sıfır olur, yatay hız bileşeni varlığını sürdürür; ivme hâlâ g'dir.",
+        "Menzil, 45° açıyla atışta en büyük değerine ulaşır (aynı hız için θ ve 90°-θ açıları aynı menzili verir).",
+        "İki boyutta hareket problemleri yatay ve düşey eksen için ayrı ayrı yazılan denklemlerle çözülür; her eksende tek boyutlu hareket kuralları geçerlidir."
+      ],
+      "formuller": [
+        "Yatay bileşen: v_x = v0·cosθ (sabit)",
+        "Düşey bileşen: v_y = v0·sinθ - g·t",
+        "Yatay atış menzili: x = v0·t",
+        "Yatay atışta uçuş süresi: t = √(2h/g)",
+        "Eğik atışta uçuş süresi: t = 2·v0·sinθ / g",
+        "Maksimum yükseklik: h = v0²·sin²θ / (2g)",
+        "Menzil: R = v0²·sin2θ / g"
+      ],
+      "ornek": "Yerden 20 m yükseklikteki bir noktadan 10 m/s yatay hızla atılan cisim yere kaç metre uzaklıkta düşer? (g = 10 m/s²) Çözüm: t = √(2h/g) = √(40/10) = 2 s; x = v0·t = 10·2 = 20 m.",
+      "ipucu": "Yatay atışta uçuş süresinin yalnızca yüksekliğe bağlı olduğunu, yatay hızın süreyi etkilemediğini unutma. Eğik atışta en yüksek noktada hızın sıfır olduğunu sanmak çok yaygın bir hatadır; orada yalnızca düşey bileşen sıfırdır.",
+      "quiz": [
+        {
+          "soru": "Yatay atış hareketinde yatay ve düşey hareketler için aşağıdakilerden hangisi doğrudur?",
+          "siklar": ["Yatay harekette ivme g, düşey harekette sıfırdır.", "Yatay hareket sabit hızlı, düşey hareket sabit ivmeli (g) harekettir.", "Her iki hareket de sabit hızlıdır.", "Her iki hareket de aynı yönde sabit ivmelidir."],
+          "cevap": 1,
+          "aciklama": "Bağımsızlık ilkesine göre yatayda ivme yoktur (sabit hız), düşeyde ivme g'dir."
+        },
+        {
+          "soru": "Yatayla 30° açı yapacak şekilde 20 m/s hızla atılan bir cismin yatay hız bileşeni kaç m/s'dir? (cos30 ≈ 0,87)",
+          "siklar": ["10 m/s", "17,4 m/s", "20 m/s", "8,7 m/s"],
+          "cevap": 1,
+          "aciklama": "v_x = v0·cosθ = 20·0,87 ≈ 17,4 m/s; yatay bileşen sabit kalır."
+        },
+        {
+          "soru": "Aynı yükseklikten biri serbest düşmeye bırakılan, diğeri yatay olarak atılan iki cisim için ne söylenebilir?",
+          "siklar": ["Yatay atılan daha önce yere düşer.", "Serbest düşen daha önce yere düşer.", "İkisi aynı anda yere düşer.", "Havada asılı kalırlar."],
+          "cevap": 2,
+          "aciklama": "Bağımsızlık ilkesine göre düşey hareket yatay hızdan bağımsızdır; ikisi de aynı sürede yere düşer."
+        },
+        {
+          "soru": "Eğik atış yapan cismin yatay hız bileşeni (hava sürtünmesi ihmal edilerek) havada nasıl değişir?",
+          "siklar": ["Sürekli azalır.", "Sürekli artar.", "Sabit kalır.", "Önce artar sonra azalır."],
+          "cevap": 2,
+          "aciklama": "Yatayda ivme olmadığı için yatay hız bileşeni sabit kalır."
+        },
+        {
+          "soru": "Eğik atışta maksimum yüksekliğe ulaşan cismin o andaki durumu için hangisi doğrudur?",
+          "siklar": ["Toplam hızı sıfırdır.", "Düşey hız bileşeni sıfırdır, yatay hız bileşeni vardır.", "Yatay hız bileşeni sıfırdır.", "İvmesi sıfırdır."],
+          "cevap": 1,
+          "aciklama": "En yüksek noktada yalnızca düşey hız bileşeni sıfırdır; yatay hız devam eder ve ivme g'dir."
+        }
+      ]
+    },
+    "10|10-fiz|10-fiz-u2|İş-enerji-güç": {
+      "ozet": "Bir cisme uygulanan kuvvet, cismi kuvvet doğrultusunda yer değiştiriyorsa iş yapılmış olur (W = F·x·cosθ). Yapılan işin birim zamandaki değerine güç denir (P = W/t). İş skaler bir niceliktir ve birimi joule'dür (J).",
+      "anlatim": [
+        "İş, kuvvet ile kuvvet doğrultusundaki yer değiştirmenin çarpımıdır ve skaler bir niceliktir.",
+        "İş yapılabilmesi için kuvvetin yanı sıra kuvvet doğrultusunda bir yer değiştirme gerekir; kuvvet yol açmazsa iş sıfırdır.",
+        "Kuvvet yola dik ise (örneğin taşınan yükün ağırlığına dik ilerleme) yapılan iş sıfırdır; cos90° = 0'dır.",
+        "Kuvvet ile yer değiştirme ters yönlüyse iş negatiftir; örneğin sürtünme kuvvetinin yaptığı iş negatiftir.",
+        "Yer çekimi kuvvetinin yaptığı iş, cismin yalnızca düşey yöndeki yer değiştirmesine bağlıdır.",
+        "Güç, iş yapma hızıdır; birimi watt'tır (1 W = 1 J/s).",
+        "Güç, sabit hızla hareket eden bir araç için P = F·v bağıntısıyla da hesaplanır.",
+        "Uluslararası birim sisteminde iş ve enerjinin birimi joule, gücün birimi watt, zaman birimi saniyedir.",
+        "Enerji, iş yapabilme yeteneğidir; iş ile enerji aynı birime sahiptir ve birbirine dönüşebilir.",
+        "Günlük yaşamda elektrik faturalarında kullanılan kWh, aslında bir enerji birimidir (1 kWh = 3,6·10⁶ J)."
+      ],
+      "formuller": [
+        "W = F·x·cosθ",
+        "W = F·x (kuvvet yola paralel ise)",
+        "P = W / t",
+        "P = F·v (sabit hız)",
+        "1 W = 1 J/s",
+        "1 kWh = 3,6·10⁶ J"
+      ],
+      "ornek": "50 N'luk bir kuvvet, cismi kuvvet doğrultusunda 4 m sürüklüyor ve bu iş 5 saniyede yapılıyor. Çözüm: W = F·x = 50·4 = 200 J; P = W/t = 200/5 = 40 W.",
+      "ipucu": "İşin yapılabilmesi için kuvvetin yola paralel bileşenini kullanmalısın; yola dik kuvvetler iş yapmaz. Ayrıca 'iş vektöreldir' gibi ifadeler yanlıştır, iş skalerdir; güç birimini ise joule ile karıştırmamalısın.",
+      "quiz": [
+        {
+          "soru": "50 N'luk bir kuvvet, bir cismi kuvvet doğrultusunda 4 m sürüklüyor. Yapılan iş kaç joule'dür?",
+          "siklar": ["54 J", "100 J", "200 J", "400 J"],
+          "cevap": 2,
+          "aciklama": "W = F·x = 50·4 = 200 J."
+        },
+        {
+          "soru": "200 J'lük işi 5 saniyede yapan bir makinenin gücü kaç watt'tır?",
+          "siklar": ["40 W", "100 W", "1000 W", "5 W"],
+          "cevap": 0,
+          "aciklama": "P = W/t = 200/5 = 40 W."
+        },
+        {
+          "soru": "İş ile ilgili aşağıdakilerden hangisi yanlıştır?",
+          "siklar": ["İş vektörel bir niceliktir.", "İşin birimi joule'dür.", "Kuvvet yola dik ise iş sıfırdır.", "Sürtünme kuvvetinin yaptığı iş negatif olabilir."],
+          "cevap": 0,
+          "aciklama": "İş skaler bir niceliktir; yönü yoktur. Bu nedenle A yanlıştır."
+        },
+        {
+          "soru": "Sabit hızla hareket eden bir cismin üzerine etkiyen net kuvvetin yaptığı iş için ne söylenebilir?",
+          "siklar": ["Maksimumdur.", "Sıfırdır.", "Negatiftir.", "Belirsizdir."],
+          "cevap": 1,
+          "aciklama": "Sabit hızda ivme ve net kuvvet sıfırdır; net kuvvet sıfır olduğundan yaptığı iş de sıfırdır."
+        },
+        {
+          "soru": "Güç birimi watt için 1 W kaç J/s'ye eşittir?",
+          "siklar": ["0,1 J/s", "1 J/s", "60 J/s", "1000 J/s"],
+          "cevap": 1,
+          "aciklama": "1 watt, saniyede 1 joule'lük iş yapma hızıdır: 1 W = 1 J/s."
+        }
+      ]
+    },
+    "10|10-fiz|10-fiz-u2|Mekanik enerji": {
+      "ozet": "Mekanik enerji, kinetik (hareket) enerjisi ile potansiyel (konum/yükseklik) enerjisinin toplamıdır. Sürtünmesiz ortamda mekanik enerji korunur; potansiyel enerji kinetik enerjiye (veya tersi) dönüşür. Kinetik enerji KE = 0,5·m·v², yer çekimi potansiyel enerjisi PE = m·g·h bağıntılarıyla hesaplanır.",
+      "anlatim": [
+        "Kinetik enerji, cismin hareketinden kaynaklanan enerjidir ve hızın karesiyle doğru orantılıdır (KE ∝ v²).",
+        "Hız iki katına çıkarılırsa kinetik enerji dört katına çıkar; bu yüzden trafikte hız sınırı can güvenliği için kritiktir.",
+        "Yer çekimi potansiyel enerjisi, cismin kütlesine, yer çekimi ivmesine ve yüksekliğe bağlıdır (PE = m·g·h).",
+        "Potansiyel enerji bir referans düzlemine göre tanımlanır; referans düzlemi değişirse potansiyel enerji değeri değişir.",
+        "Yay (esneklik) potansiyel enerjisi, yayın yay sabitine ve uzama miktarının karesine bağlıdır: E = 0,5·k·x².",
+        "Sürtünmesiz ortamda toplam mekanik enerji korunur: KE + PE = sabit.",
+        "Serbest düşen cisimde yükseklik azaldıkça potansiyel enerji azalır, kinetik enerji artar; toplam değişmez.",
+        "Sürtünme varsa bir enerjinin bir kısmı ısıya dönüşür ve mekanik enerji korunmaz; bu enerji toplam enerjinin korunumu ilkesiyle açıklanır.",
+        "İş-enerji teoremi: Net kuvvetin yaptığı iş, cismin kinetik enerjisindeki değişime eşittir (W_net = ΔKE).",
+        "Enerji yoktan var olmaz, vardan yok olmaz; yalnızca bir türden diğerine dönüşür (enerjinin korunumu ilkesi)."
+      ],
+      "formuller": [
+        "KE = 0,5·m·v² (kinetik enerji)",
+        "PE = m·g·h (yer çekimi potansiyel enerjisi)",
+        "E_yay = 0,5·k·x² (yay potansiyel enerjisi)",
+        "E_mekanik = KE + PE",
+        "İş-enerji teoremi: W_net = ΔKE = KE_son - KE_ilk"
+      ],
+      "ornek": "Kütlesi 5 kg olan bir cisim yerden 4 m yükseklikte duruyor ve serbest bırakılıyor. Yere çarpma hızı kaç m/s'dir? (g = 10 m/s², sürtünme yok) Çözüm: PE = m·g·h = 5·10·4 = 200 J; enerji korunumundan KE = 200 J → 0,5·5·v² = 200 → v² = 80 → v ≈ 8,9 m/s.",
+      "ipucu": "Kinetik enerjinin hızın karesiyle değiştiğini unutma; hız 2 katına çıkınca enerji 4 katına çıkar. Ayrıca sürtünme varsa mekanik enerjinin korunmadığını, bir kısmının ısıya dönüştüğünü hesaba katmalısın.",
+      "quiz": [
+        {
+          "soru": "Kütlesi 2 kg olan bir cisim 10 m/s hızla hareket ediyor. Kinetik enerjisi kaç joule'dür?",
+          "siklar": ["20 J", "100 J", "200 J", "1000 J"],
+          "cevap": 1,
+          "aciklama": "KE = 0,5·m·v² = 0,5·2·100 = 100 J."
+        },
+        {
+          "soru": "Kütlesi 5 kg olan bir cisim yerden 4 m yüksekliktedir. Yer çekimi potansiyel enerjisi kaç joule'dür? (g = 10 m/s²)",
+          "siklar": ["20 J", "50 J", "200 J", "400 J"],
+          "cevap": 2,
+          "aciklama": "PE = m·g·h = 5·10·4 = 200 J."
+        },
+        {
+          "soru": "Hızı iki katına çıkarılan bir cismin kinetik enerjisi kaç katına çıkar?",
+          "siklar": ["2 katına", "4 katına", "8 katına", "Değişmez."],
+          "cevap": 1,
+          "aciklama": "KE ∝ v² olduğundan hız 2 katına çıkınca enerji 2² = 4 katına çıkar."
+        },
+        {
+          "soru": "Sürtünmesiz ortamda yüksekten bırakılan bir cismin düşerken mekanik enerjisi nasıl değişir?",
+          "siklar": ["Korunur.", "Sürekli artar.", "Sürekli azalır.", "Önce artar sonra azalır."],
+          "cevap": 0,
+          "aciklama": "Sürtünmesiz ortamda potansiyel enerji kinetik enerjiye dönüşür; toplam mekanik enerji korunur."
+        },
+        {
+          "soru": "Yer çekimi potansiyel enerjisi ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "siklar": ["Yalnızca hıza bağlıdır.", "Kütle, yer çekimi ivmesi ve yüksekliğe bağlıdır.", "Yalnızca yüksekliğe bağlıdır.", "Vektörel bir niceliktir."],
+          "cevap": 1,
+          "aciklama": "PE = m·g·h olduğundan kütle, g ve yüksekliğe bağlıdır; enerji skaler bir niceliktir."
+        }
+      ]
+    },
+    "10|10-fiz|10-fiz-u3|Elektrik akımı": {
+      "ozet": "Elektrik akımı, iletkenin kesitinden birim zamanda geçen yük miktarıdır (I = q/t). Ohm Yasası'na göre bir iletkenin uçları arasındaki gerilim, üzerinden geçen akım şiddetiyle doğru orantılıdır (V = I·R). Elektrik gücü P = V·I bağıntısıyla hesaplanır.",
+      "anlatim": [
+        "Elektrik akımı, iletkenin bir kesitinden birim zamanda geçen yük miktarıdır; birimi amperdir (A).",
+        "1 amper, saniyede 1 coulomb'lük yükün geçmesine karşılık gelir (1 A = 1 C/s).",
+        "Akımın yönü, geleneksel olarak pozitif yüklerin hareket yönü kabul edilir; gerçekte metallerde elektronlar bu yönün tersine hareket eder.",
+        "Bir iletkenin direnci, iletkenin uzunluğuyla doğru, kesit alanıyla ters orantılıdır; ayrıca iletkenin cinsine bağlıdır (R = ρ·L/A).",
+        "Ohm Yasası: Gerilim (V), akım (I) ve direnç (R) arasında V = I·R bağıntısı vardır.",
+        "Direnç sabitken gerilim artarsa akım artar; gerilim sabitken direnç artarsa akım azalır (I = V/R).",
+        "Elektriksel güç, birim zamanda harcanan ya da aktarılan elektriksel enerjidir (P = V·I); birimi watt'tır.",
+        "Güç bağıntısı Ohm Yasası'yla birleştirilerek P = I²·R ve P = V²/R biçimlerinde de yazılabilir.",
+        "Bir cihazın harcadığı elektrik enerjisi, gücün çalışma süresiyle çarpımıdır (E = P·t); faturalarda kWh birimi kullanılır.",
+        "Seri bağlamada akım her dirençte aynıdır ve eşdeğer direnç toplanır; paralel bağlamada gerilim aynı, eşdeğer direnç azalır."
+      ],
+      "formuller": [
+        "I = q / t (akım, birimi amper)",
+        "V = I·R (Ohm Yasası)",
+        "R = ρ·L/A (iletkenin direnci)",
+        "P = V·I (elektriksel güç)",
+        "P = I²·R = V²/R",
+        "E = P·t (elektrik enerjisi, kWh)"
+      ],
+      "ornek": "Direnci 10 Ω olan bir iletkenin uçlarına 20 V gerilim uygulanıyor. Akım şiddeti ve iletkenin harcadığı güç nedir? Çözüm: I = V/R = 20/10 = 2 A; P = V·I = 20·2 = 40 W.",
+      "ipucu": "Gerilim sabitken direnç artarsa akımın azaldığını unutma; 'direnç artınca akım artar' tuzağı çok yaygındır. Ayrıca akımın yönü ile elektronların hareket yönünün zıt olduğunu karıştırmamalısın.",
+      "quiz": [
+        {
+          "soru": "Bir iletkenin kesitinden 2 saniyede 6 coulomb'lük yük geçiyor. Akım şiddeti kaç amperdir?",
+          "siklar": ["0,3 A", "3 A", "12 A", "8 A"],
+          "cevap": 1,
+          "aciklama": "I = q/t = 6/2 = 3 A."
+        },
+        {
+          "soru": "Direnci 10 Ω olan bir iletkene 20 V gerilim uygulanıyor. Üzerinden geçen akım kaç amperdir?",
+          "siklar": ["2 A", "10 A", "200 A", "0,5 A"],
+          "cevap": 0,
+          "aciklama": "Ohm Yasası: I = V/R = 20/10 = 2 A."
+        },
+        {
+          "soru": "I akımı geçen bir direncin harcadığı elektriksel güç aşağıdakilerden hangisiyle hesaplanır?",
+          "siklar": ["P = V·I", "P = V/I", "P = I/V", "P = V·R"],
+          "cevap": 0,
+          "aciklama": "Elektriksel güç P = V·I'dır; Ohm Yasası ile P = I²·R = V²/R biçimlerinde de yazılabilir."
+        },
+        {
+          "soru": "Ohm Yasası ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "siklar": ["Gerilim sabitken direnç artarsa akım artar.", "Direnç sabitken gerilim artarsa akım azalır.", "Gerilim dirençle ters orantılıdır.", "Gerilim sabitken direnç artarsa akım azalır."],
+          "cevap": 3,
+          "aciklama": "I = V/R olduğundan V sabitken R artarsa I azalır."
+        },
+        {
+          "soru": "Akım şiddetinin birimi amperdir. 1 amper kaç coulomb/saniyeye eşittir?",
+          "siklar": ["0,1 C/s", "1 C/s", "100 C/s", "3600 C/s"],
+          "cevap": 1,
+          "aciklama": "Akım, birim zamanda geçen yüktür: 1 A = 1 C/s."
+        }
+      ]
+    },
+    "10|10-fiz|10-fiz-u3|Dalga türleri ve özellikleri": {
+      "ozet": "Dalga, bir ortamda titreşimin (enerjinin) yayılmasıdır; dalga maddeyi değil enerjiyi taşır. Dalganın temel nicelikleri periyot (T), frekans (f), dalga boyu (λ) ve yayılma hızıdır (v); aralarında v = λ·f bağıntısı vardır.",
+      "anlatim": [
+        "Dalga, bir kaynaktaki titreşimin ortamda yayılmasıdır; dalgalar enerji taşır ama ortamı olduğu yere taşımaz.",
+        "Mekanik dalgaların yayılabilmesi için maddesel bir ortam gerekir (ses, su dalgası, yay dalgası).",
+        "Elektromanyetik dalgalar boşlukta yayılabilir (ışık, radyo dalgaları, X ışınları).",
+        "Titreşim doğrultusuna göre dalgalar enine (titreşim yayılma yönüne dik) ve boyuna (titreşim yayılma yönüne paralel) olmak üzere ikiye ayrılır.",
+        "Ses dalgaları boyuna dalgadır; katı, sıvı ve gaz ortamlarda yayılır, boşlukta yayılmaz.",
+        "Periyot (T), bir tam titreşimin süresidir; frekans (f) ise bir saniyedeki titreşim sayısıdır ve T = 1/f bağıntısı vardır.",
+        "Dalga boyu (λ), aynı fazda iki komşu nokta arasındaki uzaklıktır; birimi metredir.",
+        "Yayılma hızı, dalga boyu ile frekansın çarpımına eşittir: v = λ·f.",
+        "Ortam değişmedikçe dalganın frekansı kaynağa bağlı olarak sabit kalır; ortam değişince hız ve dalga boyu değişir, frekans sabit kalır.",
+        "Dalgaların temel olayları: yansıma (engele çarpıp geri dönme), kırılma (ortam değişince yön değiştirme), kırınım (engelin kenarlarından bükülerek yayılma) ve girişim (iki dalganın üst üste binmesi).",
+        "Sesin yüksekliği frekansla, şiddeti (ses düzeyi) genlikle ilişkilidir."
+      ],
+      "formuller": [
+        "v = λ·f (dalganın yayılma hızı)",
+        "f = 1 / T (frekans)",
+        "T = 1 / f (periyot)",
+        "λ = v / f (dalga boyu)",
+        "1 Hz = 1 titreşim/s"
+      ],
+      "ornek": "Frekansı 50 Hz, dalga boyu 4 m olan bir dalganın yayılma hızı kaç m/s'dir? Çözüm: v = λ·f = 4·50 = 200 m/s.",
+      "ipucu": "Ortam değiştiğinde frekansın sabit kaldığını, hız ve dalga boyunun değiştiğini unutma; 'frekans ortama bağlıdır' tuzağı sık sorulur. Ayrıca periyot ile frekansın birbirinin tersi olduğunu karıştırmamalısın.",
+      "quiz": [
+        {
+          "soru": "Periyodu 0,5 saniye olan bir dalganın frekansı kaç Hz'dir?",
+          "siklar": ["0,5 Hz", "2 Hz", "5 Hz", "20 Hz"],
+          "cevap": 1,
+          "aciklama": "f = 1/T = 1/0,5 = 2 Hz."
+        },
+        {
+          "soru": "Frekansı 50 Hz, dalga boyu 4 m olan bir dalganın yayılma hızı kaç m/s'dir?",
+          "siklar": ["12,5 m/s", "50,5 m/s", "200 m/s", "0,08 m/s"],
+          "cevap": 2,
+          "aciklama": "v = λ·f = 4·50 = 200 m/s."
+        },
+        {
+          "soru": "Ses dalgaları için aşağıdakilerden hangisi doğrudur?",
+          "siklar": ["Enine bir dalgadır.", "Boyuna bir dalgadır ve katı, sıvı, gaz ortamlarda yayılır.", "Boşlukta yayılır.", "Işık hızıyla yayılır."],
+          "cevap": 1,
+          "aciklama": "Ses, boyuna bir mekanik dalgadır; maddesel ortam gerektirir, boşlukta yayılmaz."
+        },
+        {
+          "soru": "Su dalgalarının bir engelin kenarlarından bükülerek gölge bölgesine doğru yayılması hangi olaydır?",
+          "siklar": ["Yansıma", "Kırılma", "Kırınım", "Soğurulma"],
+          "cevap": 2,
+          "aciklama": "Dalgaların engel kenarlarından bükülerek yayılması kırınımdır."
+        },
+        {
+          "soru": "Dalgalarla ilgili aşağıdakilerden hangisi yanlıştır?",
+          "siklar": ["Dalgalar enerji taşır.", "Mekanik dalgalar yayılmak için ortam gerektirir.", "Dalganın frekansı ortama bağlıdır.", "Elektromanyetik dalgalar boşlukta yayılır."],
+          "cevap": 2,
+          "aciklama": "Frekans kaynağa bağlıdır; ortam değişince hız ve dalga boyu değişir, frekans sabit kalır. Bu nedenle C yanlıştır."
+        }
+      ]
+    }
+  },
+  "10-fel": {
+    "10|10-fel|10-fel-u1|Felsefenin doğası": {
+      "ozet": "Felsefe, insanın evreni, kendini ve değerleri akla dayalı, sistemli ve eleştirel biçimde sorgulamasıdır. Terim Yunanca philein (sevmek) ve sophia (bilgelik) sözcüklerinden türemiştir ve 'bilgelik sevgisi' anlamına gelir.",
+      "anlatim": [
+        "Felsefe sözcüğü Yunanca philein (sevmek) ve sophia (bilgelik) kelimelerinden türemiştir; 'bilgelik sevgisi' demektir.",
+        "Filozof, her şeyi bilen bilge kişi değil; bilgeliği arayan ve soru sormayı sürdüren kişidir.",
+        "Sokrates'e göre sorgulanmamış bir hayat yaşamaya değmez; felsefe kendini bilmekle başlar.",
+        "Felsefi düşüncenin temel özellikleri: refleksif olma (düşüncenin kendine yönelmesi), eleştirellik, tutarlılık, sistemlilik, bütüncüllük ve evrensellik.",
+        "Felsefe soruları 'Nedir?', 'Neden?', 'Nasıl biliriz?', 'Değeri nedir?' gibi genel ve temel sorulardır; olguların nasıl gerçekleştiğinden çok anlamını araştırır.",
+        "Felsefe ile bilim: bilim, olguları deney ve gözleme dayalı yöntemle inceler ve sonuçlarını olgularla sınar; felsefe aynı sonuçları varlık, bilgi ve değer kavramları çerçevesinde daha genel biçimde sorgular.",
+        "Felsefe ile bilim akla, mantığa ve tutarlılığa dayanma noktasında ortaktır; ayrıldıkları yer yöntem ve soru alanlarıdır.",
+        "Felsefe ile din: din vahye ve inanca dayalı açıklamalar sunar; felsefe akla dayalı sorgulama yapar. İkisi de varlık, insan ve değer sorunlarıyla ilgilenir.",
+        "Felsefe ile sanat: sanat duygu ve estetik ifadeyi öne çıkarır, felsefe kavramsal çözümleme yapar; ancak ikisi de insanın anlam arayışını yansıtır.",
+        "Felsefi düşünce dogmatik değildir; kesin ve değişmez doğrular dayatmaz, soruları açık tutar ve eleştiriye kapı aralar.",
+        "Felsefe, bilgi üretmenin yanında eleştirel düşünme, ön yargılardan kurtulma ve kavramları netleştirme becerisi kazandırır.",
+        "TYT'de bu konu genellikle felsefenin özellikleri, filozofun tutumu ve felsefe-bilim/din/sanat karşılaştırmaları üzerinden sorulur."
+      ],
+      "formuller": [
+        "philo-sophia: bilgelik sevgisi",
+        "Refleksif düşünme: düşüncenin kendine yönelmesi",
+        "Tutarlılık: düşünceler arasında çelişki bulunmaması",
+        "Evrensellik: soruların herkes için geçerli olması",
+        "Eleştirellik: ön yargı ve kabulleri sorgulama"
+      ],
+      "ornek": "Felsefe ile bilimin farkını gösteren örnek: 'Gökyüzü neden mavidir?' sorusunu bilim, ışığın atmosferde saçılmasıyla açıklar. Felsefe ise 'Gözlemlediğim renk nesnenin kendisinde mi vardır, yoksa algımızda mı oluşur?' diye sorar. İkisi aynı olayı farklı derinlikte ele alır.",
+      "ipucu": "Felsefeyi dinden ayıran ölçüt inanç ya da vahiy değil, akla dayalı sorgulamadır; felsefeyi bilimden ayıran ise soyut ve genel sorular sormasıdır. 'Felsefe her soruya kesin yanıt verir' gibi ifadeler yanlıştır, çünkü felsefe dogmatik değildir.",
+      "quiz": [
+        {
+          "soru": "Felsefenin 'bilgelik sevgisi' anlamına gelmesinin nedeni aşağıdakilerden hangisidir?",
+          "siklar": ["Filozofun her şeyi bilmesi", "Felsefe teriminin philein ve sophia kelimelerinden türemesi", "Felsefenin kesin bilgi vermesi", "Filozofun dine bağlı olması"],
+          "cevap": 1,
+          "aciklama": "Felsefe, Yunanca philein (sevmek) ve sophia (bilgelik) kelimelerinden türemiştir."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi felsefi düşüncenin özellikleri arasında gösterilemez?",
+          "siklar": ["Eleştirel olma", "Tutarlılık", "Dogmatik kesin doğrular dayatma", "Refleksif olma"],
+          "cevap": 2,
+          "aciklama": "Felsefe dogmatik değildir; kesin ve değişmez doğrular dayatmaz, soruları açık tutar."
+        },
+        {
+          "soru": "Felsefe ile bilimi karşılaştıran bir öğrenci hangi yargıyı doğru olarak kurar?",
+          "siklar": ["Felsefe de bilim de akla ve tutarlılığa dayanır.", "Bilim akla, felsefe yalnızca inanca dayanır.", "Felsefe deney yapar, bilim yapmaz.", "Her ikisi de olguları ölçerek genel yasa koyar."],
+          "cevap": 0,
+          "aciklama": "İkisi de akıl ve mantık temellidir; ayrıldıkları nokta yöntem ve soru alanlarıdır."
+        },
+        {
+          "soru": "Sokrates'in 'Sorgulanmamış bir hayat yaşamaya değmez' sözü felsefenin hangi yönünü vurgular?",
+          "siklar": ["İtaati", "Eleştirel sorgulamayı ve kendini bilmeyi", "Zenginliği", "Kesin bilgiyi"],
+          "cevap": 1,
+          "aciklama": "Sokrates bu sözle sorgulamayı ve kendini bilmeyi felsefi yaşamın temeli sayar."
+        },
+        {
+          "soru": "Felsefenin işleviyle ilgili aşağıdakilerden hangisi yanlıştır?",
+          "siklar": ["Eleştirel düşünme becerisi kazandırır.", "Kavramları çözümler ve netleştirir.", "Her konuda kesin ve değişmez doğrular verir.", "Ön yargıları sorgulamaya yöneltir."],
+          "cevap": 2,
+          "aciklama": "Felsefe kesin ve değişmez doğrular vermez; soruları canlı tutan bir sorgulama etkinliğidir."
+        }
+      ]
+    },
+    "10|10-fel|10-fel-u1|Mantık ve argümantasyon": {
+      "ozet": "Mantık, doğru düşünmenin biçimsel kurallarını inceleyen disiplindir ve kavram, önerme, akıl yürütme üzerine kurulur. Argüman ise bir iddiayı destekleyen öncüller ile bunlardan çıkarılan sonuçtan oluşan yapıdır.",
+      "anlatim": [
+        "Kavram, nesne ya da olayların zihindeki genel tasarımıdır; terim ise kavramın dile getirilmesidir.",
+        "Önerme, doğru ya da yanlış bir yargı bildiren cümledir; soru, emir ve ünlem cümleleri önerme değildir.",
+        "Akıl yürütme, önermeler arasında bağ kurarak yeni bir önermeye ulaşma etkinliğidir.",
+        "Argüman, öncüller (dayanaklar) ile bunlardan çıkarılan sonuçtan oluşur; amacı sonucu gerekçelendirmektir.",
+        "Bir argümanın geçerliliği biçimiyle ilgilidir; sonucun öncüllerden zorunlu olarak çıkması gerekir.",
+        "Doğruluk ise önermenin gerçeklikle uyuşmasıdır; öncüller doğru olsa bile çıkarım biçimi bozuksa argüman geçersiz olur.",
+        "Geçerli bir argümanın öncülleri yanlış olabilir; bu durumda argüman geçerli ama sağlam (tutarlı ve öncülleri doğru) değildir.",
+        "Tümdengelim (dedüksiyon): genelden özele inen, zorunlu sonuç veren çıkarımdır.",
+        "Tümevarım (indüksiyon): tek tek gözlemlerden genel bir yargıya ulaşan, olası sonuç veren çıkarımdır.",
+        "Analoji (benzetme): iki durum arasındaki benzerliklerden yola çıkarak yeni bir durum hakkında sonuç çıkarmadır.",
+        "Safsata, biçimsel olarak bozuk ya da zayıf mantıkla karşı tarafı yanıltmak amacıyla kullanılan çıkarımdır; 'ad hominem' (kişiye yönelme) gibi türleri vardır.",
+        "TYT'de mantık soruları çoğunlukla klasik kıyas (sillogizm) biçiminde geçerlilik ve safsata tanıma sorularıdır."
+      ],
+      "formuller": [
+        "Geçerlilik: sonucun öncüllerden zorunlu olarak çıkması",
+        "Doğruluk: önermenin gerçeklikle uyuşması",
+        "Tümdengelim: genel → özel, zorunlu sonuç",
+        "Tümevarım: özel gözlemler → genel yargı, olası sonuç",
+        "Analoji: benzerliklerden sonuç çıkarma",
+        "Safsata: biçimsel olarak bozuk, yanıltıcı çıkarım"
+      ],
+      "ornek": "Kıyas örneği: P1: Bütün metaller ısıtılınca genleşir. P2: Bu çubuk bir metaldir. S: O hâlde bu çubuk ısıtılınca genleşir. Öncüller doğru ve çıkarım biçimi geçerli olduğundan argüman hem geçerli hem sağlamdır.",
+      "ipucu": "Geçerlilik biçimle, doğruluk içerikle ilgilidir. Öncülleri yanlış olsa bile çıkarım biçimi doğruysa argüman geçerli olabilir; 'geçerli' ile 'doğru'yu karıştırmak TYT'de en sık yapılan hatadır.",
+      "quiz": [
+        {
+          "soru": "Aşağıdaki cümlelerden hangisi önerme değildir?",
+          "siklar": ["Ankara Türkiye'nin başkentidir.", "2 + 2 = 5'tir.", "Kapıyı kapatır mısın?", "Bazı felsefe soruları soyuttur."],
+          "cevap": 2,
+          "aciklama": "Soru cümlesi doğru ya da yanlış bir yargı bildirmediği için önerme değildir."
+        },
+        {
+          "soru": "'Bütün insanlar ölümlüdür; Sokrates insandır; o hâlde Sokrates ölümlüdür.' çıkarımı hangi akıl yürütme türüdür?",
+          "siklar": ["Tümevarım", "Tümdengelim", "Analoji", "Safsata"],
+          "cevap": 1,
+          "aciklama": "Genel bir önermeden özel bir sonuca zorunlu olarak ulaşıldığı için bu bir tümdengelimdir."
+        },
+        {
+          "soru": "Bir argümanın geçerliliği neye bağlıdır?",
+          "siklar": ["Öncüllerin gerçeklikle uyuşmasına", "Sonucun öncüllerden zorunlu olarak çıkmasına", "Argümanı sunan kişinin tanınmışlığına", "Konuşmanın uzunluğuna"],
+          "cevap": 1,
+          "aciklama": "Geçerlilik, argümanın biçimiyle ilgilidir; sonuç öncüllerden zorunlu olarak çıkmalıdır."
+        },
+        {
+          "soru": "Tek tek gözlemlerden genel bir yargıya ulaşan akıl yürütme türü hangisidir?",
+          "siklar": ["Tümdengelim", "Tümevarım", "Kıyas", "Kavram"],
+          "cevap": 1,
+          "aciklama": "Özel gözlemlerden genel yargıya ulaşan çıkarım tümevarımdır ve olası sonuç verir."
+        },
+        {
+          "soru": "Bir tartışmada karşı tarafın görüşünü çürütmek yerine kişiliğine saldırmak hangi safsata türüdür?",
+          "siklar": ["Ad hominem", "Analoji", "Tümevarım", "Geçerli kıyas"],
+          "cevap": 0,
+          "aciklama": "Görüşü değil kişiyi hedef alan yanıltıcı çıkarıma ad hominem denir."
+        }
+      ]
+    },
+    "10|10-fel|10-fel-u2|Varlık, bilgi, ahlak": {
+      "ozet": "Varlık felsefesi (ontoloji) 'var olan nedir?', bilgi felsefesi (epistemoloji) 'nasıl ve ne kadar bilebiliriz?', ahlak felsefesi (etik) ise 'iyi ve doğru davranış nedir?' sorularını inceler. Bu üç alan felsefenin temel sorun alanlarıdır.",
+      "anlatim": [
+        "Ontoloji (varlık felsefesi), varlığın ne olduğunu, çeşitlerini ve yapısını araştırır.",
+        "İdealizm, varlığın özünde düşünce ya da idea bulunduğunu savunur; Platon'un idealar kuramı bu görüşün klasik örneğidir.",
+        "Realizm, varlığın düşünceden bağımsız ve nesnel olarak var olduğunu savunur; Aristoteles'in madde-form anlayışı buna örnektir.",
+        "Monizm varlığı tek ilkeye, düalizm iki ilkeye (örneğin madde ve ruh, Descartes), plüralizm ise pek çok ilkeye dayandırır.",
+        "Epistemoloji (bilgi felsefesi), bilginin kaynağını, sınırını ve doğruluk ölçütlerini inceler.",
+        "Rasyonalizm (akılcılık), bilginin kaynağının akıl olduğunu ve doğuştan bilgi bulunduğunu savunur; Descartes, Platon ve Leibniz örnek gösterilir.",
+        "Descartes, her şeyden şüphe ederek 'Cogito ergo sum' (Düşünüyorum, öyleyse varım) ile kesin bir başlangıç noktası bulmaya çalışır.",
+        "Empirizm (deneycilik), bilginin kaynağının duyu deneyi ve gözlem olduğunu savunur; zihnin doğuşta boş bir levha (tabula rasa) gibi olduğu görüşü Locke ve Hume ile anılır.",
+        "Kritisizm: Kant, bilginin deney malzemesi ile aklın kalıplarının birleşmesinden doğduğunu söyleyerek saf akılcılığı da saf deneyciliği de yeterli bulmaz.",
+        "Septisizm (şüphecilik) kesin bilginin olanaksızlığını savunurken; dogmatizm kesin bilginin elde edilebileceğini savunur.",
+        "Etik (ahlak felsefesi), ahlaki eylemlerin ölçütünü, 'iyi' kavramını ve ahlaki yargıların temelini inceler.",
+        "Sokrates ahlakı bilgiye bağlar: 'Erdem bilgidir; kimse bilerek kötülük yapmaz' der ve sorgulayıcı diyalog yöntemini (maiötik) kullanır.",
+        "Aristoteles erdemi iki aşırı uç arasındaki 'orta yol' (altın orta) olarak tanımlar ve erdemli eylemle mutluluğa (eudaimonia) ulaşılacağını söyler.",
+        "Kant'a göre ahlaki eylem, sonucundan bağımsız olarak ödev gereği yapılan eylemdir; ölçütü kategorik imperatiftir ('Davranışının ilkesi herkes için geçerli olacak biçimde davran').",
+        "Faydacılık (utilitarizm), bir eylemin ahlaki değerini en çok kişiye en çok faydayı sağlamasıyla ölçer; Bentham ve Mill bu görüşün temsilcileridir."
+      ],
+      "formuller": [
+        "Platon: idealizm (idealar kuramı)",
+        "Aristoteles: realizm, madde-form, altın orta",
+        "Descartes: rasyonalizm ve 'Cogito ergo sum'",
+        "Kant: kritisizm ve ödev ahlakı (kategorik imperatif)",
+        "Sokrates: 'Erdem bilgidir' görüşü",
+        "Locke / Hume: empirizm (tabula rasa)",
+        "Bentham / Mill: faydacılık (utilitarizm)"
+      ],
+      "ornek": "Metin yorumu örneği: 'Doğuştan bilgi var mıdır?' sorusuna Descartes 'akılda doğuştan fikirler bulunur' yanıtını verirken Locke 'zihin boş bir levhadır, bilgi deneyle oluşur' der. Aynı soruya verilen bu iki karşıt yanıt, rasyonalizm ve empirizm arasındaki temel ayrımı gösterir.",
+      "ipucu": "Filozof-görüş eşleştirmeleri sık karıştırılır: Platon idealizm, Aristoteles realizm, Descartes akılcılık, Kant ise kritisizm ve ödev ahlakı ile anılır. 'Realizm = Platon' gibi yanlış eşleştirme şıklarına dikkat et.",
+      "quiz": [
+        {
+          "soru": "Varlığın özünün madde olduğunu ve düşüncenin maddeden doğduğunu savunan varlık görüşü hangisidir?",
+          "siklar": ["İdealizm", "Düalizm", "Materyalizm (maddecilik)", "Panteizm"],
+          "cevap": 2,
+          "aciklama": "Materyalizm, varlığın temeli olarak maddeyi kabul eder ve düşünceyi maddeye bağlar."
+        },
+        {
+          "soru": "Bilginin doğuştan akılda bulunduğunu ve kaynağının akıl olduğunu savunan görüş hangisidir?",
+          "siklar": ["Rasyonalizm", "Empirizm", "Septisizm", "Faydacılık"],
+          "cevap": 0,
+          "aciklama": "Bilginin kaynağını akla dayandıran görüş rasyonalizmdir."
+        },
+        {
+          "soru": "Kant'ın ahlak görüşüyle ilgili aşağıdakilerden hangisi doğrudur?",
+          "siklar": ["Eylem yalnızca sonucuna göre değerlendirilir.", "Ahlaki eylem ödev gereği yapılır ve kategorik imperatife uyar.", "Ahlakın ölçütü yalnızca hazdır.", "Ahlakın tek ölçütü dini vahiydir."],
+          "cevap": 1,
+          "aciklama": "Kant'a göre ahlaki değer, eylemin sonucunda değil, ödev bilinciyle yapılmasında ve kategorik imperatife uygunluğunda aranır."
+        },
+        {
+          "soru": "Erdemi iki aşırı uç arasındaki 'orta yol' (altın orta) olarak tanımlayan filozof kimdir?",
+          "siklar": ["Platon", "Aristoteles", "Descartes", "Sokrates"],
+          "cevap": 1,
+          "aciklama": "Aristoteles erdemi iki aşırı uç arasındaki orta yol olarak tanımlar."
+        },
+        {
+          "soru": "'Erdem bilgidir; kimse bilerek kötülük yapmaz' görüşü hangi filozofa aittir?",
+          "siklar": ["Kant", "Locke", "Sokrates", "Hume"],
+          "cevap": 2,
+          "aciklama": "Ahlakı bilgiye bağlayan bu görüş Sokrates'e aittir."
+        }
+      ]
+    },
+    "10|10-fel|10-fel-u2|Estetik, siyaset, din, bilim felsefesi": {
+      "ozet": "Estetik güzeli ve sanatı, siyaset felsefesi devleti ve adaleti, din felsefesi Tanrı ve inanç sorunlarını, bilim felsefesi ise bilimin yöntemini ve kavramlarını inceler. Bu alanlar felsefenin değer ve bilgi sorunlarına uzanan uygulamalı dallarıdır.",
+      "anlatim": [
+        "Estetik (sanat felsefesi), güzeli, güzellik yargısını ve sanat eserini felsefi olarak inceler; 18. yüzyılda Baumgarten ile bağımsız bir alan hâline gelmiştir.",
+        "Sanat felsefesinde temel kuramlar: taklit (mimesis, Platon ve Aristoteles), yaratma (sanatçının özgün üretimi), dışavurum (sanatçının duygularını yansıtması) ve biçim (eserin yapısı) kuramlarıdır.",
+        "Estetik, sanat tarihi ya da eleştirisiyle karıştırılmamalıdır; felsefe 'güzel nedir, güzellik yargısı öznel mi nesnel mi' gibi kavramsal sorular sorar.",
+        "Siyaset felsefesi; iktidar, adalet, özgürlük, meşruiyet ve toplum sözleşmesi kavramlarını inceler.",
+        "Platon, 'Devlet' adlı eserinde ideal devleti sınıflara ayrılmış bir düzen olarak ortaya koyar ve yöneticinin filozof olması gerektiğini savunur.",
+        "Aristoteles, insanın doğası gereği siyasi bir varlık olduğunu (zoon politikon) söyler ve devletin toplumsal birliği sağladığını belirtir.",
+        "Toplum sözleşmesi görüşünde Hobbes doğa durumunun çatışmacı olduğunu ve gücün bir otoriteye devredilmesi gerektiğini; Locke doğal hakları (yaşam, özgürlük, mülkiyet); Rousseau ise genel irade kavramını öne çıkarır.",
+        "Din felsefesi, dinin iddialarını akla dayalı biçimde inceler; Tanrı'nın varlığına ilişkin ontolojik (Anselmus), kozmolojik ve teleolojik kanıtları tartışır.",
+        "Tanrı ile evren ilişkisine yönelik temel yaklaşımlar: teizm, deizm, panteizm, ateizm ve agnostisizmdir.",
+        "Bilim felsefesi; bilimin yöntemini, temel kavramlarını (hipotez, kuram, yasa) ve bilimsel bilginin sınırlarını inceler.",
+        "Bacon deneysel ve tümevarımcı yöntemi öne çıkarır; Popper ise bir önermenin bilimsel sayılması için yanlışlanabilir olması gerektiğini savunur.",
+        "Kuhn, bilimin 'paradigma' çerçevelerinde ilerlediğini ve köklü değişimlerin 'bilimsel devrim' olarak adlandırıldığını söyler.",
+        "TYT'de bu ünite çoğunlukla düşünür-görüş eşleştirme ve bir görüşün hangi alana ait olduğunu belirleme sorularıyla ölçülür."
+      ],
+      "formuller": [
+        "Estetik: güzel ve sanat felsefesi, kurucusu Baumgarten",
+        "Platon: ideal devlet, 'Devlet' eseri",
+        "Aristoteles: zoon politikon (insan siyasi bir varlıktır)",
+        "Toplum sözleşmesi: Hobbes, Locke, Rousseau",
+        "Din felsefesi kanıtları: ontolojik, kozmolojik, teleolojik",
+        "Popper: yanlışlanabilirlik ölçütü",
+        "Kuhn: paradigma ve bilimsel devrim"
+      ],
+      "ornek": "Soru tarzı örnekleri: 'Sanat eserinin sanatçının iç dünyasını yansıttığını savunan kuram hangisidir?' → dışavurum kuramı. 'Bilimsel bir kuramın değerini onun yanlışlanabilirliğinde gören filozof kimdir?' → Popper. 'İnsanın siyasi bir varlık olduğunu söyleyen filozof kimdir?' → Aristoteles.",
+      "ipucu": "Tanrı kanıtlarını karıştırmamak gerekir: ontolojik kanıt kavramdan Tanrı'nın varlığına geçer (Anselmus), kozmolojik kanıt evrenin nedenselliğine, teleolojik kanıt ise evrendeki düzene ve ereğe dayanır. Siyaset felsefesinde görüşleri yanlış filozoflarla eşleştiren şıklar sık çıkar.",
+      "quiz": [
+        {
+          "soru": "'Bilimsel bir önerme, ilke olarak yanlışlanabilir olmalıdır' görüşü hangi filozofa aittir?",
+          "siklar": ["Bacon", "Popper", "Kuhn", "Baumgarten"],
+          "cevap": 1,
+          "aciklama": "Popper, bilimselliğin ölçütünü yanlışlanabilirlik olarak belirler."
+        },
+        {
+          "soru": "İnsanın doğası gereği 'siyasi bir varlık' (zoon politikon) olduğunu belirten filozof kimdir?",
+          "siklar": ["Platon", "Hobbes", "Aristoteles", "Rousseau"],
+          "cevap": 2,
+          "aciklama": "Bu görüş Aristoteles'e aittir; insan doğası gereği topluluk içinde yaşar."
+        },
+        {
+          "soru": "Sanat eserinin sanatçının duygu ve iç dünyasını yansıttığını savunan sanat kuramı hangisidir?",
+          "siklar": ["Taklit kuramı", "Biçim kuramı", "Dışavurum kuramı", "Yaratma kuramı"],
+          "cevap": 2,
+          "aciklama": "Sanatı sanatçının iç dünyasının ifadesi olarak gören kuram dışavurum kuramıdır."
+        },
+        {
+          "soru": "Evrende bir düzen bulunduğunu ve bu düzenden bir tasarımcının varlığına ulaşılabileceğini savunan kanıt hangisidir?",
+          "siklar": ["Ontolojik kanıt", "Teleolojik kanıt", "Ahlaki kanıt", "Kozmolojik kanıt"],
+          "cevap": 1,
+          "aciklama": "Evrendeki düzen ve erekten hareket eden kanıt teleolojik kanıttır."
+        },
+        {
+          "soru": "Devletin kuruluşunu bireyler arası bir 'toplum sözleşmesi'ne dayandıran ve genel irade kavramını öne çıkaran filozof kimdir?",
+          "siklar": ["Rousseau", "Platon", "Nietzsche", "Descartes"],
+          "cevap": 0,
+          "aciklama": "Rousseau, toplum sözleşmesi ve genel irade kavramlarıyla anılır."
+        }
+      ]
+    }
+  }
+}

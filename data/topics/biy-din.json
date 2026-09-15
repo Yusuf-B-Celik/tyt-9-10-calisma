@@ -1,0 +1,632 @@
+{
+  "9-biy": {
+    "9|9-biy|9-biy-u1|Biyolojinin önemi ve bilimsel süreç": {
+      "ozet": "Biyoloji canlıları ve yaşam olaylarını inceleyen bilim dalıdır. Bilimsel süreç; gözlem, problem, hipotez, deney, veri ve sonuç basamaklarından oluşur; değişkenleri doğru belirlemek TYT'nin temel becerisidir.",
+      "anlatim": [
+        "Biyoloji; canlıların yapısını (anatomi), işleyişini (fizyoloji), çeşitliliğini ve çevreyle ilişkisini inceler.",
+        "Biyolojinin uygulama alanları: tıp, eczacılık, ziraat, gıda, çevre ve genetik mühendisliği.",
+        "Bilimsel yöntem basamakları: problem belirleme, gözlem, hipotez kurma, kontrollü deney, veri toplama, sonuç çıkarma.",
+        "Hipotez; gözleme dayanan, deneyle sınanabilen ve yanlışlanabilen geçici açıklamadır.",
+        "Kontrollü deneyde deney grubu (uygulama yapılan) ile kontrol grubu (uygulama yapılmayan, karşılaştırma ölçütü) birlikte bulunur.",
+        "Bağımsız değişken araştırmacının değiştirdiği, bağımlı değişken ölçülen sonuç, kontrollü değişken sabit tutulandır.",
+        "Bilimsel bilgi kanıta dayalıdır, sorgulanır ve kendi kendini düzeltir; kesin değil geçici ve gelişmeye açıktır.",
+        "Deney yapılamayan durumlarda model ve simülasyonlar kullanılır (DNA modeli, ekosistem simülasyonu).",
+        "Bilim etiği; veriyi çarpıtmamayı, kaynak göstermeyi ve canlı denemelerinde etik kurallara uymayı gerektirir."
+      ],
+      "formuller": [
+        "Bilimsel yöntem: gözlem -> problem -> hipotez -> deney -> veri -> sonuç",
+        "Bağımsız değişken = değiştirilen; bağımlı değişken = ölçülen; kontrollü değişken = sabit tutulan",
+        "Hipotez test edilebilir ve yanlışlanabilir olmalıdır",
+        "Teori geniş kapsamlı açıklama, yasa belirli koşulda değişmeyen ilişkidir"
+      ],
+      "ornek": "Sıcaklığın enzim etkisine bakılan deneyde sıcaklık bağımsız, oluşan ürün miktarı bağımlı, pH ve enzim miktarı kontrollü değişkendir.",
+      "ipucu": "TYT tuzağı: 'değişken belirleme' sorusunda neyin değiştirildiği (bağımsız) ile neyin ölçüldüğü (bağımlı) karıştırılır.",
+      "quiz": [
+        {"soru": "Bilimsel bir araştırmada araştırmacının değiştirdiği değişkene ne denir?", "siklar": ["Bağımlı değişken", "Bağımsız değişken", "Kontrollü değişken", "Sabit değişken"], "cevap": 1, "aciklama": "Araştırmacının kendi isteğiyle değiştirdiği değişken bağımsız değişkendir; ölçülen sonuç bağımlı değişkendir."},
+        {"soru": "Aşağıdakilerden hangisi hipotezin özelliklerinden değildir?", "siklar": ["Test edilebilir olması", "Gözleme dayanması", "Kesin ve değişmez olması", "Yanlışlanabilir olması"], "cevap": 2, "aciklama": "Hipotez geçici bir açıklamadır; kesin ve değişmez değildir, deneyle sınanır."},
+        {"soru": "Bir deneyde kontrol grubunun işlevi nedir?", "siklar": ["Değişken sayısını artırmak", "Karşılaştırma ölçütü sağlamak", "Deneyi hızlandırmak", "Veriyi çarpıtmak"], "cevap": 1, "aciklama": "Kontrol grubuna uygulama yapılmaz; deney grubunun sonucunun kıyaslanacağı ölçütü verir."},
+        {"soru": "Bilimsel bilgi için aşağıdakilerden hangisi doğrudur?", "siklar": ["Kesindir ve asla değişmez", "Kanıta dayanır ve kendini düzeltir", "Yalnız sezgiyle elde edilir", "Deney gerektirmez"], "cevap": 1, "aciklama": "Bilimsel bilgi kanıta dayalıdır, sorgulanır ve yeni kanıtlarla düzeltilebilir."},
+        {"soru": "Aşağıdakilerden hangisi bilim etiğine aykırıdır?", "siklar": ["Kaynak göstermek", "Deney verilerini uydurmak", "Sonuçları yayınlamak", "Etik kurallara uymak"], "cevap": 1, "aciklama": "Veri uydurmak bilim etiğine aykırıdır; bilimde dürüstlük ve tekrarlanabilirlik esastır."}
+      ]
+    },
+    "9|9-biy|9-biy-u1|Canlıların ortak özellikleri": {
+      "ozet": "Tüm canlılar hücresel yapı, beslenme, solunum, boşaltım, hareket-tepki, büyüme, üreme, kalıtım, adaptasyon ve homeostasi gibi ortak özellikleri paylaşır. Virüsler bu özellikleri göstermedikleri için ayrı değerlendirilir.",
+      "anlatim": [
+        "Hücresel yapı: tüm canlılar bir ya da çok hücreden oluşur; hücre yaşamın temel birimidir.",
+        "Organizasyon: atom, molekül, organel, hücre, doku, organ, sistem ve organizma düzeyinde yapılanma.",
+        "Beslenme: ototrof (üretici) ve heterotrof (tüketici) olmak üzere iki temel beslenme biçimi vardır.",
+        "Solunum: canlılar enerji elde etmek için oksijenli veya oksijensiz solunum yapar.",
+        "Metabolizma: anabolizma (yapım) ve katabolizma (yıkım) reaksiyonlarının tümü.",
+        "Boşaltım ve homeostasi: atıkların uzaklaştırılması ve iç dengenin (sıcaklık, pH, su) korunması.",
+        "Hareket ve tepki (irritabilite): uyarılara yanıt verme; sinir-kas sistemiyle hareket etme.",
+        "Büyüme, gelişme ve üreme: hücre sayısı-hacminin artması ve eşeyli/eşeysiz üreme.",
+        "Kalıtım ve adaptasyon: DNA ile bilgi aktarımı; çevreye uyum özelliklerinin nesillere geçmesi."
+      ],
+      "formuller": [
+        "Ortak özellikler: hücre, organizasyon, beslenme, solunum, boşaltım, hareket, tepki, büyüme, üreme, kalıtım, adaptasyon, homeostasi",
+        "Virüsler hücresel yapılı değildir ve kendi başına metabolizma yapamaz (canlı-cansız arası)",
+        "Ototrof inorganikten organik üretir; heterotrof hazır organik besin alır",
+        "Organizasyon: hücre -> doku -> organ -> sistem -> organizma"
+      ],
+      "ornek": "Ateşten elini çekmek tepki (irritabilite), bir bakterinin ikiye bölünmesi hem eşeysiz üreme hem büyümedir.",
+      "ipucu": "TYT tuzağı: virüsler DNA/RNA taşısa da beslenme, solunum ve metabolizma göstermedikleri için 'ortak özellik' sorularında ayırt edici örnektir.",
+      "quiz": [
+        {"soru": "Aşağıdakilerden hangisi tüm canlılarda görülen ortak özellik değildir?", "siklar": ["Hücresel yapı", "Üreme", "Fotosentez", "Homeostasi"], "cevap": 2, "aciklama": "Fotosentez yalnız klorofil taşıyan ototrof canlılarda görülür; tüm canlılarda değil."},
+        {"soru": "Canlının uyarılara tepki verme özelliği hangi kavramla ifade edilir?", "siklar": ["Homeostasi", "İrritabilite", "Adaptasyon", "Metabolizma"], "cevap": 1, "aciklama": "İrritabilite (uyarılabilirlik) uyarılara yanıt verme yeteneğidir."},
+        {"soru": "Virüslerin canlılık sınırında sayılmasının temel nedeni nedir?", "siklar": ["Çok hücreli olmaları", "Kendi başına metabolizma yapamamaları", "Fotosentez yapmaları", "DNA taşımamaları"], "cevap": 1, "aciklama": "Virüsler konak hücre olmadan çoğalamaz ve metabolizma yürütemez; bu yüzden canlı-cansız arası kabul edilir."},
+        {"soru": "Anabolizma ve katabolizmanın ortak üst kavramı nedir?", "siklar": ["Boşaltım", "Metabolizma", "Kalıtım", "Adaptasyon"], "cevap": 1, "aciklama": "Yapım ve yıkım tepkimelerinin tümü metabolizmayı oluşturur."},
+        {"soru": "Organizasyon düzeyleri küçükten büyüğe doğru hangisidir?", "siklar": ["Organ-hücre-doku-sistem", "Hücre-doku-organ-sistem", "Doku-organ-hücre-sistem", "Sistem-organ-hücre-doku"], "cevap": 1, "aciklama": "Doğru sıra hücre, doku, organ, sistem, organizmadır."}
+      ]
+    },
+    "9|9-biy|9-biy-u1|Sınıflandırma ve 3 üst alem": {
+      "ozet": "Sınıflandırma canlıları ortak özelliklerine göre gruplar; ikili adlandırma cins ve türden oluşur. Maarif Modeli canlıları Bakteri, Arke ve Ökaryot olmak üzere üç üst alemde ele alır.",
+      "anlatim": [
+        "Sınıflandırmanın amacı canlıları tanımak, akrabalık derecelerini ortaya koymak ve çeşitliliği düzenlemektir.",
+        "İkili adlandırma (binominal) Linnaeus'a aittir; bilimsel ad cins ve tür olmak üzere iki kelimeden oluşur ve eğik yazılır.",
+        "Taksonomik basamaklar küçükten büyüğe: tür, cins, familya, takım, sınıf, şube, alem.",
+        "Tür; ortak atadan gelen, çiftleştiğinde verimli döl veren bireyler topluluğudur (kısır döl ayrı tür işaretidir).",
+        "Yeni yaklaşımda üç üst alem: Bakteri (Bacteria), Arke (Archaea) ve Ökaryot (Eukarya).",
+        "Bakteri ve Arke prokaryottur; çekirdek zarı ve zarla çevrili organelleri yoktur; kalıtım maddesi sitoplazmada dağınıktır.",
+        "Ökaryot alemleri: Protista, Mantar (Fungi), Bitki (Plantae) ve Hayvan (Animalia).",
+        "Karşılaştırma: bakteride peptidoglikan duvar; mantarda kitin duvar ve heterotrof beslenme; bitkide selüloz duvar ve ototrof beslenme; hayvanda duvar yoktur.",
+        "DNA ve protein benzerliği (filogenetik kanıt) ile homolog organlar akrabalığın temel delilleridir."
+      ],
+      "formuller": [
+        "Basamak sırası: Tür, Cins, Familya, Takım, Sınıf, Şube, Alem",
+        "Üç üst alem: Bakteri, Arke, Ökaryot",
+        "Ökaryot alemleri: Protista, Mantar, Bitki, Hayvan",
+        "Duvar karşılaştırması: bakteri peptidoglikan, mantar kitin, bitki selüloz, hayvan duvarsız",
+        "İnsan: Homo (cins) sapiens (tür) -> Homo sapiens"
+      ],
+      "ornek": "İnsanın bilimsel adı Homo sapiens; Homo cinstir, sapiens türdür ve italik ya da altı çizili yazılır.",
+      "ipucu": "TYT tuzağı: bakterilerin de hücre duvarı vardır; ayırt edici ölçüt duvarın varlığı değil, hücre tipi ve duvarın kimyasal yapısıdır.",
+      "quiz": [
+        {"soru": "İkili adlandırmada bir canlının bilimsel adı hangi iki basamaktan oluşur?", "siklar": ["Cins ve tür", "Familya ve takım", "Şube ve alem", "Sınıf ve cins"], "cevap": 0, "aciklama": "Binominal adlandırmada ilk kelime cins, ikinci kelime türdür."},
+        {"soru": "Taksonomik basamaklar içinde en kapsamlı olan hangisidir?", "siklar": ["Tür", "Cins", "Şube", "Alem"], "cevap": 3, "aciklama": "Basamaklar küçükten büyüğe sıralandığında en kapsamlı birim alemdir."},
+        {"soru": "Maarif Modeli'ne göre canlılar hangi üç üst alemde incelenir?", "siklar": ["Bitki-Hayvan-Mantar", "Bakteri-Arke-Ökaryot", "Protista-Mantar-Bitki", "Prokaryot-Ökaryot-Virüs"], "cevap": 1, "aciklama": "Üç üst alem Bakteri, Arke ve Ökaryot'tur."},
+        {"soru": "Hücre duvarında selüloz bulunduran alem hangisidir?", "siklar": ["Mantar", "Bitki", "Hayvan", "Bakteri"], "cevap": 1, "aciklama": "Bitki hücre duvarı selüloz, mantar duvarı kitin, bakteri duvarı peptidoglikandır; hayvan hücresinde duvar yoktur."},
+        {"soru": "Aynı türden sayılan bireylerin ayrı tür olmadığını gösteren ölçüt hangisidir?", "siklar": ["Farklı görünmeleri", "Çiftleşince verimli döl vermeleri", "Aynı ortamda yaşamaları", "Aynı büyüklükte olmaları"], "cevap": 1, "aciklama": "Türün ölçütü, bireylerin çiftleştiğinde verimli (kısır olmayan) döl vermesidir."}
+      ]
+    },
+    "9|9-biy|9-biy-u1|Biyoçeşitlilik": {
+      "ozet": "Biyoçeşitlilik genetik, tür ve ekosistem çeşitliliği olmak üzere üç düzeyde incelenir. Türkiye üç fitocoğrafik bölgesi ve endemik tür zenginliğiyle bir biyoçeşitlilik sıcak noktasıdır.",
+      "anlatim": [
+        "Biyoçeşitlilik; bir bölgedeki genetik, tür ve ekosistem çeşitliliğinin tümüdür.",
+        "Tür çeşitliliği: bir alandaki farklı türlerin sayısı ve birey bolluğudur.",
+        "Genetik çeşitlilik: aynı türün bireyleri arasındaki kalıtsal farklılıktır; hastalık ve çevre değişimine dayanıklılık sağlar.",
+        "Ekosistem çeşitliliği: orman, göl, bozkır, mercan resifi gibi farklı yaşam ortamları ve ekolojik süreçlerdir.",
+        "Biyoçeşitliliği etkileyen etkenler: iklim, coğrafi konum, yükselti ve habitat büyüklüğü; tropikal ormanlar ile mercan resifleri en zengindir.",
+        "Türkiye bir biyoçeşitlilik sıcak noktasıdır: Avrupa-Sibirya, Akdeniz ve İran-Turan fitocoğrafik bölgeleri ile yüksek endemizm oranı.",
+        "Biyoçeşitliliğin önemi: besin, ilaç, oksijen, madde döngüleri, ekonomik ve kültürel değer ile ekosistem kararlılığı.",
+        "Kaybolma nedenleri: habitat tahribi, kirlilik, aşırı avlanma, işgalci türler ve iklim değişikliği.",
+        "Koruma yolları: milli parklar, doğa koruma alanları, sürdürülebilir kullanım ve tahribatın azaltılması."
+      ],
+      "formuller": [
+        "Biyoçeşitlilik üç düzeyde: genetik + tür + ekosistem",
+        "Türkiye fitocoğrafik bölgeleri: Avrupa-Sibirya (Kuzey), Akdeniz (Güney), İran-Turan (İç ve Doğu)",
+        "Endemik: yalnız belirli bir bölgede yaşayan tür; relikt: geçmişte yaygın, bugün kalıntı",
+        "Genetik çeşitlilik azalırsa türün çevreye uyum gücü düşer"
+      ],
+      "ornek": "Tek tip tohum kullanılan tarımda genetik çeşitlilik azalır; bir hastalık tüm ürünü yok edebilir.",
+      "ipucu": "TYT tuzağı: 'Biyoçeşitlilik yalnız tür sayısıdır' denemez; genetik ve ekosistem çeşitliliği de kapsam içindedir.",
+      "quiz": [
+        {"soru": "Biyoçeşitlilik hangi düzeylerde incelenir?", "siklar": ["Gen, tür, ekosistem", "Hücre, doku, organ", "Molekül, atom, iyon", "Birey, popülasyon, tür"], "cevap": 0, "aciklama": "Biyoçeşitlilik genetik, tür ve ekosistem olmak üzere üç düzeyde ele alınır."},
+        {"soru": "Türkiye'yi biyoçeşitlilik açısından zengin kılan özellik hangisidir?", "siklar": ["Tek iklim tipi görülmesi", "Üç fitocoğrafik bölgeye sahip olması", "Küçük yüzölçümü", "Yüksek enlemde yer alması"], "cevap": 1, "aciklama": "Avrupa-Sibirya, Akdeniz ve İran-Turan bölgeleri Türkiye'yi zengin kılar."},
+        {"soru": "Yalnız belirli bir bölgede yetişen türlere ne denir?", "siklar": ["Kozmopolit", "Endemik", "Relikt", "İşgalci"], "cevap": 1, "aciklama": "Endemik türler yalnız kendi yaşam alanında bulunur ve küresel ölçekte dağılımı çok dardır."},
+        {"soru": "Genetik çeşitliliğin azalmasının beklenen sonucu nedir?", "siklar": ["Çevre değişimine uyumun zorlanması", "Fotosentez hızının artması", "Üreme hızının artması", "Popülasyonun genişlemesi"], "cevap": 0, "aciklama": "Genetik çeşitlilik azalınca popülasyonun hastalık ve çevre değişimine dayanıklılığı düşer."},
+        {"soru": "Aşağıdakilerden hangisi biyoçeşitliliği azaltan bir etkendir?", "siklar": ["Milli park kurulması", "Habitat tahribi", "Koruma alanları", "Sürdürülebilir tarım"], "cevap": 1, "aciklama": "Habitat tahribi canlıların yaşam alanını yok ederek tür kaybına yol açar."}
+      ]
+    },
+    "9|9-biy|9-biy-u2|Su ve mineraller": {
+      "ozet": "Su canlıda oranı en yüksek bileşik olup çözücü, taşıyıcı ve sıcaklık düzenleyicidir. Mineraller iyon hâlinde bulunur, enerji vermez ama yapısal ve düzenleyici görev yapar.",
+      "anlatim": [
+        "Canlıların yapısında en bol bulunan bileşik sudur; hücredeki su oranı yaklaşık %70-90'dır.",
+        "Suyun görevleri: çözücülük (metabolizma ortamı), taşıma, sıcaklık düzenlemesi, koruma ve hidroliz-sentez tepkimelerine katılma.",
+        "Suyun özgü özellikleri: polar yapı, yüksek özgül ısı, yüzey gerilimi ile kohezyon-adhezyon (bitkide su taşınması).",
+        "Mineraller iyon hâlinde bulunur; enerji vermez ancak yapısal madde ve düzenleyici (kofaktör) olarak görev yapar.",
+        "Makro elementler: C, H, O, N, P, S, K, Ca, Mg, Na, Cl; canlıda oranı en yüksek olanlar C, H, O ve N'dir.",
+        "Kalsiyum kemik-diş yapısı, kas kasılması ve kan pıhtılaşmasında; demir hemoglobinin yapısında görevlidir.",
+        "Magnezyum klorofilin merkezinde, iyot tiroksin hormonunda, fosfor ATP ve nükleik asitlerde bulunur.",
+        "Enerji vermeyen düzenleyiciler su, mineral ve vitamin; enerji verenler karbonhidrat, yağ ve proteindir.",
+        "Sodyum ve potasyum sinir iletimi, sinir kas uyarımı ve osmotik dengede rol alır."
+      ],
+      "formuller": [
+        "En bol bileşik sudur; canlı ağırlığının yaklaşık %70'i sudur",
+        "Ca: kemik, diş, kas kasılması, kan pıhtılaşması; Fe: hemoglobin; Mg: klorofil; I: tiroksin; P: ATP ve DNA",
+        "Enerji vermez, düzenler: su, mineral, vitamin; enerji verir: karbonhidrat, yağ, protein",
+        "Makro elementler C, H, O, N, P, S, K, Ca, Mg, Na, Cl"
+      ],
+      "ornek": "Demir eksikliğinde hemoglobin azalıp anemi (kansızlık), iyot eksikliğinde tiroksin azalıp guatr görülür.",
+      "ipucu": "TYT tuzağı: vitamin ve mineralin 'enerji kaynağı' olduğu düşünülür; oysa ikisi de enerji vermez, yalnız düzenleyicidir.",
+      "quiz": [
+        {"soru": "Canlıda oranı en yüksek olan bileşik hangisidir?", "siklar": ["Protein", "Su", "Yağ", "Karbonhidrat"], "cevap": 1, "aciklama": "Su, canlı ağırlığının yaklaşık %70'ini oluşturan en bol bileşiktir."},
+        {"soru": "Kemik ve diş yapısına katılan, kas kasılmasında rol alan mineral hangisidir?", "siklar": ["Demir", "Kalsiyum", "İyot", "Bakır"], "cevap": 1, "aciklama": "Kalsiyum kemik-diş yapısında, kas kasılmasında ve kan pıhtılaşmasında görevlidir."},
+        {"soru": "Hemoglobinin yapısında bulunan mineral hangisidir?", "siklar": ["Demir", "Kalsiyum", "İyot", "Fosfor"], "cevap": 0, "aciklama": "Demir hemoglobine bağlanır; eksikliğinde oksijen taşınması bozulur."},
+        {"soru": "Klorofilin yapısında yer alan mineral hangisidir?", "siklar": ["Demir", "Magnezyum", "Kalsiyum", "Sodyum"], "cevap": 1, "aciklama": "Klorofilin merkezinde magnezyum bulunur; eksikliğinde bitkide sararma görülür."},
+        {"soru": "Enerji vermeyen, düzenleyici olarak görev yapan besin hangisidir?", "siklar": ["Nişasta", "Glikoz", "Vitamin", "Zeytinyağı"], "cevap": 2, "aciklama": "Vitaminler enerji vermez; metabolik düzenleyici olarak çalışır."}
+      ]
+    },
+    "9|9-biy|9-biy-u2|Karbonhidrat, yağ, protein, nükleik asit, vitamin": {
+      "ozet": "Organik bileşikler monomer ve polimer ilişkisiyle kurulur. Karbonhidrat hızlı enerji, yağ en yoğun enerji deposu, protein yapı-enzim görevi, nükleik asit bilgi taşıma, vitamin ise düzenleyici görev üstlenir.",
+      "anlatim": [
+        "Organik bileşiklerin temel elementleri C, H, O olup bazılarında N, P ve S bulunur; monomer birleşerek polimeri oluşturur.",
+        "Karbonhidrat monomeri glikozdur; monosakkarit (glikoz, fruktoz, galaktoz), disakkarit (maltoz, laktoz, sakkaroz), polisakkarit (nişasta, glikojen, selüloz) bulunur.",
+        "Karbonhidratın görevi: hızlı enerji (1 g yaklaşık 4,1 kcal), yapısal (selüloz hücre duvarı, riboz-deoksiriboz nükleik asitte) ve depo (bitkide nişasta, hayvanda glikojen).",
+        "Yağlar gliserol ve yağ asidinden kurulur; nötral yağ, fosfolipit (zar yapısı) ve steroid (kolesterol, bazı hormonlar) çeşitleri vardır.",
+        "Yağın görevi: en yoğun enerji deposu (1 g yaklaşık 9,3 kcal), yalıtım, koruma, zar yapısı ve A-D-E-K vitaminlerinin taşınması.",
+        "Protein monomeri amino asittir; 20 çeşit amino asit peptit bağıyla bağlanır. Protein yapı, enzim, hormon, taşıma, bağışıklık ve kas kasılmasında görevlidir.",
+        "Protein yapıları birincil, ikincil, üçüncül ve dördüncül olup yüksek sıcaklık veya uygun olmayan pH'da denatürasyona uğrar.",
+        "Nükleik asidin monomeri nükleotittir (baz, pentoz şeker, fosfat). DNA deoksiribozlu çift sarmal, RNA ribozlu tek zincirdir; DNA kalıtımı, RNA protein sentezini yürütür.",
+        "Vitamin enerji vermez, düzenleyicidir; yağda çözünen A, D, E, K, suda çözünen B grubu ve C vitaminidir. Eksikliğinde hastalık çıkar (C vitamininde skorbüt, D vitamininde raşitizm)."
+      ],
+      "formuller": [
+        "Monomerler: karbonhidrat glikoz, protein amino asit, yağ gliserol ve yağ asidi, nükleik asit nükleotit",
+        "1 gram: yağ yaklaşık 9,3 kcal; karbonhidrat yaklaşık 4,1; protein yaklaşık 4,1 kcal",
+        "Yağda çözünen vitaminler A, D, E, K; suda çözünenler B grubu ve C",
+        "DNA deoksiribozlu çift sarmal, RNA ribozlu tek zincir",
+        "Nükleotit = baz + pentoz şeker + fosfat; DNA bazları A, T, G, C; RNA bazları A, U, G, C"
+      ],
+      "ornek": "Enzimler protein yapılıdır; ekmekteki nişasta karbonhidrat, zeytinyağı nötral yağ, hemoglobin ise proteindir.",
+      "ipucu": "TYT tuzağı: enerji tercih sırası karbonhidrat, yağ, protein şeklindedir; 'protein hiç enerji vermez' yanlıştır, sırası sonuncudur.",
+      "quiz": [
+        {"soru": "Proteinlerin yapı taşı nedir?", "siklar": ["Glikoz", "Amino asit", "Glikerol", "Nükleotit"], "cevap": 1, "aciklama": "Proteinlerin monomeri amino asittir ve amino asitler peptit bağıyla bağlanır."},
+        {"soru": "Gram başına en yüksek enerjiyi veren besin grubu hangisidir?", "siklar": ["Karbonhidrat", "Protein", "Yağ", "Vitamin"], "cevap": 2, "aciklama": "Yağ 1 gramda yaklaşık 9,3 kcal verir; bu değer karbonhidrat ve proteinin iki katından fazladır."},
+        {"soru": "Nükleotitin yapısına katılan üç temel birim hangisidir?", "siklar": ["Baz, şeker, fosfat", "Baz, protein, fosfat", "Amino asit, şeker, baz", "Glikoz, yağ, baz"], "cevap": 0, "aciklama": "Nükleotit azotlu baz, pentoz şeker ve fosfat grubundan oluşur."},
+        {"soru": "DNA ile RNA'yı yapıları bakımından ayıran şeker farkı hangisidir?", "siklar": ["Glikoz ve fruktoz", "Deoksiriboz ve riboz", "Sakkaroz ve maltoz", "Glikojen ve nişasta"], "cevap": 1, "aciklama": "DNA deoksiriboz, RNA riboz şekeri taşır."},
+        {"soru": "Hücre zarının yapısına katılan lipid çeşidi hangisidir?", "siklar": ["Nişasta", "Fosfolipit", "Selüloz", "Glikojen"], "cevap": 1, "aciklama": "Zarın temel yapısı fosfolipit çift tabakasıdır; nişasta, selüloz ve glikojen karbonhidrattır."}
+      ]
+    },
+    "9|9-biy|9-biy-u2|Hücre zarı, sitoplazma, organeller": {
+      "ozet": "Hücre zarı fosfolipit çift tabaka ve proteinlerden oluşan, seçici geçirgen sıvı-mozaik yapıdır. Organeller zarsız, tek zarlı ve çift zarlı olarak sınıflandırılır; her birinin ayrı görevi vardır.",
+      "anlatim": [
+        "Prokaryot (bakteri ve arke) ile ökaryot hücre ayrımı: prokaryotta çekirdek zarı ve zarlı organel yoktur.",
+        "Hücre zarı fosfolipit çift tabaka, protein ve karbonhidrattan oluşur; sıvı-mozaik modelle açıklanır ve seçici geçirgendir.",
+        "Zarın görevleri: madde alışverişini denetlemek, hücreyi çevreden ayırmak, reseptörlerle iletişim ve glikoproteinlerle hücreyi tanımak.",
+        "Bitki hücresinde zarın dışında selüloz yapılı hücre duvarı, mantarda kitin duvar bulunur; hayvan hücresinde duvar yoktur.",
+        "Sitoplazma, organellerin içinde bulunduğu sıvı ortamdır; metabolizmanın bir bölümü burada gerçekleşir.",
+        "Zarsız organeller ribozom (protein sentezi), sentriyol (hayvanda bölünme) ve hücre iskeletidir.",
+        "Mitokondri çift zarlıdır, kendi DNA'sına sahiptir ve oksijenli solunumla ATP üretir; aktif hücrelerde sayısı fazladır.",
+        "Kloroplast bitki ve alglerde bulunur, çift zarlıdır, klorofil taşır ve fotosentez yapar.",
+        "Tek zarlı organeller: endoplazmik retikulum (düz yağ sentezi-detoks, granüllü protein sentezi), golgi (paketleme-salınım), lizozom (sindirim), koful (depo ve osmotik denge) ve peroksizomdur."
+      ],
+      "formuller": [
+        "Zarsız: ribozom, sentriyol; tek zarlı: ER, golgi, lizozom, koful, peroksizom; çift zarlı: mitokondri, kloroplast, çekirdek",
+        "Bitki hücresi: selüloz duvar, kloroplast, büyük koful, sentriyol yok; mantar: kitin duvar, kloroplast yok; hayvan: duvar yok, sentriyol var",
+        "Ribozom protein sentezi (tüm hücrelerde), mitokondri ATP, kloroplast fotosentez, lizozom sindirim, golgi paketleme, koful depo",
+        "Sıvı-mozaik model: akışkan fosfolipit çift tabakaya gömülü proteinler"
+      ],
+      "ornek": "Kas hücresinde çok sayıda mitokondri, salgı yapan pankreas hücresinde gelişmiş golgi ve granüllü endoplazmik retikulum bulunur.",
+      "ipucu": "TYT tuzağı: ribozom zarsızdır ve prokaryotta da bulunur; mitokondri ile kloroplastın kendi DNA'sına sahip olması sık sorulur.",
+      "quiz": [
+        {"soru": "Hücre zarının temel yapısını oluşturan molekül çifti hangisidir?", "siklar": ["Fosfolipit ve protein", "Nişasta ve glikoz", "DNA ve RNA", "Selüloz ve kitin"], "cevap": 0, "aciklama": "Zar, fosfolipit çift tabakası ile buna gömülü proteinlerden oluşur (sıvı-mozaik model)."},
+        {"soru": "Aşağıdaki organellerden hangisi zarsızdır?", "siklar": ["Mitokondri", "Ribozom", "Lizozom", "Golgi"], "cevap": 1, "aciklama": "Ribozom ve sentriyol zarsız organellerdir."},
+        {"soru": "ATP üretiminden sorumlu organel hangisidir?", "siklar": ["Kloroplast", "Mitokondri", "Ribozom", "Koful"], "cevap": 1, "aciklama": "Mitokondri oksijenli solunumla ATP üretir; kloroplast fotosentez yapar."},
+        {"soru": "Bitki hücresinde bulunup hayvan hücresinde bulunmayan yapı hangisidir?", "siklar": ["Ribozom", "Kloroplast", "Mitokondri", "Çekirdek"], "cevap": 1, "aciklama": "Kloroplast (ve selüloz duvar) bitkiye özgüdür; ribozom, mitokondri ve çekirdek her ikisinde de vardır."},
+        {"soru": "Protein sentezinin yapıldığı organel hangisidir?", "siklar": ["Ribozom", "Golgi", "Lizozom", "Koful"], "cevap": 0, "aciklama": "Protein sentezi ribozomda gerçekleşir; golgi paketleme, lizozom sindirim yapar."}
+      ]
+    },
+    "9|9-biy|9-biy-u2|Madde geçişleri, doku-organ-sistem": {
+      "ozet": "Küçük moleküller pasif geçişle (difüzyon, ozmoz), bazıları aktif taşımayla geçer; büyük moleküller endositoz-ekzositozla taşınır. Hücreden organizmaya doğru doku, organ ve sistem düzeyinde organizasyon kurulur.",
+      "anlatim": [
+        "Difüzyon maddenin çok derişik ortamdan az derişik ortama enerji harcamadan geçişidir.",
+        "Ozmoz suyun, çözünen derişimi düşük ortamdan (çok su) yüksek ortama enerji harcamadan geçişidir.",
+        "Kolaylaştırılmış difüzyon taşıyıcı protein kullanır ancak ATP harcamaz.",
+        "Aktif taşıma derişim gradyanına karşı gerçekleşir, taşıyıcı protein ve ATP gerektirir; sodyum-potasyum pompası örnektir.",
+        "Endositoz (fagositoz katı, pinositoz sıvı) maddeyi hücre içine alır, ekzositoz dışarı verir; ikisi de ATP harcar.",
+        "Ozmotik basınç ve hücre davranışı: hipotonik ortamda hücre şişer, hipertonik ortamda büzüşür, izotonikte dengede kalır.",
+        "Bitki hücresinde su kaybı plazmolize, aşırı su alımı turgidliğe yol açar; turgor basıncı bitkiye diklik verir.",
+        "Organizasyon: hücre, doku, organ, sistem ve organizma basamaklarından oluşur.",
+        "Hayvansal dokular epitel, bağ (destek), kas ve sinir; bitkisel dokular meristem (bölünür), epidermis, parankima ve iletim dokularıdır."
+      ],
+      "formuller": [
+        "Pasif geçiş: difüzyon, ozmoz, kolaylaştırılmış difüzyon; ATP harcanmaz, çoktan aza doğru",
+        "Aktif geçiş: aktif taşıma, endositoz, ekzositoz; ATP harcanır",
+        "Hipotonik: hücre şişer; hipertonik: büzüşür; izotonik: dengede kalır",
+        "Organizasyon: hücre -> doku -> organ -> sistem -> organizma",
+        "Hayvansal doku: epitel, bağ, kas, sinir; bitkisel doku: meristem, epidermis, parankima, iletim"
+      ],
+      "ornek": "Bitkiye aşırı gübre (tuz) verilirse toprak hipertonik olur, hücre su kaybedip plazmoliz olur ve bitki solar.",
+      "ipucu": "TYT tuzağı: endositoz ve ekzositoz 'aktif' geçiştir ve ATP harcar; difüzyon ise enerji gerektirmeyen pasif geçiştir.",
+      "quiz": [
+        {"soru": "Maddenin çok derişik ortamdan az derişik ortama enerji harcamadan geçişi nedir?", "siklar": ["Aktif taşıma", "Difüzyon", "Endositoz", "Ekzositoz"], "cevap": 1, "aciklama": "Difüzyon pasif geçiştir; çok derişikten az derişike doğru ATP harcamadan gerçekleşir."},
+        {"soru": "Sodyum-potasyum pompası hangi geçiş türüne örnektir?", "siklar": ["Difüzyon", "Ozmoz", "Aktif taşıma", "Kolaylaştırılmış difüzyon"], "cevap": 2, "aciklama": "İyonlar derişim gradyanına karşı ATP harcanarak taşındığı için aktif taşımadır."},
+        {"soru": "Suyun, çözünen derişimi düşük ortamdan yüksek ortama geçişi hangisidir?", "siklar": ["Difüzyon", "Ozmoz", "Fagositoz", "Pinositoz"], "cevap": 1, "aciklama": "Ozmoz suyun yarı geçirgen zardan geçişidir; su çok olduğu yönden az olduğu yöne gider."},
+        {"soru": "Büyük moleküllerin hücre zarından hücre içine alınması hangisidir?", "siklar": ["Endositoz", "Ekzositoz", "Ozmoz", "Kolaylaştırılmış difüzyon"], "cevap": 0, "aciklama": "Endositoz büyük molekülleri içe alır (fagositoz katı, pinositoz sıvı) ve ATP harcar."},
+        {"soru": "Organizasyon sırası aşağıdakilerden hangisidir?", "siklar": ["Organ-doku-hücre-sistem", "Hücre-doku-organ-sistem", "Doku-hücre-sistem-organ", "Sistem-organ-hücre-doku"], "cevap": 1, "aciklama": "Doğru sıra hücre, doku, organ, sistem ve organizmadır."}
+      ]
+    }
+  },
+  "10-biy": {
+    "10|10-biy|10-biy-u1|ATP ve enerjinin önemi": {
+      "ozet": "ATP hücrenin doğrudan kullanılabilir enerji birimidir ve sürekli yeniden üretilir. Oksijenli solunum, fermantasyona göre çok daha fazla ATP üretir.",
+      "anlatim": [
+        "ATP (adenozin trifosfat) adenin, riboz ve üç fosfat grubundan oluşur; hücrenin kullanılabilir enerji birimidir.",
+        "ATP ile ADP arasındaki dönüşüm çift yönlüdür: ATP parçalanınca ADP, inorganik fosfat ve enerji açığa çıkar.",
+        "Hücre enerjiyi önce ATP'den, ATP azalınca fosfokreatinden, sonra solunumla glikozdan, en son yağ ve proteinden sağlar.",
+        "ATP; kas kasılması, protein sentezi, aktif taşıma, sinir iletimi ve biyosentez gibi süreçlerde harcanır.",
+        "ATP hücrede depo edilmez, sürekli yenilenir; bu yüzden solunum ve fotosentez kesintisiz sürer.",
+        "Oksijenli solunumun evreleri: glikoliz (sitoplazma), krebs döngüsü (mitokondri matriksi) ve elektron taşıma sistemi (krista).",
+        "Oksijenli solunumda yaklaşık 30-32 ATP üretilir; fermantasyonda yalnızca yaklaşık 2 ATP oluşur.",
+        "Oksijenli solunumda ürün olarak karbondioksit ve su açığa çıkar; fermantasyonda laktik asit veya etil alkol oluşur.",
+        "Enerji dönüşümleri tek yönlüdür: besinlerdeki kimyasal enerji ATP'ye, ışık enerjisi fotosentezle kimyasal enerjiye çevrilir."
+      ],
+      "formuller": [
+        "ATP = adenin + riboz + 3 fosfat; ATP <-> ADP + Pi + enerji",
+        "ATP harcanan süreçler: kas kasılması, protein sentezi, aktif taşıma, sinir iletimi, biyosentez",
+        "Oksijenli solunum yaklaşık 30-32 ATP; fermantasyon yaklaşık 2 ATP",
+        "Oksijenli solunum evreleri: glikoliz (sitoplazma), krebs (matriks), ETS (krista)",
+        "Fermantasyon ürünleri: laktik asit (kas, bazı bakteriler) veya etil alkol (maya)"
+      ],
+      "ornek": "Sprint yapan atlet başlangıçta ATP ve fosfokreatini, devamında laktik asit fermantasyonunu, uzun mesafede ise oksijenli solunumu kullanır.",
+      "ipucu": "TYT tuzağı: ATP 'enerji deposu' değil, anlık enerji taşıyıcısıdır; depo görevi yağ ve glikojene aittir.",
+      "quiz": [
+        {"soru": "ATP'nin yapısında bulunmayan molekül hangisidir?", "siklar": ["Adenin", "Riboz", "Fosfat", "Deoksiriboz"], "cevap": 3, "aciklama": "ATP'de riboz şekeri bulunur; deoksiriboz DNA'nın şekeridir."},
+        {"soru": "ATP'nin parçalanmasıyla oluşan ürünler hangisidir?", "siklar": ["ADP, inorganik fosfat ve enerji", "AMP ve su", "DNA ve enerji", "Glikoz ve oksijen"], "cevap": 0, "aciklama": "ATP hidrolizinde ADP, inorganik fosfat ve kullanılabilir enerji açığa çıkar."},
+        {"soru": "Oksijenli solunumun en fazla ATP ürettiği evre hangisidir?", "siklar": ["Glikoliz", "Krebs döngüsü", "Elektron taşıma sistemi", "Fermantasyon"], "cevap": 2, "aciklama": "ATP'nin büyük bölümü kristada işleyen elektron taşıma sisteminde üretilir."},
+        {"soru": "Fermantasyonun ATP verimi oksijenli solunuma göre nasıldır?", "siklar": ["Daha yüksek", "Daha düşük", "Eşit", "Sıfır"], "cevap": 1, "aciklama": "Fermantasyonda yalnızca yaklaşık 2 ATP oluşur; bu, oksijenli solunumdan çok azdır."},
+        {"soru": "Oksijenli solunumun glikoliz evresi nerede gerçekleşir?", "siklar": ["Mitokondri matriksi", "Sitoplazma", "Krista", "Çekirdek"], "cevap": 1, "aciklama": "Glikoliz sitoplazmada, krebs matrikste, ETS kristada gerçekleşir."}
+      ]
+    },
+    "10|10-biy|10-biy-u1|Fotosentez ve hızını etkileyen faktörler": {
+      "ozet": "Fotosentez ışık enerjisini kimyasal enerjiye çevirir; kloroplastta ışığa bağımlı ve ışıktan bağımsız evrelerde gerçekleşir. Hızı ışık, karbondioksit, sıcaklık ve su gibi faktörlerce belirlenir.",
+      "anlatim": [
+        "Fotosentez denklemi: 6CO2 + 6H2O -> C6H12O6 + 6O2; ışık enerjisi kimyasal enerjiye dönüştürülür.",
+        "Fotosentez kloroplastta gerçekleşir; klorofil mavi ve kırmızı ışığı soğurur, yeşil ışığı yansıtır.",
+        "Işığa bağımlı (aydınlık) evre tilakoit zarda gerçekleşir; su ayrıştırılır, oksijen açığa çıkar, ATP ve NADPH üretilir.",
+        "Işıktan bağımsız (Calvin, karanlık) evre stromada işler; karbondioksit tüketilir ve glikoz üretilir.",
+        "Fotosentez atmosferdeki oksijenin ve besin zincirinin temel kaynağıdır.",
+        "Hızı etkileyen faktörler: ışık şiddeti, karbondioksit derişimi, sıcaklık, su miktarı, klorofil ve magnezyum.",
+        "Işık şiddeti belirli bir değere kadar hızı artırır, doygunluktan sonra artış durur (sınırlayıcı faktör değişir).",
+        "Karbondioksit artışı belirli bir noktaya kadar hızı artırır; uygun sıcaklık aralığı yaklaşık 25-35 derecedir.",
+        "Optimumun üzerindeki sıcaklıkta enzimler denatüre olur ve fotosentez hızı düşer; yeşil ışık en az, kırmızı-mavi ışık en çok fotosentez yaptırır."
+      ],
+      "formuller": [
+        "6CO2 + 6H2O --ışık/klorofil--> C6H12O6 + 6O2",
+        "Aydınlık evre: tilakoit zar (ATP, NADPH, O2); Karanlık evre: stroma (CO2, ATP, NADPH -> glikoz)",
+        "Hız faktörleri: ışık şiddeti, CO2, sıcaklık, su, klorofil ve Mg",
+        "Optimum sıcaklık yaklaşık 25-35 derece; yüksek sıcaklıkta enzim denatürasyonu",
+        "Yeşil ışık en az, kırmızı-mavi ışık en çok fotosentez yaptırır"
+      ],
+      "ornek": "Işık şiddetinin artırıldığı grafikte hız önce dik yükselir, sonra yatay seyreder; CO2 artırılırsa yatay seviye yukarı taşınır.",
+      "ipucu": "TYT tuzağı: 'ışıktan bağımsız (karanlık) evre' yalnız karanlıkta değil gündüz de sürer; adı ışığa doğrudan bağımlı olmamasından gelir.",
+      "quiz": [
+        {"soru": "Fotosentezin denklemi hangisidir?", "siklar": ["6CO2 + 6H2O -> C6H12O6 + 6O2", "C6H12O6 + 6O2 -> 6CO2 + 6H2O", "CO2 + O2 -> glikoz", "H2O -> glikoz + O2"], "cevap": 0, "aciklama": "Fotosentez karbondioksit ve suyu, ışık ve klorofil yardımıyla glikoz ve oksijene çevirir."},
+        {"soru": "Işığa bağımlı evre hangi yapıda gerçekleşir?", "siklar": ["Stroma", "Tilakoit zar", "Sitoplazma", "Mitokondri"], "cevap": 1, "aciklama": "Aydınlık evre kloroplastın tilakoit zarında, karanlık evre stromada gerçekleşir."},
+        {"soru": "Işıktan bağımsız (karanlık) evrede tüketilen temel gaz hangisidir?", "siklar": ["Oksijen", "Karbondioksit", "Azot", "Hidrojen"], "cevap": 1, "aciklama": "Calvin evresinde ATP ve NADPH kullanılarak karbondioksit glikoza dönüştürülür."},
+        {"soru": "Fotosentez hızını etkilemeyen faktör hangisidir?", "siklar": ["Işık şiddeti", "Karbondioksit derişimi", "Sıcaklık", "Kandaki glikoz oranı"], "cevap": 3, "aciklama": "Bitkide kandaki glikoz oranı diye bir etken yoktur; hız ışık, CO2, sıcaklık ve suya bağlıdır."},
+        {"soru": "Optimumun üzerindeki yüksek sıcaklıkta fotosentez hızının düşmesinin nedeni nedir?", "siklar": ["Enzimlerin denatüre olması", "Klorofilin artması", "Karbondioksitin bitmesi", "Suyun donması"], "cevap": 0, "aciklama": "Kalvin evresi enzimlerle yürür; yüksek sıcaklıkta enzimler denatüre olur ve hız düşer."}
+      ]
+    },
+    "10|10-biy|10-biy-u1|Kemosentez": {
+      "ozet": "Kemosentez, ışık kullanmadan inorganik maddelerin oksitlenmesinden elde edilen enerjiyle organik madde üretimidir ve yalnız bazı ototrof bakterilerde görülür.",
+      "anlatim": [
+        "Kemosentez, ışık enerjisi kullanmadan kimyasal enerjiyle organik madde üretimidir.",
+        "Kemosentez yapan canlılar kemoototrof bakterilerdir (nitrifikasyon, kükürt, demir ve hidrojen bakterileri).",
+        "Enerji kaynağı amonyak, nitrit, hidrojen sülfür, demir ve hidrojen gibi inorganik maddelerin oksitlenmesidir.",
+        "Nitrifikasyon: Nitrosomonas amonyumu nitrite, Nitrobacter nitriti nitrata çevirir; bu adım toprakta azot döngüsünde önemlidir.",
+        "Kemosentez ile fotosentezin ortak yönü: ikisi de ototrof olup ATP ve indirgeyici güç sağlayarak organik madde üretir.",
+        "Farkları: kemosentez kimyasal enerji kullanır ve ışığa bağımlı değildir; fotosentez ışık enerjisi kullanır.",
+        "Kemosentezin ürünü glikoz ve benzeri organik maddelerdir; bunlar solunumda veya besin zincirine aktarılır.",
+        "Derin okyanuslardaki hidrotermal bacalarda güneş ışığı ulaşmadığı için besin zincirinin temeli kemosentezdir.",
+        "Kemoototroflar ekosistemde üretici görevindedir; diğer canlılar bunları tüketerek enerji akışını sürdürür."
+      ],
+      "formuller": [
+        "Kemosentez: inorganik maddenin oksitlenmesi -> kimyasal enerji -> organik madde",
+        "Örnek bakteriler: Nitrosomonas (NH3 -> NO2-), Nitrobacter (NO2- -> NO3-), kükürt, demir ve hidrojen bakterileri",
+        "Kemosentez ışık kullanmaz; fotosentez kullanır; ikisi de ototroftur",
+        "Kemosentez, hidrotermal baca ekosistemlerinde üreticiliğin temelidir"
+      ],
+      "ornek": "Güneş ışığının ulaşmadığı derin okyanus yarıklarında yaşam, kemosentez yapan bakterilerle başlayan besin zincirine dayanır.",
+      "ipucu": "TYT tuzağı: 'Kemosentez bitkilerde de görülür' yanlıştır; kemosentez yalnız bazı ototrof bakterilerde gerçekleşir.",
+      "quiz": [
+        {"soru": "Kemosentezde enerji kaynağı nedir?", "siklar": ["Işık", "İnorganik maddelerin oksitlenmesi", "Hazır organik besin", "Isı"], "cevap": 1, "aciklama": "Kemosentezde enerji, inorganik maddelerin oksitlenmesiyle kimyasal olarak elde edilir; ışık kullanılmaz."},
+        {"soru": "Kemosentez yapan canlılar hangisidir?", "siklar": ["Bitkiler", "Kemoototrof bakteriler", "Mantarlar", "Hayvanlar"], "cevap": 1, "aciklama": "Kemosentez, kemoototrof bakterilerde görülür."},
+        {"soru": "Nitrifikasyonun tarım toprakları için önemi nedir?", "siklar": ["Azotun bitkilerin alabileceği forma dönüşmesi", "Oksijen üretilmesi", "Karbonun ayrışması", "Suyun buharlaşması"], "cevap": 0, "aciklama": "Nitrifikasyon, amonyum ve nitriti bitkilerin alabileceği nitrata çevirir."},
+        {"soru": "Fotosentez ile kemosentezin ortak yönü nedir?", "siklar": ["Işık kullanmaları", "Ototrof olmaları", "Klorofil içermeleri", "Yalnız hayvanlarda görülmeleri"], "cevap": 1, "aciklama": "İkisi de ototrof canlıların inorganik maddeden organik madde üretme yoludur."},
+        {"soru": "Derin deniz hidrotermal bacalarında ekosistemin enerji temeli nedir?", "siklar": ["Güneş ışığı", "Kemosentez", "Fotosentez", "Doğrudan ısı emilmesi"], "cevap": 1, "aciklama": "Işık ulaşmadığı için bu ekosistemlerde besin zinciri kemosentezle başlar."}
+      ]
+    },
+    "10|10-biy|10-biy-u2|Ekosistem ve madde döngüleri": {
+      "ozet": "Ekosistem canlı ve cansız bileşenlerin etkileşimidir; enerji tek yönlü akar, madde ise döngüseldir. Su, karbon, azot ve fosfor döngüleri ekosistemin devamlılığını sağlar.",
+      "anlatim": [
+        "Ekosistem; belirli bir alandaki canlılar (biyotik), cansız etkenler (abiyotik) ve aralarındaki etkileşimdir.",
+        "Biyotik bileşenler üreticiler, tüketiciler (otçul, etçil, hepçil) ve ayrıştırıcılardan (mantar-bakteri) oluşur.",
+        "Enerji besin zinciri ve besin ağı boyunca tek yönlü akar; her basamakta enerjinin yaklaşık %10'u üst basamağa geçer.",
+        "Madde döngüseldir; ekosistemde su, karbon, azot, oksijen ve fosfor döngüleri işler.",
+        "Su döngüsü buharlaşma ve terleme, yoğuşma, yağış, yüzey akışı ve yer altı suları ile güneş enerjisiyle çalışır.",
+        "Karbon döngüsünde fotosentez karbondioksit tüketir; solunum, yanma ve ayrışma karbondioksit açığa çıkarır.",
+        "Azot döngüsü azot fiksasyonu (Rhizobium gibi kök bakterileri), nitrifikasyon, asimilasyon ve denitrifikasyon basamaklarından oluşur.",
+        "Fosfor döngüsü atmosfere girmez; kaya, toprak, su ve canlılar arasında işleyen tortul (sedimanter) bir döngüdür.",
+        "Besin piramidinde üst basamağa çıkıldıkça aktarılan enerji ve genellikle birey sayısı azalır."
+      ],
+      "formuller": [
+        "Ekosistem = biyotik + abiyotik + etkileşim",
+        "Enerji tek yönlü akar, madde döngüseldir; enerjinin yaklaşık %10'u üst basamağa geçer",
+        "Su döngüsü: buharlaşma -> yoğuşma -> yağış -> akış",
+        "Karbon döngüsü: fotosentez tüketir, solunum-yanma-ayrışma üretir",
+        "Azot döngüsü: fiksasyon -> nitrifikasyon -> asimilasyon -> denitrifikasyon",
+        "Fosfor döngüsü atmosfere girmez (tortul döngü)"
+      ],
+      "ornek": "Bir gölde fitoplankton, zooplankton, balık ve kuş besin zincirini oluşturur; ayrıştırıcı bakteriler ölü organik maddeyi parçalar.",
+      "ipucu": "TYT tuzağı: enerji döngüye girmez, tek yönlü akar; madde ise döngüseldir. Bu ayrım sıkça sorulur.",
+      "quiz": [
+        {"soru": "Ekosistemde enerji akışı nasıldır?", "siklar": ["Döngüsel", "Tek yönlü", "Rastgele", "Geri dönüşümlü"], "cevap": 1, "aciklama": "Enerji besin zinciri boyunca tek yönlü akar; madde ise döngüseldir."},
+        {"soru": "Baklagil köklerinde azot fiksasyonunu yapan canlı hangisidir?", "siklar": ["Rhizobium bakterisi", "Nitrobacter", "Maya", "Alg"], "cevap": 0, "aciklama": "Rhizobium cinsi bakteriler baklagil kök yumrularında atmosfer azotunu bağlar."},
+        {"soru": "Karbon döngüsünde karbondioksiti tüketen süreç hangisidir?", "siklar": ["Solunum", "Yanma", "Fotosentez", "Ayrışma"], "cevap": 2, "aciklama": "Fotosentez karbondioksiti tüketir; solunum, yanma ve ayrışma açığa çıkarır."},
+        {"soru": "Atmosfere girmeyen, tortul döngü olan element hangisidir?", "siklar": ["Karbon", "Azot", "Oksijen", "Fosfor"], "cevap": 3, "aciklama": "Fosfor döngüsü atmosferik faz içermez; kaya, toprak ve su arasında işler."},
+        {"soru": "Besin zincirinde bir üst basamağa enerjinin yaklaşık ne kadarı geçer?", "siklar": ["%100", "%50", "%10", "%1"], "cevap": 2, "aciklama": "Enerji aktarımında üst basamağa yaklaşık %10 geçer; geri kalanı metabolik kayıp olur."}
+      ]
+    },
+    "10|10-biy|10-biy-u2|Güncel çevre sorunları": {
+      "ozet": "Küresel ısınma, ozon incelmesi, asit yağmurları, kirlilik ve biyoçeşitlilik kaybı güncel çevre sorunlarıdır. Çözüm sürdürülebilir üretim ve tüketimden geçer.",
+      "anlatim": [
+        "Sera etkisi ve küresel ısınma: karbondioksit, metan ve azot oksit gibi sera gazları ısıyı tutarak ortalama sıcaklığı artırır.",
+        "İklim değişikliğinin sonuçları: buzul erimesi, deniz seviyesinin yükselmesi, kuraklık-sel dengesizliği, tür kaybı ve tarım veriminin düşmesi.",
+        "Ozon tabakasının incelmesi CFC (kloroflorokarbon) gazlarından kaynaklanır; artan mor ötesi ışın deri kanseri ve ekosistem zararına yol açar.",
+        "Asit yağmurları kükürt dioksit ve azot oksitlerin su buharıyla birleşip sülfürik ve nitrik asit oluşturmasıyla meydana gelir.",
+        "Asit yağmurları toprağı ve gölleri asitlendirerek canlı yaşamını bozar, tarihi yapıları aşındırır.",
+        "Su ve toprak kirliliği evsel-sanayi atıklar, plastik, ağır metaller ve pestisitlerden kaynaklanır.",
+        "Biyobirikim (biyomagnifikasyon): zararlı madde besin zinciri boyunca üst tüketicilerde yoğunlaşır.",
+        "Biyoçeşitlilik kaybının nedenleri: habitat yok olması, aşırı avlanma, işgalci türler, kirlilik ve iklim değişikliğidir.",
+        "Çözümler: yenilenebilir enerji kullanımı, geri dönüşüm, atık azaltma, sürdürülebilir tüketim ve uluslararası anlaşmalar (Kyoto, Paris)."
+      ],
+      "formuller": [
+        "Sera gazları: CO2, CH4, N2O, su buharı, CFC",
+        "Ozon incelmesi CFC kaynaklı, küresel ısınma sera gazı kaynaklı; bunlar farklı sorunlardır",
+        "Asit yağmuru: SO2 ve NOx -> H2SO4 ve HNO3",
+        "Biyobirikim: zararlı madde besin zincirinde üst basamağa yoğunlaşır",
+        "Çözüm: yenilenebilir enerji + geri dönüşüm + sürdürülebilir tüketim"
+      ],
+      "ornek": "Sanayi bölgesinden yayılan kükürt dioksit, yağışla asit yağmuruna dönüşüp göllerin pH'ını düşürerek balık popülasyonunu yok edebilir.",
+      "ipucu": "TYT tuzağı: ozon incelmesi ile sera etkisi karıştırılır; ozon deliği mor ötesi ışını artırır, sera etkisi sıcaklığı yükseltir.",
+      "quiz": [
+        {"soru": "Ozon tabakasının incelmesine neden olan gaz hangisidir?", "siklar": ["Karbondioksit", "Kloroflorokarbon", "Oksijen", "Azot"], "cevap": 1, "aciklama": "CFC gazları stratosferde ozonu parçalayarak tabakayı inceltir."},
+        {"soru": "Sera etkisinin temel sonucu nedir?", "siklar": ["Atmosferin soğuması", "Küresel sıcaklık artışı", "Ozonun artması", "Deniz suyunun tatlılaşması"], "cevap": 1, "aciklama": "Sera gazları ısıyı tutarak küresel ortalama sıcaklığı yükseltir."},
+        {"soru": "Asit yağmurlarının temel kaynağı hangi gazlardır?", "siklar": ["SO2 ve NOx", "CO2 ve O2", "CH4 ve N2", "H2 ve He"], "cevap": 0, "aciklama": "Kükürt dioksit ve azot oksitler suyla birleşerek asit oluşturur."},
+        {"soru": "Zararlı maddenin besin zinciri boyunca üst canlılarda yoğunlaşmasına ne denir?", "siklar": ["Biyobirikim", "Fotosentez", "Kemosentez", "Difüzyon"], "cevap": 0, "aciklama": "Biyobirikim (biyomagnifikasyon), zararlı maddenin üst basamaklarda artmasıdır."},
+        {"soru": "Çevre sorunlarına yönelik sürdürülebilir çözüm hangisidir?", "siklar": ["Fosil yakıt kullanımını artırmak", "Yenilenebilir enerji ve geri dönüşüm", "Ormanları azaltmak", "Plastik kullanımını artırmak"], "cevap": 1, "aciklama": "Yenilenebilir enerji ve geri dönüşüm, kaynak tüketimini ve kirliliği azaltır."}
+      ]
+    }
+  },
+  "9-din": {
+    "9|9-din|9-din-u1|İnsanın yaratılışı": {
+      "ozet": "İslam'a göre insan, Allah tarafından en güzel biçimde yaratılmış; akıl ve irade ile diğer varlıklardan ayrılmış, yeryüzünde sorumluluk yüklenmiş bir varlıktır.",
+      "anlatim": [
+        "İslam'a göre insan Allah tarafından yaratılmış ve yeryüzünde sorumluluk (emanetçilik) yüklenmiştir.",
+        "İnsanın yaratılışı Kur'an'da 'ahsen-i takvim' (en güzel biçim) olarak nitelenir; bedeni ve ruhu birliktedir.",
+        "İnsan topraktan yaratılıp ruh üflenmiştir; böylece maddi ve manevi yönü bütünleşir.",
+        "İnsanı diğer varlıklardan ayıran temel özellik akıl, irade ve sorumluluk sahibi olmasıdır.",
+        "Yaratılış amacı Allah'a kulluk etmek ve bu dünyada imtihan edilmektir.",
+        "Fıtrat, insanın doğuştan temiz ve inanmaya yatkın yaratılmasıdır; çevre ve eğitim bu eğilimi etkiler.",
+        "İnsan yaratılmışların en şereflisi sayılır; ancak bu değeri sorumluluk ve ahlakla korur.",
+        "Yaratılışta eşitlik esastır; üstünlük soy, mal veya güçte değil takvadadır.",
+        "İrade özgürlüğü olmadan sorumluluk anlamlı olmaz; insan seçimlerinden sorumludur."
+      ],
+      "formuller": [
+        "İnsan: maddi (beden) ve manevi (ruh) yönü olan, akıl ve irade sahibi varlık",
+        "Yaratılış amacı: kulluk ve imtihan",
+        "Fıtrat: doğuştan gelen temizlik ve inanma eğilimi",
+        "Üstünlük ölçütü takvadır, ırk veya soy değildir",
+        "İnsan seçimlerinden sorumludur; sorumluluk akıl ve iradeye dayanır"
+      ],
+      "ornek": "Bir insanın iyiliğe yönelmesi fıtratına uygun bir davranış, kötülüğü seçmesi ise iradesini yanlış kullanması olarak açıklanır.",
+      "ipucu": "TYT tuzağı: 'İnsan sorumludur ama iradesi yoktur' gibi çelişkili ifadeler yanlıştır; akıl, irade ve sorumluluk birlikte değerlendirilir.",
+      "quiz": [
+        {"soru": "İslam'a göre insanı diğer varlıklardan ayıran temel özellik hangisidir?", "siklar": ["Fotosentez yapması", "Akıl ve irade sahibi olması", "Çok hücreli olması", "Aynı anda pek çok iş yapması"], "cevap": 1, "aciklama": "İnsanı ayıran özellik akıl, irade ve bunlara bağlı sorumluluktur."},
+        {"soru": "İnsanın yaratılış amacı Kur'an'da nasıl belirtilir?", "siklar": ["Ticaret yapmak", "Allah'a kulluk etmek", "Bilim üretmek", "Doğayı değiştirmek"], "cevap": 1, "aciklama": "İnsanın kulluk ve imtihan için yaratıldığı belirtilir."},
+        {"soru": "Fıtrat kavramı neyi ifade eder?", "siklar": ["Sonradan öğrenilen davranışı", "Doğuştan gelen temiz ve inanma eğilimini", "Toplumun yazılı kuralını", "Ekonomik düzeni"], "cevap": 1, "aciklama": "Fıtrat, insanın doğuştan temiz ve inanmaya yatkın yaratılmasıdır."},
+        {"soru": "İslam'a göre insanlar arasındaki üstünlük ölçütü nedir?", "siklar": ["Soy", "Zenginlik", "Takva", "Fiziksel güç"], "cevap": 2, "aciklama": "Üstünlük ırk, soy veya malda değil, takvadadır (Allah'a saygı ve sorumluluk bilinci)."},
+        {"soru": "'Ahsen-i takvim' ifadesi neyi anlatır?", "siklar": ["İnsanın en güzel biçimde yaratılmasını", "İnsanın günahkâr oluşunu", "Evrenin büyüklüğünü", "Meleklerin özelliğini"], "cevap": 0, "aciklama": "Ahsen-i takvim, insanın en güzel biçimde yaratıldığını ifade eder."}
+      ]
+    },
+    "9|9-din|9-din-u1|Doğruyu arayan varlık": {
+      "ozet": "İnsan doğası gereği anlam ve doğru arayışındadır. İslam'da vahiy, akıl ve duyu-deney doğru bilginin birbirini destekleyen kaynaklarıdır.",
+      "anlatim": [
+        "İnsan merak eden, soru soran ve doğruyu arayan bir varlıktır; bu arayış fıtrîdir.",
+        "Doğru bilginin kaynakları vahiy, akıl ve duyu-deneydir; İslam bunları birbirini destekleyen araçlar olarak görür.",
+        "Vahiy, Allah'ın peygamberler aracılığıyla bildirdiği ilahi bilgidir; Kur'an son ilahi kitaptır.",
+        "Akıl, insanı diğer varlıklardan ayıran düşünme yetisidir; Kur'an akletmeyi ve düşünmeyi öğütler.",
+        "Tefekkür, evren ve insanın kendisi üzerinde derin düşünmedir; iman ve anlam arayışının kaynağıdır.",
+        "Taklit sorgusuz kabul, tahkik ise araştırıp inanmadır; İslam tahkiki teşvik eder.",
+        "Doğru arayışını ön yargı, hurafe, taassup ve inat engeller; bunlara karşı sorgulayıcı yaklaşım gerekir.",
+        "İslam'da ilim öğrenmek teşvik edilir; bilimsel düşünce ile vahiy birbirini dışlamaz.",
+        "İnançta zorlama yoktur; insan doğruyu arama sürecinde özgürdür ve seçiminden sorumludur."
+      ],
+      "formuller": [
+        "Doğru bilgi kaynakları: vahiy, akıl, duyu-deney",
+        "Tefekkür: evren ve insan üzerinde düşünme",
+        "Tahkik (araştırarak inanma) ve taklit (sorgusuz kabul) karşıtlığı",
+        "İnançta zorlama yoktur; inanç özgürlüğü esastır",
+        "Kur'an son ilahi kitap, Hz. Muhammed son peygamberdir"
+      ],
+      "ornek": "Bir gencin kâinattaki düzeni gözlemleyip akıl ve vahiyle anlamlandırması tefekkür örneğidir.",
+      "ipucu": "TYT tuzağı: 'Din akla aykırıdır' görüşü İslam'a göre yanlıştır; akıl ile vahyin uyumu vurgulanır.",
+      "quiz": [
+        {"soru": "İslam'a göre doğru bilginin kaynakları hangileridir?", "siklar": ["Vahiy, akıl ve duyu-deney", "Yalnız akıl", "Yalnız gelenek", "Yalnız duyular"], "cevap": 0, "aciklama": "İslam doğru bilgide vahiy, akıl ve duyu-deneyi birbirini destekleyen kaynaklar olarak görür."},
+        {"soru": "Son ilahi kitap hangisidir?", "siklar": ["Tevrat", "İncil", "Zebur", "Kur'an"], "cevap": 3, "aciklama": "Kur'an, Hz. Muhammed'e indirilen son ilahi kitaptır."},
+        {"soru": "Sorgusuz kabul edilen inanca ne denir?", "siklar": ["Tahkik", "Taklit", "Tefekkür", "Teori"], "cevap": 1, "aciklama": "Taklit, araştırmadan, sorgulamadan kabul etmektir; İslam tahkiki öğütler."},
+        {"soru": "İnançta zorlama olmadığını belirten anlayış hangisidir?", "siklar": ["Dinde zorlama yoktur", "Zorla iman geçerlidir", "İnanç sadece aileye bağlıdır", "Araştırma yasaktır"], "cevap": 0, "aciklama": "İslam'da inanç özgürlüğü esas olup zorlama kabul edilmez."},
+        {"soru": "Evren ve insan üzerinde derin düşünmeye ne denir?", "siklar": ["Tefekkür", "Tefsir", "Tahkik", "Taassup"], "cevap": 0, "aciklama": "Tefekkür, evren ve insanın yaratılışı üzerinde derin düşünmedir."}
+      ]
+    },
+    "9|9-din|9-din-u1|İbadet ve dua": {
+      "ozet": "İbadet, Allah'ın rızası için yapılan bilinçli kulluk eylemlerinin tümüdür. Dua ibadetin özü sayılır ve yalnız sıkıntı anlarında değil sürekli sürdürülür.",
+      "anlatim": [
+        "İbadet, Allah'ın rızasını kazanmak için yapılan bilinçli kulluk eylemlerinin tümüdür.",
+        "Dar anlamda ibadet namaz, oruç, zekât ve hac gibi belirli eylemleri; geniş anlamda her iyi davranışı kapsar.",
+        "İbadetin amacı Allah'a şükür, sorumluluk bilinci, manevi arınma ve toplumsal dayanışmadır.",
+        "Dua, Allah'a yönelme ve istekte bulunmadır; ibadetin özü ve kalbin Yaratıcıyla bağlantısı olarak görülür.",
+        "Dua istek, şükür ve bağışlanma dileme biçimlerinde olabilir; sözlü ve fiilî şekilleri vardır.",
+        "İbadetin kabulünde samimiyet (ihlas) esastır; gösteriş için yapma (riya) kabulü engeller.",
+        "İbadetin bireysel katkısı: zamanı disipline etme, sabır, öz denetim ve manevi huzur.",
+        "İbadetin toplumsal katkısı: zekât ve infakla yardımlaşma, hac ve cemaatle kardeşlik, ahlaki olgunluk.",
+        "İbadet yalnız belirli zamanlarla sınırlı değildir; sürekli iyi davranış ve dua ile hayatın parçası olur."
+      ],
+      "formuller": [
+        "İbadet: dar anlamda namaz, oruç, zekât, hac; geniş anlamda her iyi davranış",
+        "Dua, Allah'a yönelme ve istemedir; ibadetin özü sayılır",
+        "İhlas yalnız Allah için yapmak, riya ise gösteriş için yapmaktır",
+        "İbadetin amacı: Allah rızası, şükür, arınma ve toplumsal dayanışma"
+      ],
+      "ornek": "Zekât ibadeti hem bireyin cimrilik duygusunu kırar hem de toplumda paylaşmayı ve dayanışmayı güçlendirir.",
+      "ipucu": "TYT tuzağı: 'Dua yalnız kriz anlarında yapılır' yanlıştır; dua sürekli sürdürülen bir kul-Rab ilişkisidir.",
+      "quiz": [
+        {"soru": "İbadetin kabulünde öncelikli şart hangisidir?", "siklar": ["Gösteriş", "Samimiyet (ihlas)", "Zenginlik", "Çokluk"], "cevap": 1, "aciklama": "İbadetin yalnız Allah için, samimiyetle yapılması (ihlas) esastır."},
+        {"soru": "Dua ile ilgili doğru ifade hangisidir?", "siklar": ["Yalnız sıkıntı anında yapılır", "İbadetin özü sayılır", "Yalnız cemaatle yapılır", "Zenginlere özgüdür"], "cevap": 1, "aciklama": "Dua, Allah'a yönelme olup ibadetin özü kabul edilir ve sürekli yapılabilir."},
+        {"soru": "İbadetin toplumsal katkısına örnek hangisidir?", "siklar": ["Bireyin yalnızlaşması", "Zekât ile dayanışmanın artması", "Gösterişin artması", "Zaman kaybı"], "cevap": 1, "aciklama": "Zekât ve infak gibi ibadetler toplumda paylaşmayı ve dayanışmayı güçlendirir."},
+        {"soru": "İbadetin gösteriş için yapılmasına ne denir?", "siklar": ["İhlas", "Riya", "Tevazu", "İnfak"], "cevap": 1, "aciklama": "Riya, ibadetin gösteriş amacıyla yapılmasıdır ve ihlasa aykırıdır."},
+        {"soru": "Dar anlamda ibadete örnek hangisidir?", "siklar": ["Selamlaşmak", "Namaz kılmak", "Gülümsemek", "Yardım etmek"], "cevap": 1, "aciklama": "Namaz, dar anlamda belirli koşul ve zamanı olan bir ibadettir; diğerleri geniş anlamdadır."}
+      ]
+    },
+    "9|9-din|9-din-u2|İman esasları": {
+      "ozet": "İman, kalben doğrulama ve dil ile ifade etmedir; İslam'da altı esasa dayanır: Allah, melekler, kitaplar, peygamberler, ahiret ve kader-kaza.",
+      "anlatim": [
+        "İman, kalben tasdik ve dil ile ikrar etmektir; altı temel esas üzerine kuruludur.",
+        "Allah'a iman, O'nun varlığına ve birliğine (tevhid) inanmaktır; eşi, benzeri ve ortağı yoktur.",
+        "Meleklere iman: nurdan yaratılmış, gözle görülmeyen ve Allah'ın emriyle görev yapan varlıklara inanmaktır.",
+        "Kitaplara iman: Allah'ın peygamberler aracılığıyla gönderdiği ilahi kitaplara inanmaktır; Kur'an son ilahi kitaptır.",
+        "Peygamberlere iman: insanları doğru yola çağıran seçilmiş insanlara inanmaktır; ilki Hz. Âdem, sonuncusu Hz. Muhammed'dir.",
+        "Ahirete iman: ölüm sonrası diriliş, hesap ve cennet-cehenneme inanmaktır; davranışlara anlam kazandırır.",
+        "Kader ve kazaya iman: her şeyin Allah'ın bilgisi ve iradesi içinde olmasına inanmaktır.",
+        "Kader inancı insanın seçme özgürlüğünü ortadan kaldırmaz; insan seçimlerinden sorumludur.",
+        "İman ile İslam birlikte olgunluğu sağlar: iman içte inanç, İslam dışta teslimiyet ve ameldir."
+      ],
+      "formuller": [
+        "İman esasları (altı): Allah, melekler, kitaplar, peygamberler, ahiret, kader-kaza",
+        "İman = kalben tasdik + dil ile ikrar; İslam = teslimiyet ve amel",
+        "Kader: Allah'ın ezelî bilgisi; kaza: kaderin gerçekleşmesi",
+        "Kur'an son ilahi kitap, Hz. Muhammed son peygamberdir",
+        "Kader inancı insan iradesini ortadan kaldırmaz"
+      ],
+      "ornek": "Oruç tutmak İslam'ın (amelin) bir parçası, bu ibadeti Allah rızası için yaptığına inanmak ise imanın (tasdikin) parçasıdır.",
+      "ipucu": "TYT tuzağı: kader 'zorunluluk' anlamına gelmez; İslam'da kader inancı insanın seçim sorumluluğunu ortadan kaldırmaz.",
+      "quiz": [
+        {"soru": "İslam'da iman esaslarının sayısı kaçtır?", "siklar": ["Üç", "Beş", "Altı", "Yedi"], "cevap": 2, "aciklama": "İman esasları altıdır: Allah, melekler, kitaplar, peygamberler, ahiret ve kader-kaza."},
+        {"soru": "Aşağıdakilerden hangisi iman esaslarından değildir?", "siklar": ["Allah'a iman", "Meleklere iman", "Zekâta iman", "Ahirete iman"], "cevap": 2, "aciklama": "Zekât bir ibadettir, iman esası değildir."},
+        {"soru": "Kaderin gerçekleşmesine ne denir?", "siklar": ["Kaza", "Tevhid", "Şirk", "İhlas"], "cevap": 0, "aciklama": "Kaza, Allah'ın ezelî bilgisinin (kaderin) zamanı gelince gerçekleşmesidir."},
+        {"soru": "İman kavramının kapsamı hangisidir?", "siklar": ["Kalben tasdik ve dil ile ikrar", "Yalnız amelde bulunma", "Yalnız sözlü ifade", "Yalnız bilgi edinme"], "cevap": 0, "aciklama": "İman kalben doğrulamayı ve bunu dil ile ifade etmeyi içerir."},
+        {"soru": "İlk peygamber ve son peygamber hangi seçenekte doğru verilmiştir?", "siklar": ["Hz. Âdem ve Hz. Muhammed", "Hz. Nuh ve Hz. İsa", "Hz. Musa ve Hz. Muhammed", "Hz. İbrahim ve Hz. Âdem"], "cevap": 0, "aciklama": "İlk peygamber Hz. Âdem, son peygamber Hz. Muhammed'dir."}
+      ]
+    },
+    "9|9-din|9-din-u2|Temel ibadetler": {
+      "ozet": "İslam'da temel ibadetler kelime-i şehâdet, namaz, oruç, zekât ve hac olarak sayılır; her birinin kendine özgü koşulu ve toplumsal katkısı vardır.",
+      "anlatim": [
+        "İslam'ın temel ibadetleri kelime-i şehâdet, namaz, oruç, zekât ve hac olarak sayılır.",
+        "Kelime-i şehâdet, tevhid ve peygamberliği kabul ederek İslam'a girişin ifadesidir.",
+        "Namaz günde beş vakit kılınır; abdest (taharet) ve kıble yönü koşullarına bağlıdır.",
+        "Oruç (savm) belirli bir dönemde tan yerinin ağarmasından güneş batışına kadar yemeden-içmeden uzak durmaktır.",
+        "Zekât, belirli bir mala (nisap) ulaşan kişinin malının kırkta birini (1/40) yılda bir vermesidir.",
+        "Hac, gücü yeten kişinin ömründe bir kez Kâbe'yi ziyaret ederek belirli ibadetleri yapmasıdır.",
+        "Sadaka, infak, kurban, dua ve Kur'an okuma gibi uygulamalar ibadet hayatını zenginleştirir.",
+        "İbadetlerin ortak özellikleri: belirli zaman-koşul, niyet ve ihlas; ayrıca ahlaki bütünlük gerektirir.",
+        "İbadetlerin birey ve topluma katkısı: manevi arınma, sorumluluk, dayanışma ve sosyal adalettir."
+      ],
+      "formuller": [
+        "Beş temel ibadet: Şehâdet, Namaz, Oruç, Zekât, Hac",
+        "Zekât oranı: nisap üzeri malın 1/40'ı (kırkta bir)",
+        "Namaz günde beş vakit; oruç belirli dönemde; hac ömürde bir kez gücü yetene farzdır",
+        "Zekât farz ve hesaplıdır; sadaka gönüllüdür",
+        "İbadette ön koşul niyet ve ihlastır"
+      ],
+      "ornek": "Ramazan'da tutulan oruç ve verilen fıtır sadakası, bireyin sabrını ve toplumdaki paylaşmayı birlikte gösterir.",
+      "ipucu": "TYT tuzağı: hac 'her yıl' değil 'ömürde bir kez gücü yetene farzdır'; zekât ile sadaka karıştırılmamalıdır.",
+      "quiz": [
+        {"soru": "İslam'ın beş temel ibadeti arasında hangisi yoktur?", "siklar": ["Namaz", "Oruç", "Zekât", "Kurban"], "cevap": 3, "aciklama": "Kurban yaygın bir ibadet olsa da beş temel ibadet arasında yer almaz."},
+        {"soru": "Zekât oranı nedir?", "siklar": ["1/10", "1/20", "1/40", "1/100"], "cevap": 2, "aciklama": "Zekât, nisaba ulaşan malın kırkta biri (1/40) oranında verilir."},
+        {"soru": "Hac ibadeti kaç kez yapılması farzdır?", "siklar": ["Her yıl", "Ömürde bir kez", "Ayda bir", "Beş yılda bir"], "cevap": 1, "aciklama": "Gücü yeten kişi için hac ömürde bir kez farzdır."},
+        {"soru": "Belirli bir dönemde tutulan ibadet hangisidir?", "siklar": ["Namaz", "Oruç", "Hac", "Zekât"], "cevap": 1, "aciklama": "Oruç belirli bir dönemde tutulur; namaz günlük, hac ve zekât farklı koşullara bağlıdır."},
+        {"soru": "Namaz ile ilgili doğru ifade hangisidir?", "siklar": ["Günde bir vakit kılınır", "Günde beş vakit kılınır", "Yılda bir kılınır", "Yalnız cuma günü kılınır"], "cevap": 1, "aciklama": "Namaz günde beş vakit olarak kılınır."}
+      ]
+    },
+    "9|9-din|9-din-u3|Ahlak ilkeleri": {
+      "ozet": "Ahlak, iyi-kötü ve doğru-yanlış ölçütleriyle davranış kurallarıdır. İslam ahlakının kaynağı Kur'an ve sünnet olup doğruluk, adalet, merhamet ve emanet temel erdemlerdir.",
+      "anlatim": [
+        "Ahlak, insan ilişkilerinde iyi-kötü ve doğru-yanlış ölçütleri ile davranış kurallarının tümüdür.",
+        "İslam ahlakının kaynağı Kur'an ve sünnettir; ahlak iman ve ibadetten beslenir.",
+        "Temel ahlaki erdemler: doğruluk, güvenilirlik (emanet), adalet, merhamet, iffet, sabır ve şükürdür.",
+        "Doğruluk (sidk), söz ve davranışta gerçek olmayı gerektirir; yalan ve aldatmanın karşıtıdır.",
+        "Adalet, hakkı yerine getirmek ve ölçülü davranmaktır; zulmün karşıtıdır.",
+        "Merhamet ve şefkat, canlılara ve muhtaçlara yardım etmeyi ve acımayı içerir.",
+        "Emanet ve sorumluluk, verilen görevi ve toplum güvenini korumayı gerektirir; ihanet yasaktır.",
+        "İffet ve hayâ, davranışta ve sözde ölçülülüğü; aileyi ve toplumsal düzeni korumayı amaçlar.",
+        "Sabır, şükür ve tevazu bireyin zorluk ve nimetler karşısındaki olgun tutumunu yansıtır; ahlak hem bireysel hem toplumsal huzuru sağlar."
+      ],
+      "formuller": [
+        "Temel ahlak ilkeleri: doğruluk, adalet, merhamet, emanet, iffet, sabır, şükür, tevazu",
+        "Ahlakın kaynağı: Kur'an ve sünnet",
+        "Karşıtlıklar: doğruluk-yalan, adalet-zulüm, emanet-ihanet, merhamet-katılık",
+        "Ahlakın işlevi: bireysel olgunluk ve toplumsal güven"
+      ],
+      "ornek": "Emanete ihanet eden bir kişi hem dini hem ahlaki sorumluluk taşır; ahlak, davranış bütünlüğüdür.",
+      "ipucu": "TYT tuzağı: ahlak yalnız yasaklardan oluşmaz; olumlu erdemler ve iyi davranışlar da ahlakın içindedir.",
+      "quiz": [
+        {"soru": "Ahlak kavramı en iyi hangisiyle tanımlanır?", "siklar": ["Yalnız yasaklar bütünü", "İyi-kötü ölçütleri ve davranış kuralları", "Hukuki cezalar düzeni", "Ekonomik kurallar"], "cevap": 1, "aciklama": "Ahlak, iyi-kötü ve doğru-yanlış ölçütleri ile davranış kurallarını içerir; yalnız yasaklardan oluşmaz."},
+        {"soru": "Aşağıdakilerden hangisi İslam ahlakındaki temel erdemlerdendir?", "siklar": ["Zulüm", "Yalan", "Adalet", "İhanet"], "cevap": 2, "aciklama": "Adalet temel ahlaki erdemdir; zulüm, yalan ve ihanet karşıt davranışlardır."},
+        {"soru": "İslam'da ahlakın temel kaynakları hangileridir?", "siklar": ["Gelenek ve görenek", "Kur'an ve sünnet", "Felsefe ve sanat", "Kanunlar"], "cevap": 1, "aciklama": "İslam ahlakı Kur'an ve Hz. Muhammed'in sünnetinden beslenir."},
+        {"soru": "Emanet erdeminin karşıtı hangisidir?", "siklar": ["Doğruluk", "İhanet", "Merhamet", "Tevazu"], "cevap": 1, "aciklama": "Emaneti korumak güvenilirlik; ihanet ise bunun karşıtıdır."},
+        {"soru": "Ahlakın topluma en önemli katkısı nedir?", "siklar": ["Güven ve huzuru sağlaması", "Serveti artırması", "Nüfusu çoğaltması", "Teknolojiyi geliştirmesi"], "cevap": 0, "aciklama": "Ahlak, toplumda güven ve huzurun temelini oluşturur."}
+      ]
+    },
+    "9|9-din|9-din-u3|Hz. Muhammed'in örnekliği": {
+      "ozet": "Hz. Muhammed Kur'an'da 'üsve-i hasene' (en güzel örnek) olarak nitelenir. Doğruluk, güvenilirlik, adalet, merhamet ve tevazu onun öne çıkan özellikleridir.",
+      "anlatim": [
+        "Hz. Muhammed, Kur'an'ın ifadesiyle 'üsve-i hasene' (en güzel örnek)dir; söz, davranış ve onayları Müslümanlara rehberdir.",
+        "Sünnet, Hz. Muhammed'in söz, davranış ve onaylarını kapsar; hadis ise bu sözlerin aktarımıdır.",
+        "Doğruluk ve güvenilirlik onun en belirgin özelliğidir; İslam'dan önce bile 'el-Emin' olarak anılmıştır.",
+        "Ailesi ve yakın çevresiyle ilişkilerinde şefkat, adalet ve hoşgörü göstermiştir.",
+        "Alçak gönüllülük (tevazu) onun özelliklerindendir; zengin-fakir ve yaşlı-genç ayrımı yapmamıştır.",
+        "Affedicilik ve hoşgörü sergilemiş; kendisine kötülük edenlere bile iyilikle karşılık vermiştir.",
+        "Adaleti kişisel duygularla bozmamış, çevresine de adaletle davranmıştır.",
+        "Tebliğ sürecindeki zorluklara sabır ve kararlılıkla göğüs germiştir.",
+        "Çalışma ve ticaret hayatında dürüstlüğü, ölçü ve tartıda doğruluğu öğütlemiştir."
+      ],
+      "formuller": [
+        "Üsve-i hasene: en güzel örnek (Hz. Muhammed)",
+        "el-Emin: güvenilir; onun İslam'dan önceki lakabıdır",
+        "Sünnet, Hz. Muhammed'in söz, davranış ve onaylarıdır; hadis sözlerinin aktarımıdır",
+        "Öne çıkan özellikler: doğruluk, güvenilirlik, adalet, merhamet, tevazu, affedicilik, sabır"
+      ],
+      "ornek": "Tebliğin zorlu yıllarındaki sabrı ve kendisine kötülük edenleri affetmesi, üsve-i hasene örneğidir.",
+      "ipucu": "TYT tuzağı: sünnet yalnız dini uygulamalar değildir; günlük hayatın her alanında örneklik olarak kavranır.",
+      "quiz": [
+        {"soru": "'Üsve-i hasene' ifadesi kime ve neye işaret eder?", "siklar": ["Hz. Musa'ya ve mucizesine", "Hz. Muhammed'e ve en güzel örnek oluşuna", "Hz. İsa'ya ve tebliğine", "Hz. Nuh'a ve gemisine"], "cevap": 1, "aciklama": "Üsve-i hasene, Hz. Muhammed'in Müslümanlar için en güzel örnek olmasıdır."},
+        {"soru": "Hz. Muhammed'in 'el-Emin' lakabı neyi gösterir?", "siklar": ["Cesaretini", "Güvenilirliğini", "Zenginliğini", "Şairliğini"], "cevap": 1, "aciklama": "el-Emin, güvenilir kişi anlamındadır; bu lakap onun doğruluk ve güvenilirliğini ifade eder."},
+        {"soru": "Sünnet kavramı hangisini ifade eder?", "siklar": ["Hz. Muhammed'in söz, davranış ve onaylarını", "Yalnız Kur'an ayetlerini", "Fıkhi yorumları", "Tarihi olayları"], "cevap": 0, "aciklama": "Sünnet, Hz. Muhammed'in sözlerini, davranışlarını ve onaylarını kapsar."},
+        {"soru": "Aşağıdakilerden hangisi Hz. Muhammed'in örnek davranışları arasındadır?", "siklar": ["Kibirli davranmak", "Affedici ve adaletli olmak", "Yalnız zenginlere yakın olmak", "Sözünde durmamak"], "cevap": 1, "aciklama": "Onun öne çıkan özellikleri affedicilik, adalet ve güvenilirliktir."},
+        {"soru": "Hz. Muhammed'in çalışma hayatındaki örnekliği hangisidir?", "siklar": ["Ölçü ve tartıda dürüstlük", "Haksız kazanç", "Sözden dönme", "Tembellik"], "cevap": 0, "aciklama": "O, ticarette ölçü ve tartıda dürüstlüğü öğütlemiş ve uygulamıştır."}
+      ]
+    }
+  },
+  "10-din": {
+    "10|10-din|10-din-u1|Varlık ve tevhid": {
+      "ozet": "İslam düşüncesi varlığı Yaratıcı ve yaratılmışlar açısından ele alır. Tevhid, Allah'ın birliğini; şirk ise O'na ortak koşmayı ifade eder.",
+      "anlatim": [
+        "Varlık, var olan her şeydir; İslam düşüncesi varlığı Yaratıcı (Allah) ve yaratılmışlar (mahlûkat) açısından ele alır.",
+        "Tevhid, Allah'ın birliği ve tekliğidir; O'nun eşi, benzeri ve ortağı yoktur. İslam'ın en temel ilkesidir.",
+        "Tevhidin türleri; yaratma ve terbiye (rububiyyet), ibadete layık tek varlık (ulûhiyyet) ve isim-sıfat tevhidi olarak açıklanır.",
+        "Allah'ın varlığına dair deliller arasında kâinattaki düzen ve amaçlılık, ilk neden ve hudûs (sonradan olma) delilleri sayılır.",
+        "Şirk, Allah'a ortak koşmaktır; tevhidin karşıtıdır ve İslam'da büyük günahlardan sayılır.",
+        "İslam'da tüm yaratılmışlar Allah'ın ayetleri (işaretleri) sayılır ve bir düzen içinde bulunur.",
+        "İnsan yeryüzünde halife ve emanetçi olarak varlığa karşı sorumludur.",
+        "Tevhidin hayata yansıması: yalnız Allah'a kulluk, tevekkül, samimi ibadet ve putperestlikten uzak durmaktır.",
+        "Tevhid inancı ahlaki sorumluluk, adalet ve dürüstlük bilincini besler; tüm peygamberlerin ortak çağrısı tevhiddir."
+      ],
+      "formuller": [
+        "Tevhid = Allah'ın birliği; şirk = O'na ortak koşmak (tevhidin karşıtı)",
+        "Tevhid türleri: rububiyyet, ulûhiyyet, esmâ-sıfat",
+        "Kelime-i tevhid: 'Lâ ilâhe illallah' (Allah'tan başka ilah yoktur)",
+        "Varlık: Yaratıcı (Allah) ve yaratılmışlar (mahlûkat); her varlık O'nun ayetidir",
+        "Tevhid inancı ahlaki sorumluluk ve adalet bilinci doğurur"
+      ],
+      "ornek": "Evrendeki düzeni gözlemlemek tevhid inancına ulaşmada delil olarak değerlendirilir; putperestlik ise tevhidin karşıtıdır.",
+      "ipucu": "TYT tuzağı: tevhid ile şirk karıştırılmamalıdır; ayrıca tevhid varlığı inkâr değil, Allah'ın birliğini kabul etmektir.",
+      "quiz": [
+        {"soru": "Tevhid kavramı neyi ifade eder?", "siklar": ["Allah'ın birliği", "Doğanın düzeni", "İnsanın özgürlüğü", "Meleklerin varlığı"], "cevap": 0, "aciklama": "Tevhid, Allah'ın birliği ve tekliği; O'nun eşi ve ortağı olmamasıdır."},
+        {"soru": "Tevhidin karşıtı kavram hangisidir?", "siklar": ["İhlas", "Şirk", "Tevazu", "İman"], "cevap": 1, "aciklama": "Şirk, Allah'a ortak koşmaktır ve tevhidin karşıtıdır."},
+        {"soru": "Kelime-i tevhid hangisidir?", "siklar": ["Lâ ilâhe illallah", "Elhamdülillah", "Sübhanallah", "Bismillah"], "cevap": 0, "aciklama": "Kelime-i tevhid 'Allah'tan başka ilah yoktur' anlamına gelen ifadedir."},
+        {"soru": "İslam'da varlık anlayışına göre tüm yaratılmışlar ne olarak görülür?", "siklar": ["Bağımsız tanrılar", "Allah'ın ayetleri (işaretleri)", "Ebedî varlıklar", "Allah'ın ortağı"], "cevap": 1, "aciklama": "Yaratılmışlar Allah'ın varlığına işaret eden ayetler ve bir düzen içinde görülür."},
+        {"soru": "Tevhid inancının hayata yansımasına örnek hangisidir?", "siklar": ["Yalnız Allah'a kulluk ve adalet", "Putperestlik", "Gösteriş için ibadet", "Başkasına zarar verme"], "cevap": 0, "aciklama": "Tevhid, yalnız Allah'a kulluğu ve adaleti gerektirir; putperestlik ve gösteriş ona aykırıdır."}
+      ]
+    }
+  }
+}

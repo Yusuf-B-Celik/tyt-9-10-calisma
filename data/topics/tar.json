@@ -1,0 +1,418 @@
+{
+  "9-tar": {
+    "9|9-tar|9-tar-u1|Tarih öğrenmenin faydaları": {
+      "ozet": "Tarih; insan topluluklarının geçmişteki faaliyetlerini yer ve zaman göstererek, sebep-sonuç ilişkisi içinde inceleyen bilimdir. Öğrenmenin faydası; millî kimlik bilinci, geçmişten ders çıkarma ve eleştirel düşünme becerisidir.",
+      "anlatim": [
+        "Tarih; geçmişte yaşanan olayları yer ve zaman göstererek, sebep-sonuç ilişkisi içinde inceleyen bilimdir. Bu üçlüden biri eksikse tarihî bilgi eksik kalır.",
+        "Tarihin 'babası' sayılan Herodot (MÖ 484-425) 'Historia' adlı eserinde olayları araştırıp yazmıştır; Thukydides (MÖ 460-400) ise olayları eleştirel ve neden-sonuç ilişkisiyle anlatmıştır.",
+        "Tarih öğrenmek millî kimlik ve kültürel aidiyet bilinci kazandırır; milletler geçmişini bilerek ortak hafıza oluşturur.",
+        "Geçmişte yapılan hatalardan ders çıkarmak, gelecekte aynı hataların tekrarlanmasını önler. Tarihî olaylar aynen tekrar etmez, fakat benzerlik gösterir.",
+        "Tarih; olayları sorgulayan, karşılaştıran ve kanıta dayalı yorum yapan eleştirel düşünme becerisi kazandırır.",
+        "Tarih öğrenmek vatan, bayrak ve bağımsızlık gibi değerlerin nasıl kazanıldığını öğretir; millî birlik ve beraberliği güçlendirir.",
+        "Tarih; coğrafya, sosyoloji, ekonomi, arkeoloji ve kronoloji gibi bilimlerden yararlanır. Bu bilimlere tarihin yardımcı bilimleri denir.",
+        "Tarih bilgisi, güncel olayları ve toplumsal değişimi doğru yorumlamayı sağlar; bugünü anlamak için geçmişi bilmek gerekir.",
+        "Tarih öğrenmek; hoşgörü, empati ve farklı kültürleri tanıma becerisi kazandırır."
+      ],
+      "formuller": [
+        "Historia — Herodot (MÖ 484-425), 'tarihin babası'",
+        "Thukydides (MÖ 460-400) — eleştirel tarih yazıcılığı",
+        "İbn Haldun — Mukaddime, tarih felsefesinin öncüsü",
+        "Tarihin tanımı: YER + ZAMAN + SEBEP-SONUÇ İLİŞKİSİ",
+        "Yardımcı bilimler: kronoloji (zaman), coğrafya (yer), arkeoloji (kalıntı), paleografya (eski yazı), numizmatik (para)"
+      ],
+      "ornek": "Bir devletin kuruluş yılını bilmek tek başına yeterli değildir; o devletin neden kurulduğunu (savaşlar, göçler, ekonomik nedenler) araştırmak tarihçiliğin yöntemidir.",
+      "ipucu": "TYT tuzağı: Tarihin tanımındaki 'yer, zaman, sebep-sonuç' üçlüsünden biri eksik verilerek yanıltılırsın. Ayrıca 'tarih tekerrür eder mi?' ifadesi yanıltıcıdır; olaylar aynen değil, benzerlik göstererek tekrarlanır.",
+      "quiz": [
+        { "soru": "Tarih biliminin 'babası' kabul edilen ve 'Historia' adlı eseri yazan kişi kimdir?", "siklar": ["Herodot", "Thukydides", "İbn Haldun", "Homeros"], "cevap": 0, "aciklama": "Herodot (MÖ 484-425), 'Historia' adlı eseriyle tarihin babası kabul edilir." },
+        { "soru": "Aşağıdakilerden hangisi tarih öğrenmenin faydaları arasında gösterilemez?", "siklar": ["Millî kimlik bilinci kazanma", "Geçmişten ders çıkarıp hataları tekrarlamama", "Eleştirel düşünme becerisi geliştirme", "Gelecekteki olayları kesin olarak önceden bilme"], "cevap": 3, "aciklama": "Tarih geleceği kesin biçimde önceden bildirmez; yalnızca eğilim ve ders sunar." },
+        { "soru": "Tarihin tanımında yer alan üç temel unsur aşağıdakilerden hangisidir?", "siklar": ["Yer, zaman, sebep-sonuç ilişkisi", "İnanç, sanat, hukuk", "Ekonomi, siyaset, ordu", "Coğrafya, iklim, nüfus"], "cevap": 0, "aciklama": "Tarihî olay yer ve zaman gösterilerek sebep-sonuç ilişkisi içinde incelenir." },
+        { "soru": "'Kronoloji' tarihe hangi konuda yardımcı olan bilimdir?", "siklar": ["Yer", "Zaman", "Ekonomi", "Dil"], "cevap": 1, "aciklama": "Kronoloji zamanı sıralayan, takvim ve dönem bilgisi veren yardımcı bilimdir." },
+        { "soru": "Tarihî olayların değerlendirilmesinde en güvenilir yol aşağıdakilerden hangisidir?", "siklar": ["Dedikodulara dayanmak", "Tek bir kaynağa bağlı kalmak", "Birden fazla kaynağı karşılaştırmak", "Yalnızca dizelere güvenmek"], "cevap": 2, "aciklama": "Tarihçi farklı kaynakları karşılaştırıp kanıt çoğulluğuyla sonuca varır." }
+      ]
+    },
+    "9|9-tar|9-tar-u1|Tarihin doğası ve bilgi üretim süreci": {
+      "ozet": "Tarihî bilgi doğrudan gözlemlenemez; tarihçi geçmişten kalan kaynakları (delilleri) tenkit süzgecinden geçirerek bilgi üretir. Kaynak türleri, birinci-ikinci el ayrımı ve yardımcı bilimler bu sürecin temelidir.",
+      "anlatim": [
+        "Tarihî bilgi doğrudan gözlemlenemez; tarihçi geçmişten kalan kaynakları (delilleri) inceleyerek bilgi üretir.",
+        "Kaynaklar sınıflandırılır: yazılı kaynak (kitabe, kitap, ferman, gazete), sözlü kaynak (destan, efsane, menkıbe, sözlü tarih) ve kalıntı/obje (para, silah, takı, mimari yapı).",
+        "Birinci el (asıl) kaynak: olayın geçtiği döneme ait olan ve doğrudan tanıklık eden kaynaktır (ör. Orhun Yazıtları, bir ferman).",
+        "İkinci el kaynak: olaydan sonra başka kaynaklardan yararlanılarak yazılan eserdir (ör. günümüzde yazılmış bir tarih ders kitabı).",
+        "Tarihçi kaynağa iç ve dış tenkit uygular. Dış tenkit kaynağın gerçekliğini, iç tenkit ise içeriğinin doğruluğunu inceler.",
+        "Tarihte olaylar arasında neden-sonuç zinciri kurulur; benzer olaylar yaşanabilir ama aynı biçimde tekrar etmez.",
+        "Tarihe yardımcı bilimler kanıt sağlar: arkeoloji, paleografya (eski yazılar), epigrafya (kitabeler), numizmatik (paralar), kronoloji (takvim), sigilografya (mühür).",
+        "Objektiflik hedeftir: tarihçi kendi değer yargılarını bir kenara bırakıp kaynağa dayanmalıdır; ancak tam objektiflik zordur.",
+        "Tarihî bilgi dinamiktir; yeni kaynaklar bulundukça bilgi değişebilir ve yeniden yorumlanabilir."
+      ],
+      "formuller": [
+        "Kaynak türleri: yazılı — sözlü — kalıntı (obje)",
+        "Birinci el: olayın dönemine ait; ikinci el: sonradan yazılmış",
+        "Dış tenkit = kaynağın gerçekliği; iç tenkit = içeriğin doğruluğu",
+        "Orhun Yazıtları (MS 720-735, Göktürkler) — birinci el yazılı kaynak",
+        "Numizmatik: para | paleografya: eski yazı | epigrafya: kitabe | kronoloji: zaman"
+      ],
+      "ornek": "Bir savaşı anlatan dönem fermanı birinci el, o savaşı anlatan günümüzdeki ders kitabı ikinci el kaynaktır. İkisi karşılaştırıldığında birinci el daha güvenilirdir.",
+      "ipucu": "TYT tuzağı: Kaynağın 'türü' değil, olaya zaman olarak yakınlığı birinci-ikinci el ayrımını belirler. Ayrıca sikke (para) yazılı değil, kalıntı/obje kaynağıdır.",
+      "quiz": [
+        { "soru": "Olayın yaşandığı döneme ait olan ve doğrudan tanıklık eden kaynağa ne denir?", "siklar": ["Birinci el (asıl) kaynak", "İkinci el kaynak", "Sözlü kaynak", "Yardımcı kaynak"], "cevap": 0, "aciklama": "Döneme ait, doğrudan tanıklık eden kaynak birinci eldir." },
+        { "soru": "Eski paraları (sikkeleri) inceleyen tarihe yardımcı bilim hangisidir?", "siklar": ["Paleografya", "Numizmatik", "Epigrafya", "Heraldik"], "cevap": 1, "aciklama": "Numizmatik, sikkeleri (paraları) inceler." },
+        { "soru": "Orhun Yazıtları hangi kaynak türüne örnektir?", "siklar": ["Kalıntı-obje kaynağı", "Birinci el yazılı kaynak", "İkinci el sözlü kaynak", "Görsel-işitsel kaynak"], "cevap": 1, "aciklama": "Orhun Yazıtları Göktürk dönemine ait birinci el yazılı kaynaktır." },
+        { "soru": "Tarihî bir kaynağın gerçekliğini ve hangi döneme ait olduğunu inceleyen tenkit türü hangisidir?", "siklar": ["İç tenkit", "Dış tenkit", "Yorum", "Sentez"], "cevap": 1, "aciklama": "Dış tenkit kaynağın gerçekliğini; iç tenkit içeriğin doğruluğunu inceler." },
+        { "soru": "Tarihî bilginin yeni belgeler bulundukça değişebilmesinin temel nedeni nedir?", "siklar": ["Tarihçilerin yanılması", "Kaynakların çoğalıp bilginin yeniden yorumlanması", "Devletlerin baskısı", "Takvimlerin değişmesi"], "cevap": 1, "aciklama": "Yeni kaynaklar bilgiyi günceller; tarihî bilgi dinamiktir." }
+      ]
+    },
+    "9|9-tar|9-tar-u2|Tarım devrimi": {
+      "ozet": "Tarım (Neolitik) Devrimi, insanlığın avcı-toplayıcılıktan yerleşik tarıma geçişidir (MÖ ~10000-8000). Artı ürün, yerleşik hayat, köy-şehir-devlet zincirini doğurmuş ve tarih devirleri yazıyla başlamıştır.",
+      "anlatim": [
+        "Tarım Devrimi (Neolitik Devrim), Yakın Doğu'da 'Bereketli Hilal' denen bölgede (Anadolu'nun güneydoğusu, Mezopotamya, Levant) MÖ 10000-8000 civarında başladı.",
+        "Tarım devriminin öncesinde insanlar avcı-toplayıcı (Paleolitik) yaşam sürdürüyordu ve taş aletler kullanıyordu.",
+        "İnsanlar ilk kez buğday, arpa, mercimek gibi bitkileri ehlileştirdi; koyun, keçi, sığır ve domuz evcilleştirildi.",
+        "Tarım üretimi fazlası yani 'artı ürün' ortaya çıktı; artı ürün ticareti ve toplumsal sınıflaşmayı doğurdu.",
+        "Yerleşik hayata geçişle köyler kuruldu; küçük yerleşmeler zamanla şehirlere dönüştü.",
+        "Anadolu'da Göbeklitepe (Şanlıurfa, MÖ ~9600) ve Çatalhöyük (Konya, MÖ ~7000) dünyanın en eski yerleşmeleri arasındadır; Çayönü (Diyarbakır) da önemlidir.",
+        "Yazının icadı (MÖ ~3200, Sümerler) tarım devrimiyle gelen şehir-devlet düzeninin ürünüdür; tarih devirleri yazıyla başlar.",
+        "Artı ürünü yönetmek için mülkiyet, vergi, yazı ve devlet gibi kurumlar doğdu; böylece 'yöneten-yönetilen' ayrımı oluştu.",
+        "Tarım devrimi; nüfus artışına, iş bölümüne ve zanaatkâr, rahip, asker gibi uzmanlaşmaya yol açtı."
+      ],
+      "formuller": [
+        "Tarım (Neolitik) Devrimi: MÖ ~10000-8000, Bereketli Hilal",
+        "Yazının icadı: MÖ ~3200, Sümerler (Mezopotamya)",
+        "Göbeklitepe: Şanlıurfa, MÖ ~9600 (tapınak alanı)",
+        "Çatalhöyük: Konya, MÖ ~7000",
+        "Zincir: tarım → artı ürün → yerleşik hayat → köy → şehir → devlet"
+      ],
+      "ornek": "Tarım öncesi insan göçebe avcıydı; tarım sonrası üretimi izlemek için toprağa yerleşti. Bu yüzden ilk köyler tarım alanlarının yanında kuruldu.",
+      "ipucu": "TYT tuzağı: Yazının icadı (MÖ ~3200) ile tarımın başlangıcı (MÖ ~10000) karıştırılır; yazı tarım devriminin hemen sonucu değil, şehirleşmenin sonucudur.",
+      "quiz": [
+        { "soru": "Tarım (Neolitik) Devrimi'nin ilk ortaya çıktığı bölge hangisidir?", "siklar": ["Bereketli Hilal", "Nil Deltası", "İndus Vadisi", "Sibirya"], "cevap": 0, "aciklama": "Tarım ilk kez Yakın Doğu'daki Bereketli Hilal'de başladı." },
+        { "soru": "Yazıyı icat eden ve tarih devirlerini başlatan uygarlık hangisidir?", "siklar": ["Hititler", "Sümerler", "Mısırlılar", "Fenikeliler"], "cevap": 1, "aciklama": "Sümerler MÖ ~3200'de çivi yazısını icat etti." },
+        { "soru": "Tarım devrimi sonucunda ortaya çıkan, ticareti ve sınıflaşmayı doğuran kavram hangisidir?", "siklar": ["Artı ürün", "Göçebe hayvancılık", "Avcılık", "Kavimler Göçü"], "cevap": 0, "aciklama": "Üretim fazlası (artı ürün) ticaret ve sınıflaşmayı doğurdu." },
+        { "soru": "Dünyanın en eski tapınak alanlarından Göbeklitepe hangi ilimizdedir?", "siklar": ["Konya", "Şanlıurfa", "Diyarbakır", "Çorum"], "cevap": 1, "aciklama": "Göbeklitepe Şanlıurfa'dadır; Çatalhöyük ise Konya'dadır." },
+        { "soru": "Aşağıdakilerden hangisi Tarım Devrimi'nin sonucu değildir?", "siklar": ["Yerleşik hayata geçilmesi", "Köylerin kurulması", "İş bölümü ve uzmanlaşmanın artması", "Toplumların yalnızca avcılıkla geçinmesi"], "cevap": 3, "aciklama": "Tarım devrimi avcılığı geri plana itip üretime dayalı yerleşik hayatı getirdi." }
+      ]
+    },
+    "9|9-tar|9-tar-u2|Yönetenler ve savaşanlar": {
+      "ozet": "İlk devletler Mezopotamya'da kuruldu; yönetenler (kral, rahip, bürokrat) ve savaşanlar (askerler) toplumsal yapının temelini oluşturdu. Şehir-devletinden imparatorluğa geçiş bu dönemde yaşandı.",
+      "anlatim": [
+        "Mezopotamya'da Sümerler MÖ ~3500'de şehir-devletleri (Ur, Uruk, Lagaş) kurdu; her şehrin başında 'ensi' veya 'lugal' unvanlı yönetici bulunuyordu.",
+        "Akadlar (Sargon, MÖ ~2334) tarihte ilk kez şehir-devletlerini birleştirerek merkezî imparatorluğu kurdu.",
+        "Babil (Hammurabi, MÖ ~1750) ve Asur devletleri Mezopotamya'da güçlü merkezî krallıklar kurdular.",
+        "Mısır'da firavun tanrı-kral sayılıyordu; Nil Nehri çevresinde merkezî devlet MÖ ~3100'de kuruldu.",
+        "Hititler (MÖ ~1700-1200) Anadolu'da ilk merkezî devleti kurdu; başkentleri Hattuşa (Boğazköy-Çorum) idi ve kraliçe (tavananna) yönetimde söz sahibiydi.",
+        "Pers İmparatorluğu (Ahameniş, MÖ 550) geniş toprakları satraplık sistemiyle yönetti.",
+        "Askerî yapıda Sümerlerde ağır piyade, Asurlularda savaş arabaları öne çıktı; Hititler demiri işleyerek silah üstünlüğü sağladı.",
+        "Makedonyalı İskender (MÖ 356-323) Pers İmparatorluğu'nu yıkarak Doğu'yu Akdeniz'e bağladı; bu döneme Hellenistik Dönem denir.",
+        "Roma İmparatorluğu (MÖ 753 kuruluş, MÖ 509 cumhuriyet, MÖ 27 imparatorluk) lejyon esaslı ordusuyla Akdeniz havzasını yönetti."
+      ],
+      "formuller": [
+        "Sümer şehir-devletleri: en eski devlet yapısı (MÖ ~3500)",
+        "Sargon (Akad): tarihte ilk imparatorluk (MÖ ~2334)",
+        "Hammurabi (Babil): MÖ ~1750",
+        "Hititler: Anadolu'da ilk merkezî devlet, başkent Hattuşa (Çorum-Boğazköy), MÖ ~1700",
+        "Persler: satraplık sistemi (MÖ 550)",
+        "Roma: MÖ 753 kuruluş, MÖ 509 cumhuriyet, MÖ 27 imparatorluk",
+        "Mısır: firavun = tanrı-kral"
+      ],
+      "ornek": "Sümer'de her şehrin ayrı kralı vardı; Sargon şehirleri birleştirip tek merkezli yönetim kurduğu için tarihte ilk imparatorluk kabul edilir.",
+      "ipucu": "TYT tuzağı: 'İlk merkezî devlet' ile 'ilk imparatorluk' karıştırılır. Anadolu'da ilk merkezî devlet Hititler; tarihte ilk imparatorluk Akadlar'dır (Sargon).",
+      "quiz": [
+        { "soru": "Tarihte şehir-devletlerini birleştirerek ilk merkezî imparatorluğu kuran devlet hangisidir?", "siklar": ["Sümerler", "Akadlar", "Babilliler", "Hititler"], "cevap": 1, "aciklama": "Sargon önderliğindeki Akadlar, tarihte ilk imparatorluğu kurdu." },
+        { "soru": "Anadolu'da kurulan ilk merkezî devlet ve başkenti hangisidir?", "siklar": ["Hititler - Hattuşa", "Sümerler - Ur", "Persler - Persepolis", "Roma - Roma"], "cevap": 0, "aciklama": "Hititler Anadolu'da ilk merkezî devleti kurdu; başkent Hattuşa'dır." },
+        { "soru": "Geniş toprakları satraplık sistemiyle yöneten imparatorluk hangisidir?", "siklar": ["Akadlar", "Mısır", "Persler", "Roma"], "cevap": 2, "aciklama": "Persler, eyalet benzeri satraplıklarla geniş toprakları yönetti." },
+        { "soru": "Mısır'da yöneticinin tanrı-kral sayılması hangi unvanla ifade edilir?", "siklar": ["Lugal", "Firavun", "Satrap", "Konsül"], "cevap": 1, "aciklama": "Mısır'da firavun tanrı-kral sayılırdı; lugal Sümer kralıdır." },
+        { "soru": "Makedonyalı İskender'in Pers İmparatorluğu'nu yıkmasıyla başlayan döneme ne ad verilir?", "siklar": ["Hellenistik Dönem", "Rönesans", "Skolastik Dönem", "Paleolitik Dönem"], "cevap": 0, "aciklama": "İskender'in fetihleriyle Yunan kültürü Doğu'ya yayıldı: Hellenistik Dönem." }
+      ]
+    },
+    "9|9-tar|9-tar-u2|Hukuk, inanç, bilim-sanat": {
+      "ozet": "Eski Çağ'da hukuk (Urgakina, Hammurabi, 12 Levha), inanç (çok tanrılılıktan tek tanrılılığa) ve bilim-sanat (yazı, tıp, matematik, mimari) alanında ilkler ortaya çıktı.",
+      "anlatim": [
+        "Sümerlerde Urgakina Kanunları (MÖ ~2375) tarihin bilinen ilk yazılı kanunlarıdır; fiyat ve vergi düzenlemeleri içerir.",
+        "Babil Kralı Hammurabi'nin kanunları (MÖ ~1750) 'kısasa kısas' esasına dayanır ve taş bir stel üzerine yazılmıştır.",
+        "Roma'da 12 Levha Kanunu (MÖ 451-450) hukukun yazılı hâle getirilmesidir; Roma hukuku bugünkü Avrupa hukukunun temelidir.",
+        "Mezopotamya çok tanrılı (politeist) inanç yapısına sahipti; her şehrin koruyucu bir tanrısı vardı (ör. Babil'de Marduk).",
+        "Mısır'da firavun tanrı-kral sayılır, ölümden sonra yaşama inanılırdı; bu inanç mumyalama ve piramitleri doğurdu.",
+        "Tek tanrılı dinlerden Yahudilik (Hz. Musa) İlk Çağ'da ortaya çıkan ilk tek tanrılı dindir.",
+        "Yazıda Sümerler çivi yazısını (MÖ ~3200), Mısırlılar hiyeroglifi kullandı; Fenikeliler alfabeyi geliştirdi (MÖ ~1200).",
+        "Bilimde Mezopotamya'da 60'lık sayı sistemi ve astronomi, Mısır'da tıp ve geometri gelişti.",
+        "Yunan'da bilim ve felsefe gelişti: Homeros (İlyada-Odysseia), Thales, Pisagor, Hipokrat (tıp), Öklid (geometri), Arşimet (fizik), Sokrates-Platon-Aristoteles.",
+        "Mimaride Ziggurat (Sümer), piramit (Mısır), Babil'in Asma Bahçeleri, Parthenon (Yunan) ve Roma'nın su kemerleri öne çıktı."
+      ],
+      "formuller": [
+        "Urgakina Kanunları: MÖ ~2375 (Sümer, bilinen ilk yazılı kanun)",
+        "Hammurabi Kanunları: MÖ ~1750 (Babil, kısasa kısas)",
+        "12 Levha Kanunu: MÖ 451-450 (Roma)",
+        "Çivi yazısı: Sümer (MÖ ~3200) | hiyeroglif: Mısır | alfabe: Fenike",
+        "Hipokrat: tıbbın babası | Öklid: geometri | Pisagor: matematik | Homeros: İlyada-Odysseia",
+        "Ziggurat: Sümer tapınağı | Piramit: Mısır firavun mezarı"
+      ],
+      "ornek": "Hammurabi kanunlarında 'göze göz' ilkesi vardır; bu, suç-ceza dengesini ilk kez yazılı hukuka taşıyan örnektir.",
+      "ipucu": "TYT tuzağı: 'İlk yazılı kanun' denildiğinde Urgakina, 'en gelişmiş ilk yazılı kanun' denince Hammurabi karıştırılır. Alfabeyi Fenikeliler, yazıyı Sümerler bulmuştur.",
+      "quiz": [
+        { "soru": "Tarihin bilinen ilk yazılı kanunları hangisidir?", "siklar": ["Hammurabi Kanunları", "Urgakina Kanunları", "12 Levha Kanunu", "Justinianus Kanunları"], "cevap": 1, "aciklama": "Sümerlere ait Urgakina Kanunları bilinen ilk yazılı kanunlardır." },
+        { "soru": "'Kısasa kısas' esasına dayanan ve Babil Kralı tarafından hazırlanan kanunlar hangisidir?", "siklar": ["Urgakina Kanunları", "Hammurabi Kanunları", "12 Levha Kanunu", "Mecelle"], "cevap": 1, "aciklama": "Hammurabi Kanunları kısasa kısas ilkesine dayanır." },
+        { "soru": "Roma hukukunun yazılı hâle getirilmesini sağlayan kanun hangisidir?", "siklar": ["12 Levha Kanunu", "Hammurabi Kanunları", "Urgakina Kanunları", "Kapitülasyonlar"], "cevap": 0, "aciklama": "12 Levha Kanunu (MÖ 451-450) Roma hukukunu yazılı hâle getirdi." },
+        { "soru": "Tarihte alfabeyi geliştiren uygarlık hangisidir?", "siklar": ["Sümerler", "Mısırlılar", "Fenikeliler", "Hititler"], "cevap": 2, "aciklama": "Fenikeliler alfabeyi geliştirip deniz ticaretiyle yaydı." },
+        { "soru": "Batı'da 'tıbbın babası' kabul edilen ve Yunan uygarlığında yaşayan bilim insanı kimdir?", "siklar": ["Öklid", "Pisagor", "Hipokrat", "Arşimet"], "cevap": 2, "aciklama": "Hipokrat tıbbın babası kabul edilir; Öklid geometri, Arşimet fizik alanındadır." }
+      ]
+    },
+    "9|9-tar|9-tar-u2|Konargöçer Türkler": {
+      "ozet": "Türklerin ana yurdu Orta Asya'dır; konargöçer (göçebe) yaşam at, hayvancılık ve bozkır kültürü üzerine kuruludur. İlk Türk topluluk ve devletleri İskitler, Asya Hunları, Göktürkler ve Uygurlardır.",
+      "anlatim": [
+        "Türklerin ana yurdu Orta Asya'dır (Altay-Sayan dağları, Aral-Hazar çevresi); iklim ve hayvancılık konargöçer yaşamı zorunlu kıldı.",
+        "Konargöçer yaşamda geçim hayvancılığa dayanır (at, koyun, sığır, deve); at hem ulaşım hem savaş üstünlüğü sağladı.",
+        "Konargöçer Türkler çadır (yurt) kurdu, keçe ve deri kullandı; ipek, deri ve at gibi ürünlerle ticaret yaptı.",
+        "Tarihteki ilk Türk topluluğu İskitler (Sakalar, MÖ 8-3. yy) kabul edilir; Karadeniz'in kuzeyi ve Orta Asya'da yaşadılar (Alp Er Tunga, Tomris Hatun).",
+        "Asya Hunları (MÖ 220-MS 216) bilinen ilk teşkilatlı Türk devletidir; Teoman ve Mete Han döneminde güçlendi; Mete Han MÖ 209'da tahta çıktı.",
+        "Göktürkler (552-744) Bumin Kağan tarafından kuruldu; 'Türk' adını devlet adı olarak kullanan ilk devlettir.",
+        "Uygurlar (744-840) yerleşik hayata geçen ilk Türk kavmidir; Mani ve Budizm'i benimsedi, kâğıt ve matbaa kullandı.",
+        "Türkler atlı-savaşçı yapısıyla 'ordu-millet' geleneğini kurdu; kurultay toplanır, hatun yönetimde söz sahibi olurdu.",
+        "Orhun Yazıtları (MS 720-735; Bilge Kağan, Kültigin, Tonyukuk) Göktürklerden kalan ilk yazılı Türkçe belgelerdir."
+      ],
+      "formuller": [
+        "Ana yurt: Orta Asya",
+        "İskitler (Sakalar): MÖ 8-3. yy, ilk Türk topluluğu; Alp Er Tunga, Tomris Hatun",
+        "Asya Hunları: Teoman (MÖ 220), Mete Han (MÖ 209) — bilinen ilk teşkilatlı Türk devleti",
+        "Göktürkler: 552, Bumin Kağan — 'Türk' adını kullanan ilk devlet",
+        "Uygurlar: 744 — yerleşik hayata geçen ilk Türk kavmi",
+        "Orhun Yazıtları: MS 720-735, Göktürkler, ilk yazılı Türkçe belge"
+      ],
+      "ornek": "Mete Han'ın MÖ 209'da tahta çıkışı ve ordusunu onluk sisteme göre düzenlemesi, Türk askerî geleneğinin temeli sayılır.",
+      "ipucu": "TYT tuzağı: 'İlk Türk devleti' ifadesi karıştırılır. İlk Türk topluluğu İskitler, bilinen ilk teşkilatlı devlet Asya Hunları, 'Türk' adını kullanan ilk devlet Göktürkler'dir.",
+      "quiz": [
+        { "soru": "Türklerin ana yurdu neresidir?", "siklar": ["Orta Asya", "Anadolu", "Balkanlar", "Mısır"], "cevap": 0, "aciklama": "Türklerin ana yurdu Orta Asya'dır." },
+        { "soru": "Tarihteki ilk Türk topluluğu olarak kabul edilenler kimlerdir?", "siklar": ["İskitler (Sakalar)", "Uygurlar", "Göktürkler", "Asya Hunları"], "cevap": 0, "aciklama": "İskitler (Sakalar) ilk Türk topluluğu kabul edilir." },
+        { "soru": "'Türk' adını devlet adı olarak kullanan ilk Türk devleti hangisidir?", "siklar": ["Asya Hunları", "Göktürkler", "Uygurlar", "Anadolu Selçuklu"], "cevap": 1, "aciklama": "Göktürkler 'Türk' adını devlet adı olarak kullanan ilk devlettir (552)." },
+        { "soru": "Yerleşik hayata geçen ilk Türk kavmi hangisidir?", "siklar": ["İskitler", "Asya Hunları", "Göktürkler", "Uygurlar"], "cevap": 3, "aciklama": "Uygurlar yerleşik hayata geçen ilk Türk kavmidir." },
+        { "soru": "Göktürklerden kalan ilk yazılı Türkçe belgeler hangileridir?", "siklar": ["Orhun Yazıtları", "Kutadgu Bilig", "Divanü Lügati't-Türk", "Mukaddime"], "cevap": 0, "aciklama": "Orhun Yazıtları Göktürklere ait ilk yazılı Türkçe belgelerdir." }
+      ]
+    },
+    "9|9-tar|9-tar-u3|Kitlesel göçler": {
+      "ozet": "375 Kavimler Göçü, İlk Çağ'ın kapanıp Orta Çağ'ın başlamasına yol açtı; Roma 395'te ikiye ayrıldı, Batı Roma 476'da yıkıldı ve Avrupa'nın etnik-siyasi haritası değişti.",
+      "anlatim": [
+        "Hunların (Balamir liderliğinde) Karadeniz'in kuzeyinden batıya ittiği kavimlerin MS 375'te Avrupa içlerine göç etmesine Kavimler Göçü denir.",
+        "Kavimler Göçü sonucunda Roma İmparatorluğu MS 395'te Doğu (Bizans) ve Batı Roma olarak ikiye ayrıldı.",
+        "Batı Roma İmparatorluğu 476'da yıkıldı; bu tarih İlk Çağ'ın sonu, Orta Çağ'ın başlangıcı kabul edilir.",
+        "Göçler Avrupa'da feodalite (derebeylik) düzeninin doğmasına zemin hazırladı; merkezî otorite zayıfladı.",
+        "Göç eden Germen ve Slav kavimleri Avrupa'da yeni krallıklar kurdu (Franklar, Vizigotlar, Ostrogotlar, Vandallar).",
+        "Avrupa'nın bugünkü etnik ve dil haritası (Germen, Latin, Slav toplulukları) bu göçlerle şekillendi.",
+        "Göç dalgaları Orta Çağ boyunca sürdü: Avarlar (6. yy), Bulgarlar ve Macarlar (9. yy) Avrupa'ya yerleşti.",
+        "Doğu Roma (Bizans) yaklaşık bin yıl daha yaşadı; 1453'te İstanbul'un fethiyle yıkıldı."
+      ],
+      "formuller": [
+        "375 Kavimler Göçü → İlk Çağ'ın sonu, Orta Çağ'ın başı",
+        "395 Roma İmparatorluğu'nun ikiye ayrılması (Doğu = Bizans, Batı = Roma)",
+        "476 Batı Roma'nın yıkılışı",
+        "Balamir: Hun hükümdarı (göçü başlatan)",
+        "Sonuçlar: feodalite, yeni krallıklar, etnik karışım",
+        "Sıra: 375 → 395 → 476"
+      ],
+      "ornek": "375'te Hunların batıya ilerlemesiyle yerinden olan Vizigotlar Roma topraklarına girdi; bu zincir Batı Roma'nın yıkılışını hazırladı.",
+      "ipucu": "TYT tuzağı: 375 (Kavimler Göçü, Orta Çağ'ın başı) ile 476 (Batı Roma'nın yıkılışı) karıştırılır. 395 ise Roma'nın ikiye ayrıldığı yıldır: 375 → 395 → 476.",
+      "quiz": [
+        { "soru": "Kavimler Göçü hangi yıl gerçekleşmiştir?", "siklar": ["375", "395", "476", "1071"], "cevap": 0, "aciklama": "Kavimler Göçü MS 375'te başladı." },
+        { "soru": "Roma İmparatorluğu hangi yıl Doğu ve Batı olarak ikiye ayrılmıştır?", "siklar": ["375", "395", "476", "1453"], "cevap": 1, "aciklama": "Roma, MS 395'te Doğu (Bizans) ve Batı Roma olarak ikiye ayrıldı." },
+        { "soru": "Batı Roma İmparatorluğu'nun yıkılış tarihi hangisidir?", "siklar": ["375", "395", "476", "1683"], "cevap": 2, "aciklama": "Batı Roma 476'da yıkıldı; İlk Çağ kapandı, Orta Çağ başladı." },
+        { "soru": "Kavimler Göçü'nün Avrupa'da yol açtığı yönetim düzeni hangisidir?", "siklar": ["Feodalite (derebeylik)", "Merkezî imparatorluk", "Cumhuriyet", "Satraplık"], "cevap": 0, "aciklama": "Merkezî otoritenin zayıflaması feodaliteyi doğurdu." },
+        { "soru": "Batı Roma'nın yıkılışı hangi çağın sonu ve hangi çağın başlangıcı kabul edilir?", "siklar": ["Yeni Çağ - Yakın Çağ", "İlk Çağ - Orta Çağ", "Orta Çağ - Yeni Çağ", "Yakın Çağ - Modern Çağ"], "cevap": 1, "aciklama": "476 İlk Çağ'ın sonu, Orta Çağ'ın başlangıcıdır." }
+      ]
+    },
+    "9|9-tar|9-tar-u3|Siyasi-askeri gelişmeler": {
+      "ozet": "Orta Çağ'da Bizans, Sasani, İslam devletleri, Moğollar ve Haçlı Seferleri siyasi-askerî gelişmeleri belirledi; 1071 Malazgirt Anadolu'yu Türklere açtı, 1453 İstanbul'un fethi Orta Çağ'ı kapattı.",
+      "anlatim": [
+        "Sasani Devleti (226-651) Pers topraklarında kuruldu; Bizans ile uzun süren savaşlar yaptı.",
+        "İslamiyet 610'da Hz. Muhammed'in peygamberliğiyle doğdu; İslam devleti kısa sürede Arap Yarımadası'nı birleştirdi.",
+        "Türkler, 751 Talas Savaşı sonrası Araplarla yakın temas kurdu ve zamanla İslamiyet'i kabul etti.",
+        "Haçlı Seferleri (1096-1270) Papa'nın çağrısıyla Avrupa'nın Müslümanlara karşı düzenlediği seferlerdir; Doğu-Batı etkileşimini artırdı.",
+        "1071 Malazgirt Savaşı'nda Büyük Selçuklu hükümdarı Alparslan, Bizans'ı yendi; Anadolu'nun kapıları Türklere açıldı.",
+        "1243 Kösedağ Savaşı'nda Anadolu Selçuklu Moğollara yenildi; Anadolu'da Türk beylikleri dönemi başladı.",
+        "Cengiz Han 1206'da Moğol İmparatorluğu'nu kurdu; Moğol istilaları İslam dünyasını sarstı (1258 Bağdat'ın yıkımı).",
+        "Yüzyıl Savaşları (1337-1453) İngiltere ile Fransa arasında sürdü; millî devlet düşüncesi güçlendi.",
+        "Osmanlı Devleti 1299'da kuruldu; 1402 Ankara Savaşı (Timur karşısında) sonrası Fetret Devri (1402-1413) yaşandı.",
+        "1453 İstanbul'un fethiyle Bizans yıkıldı, Orta Çağ kapandı ve Yeni Çağ başladı."
+      ],
+      "formuller": [
+        "226 Sasani kuruluşu; 651 Sasani'nin yıkılışı",
+        "610 İslamiyet'in doğuşu (Hz. Muhammed'in peygamberliği)",
+        "751 Talas Savaşı (Türk-Arap yakınlaşması)",
+        "1071 Malazgirt Savaşı (Alparslan)",
+        "1096-1270 Haçlı Seferleri",
+        "1206 Cengiz Han; 1243 Kösedağ Savaşı",
+        "1299 Osmanlı kuruluşu; 1402 Ankara Savaşı → Fetret Devri",
+        "1453 İstanbul'un fethi (Orta Çağ'ın sonu)"
+      ],
+      "ornek": "1071 Malazgirt ile Anadolu'ya yerleşme başladı; 1243 Kösedağ yenilgisiyle Anadolu Selçuklu zayıflayıp beyliklere bölündü.",
+      "ipucu": "TYT tuzağı: Kösedağ (1243, Moğollar) ile Malazgirt (1071, Bizans) karıştırılır. Haçlı Seferleri'nin amacı (kutsal topraklar) ile sonucu (Doğu-Batı ticareti) ayrı sorulur.",
+      "quiz": [
+        { "soru": "1071 Malazgirt Savaşı'nda Bizans'ı yenen Büyük Selçuklu hükümdarı kimdir?", "siklar": ["Tuğrul Bey", "Alparslan", "Melikşah", "Süleyman Şah"], "cevap": 1, "aciklama": "Alparslan, 1071 Malazgirt'te Bizans'ı yendi." },
+        { "soru": "Anadolu Selçuklu Devleti'nin Moğollara yenilerek beylikler döneminin başlamasına yol açan savaş hangisidir?", "siklar": ["Miryokefalon", "Kösedağ", "Pasinler", "Yassıçemen"], "cevap": 1, "aciklama": "1243 Kösedağ yenilgisi Anadolu'da beylikler dönemini başlattı." },
+        { "soru": "Haçlı Seferleri hangi yüzyıllar arasında düzenlenmiştir?", "siklar": ["9-10. yüzyıllar", "11-13. yüzyıllar", "14-15. yüzyıllar", "16-17. yüzyıllar"], "cevap": 1, "aciklama": "Haçlı Seferleri 1096-1270, yani 11-13. yüzyıllar arasındadır." },
+        { "soru": "1453'te İstanbul'un fethiyle yıkılan ve Orta Çağ'ı kapatan devlet hangisidir?", "siklar": ["Sasani Devleti", "Doğu Roma (Bizans)", "Memlük Devleti", "Moğol İmparatorluğu"], "cevap": 1, "aciklama": "1453'te Doğu Roma (Bizans) yıkıldı, Orta Çağ kapandı." },
+        { "soru": "1402 Ankara Savaşı'ndan sonra Osmanlı'da yaşanan taht kavgaları dönemine ne denir?", "siklar": ["Fetret Devri", "Duraklama Devri", "Lale Devri", "Meşrutiyet"], "cevap": 0, "aciklama": "1402-1413 arası taht kavgaları Fetret Devri olarak bilinir." }
+      ]
+    },
+    "9|9-tar|9-tar-u3|Ticaret yolları": {
+      "ozet": "İpek, Baharat ve Kürk yolları Orta Çağ ticaretinin omurgasıydı; bu yollar mal kadar kültür, bilgi ve teknik buluş da taşıdı, ticaret şehirlerini zenginleştirdi.",
+      "anlatim": [
+        "İpek Yolu: Çin'den başlayıp Orta Asya üzerinden Anadolu ve Avrupa'ya ulaşan, ipek ve lüks mal taşıyan kara yoludur.",
+        "Baharat Yolu: Hindistan ve Güneydoğu Asya'dan baharat, tuz ve değerli taş taşıyan, deniz-kara karışık ticaret yoludur.",
+        "Kürk Yolu: Sibirya-Karadeniz hattında kürk taşıyan kuzey ticaret yoludur.",
+        "Bu yollar sayesinde Semerkant, Buhara, Bağdat, İstanbul, Venedik ve Ceneviz gibi ticaret şehirleri zenginleşti.",
+        "İtalyan şehir devletleri (Venedik, Ceneviz) Doğu-Batı ticaretinde aracı olarak büyük kâr elde etti.",
+        "Ticaret kervanlarla yapıldı; güvenliği sağlamak için Anadolu Selçuklu kervansaraylar inşa etti.",
+        "Yollar; sadece mal değil kâğıt, matbaa, barut ve pusula gibi teknik buluşları da Doğu'dan Batı'ya taşıdı.",
+        "İslam coğrafyasında ticaret, ilim ve kültür etkileşimini hızlandırdı; medreseler ve pazarlar şehirlerin merkezi oldu.",
+        "Coğrafi Keşifler (15-16. yy) bu yolların önemini azalttı; Akdeniz ticareti Atlantik'e kaydı."
+      ],
+      "formuller": [
+        "İpek Yolu: Çin → Orta Asya → Anadolu → Avrupa (ipek, kâğıt, porselen)",
+        "Baharat Yolu: Hindistan → Akdeniz (baharat)",
+        "Kürk Yolu: Sibirya → Karadeniz (kürk)",
+        "Ticaret şehirleri: Semerkant, Buhara, Bağdat, İstanbul, Venedik, Ceneviz",
+        "Kervansaray: Anadolu Selçuklu ticaret yapısı",
+        "Coğrafi Keşifler (15-16. yy): yolların önemini azalttı"
+      ],
+      "ornek": "İpek Yolu'ndan geçen ticaret, sadece ipek değil Budizm, İslamiyet ve matbaa gibi kültür-teknik unsurları da taşıdı.",
+      "ipucu": "TYT tuzağı: Yolların 'amacı' (ticaret) ile 'sonucu' (kültür etkileşimi, teknik yayılma) karıştırılır. Ayrıca İpek Yolu'ndan en çok kâr eden aracılar İtalyan şehir devletleriydi.",
+      "quiz": [
+        { "soru": "Çin'den başlayıp Orta Asya üzerinden Avrupa'ya ulaşan tarihî ticaret yolu hangisidir?", "siklar": ["Baharat Yolu", "İpek Yolu", "Kürk Yolu", "Kral Yolu"], "cevap": 1, "aciklama": "İpek Yolu Çin'den Avrupa'ya uzanan kara ticaret yoludur." },
+        { "soru": "Orta Çağ'da Doğu-Batı ticaretinde aracılık yaparak zenginleşen şehir devletleri hangileridir?", "siklar": ["Venedik ve Ceneviz", "Londra ve Paris", "Bağdat ve Şam", "Kahire ve İskenderiye"], "cevap": 0, "aciklama": "Venedik ve Ceneviz, İpek ve Baharat yollarının aracıları olarak zenginleşti." },
+        { "soru": "Anadolu Selçuklu Devleti'nde tüccarların güvenli konaklaması için yapılan yapı hangisidir?", "siklar": ["Medrese", "Kervansaray", "Külliye", "Ziggurat"], "cevap": 1, "aciklama": "Kervansaraylar ticaret yollarında tüccarların konaklama-güvenlik yapısıdır." },
+        { "soru": "İpek Yolu'nda taşınan ürünler arasında aşağıdakilerden hangisi yer alır?", "siklar": ["İpek ve kâğıt", "Muz ve kahve", "Pamuk ve tütün", "Şeker kamışı ve patates"], "cevap": 0, "aciklama": "İpek Yolu ipek, kâğıt ve porselen taşırdı; kahve-patates Coğrafi Keşifler sonrasıdır." },
+        { "soru": "Ticaret yollarının zamanla önemini azaltan gelişme hangisidir?", "siklar": ["Haçlı Seferleri", "Coğrafi Keşifler", "Kavimler Göçü", "Rönesans"], "cevap": 1, "aciklama": "Coğrafi Keşifler yeni deniz yolları açarak kara ticaret yollarını geri plana itti." }
+      ]
+    },
+    "9|9-tar|9-tar-u3|Bilim-kültür-sanat": {
+      "ozet": "Orta Çağ'da İslam medeniyeti bilimde altın çağını yaşadı (Harezmî, İbn Sina, Biruni); Avrupa'da skolastik düşünce hâkimdi, üniversiteler ve gotik mimari doğdu.",
+      "anlatim": [
+        "İslam medeniyetinde bilim büyük ilerleme kaydetti: Harezmî cebiri geliştirdi, İbn Sina 'El-Kanun fi't-Tıb' eserini yazdı.",
+        "El-Kindi, Farabi, Gazali ve İbn Rüşd felsefe-mantıkta; Biruni astronomi ve coğrafyada önemli eserler verdi.",
+        "İslam dünyasında medreseler, rasathaneler ve kütüphaneler kuruldu (Bağdat Nizamiye Medresesi 1067; Semerkant rasathanesi).",
+        "Matematik (onluk sayı sistemi ve sıfır), astronomi, tıp, kimya ve coğrafya İslam bilginleri aracılığıyla Avrupa'ya geçti.",
+        "Avrupa'da skolastik düşünce hâkimdi; Kilise otoritesi nedeniyle bilimsel özgürlük sınırlıydı.",
+        "İlk üniversiteler Orta Çağ'da kuruldu: Bologna (1088), Paris ve Oxford; bu kurumlar bilimsel düşüncenin kurumsallaşmasını sağladı.",
+        "Sanatta Romanesk üsluptan Gotik üsluba geçildi: sivri kemer, uçan destek ve vitray (Notre Dame, Milan Katedrali).",
+        "Türk-İslam mimarisinde cami, medrese, külliye, kervansaray ve türbe öne çıktı (Konya Alaaddin Camisi, Semerkant'taki Şah-i Zinde).",
+        "Haçlı Seferleri ve Endülüs üzerinden Doğu bilimi Avrupa'ya aktarıldı; bu birikim Rönesans'ın temelini hazırladı."
+      ],
+      "formuller": [
+        "Harezmî: cebir (El-Cebr ve'l-Mukabele)",
+        "İbn Sina: tıp (El-Kanun fi't-Tıb)",
+        "Biruni: astronomi ve coğrafya (Tahkik ma li'l-Hind)",
+        "İbn Rüşd, Gazali, Farabi, El-Kindi: İslam filozofları",
+        "İlk üniversite: Bologna (1088)",
+        "Gotik mimari: sivri kemer, vitray, uçan destek"
+      ],
+      "ornek": "Harezmî'nin cebir çalışmaları Avrupa'ya geçtiğinde 'algebra' adı buradan geldi; İslam bilimi Rönesans'ın ön koşuludur.",
+      "ipucu": "TYT tuzağı: 'Orta Çağ'da Avrupa'da bilim durdu, İslam dünyasında gelişti' yorumu sorulur; ancak üniversitelerin Avrupa'da kurulduğu unutulmamalıdır. Nizamiye Medresesi'ni Bağdat'ta kuran Nizamülmülk'tür.",
+      "quiz": [
+        { "soru": "Cebir alanındaki çalışmalarıyla tanınan İslam bilgini kimdir?", "siklar": ["İbn Sina", "Harezmî", "Biruni", "Gazali"], "cevap": 1, "aciklama": "Harezmî cebir alanının kurucusu kabul edilir." },
+        { "soru": "'El-Kanun fi't-Tıb' adlı eserin yazarı kimdir?", "siklar": ["Harezmî", "İbn Sina", "El-Kindi", "Farabi"], "cevap": 1, "aciklama": "İbn Sina, tıp alanındaki El-Kanun fi't-Tıb'ı yazdı." },
+        { "soru": "İlk üniversite sayılan kurum hangi şehirde ve hangi yılda kurulmuştur?", "siklar": ["Bologna - 1088", "Paris - 1200", "Oxford - 1167", "Bağdat - 1067"], "cevap": 0, "aciklama": "Bologna Üniversitesi 1088'de kurulmuş, ilk üniversite kabul edilmiştir." },
+        { "soru": "Sivri kemer, vitray ve uçan destek unsurlarıyla tanınan mimari üslup hangisidir?", "siklar": ["Romanesk", "Gotik", "Barok", "Klasik"], "cevap": 1, "aciklama": "Sivri kemer, uçan destek ve vitray Gotik mimarinin özellikleridir." },
+        { "soru": "Orta Çağ Avrupa'sında bilimsel özgürlüğü sınırlayan düşünce sistemi hangisidir?", "siklar": ["Hümanizm", "Skolastik düşünce", "Pozitivizm", "Rasyonalizm"], "cevap": 1, "aciklama": "Skolastik düşünce, Kilise otoritesine dayandığı için bilimi sınırladı." }
+      ]
+    }
+  },
+  "10-tar": {
+    "10|10-tar|10-tar-u1|Anadolu'ya göç ve yerleşme": {
+      "ozet": "1040 Dandanakan'dan sonra Büyük Selçuklu güçlendi; 1071 Malazgirt ile Anadolu'nun kapıları Türklere açıldı, 1176 Miryokefalon ile Anadolu'nun Türk yurdu olduğu kesinleşti. 1243 Kösedağ'dan sonra beylikler dönemi başladı.",
+      "anlatim": [
+        "1040 Dandanakan Savaşı'nda Büyük Selçuklular Gaznelileri yendi; Büyük Selçuklu Devleti resmen kuruldu (Tuğrul ve Çağrı Bey).",
+        "1048 Pasinler Savaşı'nda Selçuklular Bizans'ı yendi; Anadolu'ya ilk akınlar başladı.",
+        "1071 Malazgirt Savaşı'nda Alparslan, Bizans İmparatoru IV. Romanos Diogenes'i yendi; Anadolu'nun kapıları Türklere açıldı.",
+        "Malazgirt'ten sonra Anadolu'da ilk Türk beylikleri kuruldu: Danişmendliler, Saltuklular, Mengücekliler, Artuklular ve Çaka Beyliği.",
+        "1077'de Kutalmışoğlu Süleyman Şah Anadolu Selçuklu Devleti'ni kurdu; başkent İznik oldu.",
+        "1096-1270 Haçlı Seferleri Anadolu'da Türk ilerleyişini yavaşlattı; ancak Türkler Anadolu'dan atılamadı.",
+        "1176 Miryokefalon Savaşı'nda II. Kılıç Arslan Bizans'ı yendi; Anadolu'nun kesin Türk yurdu olduğu kabul edildi.",
+        "Anadolu Selçuklu Devleti ticareti geliştirmek için kervansaraylar ve yollar yaptı; Sinop (1214) ve Alanya (1221) limanları alındı.",
+        "1243 Kösedağ Savaşı'nda Moğollara yenilen Anadolu Selçuklu zayıfladı; Anadolu'da beylikler dönemi başladı ve bunlardan biri olan Osmanlı 1299'da kuruldu."
+      ],
+      "formuller": [
+        "1040 Dandanakan Savaşı → Büyük Selçuklu Devleti kuruldu",
+        "1048 Pasinler Savaşı (Selçuklu-Bizans)",
+        "1071 Malazgirt Savaşı → Anadolu'nun kapıları açıldı (Alparslan vs IV. Romanos Diogenes)",
+        "1077 Anadolu Selçuklu Devleti kuruldu (Süleyman Şah, başkent İznik)",
+        "1176 Miryokefalon Savaşı → Anadolu Türk yurdu (II. Kılıç Arslan)",
+        "1243 Kösedağ Savaşı (Moğollar) → beylikler dönemi",
+        "İlk Türk beylikleri: Danişmendliler, Saltuklular, Mengücekliler, Artuklular, Çaka Beyliği"
+      ],
+      "ornek": "1071 Malazgirt'te Bizans'ın yenilmesiyle Anadolu'ya yerleşme başladı; 1176 Miryokefalon ile Bizans'ın Anadolu'yu geri alma umudu tamamen bitti.",
+      "ipucu": "TYT tuzağı: 1040 Dandanakan (devlet kuruluşu) ile 1048 Pasinler (Bizans'la ilk savaş) ve 1071 Malazgirt karıştırılır. Anadolu Selçuklu'nun kuruluşu 1077'dir.",
+      "quiz": [
+        { "soru": "Büyük Selçuklu Devleti'nin resmen kurulduğu ve Gaznelilerin yenildiği savaş hangisidir?", "siklar": ["Dandanakan (1040)", "Pasinler (1048)", "Malazgirt (1071)", "Kösedağ (1243)"], "cevap": 0, "aciklama": "1040 Dandanakan Savaşı'nda Gazneliler yenildi, Büyük Selçuklu kuruldu." },
+        { "soru": "1071 Malazgirt Savaşı'nda Bizans İmparatoru IV. Romanos Diogenes'i yenen hükümdar kimdir?", "siklar": ["Tuğrul Bey", "Alparslan", "Melikşah", "Sencer"], "cevap": 1, "aciklama": "Alparslan, 1071 Malazgirt'te Bizans'ı yendi." },
+        { "soru": "Anadolu Selçuklu Devleti hangi yıl ve kim tarafından kurulmuştur?", "siklar": ["1071 - Alparslan", "1077 - Kutalmışoğlu Süleyman Şah", "1176 - II. Kılıç Arslan", "1243 - I. Alaaddin Keykubad"], "cevap": 1, "aciklama": "Anadolu Selçuklu Devleti 1077'de Süleyman Şah tarafından İznik'te kuruldu." },
+        { "soru": "Anadolu'nun kesin olarak Türk yurdu kabul edilmesini sağlayan savaş hangisidir?", "siklar": ["Malazgirt", "Miryokefalon", "Kösedağ", "Pasinler"], "cevap": 1, "aciklama": "1176 Miryokefalon zaferi Anadolu'nun Türk yurdu olduğunu kesinleştirdi." },
+        { "soru": "1243 Kösedağ Savaşı'ndan sonra Anadolu'da ortaya çıkan siyasi yapı hangisidir?", "siklar": ["Merkezî imparatorluk", "Türk beylikleri", "Haçlı devletleri", "Roma eyaleti"], "cevap": 1, "aciklama": "Anadolu Selçuklu zayıflayınca Anadolu'da Türk beylikleri dönemi başladı." }
+      ]
+    },
+    "10|10-tar|10-tar-u2|Osmanlı kuruluş dönemi": {
+      "ozet": "Osmanlı 1299'da Söğüt'te beylik olarak kuruldu; Orhan Gazi ve I. Murat dönemlerinde Balkanlar'a yayıldı. 1402 Ankara Savaşı ve Fetret Devri sonrası toparlanıp 1453'te İstanbul'un fethine hazırlandı.",
+      "anlatim": [
+        "1299'da Osman Gazi, Söğüt merkezli beyliğini bağımsız ilan etti; bu tarih Osmanlı Devleti'nin kuruluşu kabul edilir.",
+        "Osman Gazi (1299-1326) döneminde Koyunhisar (1302) zaferi kazanıldı; 1326'da Bursa fethedildi (Orhan Gazi).",
+        "Orhan Gazi (1326-1359) 1329 Palekanon (Maltepe) Savaşı'nı kazandı; 1331'de İznik alındı; 1353'te Çimpe Kalesi alınarak Rumeli'ye geçildi.",
+        "I. Murat (1362-1389) döneminde Edirne fethedildi (1363) ve başkent yapıldı; 1364 Sırpsındığı ve 1389 I. Kosova zaferleri kazanıldı.",
+        "1363'te Yeniçeri Ocağı kuruldu; Kapıkulu askerleri ve tımar sistemiyle güçlü bir askerî-idari düzen oluşturuldu.",
+        "Yıldırım Bayezid (1389-1402) 1396 Niğbolu Savaşı'nı kazandı; Anadolu'daki beylikleri birleştirmeye çalıştı.",
+        "1402 Ankara Savaşı'nda Timur, Yıldırım Bayezid'i yendi; Fetret Devri (1402-1413) olarak bilinen taht kavgaları dönemi yaşandı.",
+        "Çelebi Mehmet (1413-1421) Fetret Devri'ne son verip devleti yeniden birleştirdi; 'devletin ikinci kurucusu' sayılır.",
+        "II. Murat (1421-1451) 1444 Varna ve 1448 II. Kosova zaferleriyle Balkanlar'da Osmanlı üstünlüğünü pekiştirdi; yerini II. Mehmet'e bıraktı.",
+        "Kuruluş döneminde Divan teşkilatı, tımar sistemi ve devşirme usulü gibi devlet kurumları oluşturuldu."
+      ],
+      "formuller": [
+        "1299 Osman Gazi → Osmanlı Devleti'nin kuruluşu (Söğüt)",
+        "1326 Bursa'nın fethi (Orhan Gazi)",
+        "1353 Çimpe Kalesi → Rumeli'ye geçiş",
+        "1363 Edirne'nin fethi ve Yeniçeri Ocağı'nın kuruluşu",
+        "1389 I. Kosova Savaşı (I. Murat şehit oldu)",
+        "1396 Niğbolu Savaşı (Yıldırım Bayezid)",
+        "1402 Ankara Savaşı → Fetret Devri (1402-1413)",
+        "1444 Varna, 1448 II. Kosova (II. Murat)"
+      ],
+      "ornek": "1353'te alınan Çimpe Kalesi, Osmanlı'nın Balkanlar'a yerleştiği ilk topraktır; bu, devletin yönünü Anadolu'dan Rumeli'ye çevirdi.",
+      "ipucu": "TYT tuzağı: 1326 Bursa (Orhan) ile 1363 Edirne (I. Murat) fetihleri ve Fetret Devri'nin bitişi (1413) karıştırılır. Ankara Savaşı 1402'dir; savaş sonrası devlet yıkılmadı, taht kavgası yaşandı.",
+      "quiz": [
+        { "soru": "Osmanlı Devleti'nin kuruluş yılı olarak kabul edilen tarih hangisidir?", "siklar": ["1071", "1243", "1299", "1453"], "cevap": 2, "aciklama": "Osman Gazi'nin beyliğini bağımsız ilan ettiği 1299, kuruluş yılıdır." },
+        { "soru": "Bursa'nın fethedildiği ve Orhan Gazi dönemine denk gelen yıl hangisidir?", "siklar": ["1326", "1353", "1363", "1389"], "cevap": 0, "aciklama": "Bursa 1326'da Orhan Gazi döneminde fethedildi." },
+        { "soru": "Osmanlı'nın Balkanlar'a geçişini sağlayan Çimpe Kalesi hangi yıl alınmıştır?", "siklar": ["1326", "1353", "1363", "1396"], "cevap": 1, "aciklama": "Çimpe Kalesi 1353'te alınarak Rumeli'ye geçildi." },
+        { "soru": "1402 Ankara Savaşı'nda Yıldırım Bayezid'i yenerek Fetret Devri'ne yol açan hükümdar kimdir?", "siklar": ["Cengiz Han", "Timur", "Şah İsmail", "Altın Orda Hanı"], "cevap": 1, "aciklama": "Timur, 1402 Ankara Savaşı'nda Yıldırım Bayezid'i yendi." },
+        { "soru": "Fetret Devri'ne son verip Osmanlı'yı yeniden birleştiren padişah kimdir?", "siklar": ["Çelebi Mehmet", "II. Murat", "Yıldırım Bayezid", "Fatih Sultan Mehmet"], "cevap": 0, "aciklama": "Çelebi Mehmet 1413'te Fetret Devri'ne son verdi; 'devletin ikinci kurucusu' sayılır." }
+      ]
+    },
+    "10|10-tar|10-tar-u3|Yükselme dönemi": {
+      "ozet": "1453 İstanbul'un fethiyle başlayan yükselme döneminde Osmanlı üç kıtaya hükmeden cihan devleti hâline geldi; 1683 II. Viyana Kuşatması sonrası duraklama sona erdi, 1699 Karlofça ile gerileme başladı.",
+      "anlatim": [
+        "1453'te Fatih Sultan Mehmet İstanbul'u fethederek Bizans'ı yıktı; Orta Çağ kapanıp Yeni Çağ başladı, Osmanlı başkenti İstanbul oldu.",
+        "Fatih (1451-1481) döneminde Trabzon (1461), Otlukbeli (1473) ve Kırım (1475) alındı; Karadeniz Türk gölü hâline geldi.",
+        "Yavuz Sultan Selim (1512-1520) 1514 Çaldıran'da Safevileri, 1516 Mercidabık ve 1517 Ridaniye'de Memlükleri yendi; halifelik Osmanlı'ya geçti.",
+        "Kanuni Sultan Süleyman (1520-1566) döneminde Belgrad (1521), Rodos (1522) ve Mohaç (1526) zaferleri kazanıldı; 1529 I. Viyana Kuşatması yapıldı.",
+        "1538 Preveze Deniz Savaşı'nda Barbaros Hayreddin Paşa'nın zaferiyle Akdeniz'de Osmanlı üstünlüğü sağlandı.",
+        "Kanuni, 1533 İstanbul ve 1555 Amasya Antlaşmalarıyla Safevilere üstünlük sağladı; 1535'te Fransa'ya ilk kapitülasyonlar verildi.",
+        "Osmanlı, Kanuni döneminde (1520-1566) en geniş sınırlara ulaştı; Avrupa, Asya ve Afrika'da üç kıtaya hükmeden cihan devleti oldu.",
+        "1571'de İnebahtı Deniz Savaşı'nda donanma yakıldı (Kıbrıs aynı yıl alınmıştı); bu, denizlerdeki duraklamanın işareti sayıldı.",
+        "Sokullu Mehmet Paşa döneminde (1564-1579) devlet gücünü korudu; İnebahtı'ya rağmen donanma yeniden inşa edildi.",
+        "1683'te II. Viyana Kuşatması başarısızlıkla sonuçlandı; ardından 1699 Karlofça Antlaşması imzalandı ve Osmanlı Batı'da ilk kez büyük çapta toprak kaybetti."
+      ],
+      "formuller": [
+        "1453 İstanbul'un fethi (Fatih) → Yeni Çağ'ın başı",
+        "1514 Çaldıran (Yavuz - Safevi); 1516 Mercidabık ve 1517 Ridaniye (Memlük) → halifelik Osmanlı'da",
+        "1521 Belgrad, 1522 Rodos, 1526 Mohaç (Kanuni)",
+        "1529 I. Viyana Kuşatması (Kanuni)",
+        "1538 Preveze Deniz Savaşı (Barbaros Hayreddin Paşa)",
+        "1555 Amasya Antlaşması (Safevilerle)",
+        "1571 İnebahtı (donanma yakıldı)",
+        "1683 II. Viyana Kuşatması → duraklamanın sonu",
+        "1699 Karlofça Antlaşması → ilk büyük toprak kaybı"
+      ],
+      "ornek": "1453'te İstanbul'un fethi sadece bir şehir kazanımı değildi; Bizans'ın yıkılmasıyla Orta Çağ kapandı ve Osmanlı 'cihan devleti' kimliğini kazandı.",
+      "ipucu": "TYT tuzağı: 1529 I. Viyana Kuşatması (Kanuni) ile 1683 II. Viyana Kuşatması (IV. Mehmet - Merzifonlu Kara Mustafa Paşa) karıştırılır. Ayrıca 1514 Çaldıran Safevilere (İran), 1517 Ridaniye Memlüklere (Mısır) karşıdır.",
+      "quiz": [
+        { "soru": "1453'te İstanbul'u fethederek Bizans'ı yıkan padişah kimdir?", "siklar": ["Yıldırım Bayezid", "II. Murat", "Fatih Sultan Mehmet", "Yavuz Sultan Selim"], "cevap": 2, "aciklama": "Fatih Sultan Mehmet 1453'te İstanbul'u fethederek Bizans'ı yıktı." },
+        { "soru": "1517 Ridaniye Savaşı sonucunda halifeliğin Osmanlı'ya geçmesini sağlayan padişah kimdir?", "siklar": ["Kanuni Sultan Süleyman", "Yavuz Sultan Selim", "Fatih Sultan Mehmet", "II. Bayezid"], "cevap": 1, "aciklama": "Yavuz Sultan Selim, 1517'de Memlükleri yenip halifeliği Osmanlı'ya kazandırdı." },
+        { "soru": "1526 Mohaç Savaşı'nda Macaristan'ı yenilgiye uğratan padişah kimdir?", "siklar": ["Yavuz Sultan Selim", "Kanuni Sultan Süleyman", "Yıldırım Bayezid", "III. Murat"], "cevap": 1, "aciklama": "Kanuni Sultan Süleyman 1526 Mohaç'ta Macaristan'ı yendi." },
+        { "soru": "1538 Preveze Deniz Savaşı'nda Osmanlı donanmasına komuta eden kaptan-ı derya kimdir?", "siklar": ["Barbaros Hayreddin Paşa", "Turgut Reis", "Piri Reis", "Sokullu Mehmet Paşa"], "cevap": 0, "aciklama": "Barbaros Hayreddin Paşa, 1538 Preveze'de Haçlı donanmasını yendi." },
+        { "soru": "Osmanlı'nın Batı'da ilk kez büyük çapta toprak kaybettiği ve gerileme döneminin başladığı antlaşma hangisidir?", "siklar": ["Amasya (1555)", "Zitvatorok (1606)", "Karlofça (1699)", "Vasvar (1664)"], "cevap": 2, "aciklama": "1699 Karlofça Antlaşması, Osmanlı'nın Batı'da ilk büyük toprak kaybıdır." }
+      ]
+    }
+  }
+}

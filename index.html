@@ -1,47 +1,32 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="tr" data-tema="koyu">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>TYT 9-10 Çalışma</title>
-<meta name="description" content="9 ve 10. sınıf TYT dersleri: sıralı konu, video, not ve quiz. Vercel uyumlu, mobil öncelikli." />
-<link rel="stylesheet" href="styles.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#0b1020" />
+<title>TYT 9–10 · Ders Çalışma</title>
+<meta name="description" content="9 ve 10. sınıf TYT dersleri: konu anlatımı, formüller, çözümlü örnekler, videolar ve quizler. Sırayla çalış, ilerlemeni takip et." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css?v=4" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>" />
 </head>
 <body>
-<header class="top">
-  <div>
-    <h1>TYT 9–10 Çalışma</h1>
-    <p id="tagline">Sırayla öğren: not → video → quiz. İlerleme bu cihazda saklanır.</p>
-  </div>
-  <div class="top-actions">
-    <select id="sinifSec" aria-label="Sınıf seç"></select>
-    <button id="sifirlaBtn" title="İlerlemeyi sıfırla">Sıfırla</button>
-  </div>
-</header>
 
-<div class="tyt-bilgi" id="tytBilgi"></div>
+<div class="uygulama">
+  <header class="ustbar" id="ustbar"></header>
+  <main id="gorunum" class="gorunum"></main>
+  <nav class="altbar" id="altbar"></nav>
+</div>
 
-<main class="layout">
-  <aside class="sidebar">
-    <input id="ara" type="search" placeholder="Ders / ünite / konu ara..." />
-    <div id="dersListe"></div>
-  </aside>
+<div class="yukleniyor" id="yukleniyor">
+  <div class="yukleniyor-halka"></div>
+  <p>Ders içerikleri yükleniyor...</p>
+</div>
 
-  <section class="icerik">
-    <div id="kirinti"></div>
-    <h2 id="baslik">Bir ders seç</h2>
-    <div class="sekmeler">
-      <button data-sekme="ders" class="aktif">Ders</button>
-      <button data-sekme="quiz">Quiz</button>
-    </div>
-    <div id="panel"></div>
-  </section>
-</main>
+<div class="toast" id="toast"></div>
 
-<footer>
-  <span>Maarif Modeli 2025-2026 müfredat sırası. Notlar siteye özeldir, videolar YouTube'dan gömülüdür.</span>
-</footer>
-
-<script src="app.js"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>

@@ -1,0 +1,390 @@
+{
+  "10-mat": {
+    "10|10-mat|10-mat-u1|Üçgenler": {
+      "ozet": "Üçgen, üç doğru parçasının uç uca eklenmesiyle oluşan temel geometrik şekildir. İç açılarının ölçüleri toplamı 180°, dış açılarının toplamı 360°'dir. Dik üçgende Pisagor bağıntısı, Öklid bağıntıları ve benzerlik oranları TYT geometrisinin temelini oluşturur.",
+      "anlatim": [
+        "İç açıların ölçüleri toplamı her üçgende 180°'dir: a + b + c = 180°. Dış açıların toplamı ise 360°'dir.",
+        "Bir dış açı, kendisine komşu olmayan iki iç açının toplamına eşittir. Örn. iki iç açı 45° ve 65° ise üçüncü köşedeki dış açı 45° + 65° = 110°'dir.",
+        "Üçgen eşitsizliği: bir kenar, diğer iki kenarın farkından büyük ve toplamından küçüktür: |a − b| < c < a + b. 4 ve 7 kenarları için 3 < x < 11'dir.",
+        "Dik üçgende Pisagor bağıntısı geçerlidir: a² + b² = c² (c hipotenüs). Özel üçgenler: 3-4-5, 5-12-13, 8-15-17 ve bunların tam sayı katları.",
+        "Yükseklik hipotenüse indirildiğinde Öklid bağıntıları kullanılır: h² = p·k, a² = p·c, b² = k·c (p ve k, hipotenüsün yükseklik ayağının ayırdığı parçalar).",
+        "Üçgenin alanı: Alan = (1/2)·taban·yükseklik. İki kenar ve aralarındaki açı biliniyorsa Alan = (1/2)·b·c·sin(A)'dır.",
+        "Benzer iki üçgende benzerlik oranı k ise çevrelerin oranı k, alanların oranı k²'dir.",
+        "Paralel kesenlerde temel orantı (Thales): DE // BC ise AD/DB = AE/EC olur ve ADE üçgeni ABC üçgenine benzer.",
+        "Bir üçgende iki kenarın orta noktalarını birleştiren parça (orta taban) üçüncü kenara paraleldir ve uzunluğu o kenarın yarısıdır."
+      ],
+      "formuller": [
+        "a + b + c = 180° (iç açılar toplamı)",
+        "dış açı = kendisine komşu olmayan iki iç açının toplamı",
+        "Üçgen eşitsizliği: |a − b| < c < a + b",
+        "Pisagor: a² + b² = c²",
+        "Alan = (1/2)·taban·yükseklik = (1/2)·b·c·sin(A)",
+        "Benzerlik oranı k ⇒ alanlar oranı k²"
+      ],
+      "ornek": "Dik kenar uzunlukları 9 cm ve 12 cm olan dik üçgenin hipotenüsünü, alanını ve çevresini bulalım. 1) Pisagor: c² = 9² + 12² = 81 + 144 = 225 ⇒ c = √225 = 15 cm. 2) Alan = (9·12)/2 = 108/2 = 54 cm². 3) Çevre = 9 + 12 + 15 = 36 cm. (9-12-15 üçgeni, 3-4-5 üçgeninin 3 katıdır.)",
+      "ipucu": "İki iç açı verilip üçüncü açı veya dış açı isteniyorsa 'dış açı = komşu olmayan iki iç açının toplamı' özelliği kısa yoldur. Kenar uzunluğu tamsayı istenen sorularda üçgen eşitsizliği sınırını (|a − b| < c < a + b) yazıp tamsayıları saymak en güvenli çözümdür.",
+      "quiz": [
+        { "soru": "İç açılarının ölçüleri 3x, 4x ve 5x olan bir üçgende en büyük iç açı kaç derecedir?", "siklar": ["60°", "75°", "90°", "105°"], "cevap": 1, "aciklama": "3x + 4x + 5x = 12x = 180° ⇒ x = 15; en büyük açı 5x = 75°." },
+        { "soru": "Dik kenar uzunlukları 9 cm ve 12 cm olan dik üçgenin hipotenüsü kaç cm'dir?", "siklar": ["13", "14", "15", "17"], "cevap": 2, "aciklama": "Pisagor: c² = 81 + 144 = 225 ⇒ c = 15 cm." },
+        { "soru": "Kenar uzunlukları 4 cm, 7 cm ve x cm olan bir üçgende x aşağıdakilerden hangisi olamaz?", "siklar": ["4", "7", "10", "12"], "cevap": 3, "aciklama": "Üçgen eşitsizliği: |7 − 4| < x < 7 + 4 ⇒ 3 < x < 11; 12 bu aralığın dışındadır." },
+        { "soru": "Bir üçgende iki iç açının ölçüsü 45° ve 65°'dir. Üçüncü köşedeki dış açının ölçüsü kaç derecedir?", "siklar": ["100°", "105°", "110°", "115°"], "cevap": 2, "aciklama": "Dış açı, komşu olmayan iki iç açının toplamıdır: 45° + 65° = 110°." },
+        { "soru": "Benzerlik oranı 2 olan iki benzer üçgenin alanlarının oranı kaçtır?", "siklar": ["2", "4", "6", "8"], "cevap": 1, "aciklama": "Benzerlik oranı k ise alanların oranı k²'dir: 2² = 4." }
+      ]
+    },
+    "10|10-mat|10-mat-u1|Trigonometrik oranlar": {
+      "ozet": "Dik üçgende bir dar açının sinüsü karşı dik kenarın hipotenüse, kosinüsü komşu dik kenarın hipotenüse, tanjantı karşı dik kenarın komşu dik kenara oranıdır. sin²α + cos²α = 1 özdeşliği ve özel açı değerleri TYT'de doğrudan soru getiren temel bilgilerdir.",
+      "anlatim": [
+        "Dik üçgende dar bir açının sinüsü = karşı dik kenar / hipotenüs, kosinüsü = komşu dik kenar / hipotenüs, tanjantı = karşı dik kenar / komşu dik kenardır.",
+        "Temel özdeşlik: sin²α + cos²α = 1'dir. Buradan sinα = 3/5 ise cosα = 4/5 bulunur (dar açıda kosinüs pozitiftir).",
+        "Tanjant ve kotanjant oranları: tanα = sinα / cosα ve cotα = cosα / sinα = 1 / tanα'dır.",
+        "Özel açı değerleri: sin30° = 1/2, cos30° = √3/2, tan30° = √3/3; sin45° = cos45° = √2/2, tan45° = 1; sin60° = √3/2, cos60° = 1/2, tan60° = √3'tür.",
+        "30-60-90 üçgeninde kenarlar 1 : √3 : 2 oranındadır; 45-45-90 üçgeninde kenarlar 1 : 1 : √2 oranındadır.",
+        "Tümler açılarda sin(90° − α) = cosα, cos(90° − α) = sinα ve tan(90° − α) = cotα'dır.",
+        "Bir dik üçgende B açısı 30° ve hipotenüs 10 cm ise B'nin karşısındaki kenar 10·sin30° = 10·(1/2) = 5 cm, B'nin komşu kenarı 10·cos30° = 10·(√3/2) = 5√3 cm'dir.",
+        "İki kenar ve aralarındaki açıyla üçgenin alanı: Alan = (1/2)·b·c·sin(A).",
+        "Sinüs teoremi: a/sin(A) = b/sin(B) = c/sin(C) = 2R. Kosinüs teoremi: a² = b² + c² − 2bc·cos(A)."
+      ],
+      "formuller": [
+        "sin²α + cos²α = 1",
+        "tanα = sinα / cosα",
+        "sin30° = 1/2, cos30° = √3/2, tan45° = 1, sin60° = √3/2, cos60° = 1/2",
+        "sin(90° − α) = cosα, cos(90° − α) = sinα",
+        "Kosinüs teoremi: a² = b² + c² − 2bc·cos(A)",
+        "Sinüs teoremi: a/sin(A) = b/sin(B) = c/sin(C)"
+      ],
+      "ornek": "sinα = 3/5 olan dar açı α için cosα ve tanα değerlerini bulalım. 1) sin²α + cos²α = 1 ⇒ (3/5)² + cos²α = 1 ⇒ 9/25 + cos²α = 1. 2) cos²α = 1 − 9/25 = 16/25 ⇒ cosα = 4/5 (dar açı olduğu için pozitif kök). 3) tanα = sinα / cosα = (3/5) / (4/5) = 3/4. (Karşı 3, komşu 4, hipotenüs 5 olan 3-4-5 üçgenidir.)",
+      "ipucu": "sin²α ile sin(α²) karıştırılmamalıdır: sin²α = (sinα)² demektir. Özel açı değerlerini ezberlemek yerine 30-60-90 ve 45-45-90 üçgenlerini çizmek TYT'de işaret hatasını büyük ölçüde engeller; ayrıca dar açıda tüm trigonometrik oranlar pozitiftir.",
+      "quiz": [
+        { "soru": "sin²30° + cos²30° işleminin sonucu kaçtır?", "siklar": ["0", "1/2", "1", "√3/2"], "cevap": 2, "aciklama": "Temel özdeşlik gereği sin²α + cos²α = 1'dir; açı değeri önemli değildir." },
+        { "soru": "sinα = 3/5 olduğuna göre dar açı α için cosα kaçtır?", "siklar": ["2/5", "4/5", "3/4", "5/3"], "cevap": 1, "aciklama": "cos²α = 1 − 9/25 = 16/25 ⇒ cosα = 4/5." },
+        { "soru": "tan45° + sin30° işleminin sonucu kaçtır?", "siklar": ["1", "1/2", "2", "3/2"], "cevap": 3, "aciklama": "tan45° = 1 ve sin30° = 1/2 olduğundan 1 + 1/2 = 3/2." },
+        { "soru": "Bir 45-45-90 dik üçgeninde dik kenar uzunlukları 7 cm ise hipotenüs kaç cm'dir?", "siklar": ["7", "7√2", "7√3", "14"], "cevap": 1, "aciklama": "İkizkenar dik üçgende hipotenüs = dik kenar·√2 = 7√2." },
+        { "soru": "cos60° değeri aşağıdakilerden hangisidir?", "siklar": ["√3/2", "√2/2", "1/2", "1"], "cevap": 2, "aciklama": "Özel açı değeri olarak cos60° = 1/2'dir." }
+      ]
+    },
+    "10|10-mat|10-mat-u2|Asal çarpan-bölen ilişkisi": {
+      "ozet": "Her doğal sayı, asal sayıların kuvvetlerinin çarpımı olarak tek türlü yazılabilir. Asal çarpanlara ayırma sayesinde bir sayının pozitif bölen sayısı ve bölenlerinin özellikleri kolayca bulunur. Bu bilgi TYT'de bölen sayısı ve faktöriyel sorularının temelidir.",
+      "anlatim": [
+        "Asal sayılar yalnızca 1'e ve kendisine tam bölünen 1'den büyük doğal sayılardır. 2 en küçük asal sayı ve tek çift asaldır; 1 asal değildir.",
+        "Her doğal sayı, asal sayıların kuvvetlerinin çarpımı olarak tek türlü yazılabilir: 360 = 2³·3²·5.",
+        "Asal çarpanlara ayırmada sayı, en küçük asal böleninden başlanarak sırayla bölünür ve bölüm 1 olana kadar devam edilir.",
+        "N = x^a · y^b · z^c biçiminde yazılan sayının pozitif bölen sayısı (a+1)·(b+1)·(c+1)'dir.",
+        "Örnek: 360 = 2³·3²·5 olduğundan pozitif bölen sayısı (3+1)·(2+1)·(1+1) = 4·3·2 = 24'tür.",
+        "Pozitif bölen sayısı tek olan sayılar tam karedir; çift olan sayılar tam kare değildir.",
+        "Bir sayının kendisi dışındaki en büyük pozitif böleni, çift sayılarda sayının yarısıdır (örn. 30'un en büyük öz böleni 15'tir).",
+        "n! içindeki p asalının kaç kez çarpan olarak bulunduğu ⌊n/p⌋ + ⌊n/p²⌋ + ⌊n/p³⌋ + ... toplamıyla bulunur. 10!'de 2 için: ⌊10/2⌋ + ⌊10/4⌋ + ⌊10/8⌋ = 5 + 2 + 1 = 8.",
+        "Aralarında asal iki sayının 1'den başka ortak pozitif böleni yoktur; ortak asal çarpanları bulunmaz.",
+        "Bir sayının asal olup olmadığını anlamak için √n'e kadar olan asal sayılara tam bölünüp bölünmediğine bakmak yeterlidir."
+      ],
+      "formuller": [
+        "N = x^a · y^b · z^c ⇒ pozitif bölen sayısı = (a+1)(b+1)(c+1)",
+        "Pozitif bölen sayısı tek ⇔ sayı tam karedir",
+        "n! içindeki p asalının kuvveti = ⌊n/p⌋ + ⌊n/p²⌋ + ⌊n/p³⌋ + ..."
+      ],
+      "ornek": "360 sayısının asal çarpanlara ayrılmış biçimini ve pozitif bölen sayısını bulalım. 1) 360 = 36·10 = (2²·3²)·(2·5) = 2³·3²·5. 2) Üsleri birer artırıp çarparız: (3+1)·(2+1)·(1+1) = 4·3·2 = 24. 3) Sonuç: 360'ın 24 pozitif tam sayı böleni vardır.",
+      "ipucu": "'Kaç tane pozitif tam sayı böleni vardır?' sorusunda asal çarpanların üslerini 1 artırmayı unutmak en sık yapılan hatadır. Ayrıca 1 asal sayı değildir, asal çarpan listesine yazılmaz; faktöriyel sorularında ⌊n/p⌋ + ⌊n/p²⌋ + ... toplamını tek adımda bırakmamak gerekir.",
+      "quiz": [
+        { "soru": "72 sayısının asal çarpanlara ayrılmış biçimi aşağıdakilerden hangisidir?", "siklar": ["2²·3²", "2³·3²", "2³·3³", "2²·3³"], "cevap": 1, "aciklama": "2³ = 8 ve 3² = 9 olup 8·9 = 72'dir." },
+        { "soru": "60 sayısının pozitif tam sayı bölenlerinin sayısı kaçtır?", "siklar": ["8", "10", "12", "16"], "cevap": 2, "aciklama": "60 = 2²·3·5 ⇒ (2+1)·(1+1)·(1+1) = 3·2·2 = 12." },
+        { "soru": "Aşağıdaki sayılardan hangisinin pozitif bölen sayısı tektir?", "siklar": ["12", "18", "50", "36"], "cevap": 3, "aciklama": "Bölen sayısı tek olan sayı tam karedir; 36 = 6² olduğundan doğru cevaptır." },
+        { "soru": "10! sayısının içinde kaç tane 2 çarpanı bulunur?", "siklar": ["8", "5", "6", "10"], "cevap": 0, "aciklama": "⌊10/2⌋ + ⌊10/4⌋ + ⌊10/8⌋ = 5 + 2 + 1 = 8." },
+        { "soru": "Aşağıdaki sayılardan hangisi asal sayı değildir?", "siklar": ["2", "17", "1", "13"], "cevap": 2, "aciklama": "1'in kendisinden başka böleni yoktur ancak asal sayı tanımı 1'den büyük sayıları kapsadığından 1 asal değildir." }
+      ]
+    },
+    "10|10-mat|10-mat-u2|EBOB-EKOK": {
+      "ozet": "EBOB, sayıları aynı anda tam bölen en büyük sayı; EKOK ise bu sayıların birlikte tam katı olan en küçük pozitif sayıdır. Asal çarpanlarla kolayca hesaplanır ve EBOB·EKOK = a·b eşitliği iki sayı için her zaman geçerlidir.",
+      "anlatim": [
+        "EBOB (en büyük ortak bölen): verilen sayıların hepsini aynı anda tam bölen en büyük pozitif sayıdır.",
+        "EKOK (en küçük ortak kat): verilen sayıların hepsinin birlikte tam katı olan en küçük pozitif sayıdır.",
+        "Asal çarpanlarla hesaplama: EBOB, ortak asal çarpanların en küçük kuvvetlerinin çarpımı; EKOK, tüm asal çarpanların en büyük kuvvetlerinin çarpımıdır.",
+        "24 = 2³·3 ve 36 = 2²·3² için EBOB = 2²·3 = 12 ve EKOK = 2³·3² = 72'dir.",
+        "İki sayı için EBOB(a,b) · EKOK(a,b) = a·b'dir: 12 · 72 = 864 ve 24 · 36 = 864 olduğundan eşitlik doğrulanır.",
+        "Aralarında asal iki sayıda EBOB = 1 ve EKOK = a·b'dir (örn. 8 ve 9 için EKOK = 72).",
+        "Biri diğerinin tam katı olan iki sayıda EBOB küçük sayıya, EKOK büyük sayıya eşittir: 8 ve 24 için EBOB = 8, EKOK = 24'tür.",
+        "EBOB problemleri: eşit büyüklükteki en büyük parçalara ayırma, eşit gruplar oluşturma gibi 'en büyük' isteyen sorularda kullanılır.",
+        "EKOK problemleri: zil, saat, trafik ışığı gibi periyodik olayların tekrar aynı anda gerçekleşme süresini veren 'en küçük' isteyen sorularda kullanılır."
+      ],
+      "formuller": [
+        "EBOB(a, b) · EKOK(a, b) = a · b",
+        "Aralarında asal ⇒ EBOB = 1, EKOK = a·b",
+        "EBOB: ortak asalların en küçük kuvvetleri; EKOK: tüm asalların en büyük kuvvetleri"
+      ],
+      "ornek": "24 ve 36 sayılarının EBOB ve EKOK'unu bulalım. 1) 24 = 2³·3 ve 36 = 2²·3². 2) EBOB = ortak asalların en küçük kuvvetleri = 2²·3 = 4·3 = 12. 3) EKOK = tüm asalların en büyük kuvvetleri = 2³·3² = 8·9 = 72. 4) Kontrol: EBOB·EKOK = 12·72 = 864 ve 24·36 = 864 olup eşitlik sağlanır.",
+      "ipucu": "EBOB·EKOK = a·b eşitliği yalnızca iki sayı için geçerlidir; üç veya daha fazla sayıda bu çarpım kuralını kullanmak TYT'nin klasik tuzağıdır. Ayrıca 'en büyük' geçen sorularda EBOB, 'en küçük' veya periyodik tekrar geçen sorularda EKOK aranmalıdır.",
+      "quiz": [
+        { "soru": "12 ve 18 sayılarının EBOB'u kaçtır?", "siklar": ["4", "6", "9", "36"], "cevap": 1, "aciklama": "12 = 2²·3 ve 18 = 2·3² olduğundan ortak asalların en küçük kuvvetleri 2·3 = 6'dır." },
+        { "soru": "15 ve 20 sayılarının EKOK'u kaçtır?", "siklar": ["30", "50", "60", "100"], "cevap": 2, "aciklama": "15 = 3·5 ve 20 = 2²·5 olduğundan EKOK = 2²·3·5 = 60." },
+        { "soru": "İki sayının EBOB'u 4, EKOK'u 48'dir. Bu sayılardan biri 16 ise diğeri kaçtır?", "siklar": ["8", "12", "16", "24"], "cevap": 1, "aciklama": "EBOB·EKOK = a·b ⇒ 4·48 = 192; 192/16 = 12." },
+        { "soru": "Aralarında asal iki pozitif tam sayının EBOB'u kaçtır?", "siklar": ["1", "2", "0", "Sayıların çarpımı"], "cevap": 0, "aciklama": "Aralarında asal sayıların 1'den başka ortak böleni olmadığından EBOB = 1'dir." },
+        { "soru": "İki zil sırasıyla 8 ve 12 dakikada bir çalmaktadır. Birlikte çaldıktan sonra en az kaç dakika sonra tekrar birlikte çalarlar?", "siklar": ["20", "30", "24", "48"], "cevap": 2, "aciklama": "EKOK(8, 12) = 2³·3 = 24 dakika." }
+      ]
+    },
+    "10|10-mat|10-mat-u2|Bölme ve kalan": {
+      "ozet": "Bölme algoritması bölünen = bölen × bölüm + kalan biçimindedir ve kalan her zaman bölenden küçüktür. Bölünebilme kuralları ile 2, 3, 4, 5, 8, 9 ve 11'e tam bölünme kısa yoldan anlaşılır. Bu bilgi TYT'de kalan bulma ve bölünebilme sorularının temelidir.",
+      "anlatim": [
+        "Bölme algoritması: Bölünen = Bölen × Bölüm + Kalan ve 0 ≤ Kalan < Bölen'dir.",
+        "Kalan hiçbir zaman bölene eşit veya bölenden büyük olamaz, negatif de olamaz. Bölen 7 ise kalan en çok 6 olabilir.",
+        "Örnek: Bölen 13, bölüm 8 ve kalan 5 ise bölünen = 13·8 + 5 = 104 + 5 = 109'dur.",
+        "2 ile bölünebilme: birler basamağı çift (0, 2, 4, 6, 8). 5 ile bölünebilme: birler basamağı 0 veya 5.",
+        "3 ile bölünebilme: rakamlarının toplamı 3'ün katı olmalıdır (örn. 471 için 4+7+1 = 12). 9 ile bölünebilme: rakamlar toplamı 9'un katı.",
+        "4 ile bölünebilme: son iki basamağı 4'ün katı (örn. 1236 için 36). 8 ile bölünebilme: son üç basamağı 8'in katı.",
+        "11 ile bölünebilme: birler basamağından başlayarak işaretler sırayla +, −, +, − alınır ve toplanır; sonuç 11'in katıysa sayı 11'e tam bölünür. 4785 için 5 − 8 + 7 − 4 = 0 olduğundan kalan 0'dır.",
+        "Kalanlarla işlem: (a + b) toplamının m'ye bölümünden kalan, a ve b'nin ayrı ayrı m'ye bölümünden kalanların toplamının m'ye bölümünden kalanına eşittir."
+      ],
+      "formuller": [
+        "Bölünen = Bölen × Bölüm + Kalan, 0 ≤ Kalan < Bölen",
+        "3 ile bölünebilme: rakamlar toplamı 3'ün katı",
+        "4 ile: son iki basamak 4'ün katı; 8 ile: son üç basamak 8'in katı",
+        "11 ile: birlerden itibaren dönüşümlü (+ − + −) toplam 11'in katı olmalı"
+      ],
+      "ornek": "4785 sayısının 11'e bölümünden kalanı bulalım. 1) Birler basamağından başlayarak işaretleri sıralarız: +5 −8 +7 −4. 2) Toplam = 5 − 8 + 7 − 4 = 0. 3) 0 sayısı 11'in katı olduğundan 4785 sayısı 11'e tam bölünür; kalan 0'dır. 4) Kontrol: 11 · 435 = 4785 olduğundan işlem doğrudur.",
+      "ipucu": "Bölme sorularında önce kalanın bölenden küçük olduğunu kontrol etmek gerekir; 'kalan 9 olabilir mi' tipi seçeneklerde bölene bakmak yeterlidir. Kalan 0 olduğunda sayı tam bölünür, sıfır kalanının geçerli bir kalan olduğu unutulmamalıdır.",
+      "quiz": [
+        { "soru": "Bir bölme işleminde bölen 7, bölüm 9 ve kalan 4'tür. Bölünen sayı kaçtır?", "siklar": ["63", "67", "70", "74"], "cevap": 1, "aciklama": "Bölünen = 7·9 + 4 = 63 + 4 = 67." },
+        { "soru": "Aşağıdaki sayılardan hangisi 3 ile tam bölünür?", "siklar": ["121", "122", "123", "125"], "cevap": 2, "aciklama": "123'ün rakamlar toplamı 1+2+3 = 6 olup 3'ün katıdır." },
+        { "soru": "4785 sayısının 11'e bölümünden kalan kaçtır?", "siklar": ["0", "1", "2", "5"], "cevap": 0, "aciklama": "5 − 8 + 7 − 4 = 0 olduğundan sayı 11'e tam bölünür ve kalan 0'dır." },
+        { "soru": "Bir bölme işleminde bölen 6 ise kalan en fazla kaç olabilir?", "siklar": ["0", "5", "6", "7"], "cevap": 1, "aciklama": "Kalan bölenden küçük olmak zorundadır; bölen 6 için en büyük kalan 5'tir." },
+        { "soru": "Aşağıdaki sayılardan hangisi 4 ile tam bölünür?", "siklar": ["1234", "1236", "1238", "1242"], "cevap": 1, "aciklama": "Son iki basamağı 36 olan 1236'da 36 sayısı 4'ün katıdır." }
+      ]
+    },
+    "10|10-mat|10-mat-u3|Fonksiyon olma şartı": {
+      "ozet": "Fonksiyon, tanım kümesindeki her elemanı değer kümesindeki tam olarak bir elemana eşleyen bağıntıdır. Grafikte düşey doğru testi fonksiyon olup olmadığını gösterir. Tanım kümesi, bire bir ve örten olma kavramları TYT'de fonksiyon sorularının temelidir.",
+      "anlatim": [
+        "Fonksiyon, tanım kümesindeki her elemanı değer kümesindeki tam olarak bir elemana eşleyen bağıntıdır; aynı x değeri iki farklı y değeriyle eşleşemez.",
+        "Grafik testi: düşey doğru grafiği her yerde en fazla bir noktada kesiyorsa o grafik bir fonksiyon belirtir.",
+        "Her fonksiyon bir bağıntıdır ancak her bağıntı fonksiyon değildir; farkı belirleyen şart tanımdaki 'tek değer' koşuludur.",
+        "Tanım kümesi fonksiyonun tanımlı olduğu x değerlerinin kümesi, görüntü kümesi f(x) değerlerinin kümesi, değer kümesi ise hedef kümedir.",
+        "Karekök içeren fonksiyonda kökün içi negatif olamaz: f(x) = √(x − 4) için tanım kümesi x ≥ 4'tür.",
+        "Paydasında değişken bulunan rasyonel fonksiyonda payda sıfır olamaz: f(x) = 1/(x − 2) için tanım kümesi x ≠ 2'dir.",
+        "Bire bir (injektif) fonksiyon: farklı elemanlar farklı görüntü verir; f(a) = f(b) ise a = b olmalıdır. Grafikte yatay doğru testiyle anlaşılır.",
+        "Örten (sürjektif) fonksiyon: görüntü kümesi değer kümesine eşittir, yani değer kümesindeki her elemana ulaşılır.",
+        "Bire bir ve örten fonksiyona birebir eşleme denir; ters fonksiyonun var olabilmesi için fonksiyon bire bir ve örten olmalıdır.",
+        "f(a) değerini bulmak için fonksiyonda x yerine a yazılır: f(x) = 2x − 5 için f(3) = 2·3 − 5 = 1'dir."
+      ],
+      "formuller": [
+        "Fonksiyon: tanım kümesindeki her x için tek bir y değeri",
+        "Bire bir: f(a) = f(b) ⇒ a = b",
+        "Örten: Görüntü kümesi = Değer kümesi",
+        "√(iç) tanımlı olması için iç ≥ 0; rasyonel ifadede payda ≠ 0"
+      ],
+      "ornek": "f(x) = √(2x − 6) fonksiyonunun en geniş tanım kümesini bulalım. 1) Karekök tanımlı olması için kökün içi negatif olmamalıdır: 2x − 6 ≥ 0. 2) 2x ≥ 6 ⇒ x ≥ 3. 3) Tanım kümesi [3, ∞) aralığıdır. 4) Kontrol: x = 3 için f(3) = √0 = 0 ve x = 5 için f(5) = √4 = 2 değerleri tanımlıdır.",
+      "ipucu": "f(a) + f(b) ile f(a + b) karıştırılmamalıdır; bu eşitlik yalnızca f(x) = ax tipi doğrusal fonksiyonlar için geçerlidir. f(x) = x² örneğinde f(2) + f(3) = 4 + 9 = 13 iken f(5) = 25'tir.",
+      "quiz": [
+        { "soru": "Aşağıdaki bağıntılardan hangisi bir fonksiyon belirtir?", "siklar": ["y² = x", "x² + y² = 4", "y = x² + 1", "|y| = x"], "cevap": 2, "aciklama": "Her x değeri için tek y veren bağıntı yalnızca y = x² + 1'dir; diğerlerinde bazı x değerleri birden fazla y verir." },
+        { "soru": "f(x) = 2x − 5 olduğuna göre f(3) kaçtır?", "siklar": ["1", "2", "3", "11"], "cevap": 0, "aciklama": "f(3) = 2·3 − 5 = 6 − 5 = 1." },
+        { "soru": "f(x) = √(x − 4) fonksiyonunun en geniş tanım kümesi aşağıdakilerden hangisidir?", "siklar": ["x > 4", "x ≥ 4", "x < 4", "x ≤ 4"], "cevap": 1, "aciklama": "Kök içi negatif olamaz: x − 4 ≥ 0 ⇒ x ≥ 4." },
+        { "soru": "Bir fonksiyonun bire bir olup olmadığını grafiğinden anlamak için hangi test kullanılır?", "siklar": ["Düşey doğru testi", "Yatay doğru testi", "Orijin testi", "Simetri testi"], "cevap": 1, "aciklama": "Yatay doğru grafiği en çok bir noktada kesiyorsa fonksiyon bire birdir; düşey doğru testi fonksiyon olup olmadığını belirler." },
+        { "soru": "f: R → R, f(x) = x² fonksiyonu için aşağıdakilerden hangisi doğrudur?", "siklar": ["Tersi vardır", "Örtendir", "Bire birdir", "Bire bir değildir"], "cevap": 3, "aciklama": "f(2) = f(−2) = 4 olduğundan fonksiyon bire bir değildir." }
+      ]
+    },
+    "10|10-mat|10-mat-u3|Doğrusal-karesel-karekök-rasyonel fonksiyonlar": {
+      "ozet": "Bu konuda doğrusal, karesel (parabol), karekök ve rasyonel fonksiyonların grafik özellikleri incelenir. Parabolün tepe noktası ve diskriminant, karekök ve rasyonel fonksiyonların tanım kümeleri TYT'de sıkça sorulur.",
+      "anlatim": [
+        "Doğrusal fonksiyon f(x) = ax + b biçimindedir; grafiği bir doğrudur ve eğimi a'dır. a > 0 ise artan, a < 0 ise azalan fonksiyondur.",
+        "Karesel fonksiyon f(x) = ax² + bx + c biçimindedir; grafiği paraboldür. a > 0 ise kollar yukarı, a < 0 ise kollar aşağı bakar.",
+        "Parabolün tepe noktasının apsisi x = −b/(2a), ordinatı f(−b/(2a))'dır. f(x) = x² − 4x + 1 için x = 4/2 = 2 ve y = f(2) = 4 − 8 + 1 = −3 olduğundan tepe noktası (2, −3)'tür.",
+        "Diskriminant Δ = b² − 4ac'dir. Δ > 0 ise iki farklı gerçek kök, Δ = 0 ise çift kök (parabol x eksenine teğet), Δ < 0 ise gerçek kök yoktur.",
+        "Parabolün x eksenini kestiği noktalar ax² + bx + c = 0 denkleminin kökleridir; y eksenini kestiği nokta (0, c)'dir.",
+        "Kökler toplamı = −b/a ve kökler çarpımı = c/a'dır.",
+        "Karekök fonksiyonu f(x) = √x'in tanım kümesi x ≥ 0'dır; artan bir fonksiyondur ve grafiği y = x²'nin x ≥ 0 kolunun y = x doğrusuna göre simetriğidir.",
+        "Rasyonel fonksiyon f(x) = 1/x'in tanım kümesi x ≠ 0'dır; grafiği hiperbol biçimindedir ve x ile y eksenleri asimptottur.",
+        "Grafik dönüşümleri: f(x) + k grafiği dikey kaydırır, f(x − k) yatay kaydırır, −f(x) grafiği x eksenine göre yansıtır."
+      ],
+      "formuller": [
+        "Doğrusal: f(x) = ax + b, eğim = a",
+        "Parabol tepe noktasının apsisi: x = −b/(2a)",
+        "Δ = b² − 4ac; Δ > 0 iki kök, Δ = 0 çift kök, Δ < 0 gerçek kök yok",
+        "Kökler toplamı = −b/a, kökler çarpımı = c/a",
+        "f(x) = √x tanım kümesi [0, ∞), f(x) = 1/x tanım kümesi x ≠ 0"
+      ],
+      "ornek": "f(x) = x² − 6x + 8 parabolünün tepe noktasını ve eksenleri kestiği noktaları bulalım. 1) x_tepe = −b/(2a) = 6/2 = 3. 2) y_tepe = f(3) = 9 − 18 + 8 = −1 ⇒ tepe noktası (3, −1). 3) x ekseni: x² − 6x + 8 = 0 ⇒ (x − 2)(x − 4) = 0 ⇒ x = 2 ve x = 4. 4) y ekseni: x = 0 için y = 8 ⇒ (0, 8).",
+      "ipucu": "Tepe noktası sorularında en sık hata x = −b/(2a) formülündeki −b'nin işaretini atlamaktır. Δ < 0 olduğunda parabolün x eksenini kesmediği ve gerçek kökünün olmadığı unutulmamalıdır.",
+      "quiz": [
+        { "soru": "f(x) = x² − 6x + 5 parabolünün tepe noktasının apsisi kaçtır?", "siklar": ["1", "2", "3", "6"], "cevap": 2, "aciklama": "x = −b/(2a) = 6/2 = 3." },
+        { "soru": "f(x) = 2x + 3 doğrusal fonksiyonunun eğimi kaçtır?", "siklar": ["2", "3", "−2", "1/2"], "cevap": 0, "aciklama": "f(x) = ax + b biçiminde eğim a'dır; burada a = 2'dir." },
+        { "soru": "f(x) = x² − 4x + 5 parabolü için diskriminant Δ kaçtır?", "siklar": ["4", "0", "−4", "−16"], "cevap": 2, "aciklama": "Δ = b² − 4ac = 16 − 20 = −4." },
+        { "soru": "f(x) = √(x + 2) fonksiyonunun en geniş tanım kümesi nedir?", "siklar": ["x ≥ 2", "x ≥ −2", "x ≤ −2", "x ≠ −2"], "cevap": 1, "aciklama": "Kök içi negatif olamaz: x + 2 ≥ 0 ⇒ x ≥ −2." },
+        { "soru": "f(x) = 1/(x − 3) fonksiyonu hangi x değeri için tanımsızdır?", "siklar": ["x = 0", "x = −3", "x = 1", "x = 3"], "cevap": 3, "aciklama": "Payda sıfır olamaz: x − 3 ≠ 0 ⇒ x ≠ 3 olduğundan fonksiyon x = 3'te tanımsızdır." }
+      ]
+    },
+    "10|10-mat|10-mat-u3|Ters fonksiyon, denklem-eşitsizlik": {
+      "ozet": "Ters fonksiyon, bir fonksiyonun yaptığı eşlemeyi geri alan fonksiyondur ve ancak fonksiyon bire bir ve örten ise vardır. Denklem ve eşitsizlik çözümünde en kritik nokta eşitsizliğin negatif sayıyla çarpılıp bölünmesi durumunda yönün değişmesidir.",
+      "anlatim": [
+        "Ters fonksiyon tanımı: f(a) = b ise f⁻¹(b) = a'dır. Fonksiyonun tersinin olması için bire bir ve örten olması gerekir.",
+        "Ters fonksiyonu bulma yöntemi: y = f(x) eşitliğinde x yalnız bırakılır, ardından x ile y'nin yeri değiştirilir.",
+        "Doğrusal fonksiyonun tersi: f(x) = ax + b (a ≠ 0) ⇒ f⁻¹(x) = (x − b)/a. Örn. f(x) = 3x − 6 ⇒ f⁻¹(x) = (x + 6)/3.",
+        "Ters fonksiyonun kontrolü: f(4) = 3·4 − 6 = 6 ve f⁻¹(6) = (6 + 6)/3 = 4 olduğundan f ve f⁻¹ birbirinin işlemini geri alır.",
+        "(f⁻¹)⁻¹ = f ve (f ∘ g)⁻¹ = g⁻¹ ∘ f⁻¹'dir; bileşke fonksiyonun tersinde sıra ters çevrilir.",
+        "Bir fonksiyonun grafiği ile tersinin grafiği y = x doğrusuna göre simetriktir.",
+        "Birinci dereceden denklem: ax + b = 0 denkleminin kökü x = −b/a'dır.",
+        "Eşitsizlikte her iki tarafa aynı sayı eklenip çıkarıldığında veya pozitif bir sayıyla çarpılıp bölündüğünde eşitsizliğin yönü değişmez.",
+        "Eşitsizlikte her iki taraf negatif bir sayıyla çarpılır veya bölünürse eşitsizliğin yönü tersine döner: −3x > 12 ⇒ x < −4."
+      ],
+      "formuller": [
+        "f(a) = b ⇔ f⁻¹(b) = a",
+        "f(x) = ax + b ⇒ f⁻¹(x) = (x − b)/a",
+        "(f⁻¹)⁻¹ = f ve (f ∘ g)⁻¹ = g⁻¹ ∘ f⁻¹",
+        "Eşitsizlikte negatif sayıyla çarpma/bölmede yön değişir",
+        "ax + b = 0 ⇒ x = −b/a"
+      ],
+      "ornek": "f(x) = 4x + 8 fonksiyonunun tersini bulup f⁻¹(12) değerini hesaplayalım. 1) y = 4x + 8 ⇒ y − 8 = 4x ⇒ x = (y − 8)/4. 2) x ile y'nin yeri değiştirilir: f⁻¹(x) = (x − 8)/4. 3) f⁻¹(12) = (12 − 8)/4 = 4/4 = 1. 4) Kontrol: f(1) = 4·1 + 8 = 12 olduğundan sonuç doğrudur.",
+      "ipucu": "Eşitsizlikte negatif sayıyla çarpma veya bölmede yönün tersine dönmesi TYT'nin en sık kullanılan tuzağıdır. Ayrıca ters fonksiyon bulunurken x ile y'nin yerini değiştirmeyi atlamak sık yapılan bir hatadır.",
+      "quiz": [
+        { "soru": "f(x) = 4x + 8 fonksiyonunun tersi aşağıdakilerden hangisidir?", "siklar": ["(x − 8)/4", "(x + 8)/4", "4x − 8", "x/4 + 8"], "cevap": 0, "aciklama": "y = 4x + 8 ⇒ x = (y − 8)/4 olduğundan f⁻¹(x) = (x − 8)/4." },
+        { "soru": "f(x) = 3x − 6 olduğuna göre f⁻¹(9) kaçtır?", "siklar": ["1", "3", "5", "21"], "cevap": 2, "aciklama": "f⁻¹(x) = (x + 6)/3 ⇒ f⁻¹(9) = (9 + 6)/3 = 15/3 = 5." },
+        { "soru": "2x + 5 < 11 eşitsizliğinin çözüm kümesi nedir?", "siklar": ["x < 3", "x > 3", "x < 8", "x > 8"], "cevap": 0, "aciklama": "2x < 6 ⇒ x < 3." },
+        { "soru": "−3x > 12 eşitsizliğinin çözüm kümesi nedir?", "siklar": ["x > −4", "x < −4", "x > 4", "x < 4"], "cevap": 1, "aciklama": "Her iki taraf −3'e bölünürken yön değişir: x < −4." },
+        { "soru": "(f ∘ g)⁻¹ aşağıdakilerden hangisine eşittir?", "siklar": ["f⁻¹ ∘ g⁻¹", "g⁻¹ ∘ f⁻¹", "f ∘ g", "g ∘ f"], "cevap": 1, "aciklama": "Bileşkenin tersi, terslerin ters sırayla bileşkesidir: (f ∘ g)⁻¹ = g⁻¹ ∘ f⁻¹." }
+      ]
+    },
+    "10|10-mat|10-mat-u4|Sayma ve algoritmik dil": {
+      "ozet": "Saymanın temel ilkesi, bağımsız seçimlerin sayısının çarpılmasına dayanır. Permütasyon sıralı seçimi, kombinasyon sırasız seçimi ifade eder. Algoritmik dil ise bir problemi adımlarla çözmeyi ve koşul-döngü yapılarını kapsar.",
+      "anlatim": [
+        "Çarpma ilkesi (saymanın temel ilkesi): bir işlem a yoldan ve ondan bağımsız ikinci bir işlem b yoldan yapılıyorsa ikisi birlikte a·b yoldan yapılır.",
+        "Toplama ilkesi: birbirinden ayrık, birlikte gerçekleşemeyen durumların sayıları toplanır.",
+        "Faktöriyel: n! = n·(n−1)·(n−2)·...·2·1 ve 0! = 1'dir. Örn. 4! = 4·3·2·1 = 24.",
+        "Permütasyon sıralı seçimdir: P(n, r) = n!/(n − r)!. Örn. P(5, 3) = 5!/2! = 5·4·3 = 60.",
+        "Kombinasyon sırasız seçimdir: C(n, r) = n!/(r!·(n − r)!). Örn. C(5, 2) = 5!/(2!·3!) = (5·4)/2 = 10.",
+        "Simetri özelliği: C(n, r) = C(n, n − r). Örn. C(5, 2) = C(5, 3) = 10'dur.",
+        "Tekrarlı permütasyon: içinde aynı elemanlar bulunan n elemanlı dizide sıralama sayısı n!/(a!·b!·...). Örn. 'MASA' kelimesinde A harfi iki kez geçtiğinden 4!/2! = 24/2 = 12 diziliş vardır.",
+        "Sıralı seçimde (başkan-yardımcı gibi farklı görevler) permütasyon, sırasız seçimde (komite, takım) kombinasyon kullanılır.",
+        "Algoritma bir problemi sonlu adımda çözen kesin yönergeler kümesidir; koşul (karar) yapıları seçim, döngüler tekrar sağlar. Akış diyagramında karar baklava, işlem dikdörtgen ile gösterilir."
+      ],
+      "formuller": [
+        "Saymanın temel ilkesi: bağımsız seçimlerde çarpma",
+        "P(n, r) = n! / (n − r)!",
+        "C(n, r) = n! / (r!·(n − r)!)",
+        "Tekrarlı permütasyon: n! / (a!·b!·...)"
+      ],
+      "ornek": "6 kişilik bir gruptan bir başkan ve bir başkan yardımcısı kaç değişik şekilde seçilir; 3 kişilik bir komite kaç değişik şekilde oluşturulur? 1) Başkan ve başkan yardımcısı farklı görevler olduğundan seçim sıralıdır: P(6, 2) = 6!/(6 − 2)! = 6·5 = 30. 2) Komite sırasız bir seçimdir: C(6, 3) = 6!/(3!·3!) = (6·5·4)/(3·2·1) = 20. 3) Sonuç: 30 farklı atama ve 20 farklı komite.",
+      "ipucu": "'Sıra veya görev önemli mi?' sorusunu sormak gerekir: başkan-yardımcı, atama, sıralama deniyorsa permütasyon; komite, takım, seçim deniyorsa kombinasyon kullanılır. Bu ayrımı kaçırmak TYT'de en sık hata kaynağıdır.",
+      "quiz": [
+        { "soru": "4! ifadesinin değeri kaçtır?", "siklar": ["12", "16", "24", "120"], "cevap": 2, "aciklama": "4! = 4·3·2·1 = 24." },
+        { "soru": "P(4, 2) kaçtır?", "siklar": ["12", "6", "8", "24"], "cevap": 0, "aciklama": "P(4, 2) = 4!/2! = 4·3 = 12." },
+        { "soru": "C(5, 2) kaçtır?", "siklar": ["10", "5", "20", "25"], "cevap": 0, "aciklama": "C(5, 2) = 5!/(2!·3!) = (5·4)/2 = 10." },
+        { "soru": "6 kişilik bir gruptan bir başkan ve bir başkan yardımcısı kaç değişik şekilde seçilebilir?", "siklar": ["15", "30", "36", "720"], "cevap": 1, "aciklama": "Görevler farklı olduğundan sıralı seçim: P(6, 2) = 6·5 = 30." },
+        { "soru": "'MASA' kelimesinin harflerinin yerleri değiştirilerek kaç farklı diziliş elde edilir?", "siklar": ["6", "12", "24", "48"], "cevap": 1, "aciklama": "A harfi iki kez geçtiğinden tekrarlı permütasyon: 4!/2! = 24/2 = 12." }
+      ]
+    },
+    "10|10-mat|10-mat-u4|Nokta-doğrunun analitiği": {
+      "ozet": "Analitik geometride noktalar koordinat düzleminde gösterilir; iki nokta arasındaki uzaklık, orta nokta ve doğrunun eğimi Pisagor bağıntısına dayanır. Doğru denklemi, paralellik ve diklik koşulları TYT'de düzenli olarak sorulur.",
+      "anlatim": [
+        "Analitik düzlemde bir nokta A(x₁, y₁) ile gösterilir; x₁ değeri apsis, y₁ değeri ordinattır.",
+        "İki nokta arasındaki uzaklık: |AB| = √((x₂ − x₁)² + (y₂ − y₁)²). A(1, 2) ve B(4, 6) için |AB| = √(9 + 16) = 5'tir.",
+        "İki noktanın orta noktası: M((x₁ + x₂)/2, (y₁ + y₂)/2). A(2, 4) ve B(6, 10) için M(4, 7) olur.",
+        "Doğrunun eğimi: m = Δy/Δx = (y₂ − y₁)/(x₂ − x₁). A(1, 2) ve B(4, 6) için m = (6 − 2)/(4 − 1) = 4/3'tür.",
+        "Eğim, doğrunun x ekseniyle yaptığı açının tanjantıdır: m = tanα. Sağa yatık artan doğruda m > 0, azalan doğruda m < 0'dır.",
+        "Eğimi m olan ve A(x₁, y₁) noktasından geçen doğru: y − y₁ = m(x − x₁). Eğim-kesim biçimi: y = mx + n.",
+        "Paralel doğruların eğimleri eşittir (m₁ = m₂); dik doğrularda eğimlerin çarpımı −1'dir (m₁ · m₂ = −1).",
+        "Bir noktanın koordinatları doğru denklemini sağlıyorsa nokta doğrunun üzerindedir. İki doğrunun kesişim noktası denklemlerin ortak çözümüyle bulunur.",
+        "Bir P(x₀, y₀) noktasının ax + by + c = 0 doğrusuna uzaklığı d = |a·x₀ + b·y₀ + c| / √(a² + b²)'dir."
+      ],
+      "formuller": [
+        "|AB| = √((x₂ − x₁)² + (y₂ − y₁)²)",
+        "Orta nokta = ((x₁ + x₂)/2, (y₁ + y₂)/2)",
+        "Eğim m = (y₂ − y₁)/(x₂ − x₁) = tanα",
+        "Paralel: m₁ = m₂; dik: m₁ · m₂ = −1",
+        "Noktanın doğruya uzaklığı d = |a·x₀ + b·y₀ + c| / √(a² + b²)"
+      ],
+      "ornek": "A(1, 2) ve B(4, 6) noktalarından geçen doğrunun denklemini yazalım. 1) Eğim: m = (6 − 2)/(4 − 1) = 4/3. 2) Eğim-nokta biçimi: y − 2 = (4/3)(x − 1). 3) Düzenlenirse y = (4/3)x + 2/3, yani 4x − 3y + 2 = 0 olur. 4) Kontrol: A için 4·1 − 3·2 + 2 = 0 ✓ ve B için 4·4 − 3·6 + 2 = 0 ✓.",
+      "ipucu": "Eğim bulunurken Δy/Δx sırasını karıştırmak (pay ile paydayı ters yazmak) en sık hatadır. Dik doğrularda m₁ · m₂ = −1 kuralı, eğimler toplamının 0 olmasıyla karıştırılmamalıdır.",
+      "quiz": [
+        { "soru": "A(2, 3) ve B(5, 7) noktaları arasındaki uzaklık kaç birimdir?", "siklar": ["5", "4", "6", "7"], "cevap": 0, "aciklama": "|AB| = √((5 − 2)² + (7 − 3)²) = √(9 + 16) = 5." },
+        { "soru": "A(1, 1) ve B(5, 3) noktalarından geçen doğrunun eğimi kaçtır?", "siklar": ["2", "1/2", "−1/2", "4"], "cevap": 1, "aciklama": "m = (3 − 1)/(5 − 1) = 2/4 = 1/2." },
+        { "soru": "Eğimi 2 olan ve A(1, 3) noktasından geçen doğrunun denklemi aşağıdakilerden hangisidir?", "siklar": ["y = 2x + 3", "y = 2x + 1", "y = 2x − 1", "y = x + 2"], "cevap": 1, "aciklama": "y − 3 = 2(x − 1) ⇒ y = 2x + 1." },
+        { "soru": "A(2, 4) ve B(6, 10) noktalarının orta noktası aşağıdakilerden hangisidir?", "siklar": ["(8, 14)", "(4, 7)", "(4, 6)", "(3, 5)"], "cevap": 1, "aciklama": "Orta nokta = ((2+6)/2, (4+10)/2) = (4, 7)." },
+        { "soru": "Eğimi 3 olan bir doğruya dik olan doğrunun eğimi kaçtır?", "siklar": ["3", "1/3", "−1/3", "−3"], "cevap": 2, "aciklama": "Dik doğrularda m₁·m₂ = −1 olmalıdır: 3·m₂ = −1 ⇒ m₂ = −1/3." }
+      ]
+    },
+    "10|10-mat|10-mat-u4|Koşullu olasılık": {
+      "ozet": "Koşullu olasılık, bir olayın gerçekleştiği bilindiğinde başka bir olayın olasılığının hesaplanmasıdır. P(A|B) = P(A ∩ B)/P(B) formülü ve tümleyen, birleşim, bağımsızlık kavramları TYT olasılık sorularının temelini oluşturur.",
+      "anlatim": [
+        "Eş olasılı bir örnek uzayda bir olayın olasılığı, istenen durum sayısının tüm durum sayısına oranıdır: P(A) = istenen / tüm.",
+        "Her olayın olasılığı 0 ile 1 arasındadır: 0 ≤ P(A) ≤ 1. İmkânsız olayın olasılığı 0, kesin olayın olasılığı 1'dir.",
+        "Tümleyen olay (A'nın gerçekleşmemesi): P(A') = 1 − P(A). Örn. P(A) = 0,4 ise P(A') = 0,6'dır.",
+        "İki olayın birleşiminin olasılığı: P(A ∪ B) = P(A) + P(B) − P(A ∩ B).",
+        "Ayrık (birlikte gerçekleşemeyen) olaylarda P(A ∩ B) = 0 olduğundan P(A ∪ B) = P(A) + P(B)'dir.",
+        "Bağımsız olaylarda kesişimin olasılığı: P(A ∩ B) = P(A) · P(B).",
+        "Koşullu olasılık: B olayı gerçekleştiği bilindiğinde A'nın olasılığı P(A|B) = P(A ∩ B) / P(B)'dir (P(B) ≠ 0).",
+        "A ve B bağımsız ise P(A|B) = P(A)'dır. Örn. P(A) = 1/2 ve P(B) = 1/3 bağımsız ise P(A ∩ B) = (1/2)·(1/3) = 1/6'dır.",
+        "Örnek: Torbada 4 kırmızı ve 6 beyaz top vardır. Geri konmadan ilk çekilen top kırmızı ise torbada 3 kırmızı, 6 beyaz kalır ve ikincinin beyaz olma olasılığı 6/9 = 2/3'tür."
+      ],
+      "formuller": [
+        "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)",
+        "P(A') = 1 − P(A)",
+        "Bağımsız olaylar: P(A ∩ B) = P(A) · P(B)",
+        "Koşullu olasılık: P(A|B) = P(A ∩ B) / P(B)",
+        "Ayrık olaylar: P(A ∪ B) = P(A) + P(B)"
+      ],
+      "ornek": "Bir torbada 4 kırmızı ve 6 beyaz top vardır. Geri konmadan ard arda iki top çekiliyor. İlk çekilenin kırmızı olduğu bilindiğine göre ikincinin beyaz olma olasılığını bulalım. 1) İlk top kırmızı çekildi ve geri konmadı; torbada 3 kırmızı ve 6 beyaz kalır. 2) Kalan toplam top sayısı 3 + 6 = 9'dur. 3) Koşullu olasılık: P(beyaz | ilk kırmızı) = 6/9 = 2/3. 4) Karşılaştırma: koşulsuz P(beyaz) = 6/10 = 3/5'tir; koşul örnek uzayı daralttığı için sonuç değişir.",
+      "ipucu": "Koşullu olasılıkta paydanın tüm örnek uzay değil, daraltılmış (B olayının gerçekleştiği) uzay olduğu unutulmamalıdır. 'Eğer ... ise' veya '... olduğuna göre' ifadeleri koşullu olasılığın işaretidir; tümleyen P(A') = 1 − P(A) ile karıştırılmamalıdır.",
+      "quiz": [
+        { "soru": "P(A) = 0,4 ise A olayının gerçekleşmeme olasılığı P(A') kaçtır?", "siklar": ["0,4", "0,6", "0,5", "1,4"], "cevap": 1, "aciklama": "Tümleyen olasılık: P(A') = 1 − 0,4 = 0,6." },
+        { "soru": "Ayrık A ve B olayları için P(A) = 0,3 ve P(B) = 0,5 ise P(A ∪ B) kaçtır?", "siklar": ["0,8", "0,5", "0,15", "1,0"], "cevap": 0, "aciklama": "Ayrık olaylarda P(A ∪ B) = P(A) + P(B) = 0,3 + 0,5 = 0,8." },
+        { "soru": "P(A) = 0,5, P(B) = 0,4 ve P(A ∩ B) = 0,2 ise P(A ∪ B) kaçtır?", "siklar": ["0,1", "0,7", "0,2", "0,9"], "cevap": 1, "aciklama": "P(A ∪ B) = 0,5 + 0,4 − 0,2 = 0,7." },
+        { "soru": "Bağımsız A ve B olayları için P(A) = 1/2 ve P(B) = 1/3 ise P(A ∩ B) kaçtır?", "siklar": ["1/6", "1/5", "2/3", "5/6"], "cevap": 0, "aciklama": "Bağımsız olaylarda P(A ∩ B) = P(A)·P(B) = (1/2)·(1/3) = 1/6." },
+        { "soru": "Bir torbada 4 kırmızı ve 6 beyaz top vardır. Geri konmadan çekilen ilk topun kırmızı olduğu bilindiğine göre ikinci topun beyaz olma olasılığı kaçtır?", "siklar": ["1/2", "3/5", "2/3", "3/4"], "cevap": 2, "aciklama": "İlk kırmızı çekildikten sonra 3 kırmızı ve 6 beyaz kalır: P = 6/9 = 2/3." }
+      ]
+    },
+    "10|10-mat|10-mat-u5|Dörtgen-çokgen": {
+      "ozet": "Bu konuda çokgenlerin iç ve dış açılarının toplamı, köşegen sayısı ve dörtgen çeşitlerinin alan formülleri incelenir. n kenarlı çokgenin iç açıları toplamı (n−2)·180°, dış açılarının toplamı her zaman 360°'dir.",
+      "anlatim": [
+        "n kenarlı bir çokgenin iç açılarının ölçüleri toplamı (n − 2)·180°'dir. Beşgen için (5 − 2)·180 = 540°'dir.",
+        "Bütün çokgenlerde dış açıların ölçüleri toplamı 360°'dir; bu kural düzgün olmayan çokgenler için de geçerlidir.",
+        "Düzgün n kenarlı çokgende bir iç açı (n − 2)·180/n, bir dış açı 360/n derecedir. Düzgün altıgen için bir iç açı 720/6 = 120°'dir.",
+        "n kenarlı çokgenin bir köşesinden çizilen köşegen sayısı (n − 3), toplam köşegen sayısı n(n − 3)/2'dir. Altıgende 6·3/2 = 9 köşegen vardır.",
+        "Dörtgenin iç açılarının ölçüleri toplamı 360°'dir (n = 4 için (4 − 2)·180 = 360).",
+        "Yamuk: yalnızca iki kenarı paralel olan dörtgendir; alanı paralel kenarların uzunluklarının ortalaması ile yüksekliğin çarpımıdır: Alan = (a + c)/2 · h.",
+        "Paralelkenar: karşılıklı kenarları paralel ve eşit olan dörtgendir; alanı taban × yükseklik, çevresi 2(a + b)'dir.",
+        "Eşkenar dörtgen: tüm kenarları eşit olan dörtgendir; köşegenleri birbirini dik keser ve alanı köşegenlerin çarpımının yarısıdır: Alan = (d₁ · d₂)/2.",
+        "Dikdörtgen: karşılıklı kenarları eşit ve tüm açıları 90°'dir; alanı a·b ve köşegeni √(a² + b²)'dir. Kare ise kenarı a olduğunda alanı a², köşegeni a√2'dir."
+      ],
+      "formuller": [
+        "n-genin iç açıları toplamı = (n − 2)·180°",
+        "Dış açıların toplamı = 360°",
+        "Toplam köşegen sayısı = n(n − 3)/2",
+        "Yamuk alanı = (a + c)/2 · h",
+        "Eşkenar dörtgen alanı = (d₁ · d₂)/2"
+      ],
+      "ornek": "İç açılarının ölçüleri toplamı 1080° olan düzgün çokgenin kenar sayısını ve bir iç açısını bulalım. 1) (n − 2)·180 = 1080 ⇒ n − 2 = 1080/180 = 6. 2) n = 8 olduğundan çokgen sekizgendir. 3) Bir iç açı = 1080/8 = 135°'dir. 4) Kontrol: bir dış açı 360/8 = 45° ve iç açı + dış açı = 135° + 45° = 180° ✓",
+      "ipucu": "'Dış açıların toplamı her çokgende 360°' kuralı düzgün olmayan çokgenlerde de geçerlidir; ancak 'bir dış açı = 360/n' ifadesi yalnızca düzgün çokgenler için kullanılabilir. Bu ayrımı kaçırmak sık yapılan bir hatadır.",
+      "quiz": [
+        { "soru": "Beşgenin iç açılarının ölçüleri toplamı kaç derecedir?", "siklar": ["540°", "360°", "720°", "900°"], "cevap": 0, "aciklama": "(5 − 2)·180 = 3·180 = 540°." },
+        { "soru": "Kenar sayısı 6 olan bir çokgenin toplam köşegen sayısı kaçtır?", "siklar": ["15", "12", "9", "6"], "cevap": 2, "aciklama": "n(n − 3)/2 = 6·3/2 = 9." },
+        { "soru": "Düzgün altıgenin bir iç açısının ölçüsü kaç derecedir?", "siklar": ["108°", "120°", "135°", "144°"], "cevap": 1, "aciklama": "(6 − 2)·180/6 = 720/6 = 120°." },
+        { "soru": "Taban uzunluğu 8 cm ve yüksekliği 5 cm olan paralelkenarın alanı kaç cm²'dir?", "siklar": ["13", "26", "40", "80"], "cevap": 2, "aciklama": "Paralelkenar alanı = taban × yükseklik = 8·5 = 40 cm²." },
+        { "soru": "İç açılarının ölçüleri toplamı 720° olan çokgenin kenar sayısı kaçtır?", "siklar": ["5", "6", "7", "8"], "cevap": 1, "aciklama": "(n − 2)·180 = 720 ⇒ n − 2 = 4 ⇒ n = 6." }
+      ]
+    },
+    "10|10-mat|10-mat-u5|Katı cisimler: alan-hacim": {
+      "ozet": "Katı cisimlerde hacim, taban alanı ile yüksekliğin çarpımına dayanır; koni ve piramitte taban alanı yükseklik çarpımının üçte biri alınır. Silindir, koni ve kürenin alan-hacim formülleri TYT'de karıştırılmaması gereken temel bilgilerdir.",
+      "anlatim": [
+        "Dik prizmanın hacmi taban alanı ile yüksekliğin çarpımıdır: V = Taban Alanı × h. Yanal alanı taban çevresi × h'dir.",
+        "Dikdörtgenler prizmasında V = a·b·c, tüm yüzey alanı 2(ab + ac + bc)'dir.",
+        "Küp kenarı a olduğunda hacim V = a³, tüm yüzey alanı 6a²'dir.",
+        "Silindirin tabanı daire olduğundan hacmi V = π·r²·h'dır. Yanal alanı 2πrh, tüm yüzey alanı 2πr² + 2πrh'dir.",
+        "Örnek: Yarıçapı 3 cm ve yüksekliği 10 cm olan silindirin hacmi V = π·3²·10 = π·9·10 = 90π cm³'tür.",
+        "Koni: hacim V = (π·r²·h)/3; eğik yüksekliği l = √(r² + h²), yanal alanı πrl, tüm yüzey alanı πr² + πrl'dir.",
+        "Örnek: Yarıçapı 3 cm ve yüksekliği 4 cm olan koninin hacmi V = (π·9·4)/3 = 12π cm³'tür; eğik yükseklik l = √(9 + 16) = 5 olduğundan yanal alanı π·3·5 = 15π cm²'dir.",
+        "Küre: hacim V = (4/3)·π·r³ ve yüzey alanı 4πr²'dir. Yarıçapı 3 cm olan kürenin hacmi (4/3)·π·27 = 36π cm³'tür.",
+        "Piramidin hacmi aynı taban ve yükseklikteki prizmanın üçte biridir: V = (Taban Alanı × h)/3. Benzer şekilde koninin hacmi de aynı taban ve yükseklikteki silindirin 1/3'üdür."
+      ],
+      "formuller": [
+        "Prizma: V = Taban Alanı × h",
+        "Küp: V = a³, tüm yüzey alanı = 6a²",
+        "Silindir: V = π·r²·h, yanal alan = 2πrh",
+        "Koni: V = (π·r²·h)/3, yanal alan = πrl (l = √(r² + h²))",
+        "Küre: V = (4/3)·π·r³, yüzey alanı = 4πr²"
+      ],
+      "ornek": "Yarıçapı 3 cm ve yüksekliği 4 cm olan dik koninin hacmini, yanal alanını ve tüm yüzey alanını bulalım. 1) Hacim: V = (π·r²·h)/3 = (π·9·4)/3 = 36π/3 = 12π cm³. 2) Eğik yükseklik: l = √(r² + h²) = √(9 + 16) = √25 = 5 cm. 3) Yanal alan = πrl = π·3·5 = 15π cm². 4) Tüm yüzey alanı = πr² + πrl = π·9 + 15π = 9π + 15π = 24π cm².",
+      "ipucu": "Silindir V = πr²h, koni V = (πr²h)/3 ve küre V = (4/3)πr³ formüllerini karıştırmamak için tabanı ve üçte bir çarpanını kontrol etmek gerekir. Hacim biriminin cm³, alan biriminin cm² olduğu unutulmamalıdır; birim uyumsuzluğu sık işaretlenen bir hatadır.",
+      "quiz": [
+        { "soru": "Yarıçapı 2 cm ve yüksekliği 5 cm olan dik silindirin hacmi kaç π cm³'tür?", "siklar": ["10π", "20π", "40π", "60π"], "cevap": 1, "aciklama": "V = π·r²·h = π·4·5 = 20π cm³." },
+        { "soru": "Yarıçapı 3 cm ve yüksekliği 4 cm olan dik koninin hacmi kaç π cm³'tür?", "siklar": ["8π", "12π", "24π", "36π"], "cevap": 1, "aciklama": "V = (π·r²·h)/3 = (π·9·4)/3 = 36π/3 = 12π cm³." },
+        { "soru": "Yarıçapı 3 cm olan kürenin hacmi kaç π cm³'tür?", "siklar": ["9π", "27π", "36π", "108π"], "cevap": 2, "aciklama": "V = (4/3)·π·r³ = (4/3)·π·27 = 36π cm³." },
+        { "soru": "Bir kenarının uzunluğu 4 cm olan küpün tüm yüzey alanı kaç cm²'dir?", "siklar": ["16", "64", "96", "128"], "cevap": 2, "aciklama": "Küpün yüzey alanı 6a² = 6·16 = 96 cm²'dir." },
+        { "soru": "Yarıçapı 5 cm olan kürenin yüzey alanı kaç π cm²'dir?", "siklar": ["25π", "50π", "75π", "100π"], "cevap": 3, "aciklama": "Kürenin yüzey alanı 4πr² = 4π·25 = 100π cm²'dir." }
+      ]
+    }
+  }
+}

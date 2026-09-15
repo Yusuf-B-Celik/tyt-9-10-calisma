@@ -1,0 +1,522 @@
+{
+  "9-mat": {
+    "9|9-mat|9-mat-u1|Üslü ve köklü gösterimler": {
+      "ozet": "Üslü gösterim, bir sayının kendisiyle tekrarlı çarpımının kısa yazımıdır; köklü gösterim ise kuvvet almanın ters işlemidir. TYT'de üslü ve köklü ifadelerin sadeleştirilmesi, denklem çözümü ve sayısal işlem sorularının neredeyse tamamı bu kurallara dayanır.",
+      "anlatim": [
+        "a^n ifadesi, n tane a'nın çarpımıdır: 2^5 = 2·2·2·2·2 = 32. Ayrıca a^1 = a ve a ≠ 0 için a^0 = 1'dir (örneğin 7^0 = 1).",
+        "Negatif üs, tabanı ters çevirir: a^(-n) = 1/a^n. Örnek: 2^(-3) = 1/8; (3/4)^(-2) = (4/3)^2 = 16/9.",
+        "Çarpma kuralı: a^m · a^n = a^(m+n). Örnek: 3^4 · 3^(-2) = 3^(4-2) = 3^2 = 9.",
+        "Bölme kuralı: a^m / a^n = a^(m-n). Örnek: 5^6 / 5^4 = 5^2 = 25; x^5 / x^2 = x^3 (x ≠ 0).",
+        "Kuvvetin kuvveti ve çarpımın kuvveti: (a^m)^n = a^(m·n) ve (a·b)^n = a^n·b^n. Örnek: (2^3)^2 = 2^6 = 64; (2·5)^3 = 8·125 = 1000.",
+        "Karekökte çarpma-bölme dağılır: √a · √b = √(a·b) ve √a / √b = √(a/b) (a, b ≥ 0, b ≠ 0). Örnek: √8 · √2 = √16 = 4; √(36/4) = 6/2 = 3.",
+        "Tamkare kök daima mutlak değer verir: √(a²) = |a|. Örnek: √((-7)²) = √49 = 7 = |-7|.",
+        "Kök içindeki tamkare çarpan dışarı çıkarılır: √48 = √(16·3) = 4√3; √75 = √(25·3) = 5√3. Toplama ancak kök içleri eşitse yapılır: 4√3 + 5√3 = 9√3.",
+        "Paydada kök varsa eşlenikle çarpılarak rasyonelleştirilir: 1/√2 = √2/2; 3/(√5-2) = 3(√5+2)/((√5)²-2²) = 3(√5+2)/1 = 3√5 + 6.",
+        "Üslü-köklü dönüşümü: n√(a^m) = a^(m/n). Örnek: ∛8 = 8^(1/3) = 2; ∛(x^6) = x^2 = x^(6/3)."
+      ],
+      "formuller": [
+        "a^m · a^n = a^(m+n)",
+        "a^m / a^n = a^(m-n)",
+        "(a^m)^n = a^(m·n)",
+        "(a·b)^n = a^n · b^n",
+        "a^(-n) = 1/a^n ve a^0 = 1 (a ≠ 0)",
+        "√(a·b) = √a·√b, √(a/b) = √a/√b",
+        "√(a²) = |a|",
+        "n√(a^m) = a^(m/n)"
+      ],
+      "ornek": "((2^3)^2 · 2^(-4)) / 2^2 + √75 - √12 işlemini adım adım yapalım. 1) (2^3)^2 = 2^6. 2) 2^6 · 2^(-4) = 2^(6-4) = 2^2 = 4. 3) 4 / 2^2 = 4/4 = 1. 4) √75 = 5√3, √12 = 2√3 olduğundan 5√3 - 2√3 = 3√3. Sonuç: 1 + 3√3.",
+      "ipucu": "En klasik tuzak çarpma ile kuvveti karıştırmaktır: 2^3 · 2^4 = 2^7'dir, 2^12 değildir. Köklü ifadelerde √a + √b ≠ √(a+b) (örnek: √9+√16 = 7 ama √25 = 5). a^0 = 1 olduğu için 3^0 çarpanı soruda silinir; ancak 0^0 ve negatif sayının çift kökü tanımsızdır.",
+      "quiz": [
+        {"soru": "2^5 · 2^(-3) işleminin sonucu kaçtır?", "siklar": ["2", "4", "8", "16"], "cevap": 1, "aciklama": "2^(5-3) = 2^2 = 4."},
+        {"soru": "√48 - √12 + √3 işleminin sonucu nedir?", "siklar": ["√3", "2√3", "3√3", "6√3"], "cevap": 2, "aciklama": "√48 = 4√3, √12 = 2√3 → 4√3 - 2√3 + √3 = 3√3."},
+        {"soru": "(3^2)^(-1) işleminin sonucu kaçtır?", "siklar": ["1/9", "1/3", "9", "-9"], "cevap": 0, "aciklama": "(3^2)^(-1) = 3^(-2) = 1/3² = 1/9."},
+        {"soru": "√((-5)^2) + (-5)^2 işleminin sonucu kaçtır?", "siklar": ["0", "20", "25", "30"], "cevap": 3, "aciklama": "√(25) = 5 ve (-5)² = 25 → 5 + 25 = 30."},
+        {"soru": "2^(x+1) = 32 olduğuna göre x kaçtır?", "siklar": ["3", "4", "5", "6"], "cevap": 1, "aciklama": "32 = 2^5 olduğundan x+1 = 5 → x = 4."}
+      ]
+    },
+    "9|9-mat|9-mat-u1|Gerçek sayı aralıkları": {
+      "ozet": "Gerçek sayılar kümesinde eşitsizliklerle tanımlanan alt kümeler [a,b], (a,b), [a,b), (-∞,b] gibi aralık gösterimleriyle ifade edilir. TYT'de eşitsizliklerin çözüm kümesi, mutlak değerli eşitsizlikler ve aralıkların kesişimi bu konuya dayanır.",
+      "anlatim": [
+        "Kapalı aralık [a,b] = {x : a ≤ x ≤ b}, uçlar dahildir. Örnek: [2,5] aralığına 2 ve 5 dahil, tüm gerçek sayılar girer.",
+        "Açık aralık (a,b) = {x : a < x < b}, uçlar dahil değildir. Örnek: (0,3) aralığında 0 ve 3 bulunmaz, 1,5 bulunur.",
+        "Yarı açık aralıklar [a,b) veya (a,b] biçimindedir. Örnek: [1,4) aralığında 1 dahil, 4 hariçtir.",
+        "Sınırsız aralıklar: [a,∞), (-∞,b], (-∞,∞) = R. Örnek: x ≥ -3 → [-3,∞); x < 2 → (-∞,2).",
+        "Sayı doğrusunda gösterimde kapalı uç dolu daire (●), açık uç boş daire (○) ile işaretlenir. Örnek: [-1,3) gösteriminde -1 dolu, 3 boş.",
+        "Kesişim A∩B, her iki aralığa da ait elemanlardır. Örnek: [1,5] ∩ [3,8] = [3,5]; sayı doğrusunda ortak bölge alınır.",
+        "Birleşim A∪B, en az birine ait elemanlardır. Örnek: (0,2) ∪ [2,5] = (0,5].",
+        "Eşitsizlikte iki tarafa aynı sayı eklenip çıkarılabilir; ancak negatif sayıyla çarpma/bölmede yön DEĞİŞİR. Örnek: -2x > 6 → x < -3.",
+        "Mutlak değerli eşitsizlikte küçüktür 've' (arada) verir: |x-a| < r ⟺ (a-r, a+r). Örnek: |x-2| < 3 ⟺ -1 < x < 5 → (-1,5).",
+        "Mutlak değerde büyüktür 'veya' (dış bölgeler) verir: |x-a| ≥ r ⟺ x ≤ a-r veya x ≥ a+r. Örnek: |x+1| ≥ 2 → x ≤ -3 veya x ≥ 1.",
+        "Bir aralığın uzunluğu uçların farkıdır: [a,b] uzunluğu b-a. Örnek: [-2,7] aralığının uzunluğu 7-(-2) = 9'dur."
+      ],
+      "formuller": [
+        "[a,b]: a ≤ x ≤ b (uçlar dahil)",
+        "(a,b): a < x < b (uçlar hariç)",
+        "|x-a| < r ⟺ a-r < x < a+r",
+        "|x-a| > r ⟺ x < a-r veya x > a+r (r > 0)",
+        "Aralık uzunluğu = b - a",
+        "Negatifle çarpma/bölmede eşitsizlik yönü değişir",
+        "x ≥ a ⟺ [a,∞), x ≤ b ⟺ (-∞,b]"
+      ],
+      "ornek": "-3 < 2x - 1 ≤ 7 eşitsizliğinin çözüm kümesini aralık olarak bulalım. 1) Her tarafa 1 ekle: -2 < 2x ≤ 8. 2) Her tarafı 2'ye böl (pozitif, yön değişmez): -1 < x ≤ 4. 3) Çözüm kümesi: (-1, 4]. 4) Kontrol x = 0 için: -3 < -1 ≤ 7 doğru.",
+      "ipucu": "En sık hata negatif sayıyla bölmede yönü değiştirmemektir: -2x < 6 ise çözüm x > -3'tür. Mutlak değerde |x| < r 've' (kesişim), |x| > r 'veya' (birleşim) verir; ikisini karıştırmak şıkları eler. Aralık sorusunda uçların köşeli mi yuvarlak mı olduğu doğrudan puan kaybettirir.",
+      "quiz": [
+        {"soru": "[2,5] ∩ [4,7] kesişimi hangisidir?", "siklar": ["[4,5]", "(4,5)", "[2,7]", "(2,7)"], "cevap": 0, "aciklama": "Ortak bölge 4'ten 5'e kadar, iki uç da her iki aralıkta dahil → [4,5]."},
+        {"soru": "|x - 3| < 2 eşitsizliğinin çözüm kümesi nedir?", "siklar": ["[1,5]", "(1,5)", "(-1,5)", "(3,5)"], "cevap": 1, "aciklama": "-2 < x-3 < 2 → 1 < x < 5 → (1,5), uçlar dahil değil."},
+        {"soru": "-2x + 4 ≥ 10 eşitsizliğinin çözüm kümesi nedir?", "siklar": ["x ≤ -3", "x ≥ -3", "x ≤ -7", "x ≥ -7"], "cevap": 0, "aciklama": "-2x ≥ 6, negatife bölünce yön değişir: x ≤ -3."},
+        {"soru": "(-∞,5] ∩ [-2,∞) kesişimi hangisidir?", "siklar": ["[-2,5]", "(-2,5)", "[5,∞)", "(-∞,-2]"], "cevap": 0, "aciklama": "x ≥ -2 ve x ≤ 5 → [-2,5], her iki uç dahil."},
+        {"soru": "|x + 1| ≥ 3 eşitsizliğinin çözüm kümesi nedir?", "siklar": ["[-4,2]", "(-∞,-4] ∪ [2,∞)", "(-4,2)", "(-∞,2] ∪ [4,∞)"], "cevap": 1, "aciklama": "x+1 ≥ 3 → x ≥ 2 veya x+1 ≤ -3 → x ≤ -4; dış bölgeler birleşim."}
+      ]
+    },
+    "9|9-mat|9-mat-u1|Sayı kümeleri ve işlem özellikleri": {
+      "ozet": "Doğal sayılar (N), tam sayılar (Z), rasyonel sayılar (Q), irrasyonel sayılar ve gerçek sayılar (R) iç içe kümeler oluşturur; bu kümelerde işlemlerin değişme, birleşme ve dağılma özellikleri geçerlidir. TYT'de sayı türü belirleme, pratik hesaplama ve devirli ondalık soruları buradan çıkar.",
+      "anlatim": [
+        "Sayı kümeleri iç içedir: N ⊂ Z ⊂ Q ⊂ R. Örnek: -5 ∈ Z olduğu hâlde -5 ∉ N; 0,5 ∈ Q olduğu hâlde 0,5 ∉ Z.",
+        "Rasyonel sayılar kesir biçiminde yazılabilir: Q = {a/b : a, b ∈ Z, b ≠ 0}. Örnek: 3/4, -2, 0,25 = 1/4, 5 = 5/1 hepsi rasyoneldir.",
+        "İrrasyonel sayılar iki tam sayının oranı biçiminde yazılamaz. Örnek: √2 ≈ 1,414..., √3, π ≈ 3,14159..., e irrasyoneldir.",
+        "Her tamkare kök rasyoneldir: √16 = 4, √(9/4) = 3/2, √0 = 0. Tamkare olmayan kökler irrasyoneldir: √2, √7, √10.",
+        "Devirli ondalık sayı kesre çevrilir: 0,333... = 1/3; 0,454545... = 45/99 = 5/11; 0,1666... = 1/6.",
+        "Toplamanın değişme özelliği: a + b = b + a. Örnek: 3 + (-7) = -4 ve -7 + 3 = -4.",
+        "Birleşme özelliği: (a+b)+c = a+(b+c) ve (a·b)·c = a·(b·c). Örnek: (2+3)+5 = 2+(3+5) = 10.",
+        "Çarpmanın toplama üzerine dağılma özelliği: a·(b+c) = a·b + a·c. Örnek: 7·(100+3) = 700 + 21 = 721.",
+        "Etkisiz elemanlar: toplamada 0, çarpmada 1'dir. Örnek: a + 0 = a ve a · 1 = a.",
+        "Ters elemanlar: a'nın toplama tersi -a, çarpma tersi 1/a (a ≠ 0). Örnek: 5'in çarpma tersi 1/5, çünkü 5 · 1/5 = 1.",
+        "Çıkarma ve bölmede değişme özelliği YOKTUR. Örnek: 5 - 3 = 2 ama 3 - 5 = -2; 8 ÷ 2 = 4 ama 2 ÷ 8 = 0,25."
+      ],
+      "formuller": [
+        "N ⊂ Z ⊂ Q ⊂ R",
+        "Q = {a/b : a, b ∈ Z, b ≠ 0}",
+        "a·(b+c) = a·b + a·c (dağılma)",
+        "a + b = b + a (değişme)",
+        "(a+b)+c = a+(b+c) (birleşme)",
+        "Toplamada etkisiz eleman 0, çarpmada 1",
+        "0,abab... = ab/99 (devirli ondalık)",
+        "√n rasyonel ⟺ n tamkaredir"
+      ],
+      "ornek": "7·104 + 7·(-4) işlemini dağılma özelliğiyle hesaplayalım. 1) Ortak çarpan 7'yi paranteze alalım: 7·(104 + (-4)). 2) Parantez içi: 104 - 4 = 100. 3) Sonuç: 7·100 = 700. Kontrol: 7·104 = 728 ve 7·(-4) = -28 → 728 - 28 = 700.",
+      "ipucu": "'Her kareköklü sayı irrasyoneldir' yanlıştır: √16 = 4, √(9/4) = 3/2, √0 = 0 rasyoneldir. Devirli ondalıkta 0,999... = 1 eşitliği ve 0,abcabc... = abc/999 dönüşümü sık sorulur. Her tam sayı rasyoneldir (5 = 5/1) ama her rasyonel tam sayı değildir; bu ayrım şıklarda tuzak olarak kullanılır.",
+      "quiz": [
+        {"soru": "Aşağıdakilerden hangisi irrasyonel sayıdır?", "siklar": ["√25", "0,75", "√7", "22/7"], "cevap": 2, "aciklama": "√25 = 5 ve 0,75 = 3/4, 22/7 rasyoneldir; √7 tamkare olmadığı için irrasyoneldir."},
+        {"soru": "0,454545... devirli ondalık sayısının rasyonel karşılığı nedir?", "siklar": ["5/11", "45/100", "4/9", "1/2"], "cevap": 0, "aciklama": "İki basamak devrettiği için 45/99 = 5/11."},
+        {"soru": "12·97 + 12·3 işleminin dağılma özelliğiyle değeri kaçtır?", "siklar": ["1164", "1200", "1236", "1500"], "cevap": 1, "aciklama": "12·(97+3) = 12·100 = 1200."},
+        {"soru": "Aşağıdaki işlemlerden hangisinde değişme özelliği yoktur?", "siklar": ["toplama", "çarpma", "çıkarma", "hepsinde var"], "cevap": 2, "aciklama": "5-3 = 2 ama 3-5 = -2 olduğundan çıkarmada değişme özelliği yoktur."},
+        {"soru": "√(49/4) sayısı için aşağıdakilerden hangisi doğrudur?", "siklar": ["irrasyoneldir", "rasyoneldir ve 7/2'ye eşittir", "doğal sayıdır", "tanımsızdır"], "cevap": 1, "aciklama": "√49/√4 = 7/2, iki tam sayının oranı olduğundan rasyoneldir."}
+      ]
+    },
+    "9|9-mat|9-mat-u1|İki kare farkı ve tamkare özdeşlikleri": {
+      "ozet": "Özdeşlikler, içindeki değişkenin her değeri için doğru olan eşitliklerdir; en çok kullanılanları iki kare farkı ve tamkare açılımlarıdır. TYT'de çarpanlara ayırma, pratik çarpma (99², 101·99) ve kesir sadeleştirme sorularının temelidir.",
+      "anlatim": [
+        "İki kare farkı: a² - b² = (a-b)(a+b). Örnek: x² - 9 = (x-3)(x+3); 25 - 4y² = (5-2y)(5+2y).",
+        "Tamkare toplam: (a+b)² = a² + 2ab + b². Örnek: (x+5)² = x² + 10x + 25.",
+        "Tamkare fark: (a-b)² = a² - 2ab + b². Örnek: (x-4)² = x² - 8x + 16.",
+        "Pratik çarpma: 101·99 = (100+1)(100-1) = 100² - 1² = 10000 - 1 = 9999.",
+        "Pratik kare alma: 99² = (100-1)² = 10000 - 200 + 1 = 9801.",
+        "İki özdeşliğin toplamı: (a+b)² + (a-b)² = 2(a²+b²). Örnek: a = 3, b = 2 için 25 + 1 = 26 ve 2·(9+4) = 26. ✓",
+        "İki özdeşliğin farkı: (a+b)² - (a-b)² = 4ab. Örnek: a = 3, b = 2 için 25 - 1 = 24 ve 4·3·2 = 24. ✓",
+        "Kareler toplamı: a² + b² = (a+b)² - 2ab. Örnek: a+b = 7, ab = 10 ise a²+b² = 49 - 20 = 29.",
+        "Küp açılımı: (a+b)³ = a³ + 3a²b + 3ab² + b³. Örnek: (x+1)³ = x³ + 3x² + 3x + 1.",
+        "Küp fark/toplam: a³ - b³ = (a-b)(a²+ab+b²) ve a³ + b³ = (a+b)(a²-ab+b²). Örnek: x³ - 8 = (x-2)(x²+2x+4).",
+        "Sadeleştirme: (x²-16)/(x+4) = ((x-4)(x+4))/(x+4) = x-4 (x ≠ -4). Örnek: x = 1 için (1-16)/5 = -3 = 1-4. ✓"
+      ],
+      "formuller": [
+        "a² - b² = (a-b)(a+b)",
+        "(a+b)² = a² + 2ab + b²",
+        "(a-b)² = a² - 2ab + b²",
+        "a² + b² = (a+b)² - 2ab",
+        "(a+b)² - (a-b)² = 4ab",
+        "(a+b)² + (a-b)² = 2(a²+b²)",
+        "a³ - b³ = (a-b)(a²+ab+b²)",
+        "a³ + b³ = (a+b)(a²-ab+b²)"
+      ],
+      "ornek": "a + b = 8 ve a·b = 12 olduğuna göre a² + b² kaçtır? 1) Özdeşlik: a² + b² = (a+b)² - 2ab. 2) Yerine koy: 8² - 2·12. 3) 64 - 24 = 40. Sonuç: 40. Kontrol: a ve b, x²-8x+12 = 0'ın kökleri olup 2 ve 6'dır; 2²+6² = 4+36 = 40. ✓",
+      "ipucu": "En klasik tuzak (a+b)² = a²+b² sanmaktır; ortadaki 2ab terimi unutulur. a²+b² gerçek sayılarda çarpanlara ayrılmaz, yalnızca a²-b² ayrılır. Pratik çarpım sorularında sayılar tam kareye tamamlanır: 97·103 = (100-3)(100+3) = 10000-9 = 9991.",
+      "quiz": [
+        {"soru": "102·98 işleminin sonucu kaçtır?", "siklar": ["9996", "9998", "10004", "10000"], "cevap": 0, "aciklama": "(100+2)(100-2) = 100²-2² = 10000-4 = 9996."},
+        {"soru": "x² - 25 ifadesinin çarpanlara ayrılmış hâli nedir?", "siklar": ["(x-5)²", "(x-25)(x+1)", "(x-5)(x+5)", "(x+5)²"], "cevap": 2, "aciklama": "İki kare farkı: x²-25 = (x-5)(x+5)."},
+        {"soru": "(x + 3)² ifadesinin açılımı nedir?", "siklar": ["x² + 9", "x² + 3x + 9", "x² + 6x + 9", "x² + 6x + 6"], "cevap": 2, "aciklama": "(x+3)² = x² + 2·3·x + 9 = x² + 6x + 9."},
+        {"soru": "a + b = 10 ve a·b = 21 olduğuna göre a² + b² kaçtır?", "siklar": ["58", "79", "100", "121"], "cevap": 0, "aciklama": "a²+b² = (a+b)²-2ab = 100 - 42 = 58."},
+        {"soru": "(a - b)² - (a + b)² ifadesinin eşiti nedir?", "siklar": ["4ab", "-4ab", "0", "2ab"], "cevap": 1, "aciklama": "(a²-2ab+b²)-(a²+2ab+b²) = -4ab."}
+      ]
+    },
+    "9|9-mat|9-mat-u2|Doğrusal fonksiyonlar ve mutlak değer": {
+      "ozet": "f(x) = ax + b biçimindeki doğrusal fonksiyonların grafiği bir doğrudur; eğim (a) ve y-kesişimi (b) fonksiyonun davranışını belirler. Mutlak değer bir sayının sıfıra uzaklığıdır ve grafiği V şeklindedir. TYT'de doğru denklemi, eğim ve mutlak değerli denklem/grafik soruları bu başlıktan çıkar.",
+      "anlatim": [
+        "Doğrusal fonksiyon: f(x) = ax + b. Örnek: f(x) = 2x + 3 için f(0) = 3, f(1) = 5, f(2) = 7; x bir arttığında değer sabit olarak 2 artar.",
+        "Eğim: a = Δy/Δx = (y₂-y₁)/(x₂-x₁). Örnek: (1,3) ve (3,7) noktaları için eğim (7-3)/(3-1) = 4/2 = 2'dir.",
+        "y-kesişimi b: grafik y eksenini (0,b) noktasında keser. Örnek: f(x) = -x + 4 grafiği y eksenini (0,4)'te keser.",
+        "İki noktadan doğru denklemi: eğim bulunur, sonra y = ax + b'ye bir nokta konur. Örnek: (0,1) ve (2,5) → eğim 2, b = 1 → y = 2x + 1.",
+        "Artan/azalan/sabit: a > 0 ise artan, a < 0 ise azalan, a = 0 ise sabit. Örnek: f(x) = -3x + 1 azalan; f(x) = 5 sabittir.",
+        "Mutlak değer tanımı: |x| = x (x ≥ 0), |x| = -x (x < 0). Örnek: |7| = 7, |-7| = 7, |0| = 0; mutlak değer hiçbir zaman negatif olmaz.",
+        "Çarpma ve toplam özellikleri: |a·b| = |a|·|b| ve |a+b| ≤ |a|+|b|. Örnek: |-2·5| = |-10| = 10 = 2·5. Üçgen eşitsizliği: |3+(-5)| = 2 ≤ 8.",
+        "Mutlak değerli denklem: |x-a| = b (b ≥ 0) ⟹ x-a = b veya x-a = -b. Örnek: |x-2| = 5 → x = 7 veya x = -3.",
+        "|x| = |y| ⟺ x = y veya x = -y. Örnek: |x-1| = |2x+4| → x-1 = 2x+4'ten x = -5; x-1 = -(2x+4)'ten 3x = -3, x = -1.",
+        "Mutlak değer fonksiyonu f(x) = |x-a| grafiği tepe noktası (a,0) olan V harfidir. Örnek: f(x) = |x-3| grafiği x eksenini yalnızca x = 3'te keser.",
+        "Mutlak değerin en küçük değeri 0'dır. Örnek: |x-4| + 2 ifadesinin alabileceği en küçük değer x = 4 için 0+2 = 2'dir."
+      ],
+      "formuller": [
+        "f(x) = ax + b doğrusal fonksiyon (grafiği doğru)",
+        "Eğim a = (y₂-y₁)/(x₂-x₁)",
+        "|x| = x (x≥0), -x (x<0)",
+        "|a·b| = |a|·|b|",
+        "|x-a| = b ⟹ x = a+b veya x = a-b",
+        "|x| = |y| ⟹ x = y veya x = -y",
+        "|x| ≥ 0 (en küçük değer 0)",
+        "|a+b| ≤ |a| + |b| (üçgen eşitsizliği)"
+      ],
+      "ornek": "f(x) = 3x - 6 doğrusal fonksiyonunun eksenleri kestiği noktaları bulalım. 1) y eksenini kesme (x = 0): f(0) = 3·0 - 6 = -6 → nokta (0,-6). 2) x eksenini kesme (f(x) = 0): 3x - 6 = 0 → x = 2 → nokta (2,0). 3) Eğim 3 > 0 olduğundan fonksiyon artandır. 4) Grafik bu iki noktadan geçen yükselen doğrudur.",
+      "ipucu": "Mutlak değerli denklemde |A| = b için b < 0 ise çözüm yoktur (|x-2| = -3 çözümsüzdür). Eğim sorularında azalan doğrunun eğimi negatiftir; işaret karıştırılırsa şık yanlış çıkar. İki doğru paraleldir ⟺ eğimleri eşit; dik kesişir ⟺ eğimler çarpımı -1'dir.",
+      "quiz": [
+        {"soru": "f(x) = 2x + 5 fonksiyonunun x eksenini kestiği noktanın apsisi kaçtır?", "siklar": ["-5/2", "5/2", "5", "-5"], "cevap": 0, "aciklama": "2x + 5 = 0 → x = -5/2."},
+        {"soru": "A(-1, 2) ve B(3, 10) noktalarından geçen doğrunun eğimi kaçtır?", "siklar": ["1/2", "2", "3", "8"], "cevap": 1, "aciklama": "(10-2)/(3-(-1)) = 8/4 = 2."},
+        {"soru": "|x - 4| = 7 denkleminin çözüm kümesi nedir?", "siklar": ["{3, 11}", "{-3, 11}", "{-11, 3}", "{4, 7}"], "cevap": 1, "aciklama": "x-4 = 7 → x = 11; x-4 = -7 → x = -3 → {-3, 11}."},
+        {"soru": "|x - 3| + 5 ifadesinin alabileceği en küçük değer kaçtır?", "siklar": ["0", "3", "5", "8"], "cevap": 2, "aciklama": "|x-3| ≥ 0 olduğundan en küçük değer x = 3 için 5'tir."},
+        {"soru": "f(x) = -4x + 8 doğrusal fonksiyonu için hangisi doğrudur?", "siklar": ["artandır", "azalandır ve y eksenini (0,8)'de keser", "sabittir", "azalandır ve x eksenini (0,8)'de keser"], "cevap": 1, "aciklama": "Eğim -4 < 0 olduğundan azalan; f(0) = 8 olduğundan y kesişimi (0,8)."}
+      ]
+    },
+    "9|9-mat|9-mat-u2|Fonksiyonların nitel özellikleri": {
+      "ozet": "Fonksiyonların nitel özellikleri; tanım kümesi, görüntü kümesi, bire bir olma, örten olma, artan-azalan olma ve sıfır (kök) noktalarıdır. TYT'de grafik yorumlama, tanım kümesi bulma ve 'bire bir midir' tarzı sorular bu özelliklere dayanır.",
+      "anlatim": [
+        "Fonksiyon tanımı: A kümesinin her elemanını B'de tek bir elemana eşleyen kuraldır. Örnek: f: R→R, f(x) = x² fonksiyondur; fakat x² + y² = 1 bağıntısı bir x'e iki y verdiği için fonksiyon değildir.",
+        "Tanım kümesi, fonksiyonun tanımlı olduğu x değerleridir. Örnek: f(x) = 1/(x-2) için payda sıfır olamaz → tanım kümesi R \\ {2}.",
+        "Karekökte tanım kümesi: kök içi negatif olamaz. Örnek: f(x) = √(x-2) için x-2 ≥ 0 → tanım kümesi [2,∞).",
+        "Görüntü kümesi, f(x)'in aldığı değerlerin kümesidir. Örnek: f(x) = x² için görüntü kümesi [0,∞); f(x) = x²+1 için [1,∞).",
+        "Bire bir fonksiyon: farklı x'ler farklı değerler üretir (f(x₁) = f(x₂) ⟹ x₁ = x₂). Örnek: f(x) = 3x+1 bire birdir; f(x) = x² bire bir değildir çünkü f(-2) = f(2) = 4.",
+        "Örten fonksiyon: görüntü kümesi değer kümesine eşittir. Örnek: f: R→R, f(x) = 2x+1 örtendir; çünkü her y için x = (y-1)/2 vardır.",
+        "Sabit fonksiyon f(x) = c ve birim (özdeşlik) fonksiyon f(x) = x. Örnek: f(x) = 5 sabittir; f(x) = x birim fonksiyondur.",
+        "Artan/azalan: x₁ < x₂ iken f(x₁) < f(x₂) ise artan, f(x₁) > f(x₂) ise azalandır. Örnek: f(x) = 2x+3 artan, f(x) = -x+4 azalandır.",
+        "Sıfır (kök) noktaları: f(x) = 0 denkleminin çözümleridir. Örnek: f(x) = x²-9 için kökler x = 3 ve x = -3; grafik x eksenini bu noktalarda keser.",
+        "Grafikte bire birlik yatay çizgi testiyle anlaşılır: her yatay doğru grafiği en fazla bir noktada kesmelidir. Örnek: parabol yatay çizgiyi iki noktada kestiği için bire bir değildir.",
+        "Parçalı fonksiyon: farklı aralıklarda farklı kurallar. Örnek: f(x) = x (x < 0), x² (x ≥ 0) biçiminde tanımlanır."
+      ],
+      "formuller": [
+        "Fonksiyon: her x için tek bir y",
+        "f(x) = 1/g(x) ⟹ g(x) ≠ 0",
+        "f(x) = √g(x) ⟹ g(x) ≥ 0",
+        "Bire bir: f(x₁) = f(x₂) ⟹ x₁ = x₂",
+        "Örten: görüntü kümesi = değer kümesi",
+        "f(x) = x² için görüntü kümesi [0,∞)",
+        "Artan: x₁<x₂ ⟹ f(x₁)<f(x₂)",
+        "Kök: f(x) = 0 denkleminin çözümü"
+      ],
+      "ornek": "f: R→R, f(x) = 3x - 2 fonksiyonunu inceleyelim. 1) Bire birlik: f(x₁) = f(x₂) ⟹ 3x₁-2 = 3x₂-2 ⟹ 3x₁ = 3x₂ ⟹ x₁ = x₂. Bire birdir. 2) Örtenlik: her y ∈ R için x = (y+2)/3 ∈ R seçilir ve f(x) = 3·(y+2)/3 - 2 = y olur. Örtendir. 3) Eğim 3 > 0 olduğundan artandır. Sonuç: f bire bir ve örtendir.",
+      "ipucu": "f(x) = x² tüm gerçek sayılarda bire bir değildir; ancak x ≥ 0 ile sınırlandırılırsa bire bir olur. Tanım kümesi sorularında paydanın sıfır olmaması ve kök içinin negatif olmaması koşulları birlikte yazılmalıdır. Grafikte bire birlik yatay çizgi testiyle, örtenlik görüntü kümesinin değer kümesini kaplamasıyla anlaşılır.",
+      "quiz": [
+        {"soru": "f(x) = 1/(x-3) fonksiyonunun en geniş tanım kümesi nedir?", "siklar": ["R", "R \\ {3}", "R \\ {-3}", "(3,∞)"], "cevap": 1, "aciklama": "Payda x-3 = 0 olan x = 3 hariç tutulur → R \\ {3}."},
+        {"soru": "f(x) = x² - 16 fonksiyonunun sıfırları (kökleri) hangisidir?", "siklar": ["{4}", "{-4}", "{-4, 4}", "{16}"], "cevap": 2, "aciklama": "x²-16 = 0 → (x-4)(x+4) = 0 → x = 4 veya x = -4."},
+        {"soru": "Aşağıdaki fonksiyonlardan hangisi R→R'de bire birdir?", "siklar": ["f(x) = x²", "f(x) = |x|", "f(x) = 5", "f(x) = 2x - 7"], "cevap": 3, "aciklama": "Doğrusal ve eğimi sıfırdan farklı olan f(x) = 2x-7 bire birdir; diğerleri değildir."},
+        {"soru": "f(x) = √(x - 2) fonksiyonunun tanım kümesi nedir?", "siklar": ["[2,∞)", "(2,∞)", "[-2,∞)", "R"], "cevap": 0, "aciklama": "Kök içi negatif olamaz: x-2 ≥ 0 → x ≥ 2 → [2,∞)."},
+        {"soru": "Grafiği her yatay doğru tarafından en fazla bir noktada kesilen fonksiyon hangi özelliğe sahiptir?", "siklar": ["artandır", "bire birdir", "sabittir", "örtendir"], "cevap": 1, "aciklama": "Yatay çizgi testini geçen fonksiyon bire birdir."}
+      ]
+    },
+    "9|9-mat|9-mat-u2|Doğrusal denklem ve eşitsizlikler": {
+      "ozet": "Birinci dereceden bir bilinmeyenli denklemler ax + b = 0 biçimindedir ve a ≠ 0 iken tek çözümü vardır; eşitsizliklerde çözüm kümesi aralık olarak ifade edilir. TYT'de denklem kurma problemleri, iki bilinmeyenli sistemler ve eşitsizlik soruları buradan çıkar.",
+      "anlatim": [
+        "ax + b = 0 denkleminin çözümü x = -b/a'dır (a ≠ 0). Örnek: 3x - 12 = 0 → x = 12/3 = 4.",
+        "Denklemin iki tarafına aynı işlem uygulanır. Örnek: 2x + 3 = x + 7 → her taraftan x ve 3 çıkarılır → x = 4.",
+        "Parantez açıp düzenleme: 3(x-2) + 5 = 2x + 4 → 3x-6+5 = 2x+4 → 3x-1 = 2x+4 → x = 5.",
+        "Kesirli denklemde paydalar eşitlenir ve paydayı sıfır yapan değer çözüm kümesinden çıkarılır. Örnek: x/2 + x/3 = 5 → 5x/6 = 5 → x = 6.",
+        "İki bilinmeyenli sistem yok etme veya yerine koyma ile çözülür. Örnek: x+y = 7 ve x-y = 1 → taraf tarafa toplama 2x = 8 → x = 4, y = 3.",
+        "Eşitsizlikte her iki tarafa aynı sayı eklenir; negatif sayıyla çarpma/bölmede yön değişir. Örnek: -3x < 12 → x > -4.",
+        "Çözüm kümesi aralık olarak yazılır. Örnek: 2x + 1 ≤ 9 → 2x ≤ 8 → x ≤ 4 → çözüm (-∞,4].",
+        "Mutlak değerli eşitsizlik: |2x-1| ≤ 5 → -5 ≤ 2x-1 ≤ 5 → -4 ≤ 2x ≤ 6 → -2 ≤ x ≤ 3.",
+        "Problem kurma: 'Bir sayının 3 katının 5 fazlası 20'dir.' → 3x + 5 = 20 → 3x = 15 → x = 5.",
+        "Birinci dereceden olma şartı, bilinmeyenin en yüksek kuvvetinin 1 olmasıdır. Örnek: x² + 2x = 0 birinci dereceden değildir; 5x = 0 birinci derecedendir.",
+        "a = 0 özel durumu: 0·x + b = 0 denkleminde b = 0 ise sonsuz çözüm, b ≠ 0 ise hiç çözüm yoktur. Örnek: 0·x + 4 = 0 çözümsüzdür."
+      ],
+      "formuller": [
+        "ax + b = 0 ⟹ x = -b/a (a ≠ 0)",
+        "x+y = a, x-y = b ⟹ x = (a+b)/2, y = (a-b)/2",
+        "Negatifle çarpma/bölmede eşitsizlik yönü değişir",
+        "|2x-1| ≤ 5 ⟹ -5 ≤ 2x-1 ≤ 5",
+        "Kesirli denklemde paydayı sıfır yapan değer çözüm olamaz",
+        "0·x + b = 0: b = 0 sonsuz çözüm, b ≠ 0 çözüm yok",
+        "İki bilinmeyenli sistem: yok etme veya yerine koyma"
+      ],
+      "ornek": "3(x - 2) + 5 = 2x + 4 denklemini çözelim. 1) Parantezi aç: 3x - 6 + 5 = 2x + 4. 2) Sol tarafı topla: 3x - 1 = 2x + 4. 3) Her taraftan 2x çıkar: x - 1 = 4. 4) Her tarafa 1 ekle: x = 5. 5) Kontrol: 3(5-2)+5 = 14 ve 2·5+4 = 14. ✓",
+      "ipucu": "Kesirli denklem sorularında paydayı sıfır yapan kökün elenmesi gerekir ('dışarıda bırakılan kök' tuzağı). Eşitsizlikte en sık hata negatif sayıyla bölmede yönü çevirmemektir. Sistem çözümünde bulunan (x,y) çiftinin her iki denklemi de sağladığı mutlaka kontrol edilmelidir.",
+      "quiz": [
+        {"soru": "5x - 20 = 0 denkleminin çözümü kaçtır?", "siklar": ["2", "4", "5", "-4"], "cevap": 1, "aciklama": "5x = 20 → x = 4."},
+        {"soru": "3(x - 1) = x + 7 denkleminin çözümü kaçtır?", "siklar": ["5", "4", "3", "2"], "cevap": 0, "aciklama": "3x-3 = x+7 → 2x = 10 → x = 5."},
+        {"soru": "-4x + 3 > 11 eşitsizliğinin çözüm kümesi nedir?", "siklar": ["x > -2", "x < -2", "x > 2", "x < 2"], "cevap": 1, "aciklama": "-4x > 8, negatife bölününce yön değişir: x < -2."},
+        {"soru": "x + y = 10, x - y = 4 sisteminde x·y çarpımı kaçtır?", "siklar": ["21", "24", "40", "49"], "cevap": 0, "aciklama": "x = 7, y = 3 → x·y = 21."},
+        {"soru": "|x - 2| ≤ 3 eşitsizliğinin çözüm kümesi nedir?", "siklar": ["(-1,5)", "[-1,5]", "[-3,3]", "(-5,1)"], "cevap": 1, "aciklama": "-3 ≤ x-2 ≤ 3 → -1 ≤ x ≤ 5 → [-1,5], uçlar dahil."}
+      ]
+    },
+    "9|9-mat|9-mat-u3|Algoritma temelli problemler": {
+      "ozet": "Algoritma, bir problemi çözmek için izlenen adım adım kesin işlem sırasıdır; akış diyagramları ve sözde kodla gösterilir. TYT'de ardışık işlem takibi, döngü tabanlı problemler ve karar yapıları bu başlıktan sorulur.",
+      "anlatim": [
+        "Algoritmanın özellikleri: sonlu sayıda adım, kesinlik ve başlangıç-bitiş noktası. Örnek: iki sayının ortalaması → oku, topla, 2'ye böl, yaz.",
+        "Akış diyagramı sembolleri: başla/bitir için elips, işlem için dikdörtgen, karar için eşkenar dörtgen, girdi/çıktı için paralelkenar kullanılır.",
+        "Girdi-çıktı akışı: girdiyi oku → işlemi uygula → sonucu yaz. Örnek: x oku; y = x² + 1 hesapla; y yaz. x = 3 için y = 10.",
+        "Karar (koşul) yapısı eğer-ise-aksi hâlde biçimindedir. Örnek: sayı çift ise 'çift' yaz, değilse 'tek' yaz.",
+        "Döngü yapısı bir şart sağlanana kadar veya n kez tekrar eder. Örnek: 1'den 5'e kadar sayıları topla → 1+2+3+4+5 = 15.",
+        "Ardışık işlem takibi: her satırda değişkenin güncel değeri yazılır. Örnek: x = 5 → x = x+3 → x = 8 → x = x·2 → x = 16.",
+        "Değişken güncelleme sayaç oluşturur: x = x+1. Örnek: başlangıç x = 0, döngü 4 kez tekrar ederse son değer x = 4'tür.",
+        "Mod (kalan) işlemi sayının bölümünden kalanı verir. Örnek: 17 mod 3 = 2; 20 mod 4 = 0; sayı mod 2 = 0 ⟹ çift.",
+        "Öklid algoritması EBOB bulur: büyük = bölüm·küçük + kalan işlemi kalan 0 olana kadar tekrarlanır. Örnek: EBOB(48,18): 48 = 2·18+12, 18 = 1·12+6, 12 = 2·6+0 → 6.",
+        "Ardışık toplam formülü: 1+2+...+n = n(n+1)/2. Örnek: 1'den 10'a kadar toplam 10·11/2 = 55.",
+        "Sonsuz döngü hatası: döngü şartı hiçbir zaman yanlış olmayacak biçimde kurulursa algoritma durmaz; sayacın her adımda güncellenmesi gerekir."
+      ],
+      "formuller": [
+        "x = x + k ⟹ sayacı k kadar artırır",
+        "x = x · k ⟹ değeri k katına çıkarır",
+        "Mod: 17 mod 3 = 2 (bölümden kalan)",
+        "Öklid: büyük = bölüm · küçük + kalan",
+        "1 + 2 + ... + n = n(n+1)/2",
+        "Akış diyagramı: elips başla/bitir, dikdörtgen işlem, eşkenar dörtgen karar",
+        "Çiftlik: n mod 2 = 0"
+      ],
+      "ornek": "Şu algoritmayı x = 4 için izleyelim: 1) x'i gir. 2) y = 2x+1 hesapla. 3) y > 10 ise y'yi yaz; değilse x'i 3 artırıp 2. adıma dön. Adım 1: x = 4. Adım 2: y = 2·4+1 = 9. Adım 3: 9 > 10 yanlış → x = 4+3 = 7, 2. adıma dön. Adım 2: y = 2·7+1 = 15. Adım 3: 15 > 10 doğru → yaz: 15. Sonuç 15.",
+      "ipucu": "Algoritma soruları ardışık atamaları doğru sırayla izlemeyi gerektirir; 'x = x+3; x = x·2' işleminde her satırın gerçek değeri yeniden yazılmalıdır. Cebirsel sadeleştirme yapmak (x+3'ü doğrudan 2 ile çarpmak) sık hatadır çünkü atama sırası önemlidir. Döngülerde kaç kez tekrar edildiğini saymak kritiktir.",
+      "quiz": [
+        {"soru": "x = 6; x = x + 4; x = 2·x; ekrana x yaz. Yazılan değer kaçtır?", "siklar": ["10", "16", "20", "24"], "cevap": 2, "aciklama": "x = 6 → x = 6+4 = 10 → x = 2·10 = 20."},
+        {"soru": "1'den 6'ya kadar (6 dahil) tam sayıları toplayan algoritmanın sonucu kaçtır?", "siklar": ["15", "21", "28", "36"], "cevap": 1, "aciklama": "1+2+3+4+5+6 = 21 (formül: 6·7/2 = 21)."},
+        {"soru": "Bir karar (koşul) yapısı akış diyagramında hangi sembolle gösterilir?", "siklar": ["dikdörtgen", "elips", "eşkenar dörtgen", "paralelkenar"], "aciklama": "Karar yapıları eşkenar dörtgen ile gösterilir.", "cevap": 2},
+        {"soru": "Öklid algoritmasıyla EBOB(36, 24) kaçtır?", "siklar": ["6", "12", "24", "72"], "cevap": 1, "aciklama": "36 = 1·24+12, 24 = 2·12+0 → EBOB = 12."},
+        {"soru": "0'dan başlayan bir sayaç döngüde her adımda 5 artıyor; döngü 4 kez çalışırsa son değer kaçtır?", "siklar": ["4", "5", "15", "20"], "cevap": 3, "aciklama": "4 adım × 5 = 20 (0+5+5+5+5)."}
+      ]
+    },
+    "9|9-mat|9-mat-u3|Mantık bağlaçları ve niceleyiciler": {
+      "ozet": "Önermeler doğru veya yanlış olan kesin hükümlerdir; 've, veya, ise, ancak ve ancak' bağlaçları ile 'her, bazı' niceleyicileriyle yeni önermeler kurulur. TYT'de doğruluk tablosu, De Morgan kuralı ve niceleyici olumsuzlaması soruları bu başlıktan çıkar.",
+      "anlatim": [
+        "Önerme, doğru ya da yanlış kesin bir hüküm bildiren ifadedir. Örnek: '5 asal sayıdır' önermedir (doğru); 'Yarın hava güzel olacak mı?' soru cümlesi olduğu için önerme değildir.",
+        "Olumsuzlama (değil), önermenin doğruluk değerini tersine çevirir: p doğruysa p' yanlıştır. Örnek: p: '3 tek sayıdır' (D) → p': '3 tek sayı değildir' (Y).",
+        "Ve bağlacı (∧): iki önerme de doğruysa doğrudur. Örnek: D ∧ D = D, D ∧ Y = Y, Y ∧ Y = Y.",
+        "Veya bağlacı (∨): en az biri doğruysa doğrudur. Örnek: D ∨ Y = D, D ∨ D = D, Y ∨ Y = Y.",
+        "İse bağlacı (⟹): yalnızca D ⟹ Y durumunda yanlıştır. Örnek: D⟹D = D, Y⟹D = D, D⟹Y = Y, Y⟹Y = D.",
+        "Ancak ve ancak (⟺): doğruluk değerleri aynıysa doğrudur. Örnek: D⟺D = D, Y⟺Y = D, D⟺Y = Y.",
+        "De Morgan: (p ∧ q)' = p' ∨ q' ve (p ∨ q)' = p' ∧ q'. Örnek: 'hava açık ve sıcak' olumsuzu 'hava açık değil veya sıcak değil'dir.",
+        "İse bağlacının eşiti: p ⟹ q ≡ p' ∨ q. Örnek: 'x = 2 ise x² = 4' önermesi 'x ≠ 2 veya x² = 4' biçiminde yazılabilir.",
+        "Niceleyiciler: 'her' (∀) ve 'bazı' (∃). Örnek: 'Her doğal sayı tektir' yanlış; 'Bazı doğal sayılar çifttir' doğrudur.",
+        "Niceleyici olumsuzlaması: (∀x, p)' = ∃x, p' ve (∃x, p)' = ∀x, p'. Örnek: 'Her insan yalancıdır' olumsuzu 'Bazı insanlar yalancı değildir'dir.",
+        "Totoloji ve çelişki: her durumda doğru olan önerme totoloji, her durumda yanlış olan çelişkidir. Örnek: p ∨ p' totolojidir; p ∧ p' çelişkidir."
+      ],
+      "formuller": [
+        "p ∧ q: yalnızca ikisi de D ise D",
+        "p ∨ q: yalnızca ikisi de Y ise Y",
+        "p ⟹ q: yalnızca D ⟹ Y iken Y",
+        "p ⟺ q: değerler aynı ise D",
+        "(p ∧ q)' = p' ∨ q' (De Morgan)",
+        "(p ∨ q)' = p' ∧ q' (De Morgan)",
+        "p ⟹ q ≡ p' ∨ q",
+        "(∀x için p)' = ∃x için p' ve (∃x için p)' = ∀x için p'"
+      ],
+      "ornek": "'Sınavdan geçtim ve ödevimi bitirdim' önermesinin olumsuzunu yazalım. 1) p: 'Sınavdan geçtim', q: 'Ödevimi bitirdim' olsun; önerme p ∧ q. 2) De Morgan uygulanır: (p ∧ q)' = p' ∨ q'. 3) Olumsuz: 'Sınavdan geçmedim veya ödevimi bitirmedim'. Not: 'geçmedim ve bitirmedim' yazmak yanlıştır, bağlaç ∨ olur.",
+      "ipucu": "En klasik tuzak De Morgan'da bağlacın değişmesini unutmaktır: 've'nin olumsuzu 'veya', 'veya'nın olumsuzu 've' olur. İse bağlacında tek yanlış durumun D ⟹ Y olduğu bilinmelidir. Niceleyicide 'her'in olumsuzu 'bazı ... değil'dir, 'her ... değil' değildir. Doğruluk tablosunda n önerme için satır sayısı 2ⁿ'dir.",
+      "quiz": [
+        {"soru": "p doğru, q yanlış iken (p ⟹ q) önermesinin doğruluk değeri nedir?", "siklar": ["Doğru", "Yanlış", "Belirsiz", "Totoloji"], "cevap": 1, "aciklama": "İse bağlacında yalnızca D ⟹ Y durumu yanlıştır."},
+        {"soru": "(p ∨ q)' önermesinin eşiti aşağıdakilerden hangisidir?", "siklar": ["p ∧ q", "p' ∧ q'", "p' ∨ q'", "p ∨ q'"], "cevap": 1, "aciklama": "De Morgan: (p ∨ q)' = p' ∧ q'."},
+        {"soru": "'Her öğrenci çalışkandır' önermesinin olumsuzu nedir?", "siklar": ["Her öğrenci çalışkan değildir", "Bazı öğrenciler çalışkandır", "Bazı öğrenciler çalışkan değildir", "Hiçbir öğrenci çalışkan değildir"], "cevap": 2, "aciklama": "(∀x p)' = ∃x p' → 'Bazı öğrenciler çalışkan değildir'."},
+        {"soru": "Aşağıdakilerden hangisi önerme değildir?", "siklar": ["7 asal sayıdır", "2+3 = 5", "Yarın hava güzel olacak mı?", "İstanbul bir şehirdir"], "cevap": 2, "aciklama": "Soru cümlesi doğru/yanlış hüküm bildirmediğinden önerme değildir."},
+        {"soru": "3 önerme için doğruluk tablosunda kaç satır bulunur?", "siklar": ["6", "8", "9", "12"], "cevap": 1, "aciklama": "Satır sayısı 2ⁿ = 2³ = 8."}
+      ]
+    },
+    "9|9-mat|9-mat-u4|Üçgende açı özellikleri": {
+      "ozet": "Üçgenin iç açıları toplamı 180°, dış açıları toplamı 360°'dir; bir dış açı, komşu olmayan iki iç açının toplamına eşittir. TYT geometride açı hesaplama sorularının çoğu bu kurallara ve ikizkenar/eşkenar özel durumlarına dayanır.",
+      "anlatim": [
+        "İç açılar toplamı 180°'dir: a + b + c = 180°. Örnek: 50° + 60° + c = 180° → c = 70°.",
+        "Dış açılar toplamı 360°'dir. Örnek: eşkenar üçgende her dış açı 360°/3 = 120°'dir.",
+        "Bir dış açı, kendisine komşu OLMAYAN iki iç açının toplamına eşittir. Örnek: A köşesindeki dış açı = B + C.",
+        "İç açı ile komşu dış açısının toplamı 180°'dir (doğru açı). Örnek: 70°'lik bir iç açının komşu dış açısı 110°'dir.",
+        "İkizkenar üçgende taban açıları eşittir. Örnek: tepe açısı 40° ise taban açıları (180°-40°)/2 = 70°'dir.",
+        "Eşkenar üçgende her iç açı 60°, her dış açı 120°'dir. Örnek: kenarları eşit olan üçgende açılardan biri 60° ise diğer ikisi de 60°'dir.",
+        "Dik üçgende dar açıların toplamı 90°'dir. Örnek: dar açılardan biri 35° ise diğeri 90°-35° = 55°'dir.",
+        "İki iç açıortayın kesişmesiyle oluşan açı, üçüncü açı cinsinden 90° + (A/2)'dir. Örnek: A = 80° ise kesişim açısı 90° + 40° = 130°'dir.",
+        "Paralel doğrular arasında Z ve M kuralı: Z kuralında iç ters açılar eşit, M kuralında iki açının toplamı diğerine eşittir. Örnek: paralel doğrular arasındaki zikzakta 40° + 30° = 70°.",
+        "Açı-kenar ilişkisi: en büyük açının karşısında en uzun kenar bulunur. Örnek: A > B > C ise karşı kenarlar için a > b > c'dir.",
+        "Çokgende iç açılar toplamı (n-2)·180°'dir. Örnek: dörtgende 360°, beşgende 540°, altıgende 720°."
+      ],
+      "formuller": [
+        "Üçgende iç açılar toplamı = 180°",
+        "Üçgende dış açılar toplamı = 360°",
+        "Bir dış açı = komşu olmayan iki iç açının toplamı",
+        "İkizkenar: taban açısı = (180° - tepe açısı)/2",
+        "Eşkenar: her iç açı 60°, her dış açı 120°",
+        "Dik üçgen: dar açılar toplamı 90°",
+        "n kenarlı çokgende iç açılar toplamı = (n-2)·180°",
+        "En büyük açının karşısında en uzun kenar bulunur"
+      ],
+      "ornek": "Bir üçgende açılar 2x, 3x ve 4x'tir. En büyük açı kaç derecedir? 1) İç açılar toplamı: 2x + 3x + 4x = 180°. 2) 9x = 180° → x = 20°. 3) En büyük açı 4x = 4·20° = 80°. 4) Kontrol: 40° + 60° + 80° = 180°. ✓",
+      "ipucu": "Dış açı sorusunda en sık hata komşu iç açının toplanmasıdır; doğrusu komşu OLMAYAN iki iç açının toplamıdır. İkizkenar üçgende hangi kenarların eşit olduğu (dolayısıyla hangi açıların eşit olduğu) şekilden dikkatle okunmalıdır. Şekildeki aynı yay işaretleri eşit açıları, aynı çizgi işaretleri eşit kenarları gösterir.",
+      "quiz": [
+        {"soru": "Bir üçgenin iki iç açısı 45° ve 65° ise üçüncü iç açı kaç derecedir?", "siklar": ["70", "60", "80", "110"], "cevap": 0, "aciklama": "180° - (45°+65°) = 180° - 110° = 70°."},
+        {"soru": "Bir üçgende A açısının dış açısı 120°, B açısı 45° ise C açısı kaç derecedir?", "siklar": ["60", "105", "75", "120"], "cevap": 2, "aciklama": "A = 180°-120° = 60°; C = 180° - 60° - 45° = 75°."},
+        {"soru": "Tepe açısı 100° olan ikizkenar üçgenin bir taban açısı kaç derecedir?", "siklar": ["50", "40", "80", "100"], "cevap": 1, "aciklama": "(180°-100°)/2 = 40°."},
+        {"soru": "İç açıları 2x, 3x ve 4x olan üçgende x kaçtır?", "siklar": ["15", "25", "20", "30"], "cevap": 2, "aciklama": "9x = 180° → x = 20°."},
+        {"soru": "Bir dış açısı 72° olan düzgün çokgen kaç kenarlıdır?", "siklar": ["4", "6", "5", "8"], "cevap": 2, "aciklama": "Dış açılar toplamı 360° → 360°/72° = 5 kenar."}
+      ]
+    },
+    "9|9-mat|9-mat-u4|Üçgende kenar özellikleri": {
+      "ozet": "Bir üçgende iki kenarın toplamı üçüncü kenardan büyük, farkı ise küçük olmalıdır (üçgen eşitsizliği). Ayrıca en büyük açının karşısında en uzun kenar bulunur; Pisagor, kenarortay ve açıortay özellikleri TYT'de sıkça sorulur.",
+      "anlatim": [
+        "Üçgen eşitsizliği: |a-b| < c < a+b. Örnek: a = 3, b = 5 ise 2 < c < 8 → c tam sayı olarak 3, 4, 5, 6, 7 olabilir.",
+        "Üçgen çizilebilme şartı üç kenar için de sağlanmalıdır. Örnek: 2, 3, 7 uzunluklarıyla üçgen çizilemez çünkü 2+3 = 5 < 7.",
+        "En büyük açının karşısındaki kenar en uzundur. Örnek: A > B > C ise A'nın karşısı a en uzun, C'nin karşısı c en kısadır.",
+        "Eşit açıların karşısındaki kenarlar eşittir. Örnek: ikizkenar üçgende taban açıları eşit olduğundan iki yan kenar eşittir.",
+        "Pisagor bağıntısı (dik üçgen): a² + b² = c² (c hipotenüs). Örnek: 3-4-5 üçgeni → 9 + 16 = 25. ✓",
+        "Özel dik üçgenler ve katları: 3-4-5, 5-12-13, 8-15-17; ikizkenar dik üçgende kenarlar 1-1-√2 oranındadır. Örnek: dik kenarları 6 ve 8 olan üçgende hipotenüs 10'dur (3-4-5'in 2 katı).",
+        "Kenarortay, bir köşeyi karşı kenarın orta noktasına bağlar; üç kenarortay ağırlık merkezinde kesişir ve merkez köşeden kenarortayın 2/3'ü uzaklıktadır. Örnek: kenarortay 9 cm ise köşeden merkeze 6 cm, merkezden kenara 3 cm.",
+        "İç açıortay, karşı kenarı komşu kenarlarla orantılı böler: BD/DC = AB/AC. Örnek: AB = 6, AC = 9, BC = 10 ise BD/DC = 2/3 → BD = 4, DC = 6.",
+        "Kenar-orta dikme, bir kenarı dik ve ortadan böler; üzerindeki her nokta kenarın uçlarına eşit uzaklıktadır. Örnek: çevrel çemberin merkezi kenar-orta dikmelerin kesişim noktasıdır.",
+        "Üçgenin çevresi ve alanı: Ç = a+b+c, A = (taban·yükseklik)/2. Örnek: tabanı 8 cm, yüksekliği 5 cm olan üçgenin alanı 20 cm²'dir.",
+        "Muhteşem üçlü: dik üçgende hipotenüse ait kenarortayın uzunluğu hipotenüsün yarısıdır. Örnek: hipotenüsü 10 cm olan dik üçgende bu kenarortay 5 cm'dir."
+      ],
+      "formuller": [
+        "Üçgen eşitsizliği: |a-b| < c < a+b",
+        "Pisagor: a² + b² = c² (dik üçgende c hipotenüs)",
+        "Özel dik üçgenler: 3-4-5, 5-12-13, 8-15-17 ve katları",
+        "İkizkenar dik üçgen: kenarlar 1 - 1 - √2 oranında",
+        "Üçgen alanı = (taban · yükseklik)/2",
+        "Ağırlık merkezi kenarortayı köşeden 2/3 oranında böler",
+        "İç açıortay: BD/DC = AB/AC",
+        "Dik üçgende hipotenüse ait kenarortay = hipotenüs/2"
+      ],
+      "ornek": "Dik kenarları 9 cm ve 12 cm olan dik üçgenin hipotenüsünü ve alanını bulalım. 1) Pisagor: c² = 9² + 12² = 81 + 144 = 225. 2) c = √225 = 15 cm (3-4-5 üçgeninin 3 katı olan 9-12-15). 3) Alan = (9·12)/2 = 108/2 = 54 cm². Sonuç: hipotenüs 15 cm, alan 54 cm².",
+      "ipucu": "Üçgen eşitsizliğinde yalnızca 'toplam büyüktür' kontrol edilip 'fark küçüktür' kuralı unutulur; bu yüzden kaç farklı tam sayı kenar sorusunda alt sınır yanlış bulunur. Özel dik üçgen katlarını tanımak (6-8-10, 9-12-15) işlemi hızlandırır. Şekilli sorularda ağırlık merkezinin 2/3 oranı ve kenar-orta dikmenin eşit uzaklık özelliği sık kullanılır.",
+      "quiz": [
+        {"soru": "Kenarları 4 cm ve 7 cm olan bir üçgenin üçüncü kenarı tam sayı olarak en az kaç cm olabilir?", "siklar": ["3", "4", "10", "11"], "cevap": 1, "aciklama": "|7-4| < c < 7+4 → 3 < c < 11 → c en az 4'tür."},
+        {"soru": "Dik kenarları 6 cm ve 8 cm olan dik üçgenin hipotenüsü kaç cm'dir?", "siklar": ["10", "12", "14", "√28"], "cevap": 0, "aciklama": "c² = 36+64 = 100 → c = 10 (3-4-5 katı)."},
+        {"soru": "Kenar uzunlukları 5, 12, 13 olan üçgen için hangisi doğrudur?", "siklar": ["dar açılı üçgen", "dik üçgen", "geniş açılı üçgen", "üçgen oluşturmaz"], "cevap": 1, "aciklama": "5² + 12² = 25+144 = 169 = 13² olduğundan Pisagor sağlanır, dik üçgendir."},
+        {"soru": "Hipotenüsü 14 cm olan dik üçgende hipotenüse ait kenarortayın uzunluğu kaç cm'dir?", "siklar": ["7", "14", "3,5", "√7"], "cevap": 0, "aciklama": "Muhteşem üçlü: kenarortay = hipotenüs/2 = 7 cm."},
+        {"soru": "Kenar uzunlukları 2 cm, 3 cm ve 7 cm olan üçgen için hangisi doğrudur?", "siklar": ["dik üçgendir", "ikizkenar üçgendir", "üçgen oluşturmaz", "geniş açılı üçgendir"], "cevap": 2, "aciklama": "2+3 = 5 < 7 olduğundan üçgen eşitsizliği sağlanmaz, üçgen oluşmaz."}
+      ]
+    },
+    "9|9-mat|9-mat-u5|Yansıma, öteleme, dönme": {
+      "ozet": "Dönüşüm geometrisinde şekiller yansıma (simetri), öteleme (kaydırma) ve dönme hareketleriyle konum değiştirir; bu hareketler şeklin boyutunu ve biçimini bozmaz. TYT'de koordinat düzleminde dönüşüm sonrası nokta konumları ve öteleme vektörü soruları çıkar.",
+      "anlatim": [
+        "Ötelemede her nokta aynı vektör kadar kaydırılır: (x,y) → (x+a, y+b). Örnek: (2,3) noktası (5,-1) vektörüyle ötelenirse (7,2) olur.",
+        "x eksenine göre yansıma: (x,y) → (x,-y). Örnek: (4,-3) noktası → (4,3).",
+        "y eksenine göre yansıma: (x,y) → (-x,y). Örnek: (4,-3) noktası → (-4,-3).",
+        "Orijine göre yansıma: (x,y) → (-x,-y). Örnek: (5,-2) noktası → (-5,2).",
+        "y = x doğrusuna göre yansıma: (x,y) → (y,x). Örnek: (3,5) noktası → (5,3).",
+        "y = -x doğrusuna göre yansıma: (x,y) → (-y,-x). Örnek: (2,3) noktası → (-3,-2).",
+        "90° saat yönü tersine dönme (orijin etrafında): (x,y) → (-y,x). Örnek: (3,1) noktası → (-1,3).",
+        "90° saat yönünde dönme: (x,y) → (y,-x). Örnek: (3,1) noktası → (1,-3).",
+        "180° dönme orijine göre yansımayla aynıdır: (x,y) → (-x,-y). Örnek: (5,-2) noktası → (-5,2).",
+        "Ötelemede uzunluk, açı, alan ve yön korunur; yansımada uzunluk ve açı korunur fakat yön ters döner. Örnek: yansımadan sonra üçgenin alanı değişmez ama sağ/sol yönü aynalanır.",
+        "İki ötelemenin bileşkesi yine bir ötelemedir ve vektörler toplanır. Örnek: önce (1,2), sonra (3,-1) vektörüyle öteleme → toplam (4,1) vektörüyle tek öteleme."
+      ],
+      "formuller": [
+        "Öteleme: (x,y) → (x+a, y+b)",
+        "x eksenine yansıma: (x,y) → (x,-y)",
+        "y eksenine yansıma: (x,y) → (-x,y)",
+        "Orijine yansıma / 180° dönme: (x,y) → (-x,-y)",
+        "y = x doğrusuna göre: (x,y) → (y,x)",
+        "y = -x doğrusuna göre: (x,y) → (-y,-x)",
+        "90° saat yönü tersi dönme: (x,y) → (-y,x)",
+        "90° saat yönü dönme: (x,y) → (y,-x)"
+      ],
+      "ornek": "A(3, -2) noktası önce y eksenine göre yansıtılıyor, sonra orijin etrafında 90° saat yönü tersine döndürülüyor. Son noktayı bulalım. 1) y eksenine göre yansıma (x,y) → (-x,y): (3,-2) → (-3,-2). 2) 90° saat yönü tersi dönme (x,y) → (-y,x): (-3,-2) → (-(-2), -3) = (2,-3). Sonuç: (2,-3).",
+      "ipucu": "En sık hata dönme yönünü karıştırmaktır (saat yönü ile saat yönü tersi) ve yansıma eksenini ters uygulamaktır. 90° dönmede koordinatların yer değiştirip birinin işaret değiştirdiği; 180° dönmenin orijine göre yansımayla aynı olduğu unutulmamalıdır. Öteleme yönü ve alanı korurken yansıma şekli aynalar, yani yönlü eşlik bozulur.",
+      "quiz": [
+        {"soru": "A(4, 5) noktası x eksenine göre yansıtılırsa yeni koordinatları ne olur?", "siklar": ["(-4,5)", "(4,-5)", "(-4,-5)", "(5,4)"], "cevap": 1, "aciklama": "x eksenine göre yansımada (x,y) → (x,-y) → (4,-5)."},
+        {"soru": "(2, -3) noktası orijin etrafında 180° döndürülürse yeni koordinatları ne olur?", "siklar": ["(2,3)", "(3,-2)", "(-2,3)", "(-3,2)"], "cevap": 2, "aciklama": "180° dönme (x,y) → (-x,-y) → (-2,3)."},
+        {"soru": "A(1, 4) noktası (3, -2) vektörüyle ötelenirse yeni koordinatları ne olur?", "siklar": ["(4,2)", "(-2,6)", "(3,-8)", "(2,4)"], "cevap": 0, "aciklama": "Öteleme: (1+3, 4+(-2)) = (4,2)."},
+        {"soru": "(5, 1) noktası orijin etrafında 90° saat yönü tersine döndürülürse yeni koordinatları ne olur?", "siklar": ["(1,-5)", "(-1,5)", "(-5,-1)", "(1,5)"], "cevap": 1, "aciklama": "90° saat yönü tersi: (x,y) → (-y,x) → (-1,5)."},
+        {"soru": "Bir üçgenin yansıma dönüşümü sonrası için hangisi doğrudur?", "siklar": ["Alan değişir", "Açılar değişir", "Kenar uzunlukları korunur, yön değişir", "Şekil küçülür"], "cevap": 2, "aciklama": "Yansımada uzunluk ve açı korunur; şeklin yönü (yönlü eşliği) ters döner."}
+      ]
+    },
+    "9|9-mat|9-mat-u5|Üçgende eşlik ve benzerlik koşulları": {
+      "ozet": "Eşlik, karşılıklı açı ve kenarları eşit olan üçgenlerde görülür; benzerlik ise açıları eşit, kenarları orantılı üçgenlerde ortaya çıkar. TYT'de eşlik/benzerlik koşulları, benzerlik oranı ve orantılı kenar soruları bu başlıktan çıkar.",
+      "anlatim": [
+        "Eşlik: karşılıklı açılar ve kenarlar eşittir, benzerlik oranı k = 1'dir. Örnek: ABC ≅ DEF yazımında köşe sırası karşılıklı eşleşmeyi gösterir.",
+        "Eşlik koşulu K.K.K.: üç kenarı karşılıklı eşit olan üçgenler eştir. Örnek: 3-4-5 ve 3-4-5 üçgenleri eştir.",
+        "Eşlik koşulu K.A.K.: iki kenar ve aralarındaki açı karşılıklı eşitse üçgenler eştir. Örnek: AB = DE, AC = DF ve A = D ise eştir.",
+        "Eşlik koşulu A.K.A.: iki açı ve aralarındaki kenar karşılıklı eşitse üçgenler eştir.",
+        "Benzerlik koşulu A.A.: iki açısı eşit olan üçgenler benzerdir (üçüncü açı da eş olur). Örnek: birinin açıları 40° ve 60°, diğerininki 40° ve 60° ise benzerdir.",
+        "Benzerlik koşulu K.K.K.: üç kenarı orantılı olan üçgenler benzerdir. Örnek: 3-4-5 ile 6-8-10 üçgenleri benzerdir (k = 2).",
+        "Benzerlikte kenar oranı k, çevre oranı k, alan oranı k²'dir. Örnek: k = 3 ise alanlar oranı 3² = 9'dur.",
+        "Temel benzerlik (Thales): bir kenara paralel çizilen doğru diğer iki kenarı orantılı böler. Örnek: DE ∥ BC ise AD/AB = AE/AC = DE/BC.",
+        "Paralellikten bilinmeyen bulma: oran kurulur ve içler-dışlar çarpımı yapılır. Örnek: AD/AB = DE/BC → 4/10 = 6/BC → BC = 15.",
+        "Dik üçgende yükseklik bağıntısı: hipotenüse ait yükseklik h için h² = p·k (p ve k hipotenüs parçalarıdır). Örnek: p = 4, k = 9 ise h² = 36 → h = 6.",
+        "Euclid bağıntıları: dik kenarın karesi, kendisine ait hipotenüs parçası ile hipotenüsün çarpımına eşittir. Örnek: a² = p·c."
+      ],
+      "formuller": [
+        "Eşlik koşulları: K.K.K., K.A.K., A.K.A.",
+        "Benzerlik koşulları: A.A., K.A.K., K.K.K.",
+        "Benzerlikte kenar oranı = k, çevre oranı = k, alan oranı = k²",
+        "Temel benzerlik: DE ∥ BC ⟹ AD/AB = AE/AC = DE/BC",
+        "Dik üçgende yükseklik: h² = p·k",
+        "Euclid: dik kenarın karesi = hipotenüs parçası × hipotenüs",
+        "Eş üçgenlerin alanları eşittir"
+      ],
+      "ornek": "ABC üçgeninde DE ∥ BC, AD = 4 cm, DB = 6 cm ve DE = 6 cm ise BC kaç cm'dir? 1) AB = AD + DB = 4 + 6 = 10 cm. 2) Temel benzerlik: AD/AB = DE/BC. 3) 4/10 = 6/BC → içler-dışlar çarpımı: 4·BC = 60. 4) BC = 15 cm. Sonuç: BC = 15 cm.",
+      "ipucu": "A.A. benzerliği için iki açının eşitliği yeterlidir; ancak S.S.A. (iki kenar ve karşı açı) tek başına ne eşlik ne benzerlik sağlar. Alan oranı sorularında oran k değil k² alınmalıdır (k = 2 ise alan oranı 4). Dik üçgende yükseklik ve Euclid bağıntılarında hangi parçanın kullanıldığı şekilden dikkatle okunmalıdır.",
+      "quiz": [
+        {"soru": "Kenar uzunlukları 6-8-10 olan üçgen ile 9-12-15 olan üçgen için ne söylenebilir?", "siklar": ["Eştir", "Benzerdir", "Ne eş ne benzerdir", "Alanları eşittir"], "cevap": 1, "aciklama": "Kenarlar 1,5 oranında orantılı olduğundan K.K.K. benzerliği vardır."},
+        {"soru": "İki benzer üçgenin benzerlik oranı 2/3 ise alanlarının oranı nedir?", "siklar": ["2/3", "4/9", "8/27", "4/3"], "cevap": 1, "aciklama": "Alan oranı = k² = (2/3)² = 4/9."},
+        {"soru": "ABC üçgeninde DE ∥ BC, AD = 3 cm, AB = 9 cm ve DE = 5 cm ise BC kaç cm'dir?", "siklar": ["10", "12", "15", "18"], "cevap": 2, "aciklama": "3/9 = 5/BC → 3·BC = 45 → BC = 15 cm."},
+        {"soru": "Aşağıdakilerden hangisi iki üçgenin benzerliğini tek başına garanti eder?", "siklar": ["İki kenarın eşitliği", "Bir açının eşitliği", "İki açının eşitliği", "Bir kenarın eşitliği"], "cevap": 2, "aciklama": "A.A. benzerliğinde iki açının eşitliği yeterlidir."},
+        {"soru": "Dik üçgende hipotenüse ait yüksekliğin hipotenüs üzerinde ayırdığı parçalar 2 cm ve 8 cm ise yükseklik kaç cm'dir?", "siklar": ["4", "5", "6", "16"], "cevap": 0, "aciklama": "h² = p·k = 2·8 = 16 → h = 4 cm."}
+      ]
+    },
+    "9|9-mat|9-mat-u6|İstatistiksel araştırma süreci": {
+      "ozet": "İstatistiksel araştırma; problem belirleme, veri toplama, düzenleme, analiz ve yorumlama adımlarından oluşan bir süreçtir. TYT'de merkezi eğilim ölçüleri (ortalama, ortanca, tepe değer) ve yorumlama soruları bu sürece dayanır.",
+      "anlatim": [
+        "Süreç adımları sırayla: problemi belirle → veri topla → veriyi düzenle → analiz et → yorumla ve sun. Örnek: 'Sınıfın günlük ders çalışma süresi' araştırmasında önce soru netleştirilir.",
+        "Anakütle tüm veri grubu, örneklem ise bu gruptan seçilen alt gruptur. Örnek: okuldaki 500 öğrenci anakütle, seçilen 50 öğrenci örneklemdir.",
+        "Veri türleri nitel ve nicel olarak ayrılır. Örnek: göz rengi, cinsiyet nitel; boy, yaş, sınav puanı nicel veridir.",
+        "Aritmetik ortalama = verilerin toplamı / veri sayısı. Örnek: 4, 6, 8, 10 → (4+6+8+10)/4 = 28/4 = 7.",
+        "Ortanca (medyan), sıralanmış verinin ortadaki değeridir; çift sayıda veride iki orta değerin ortalaması alınır. Örnek: 3, 5, 7, 9, 11 → ortanca 7. 2, 4, 6, 8 → (4+6)/2 = 5.",
+        "Tepe değer (mod), en çok tekrar eden veridir; birden fazla mod olabilir. Örnek: 2, 3, 3, 5, 7 → mod 3.",
+        "Açıklık (ranj) = en büyük veri - en küçük veri. Örnek: 12, 5, 19, 7 → açıklık 19 - 7 = 12.",
+        "Toplam ile ortalama ilişkisi: toplam = ortalama × veri sayısı. Örnek: 5 verinin ortalaması 8 ise toplamı 40'tır.",
+        "Yeni veri eklenince ortalama şöyle değişir: yeni ortalama = (eski toplam + yeni değer)/(n+1). Örnek: ortalaması 7 olan 4 sayıya 12 eklenirse (28+12)/5 = 8.",
+        "Grafik türleri amaca göre seçilir: sütun grafiği karşılaştırma, daire grafiği oran, çizgi grafiği zaman içindeki değişim, histogram sürekli veri için uygundur.",
+        "Yanıltıcı grafik, dikey eksenin sıfırdan başlamaması veya ölçeğin orantısız seçilmesiyle oluşur. Örnek: ekseni 90'dan başlayan grafik küçük farkı büyük gösterir."
+      ],
+      "formuller": [
+        "Ortalama = verilerin toplamı / veri sayısı",
+        "Toplam = ortalama × veri sayısı",
+        "Ortanca: sıralı verinin ortası (çift sayıda iki ortalamanın ortalaması)",
+        "Tepe değer (mod): en çok tekrar eden değer",
+        "Açıklık = en büyük veri - en küçük veri",
+        "Yeni ortalama = (eski toplam + yeni değer)/(n+1)",
+        "Anakütle: tüm veri, örneklem: seçilen alt grup"
+      ],
+      "ornek": "Bir öğrencinin 5 günlük çözdüğü soru sayıları 40, 55, 60, 45, 50'dir. Ortalama, ortanca ve açıklığı bulalım. 1) Ortalama: (40+55+60+45+50)/5 = 250/5 = 50. 2) Sıralı veri: 40, 45, 50, 55, 60 → ortanca (üçüncü değer) 50. 3) Açıklık: 60 - 40 = 20. Sonuç: ortalama 50, ortanca 50, açıklık 20.",
+      "ipucu": "Ortanca bulunurken verilerin mutlaka küçükten büyüğe sıralanması gerekir; sıralamadan seçilen değer yanlıştır. Çift sayıda veride ortancanın iki orta değerin ortalaması olduğu unutulur. Uç (aşırı) değerler ortalamayı çok etkilerken ortancayı etkilemez; çarpık veride ortanca daha güvenilirdir.",
+      "quiz": [
+        {"soru": "6, 8, 10, 12, 14 verilerinin aritmetik ortalaması kaçtır?", "siklar": ["10", "12", "14", "8"], "cevap": 0, "aciklama": "(6+8+10+12+14)/5 = 50/5 = 10."},
+        {"soru": "3, 9, 5, 7 sayılarının ortancası kaçtır?", "siklar": ["5", "6", "7", "8"], "cevap": 1, "aciklama": "Sıralı: 3, 5, 7, 9 → ortanca (5+7)/2 = 6."},
+        {"soru": "20, 5, 12, 8, 12 veri grubunun tepe değeri (modu) kaçtır?", "siklar": ["5", "8", "12", "20"], "cevap": 2, "aciklama": "En çok tekrar eden değer 12'dir (iki kez)."},
+        {"soru": "Aritmetik ortalaması 15 olan 4 sayıya 35 sayısı eklenirse yeni ortalama kaç olur?", "siklar": ["15", "17", "19", "25"], "cevap": 2, "aciklama": "Eski toplam 4·15 = 60; yeni ortalama (60+35)/5 = 95/5 = 19."},
+        {"soru": "Aşağıdaki verilerden hangisi nicel veridir?", "siklar": ["göz rengi", "sınav puanı", "memleket", "medeni durum"], "cevap": 1, "aciklama": "Sınav puanı sayı ile ifade edildiğinden nicel; diğerleri kategorik (nitel) veridir."}
+      ]
+    },
+    "9|9-mat|9-mat-u6|Veri toplama ve yorumlama": {
+      "ozet": "Veri toplama yöntemleri (anket, gözlem, deney) ve toplanan verinin tablo-grafikle düzenlenip yorumlanması istatistiğin temelidir. TYT'de grafik okuma, daire grafiğinde açı-veri ilişkisi ve tablo yorumlama soruları bu başlıktan çıkar.",
+      "anlatim": [
+        "Veri toplama yöntemleri: anket, gözlem, deney ve görüşmedir. Örnek: sınıfın kitap okuma alışkanlığı için anket uygulanır.",
+        "Örneklem seçimi tarafsız ve yeterli büyüklükte olmalıdır. Örnek: yalnızca erkek öğrencilere anket yapmak yanlı sonuç verir.",
+        "Sıklık tablosu her değerin kaç kez geçtiğini gösterir. Örnek: 3 değeri 5 kez, 4 değeri 2 kez geçtiyse sıklıklar 5 ve 2'dir.",
+        "Daire (dilim) grafiğinde her grup 360°'lik dairenin bir kesridir. Örnek: toplamın %25'i 360°·0,25 = 90°'ye karşılık gelir.",
+        "Daire grafiğinde açı-veri ilişkisi: açı = (veri / toplam veri) · 360°. Örnek: 20 kişilik grupta 5 kişi → (5/20)·360° = 90°.",
+        "Sütun (çubuk) grafiği kategorileri karşılaştırır. Örnek: farklı derslerin ortalama puanları sütun yükseklikleriyle kıyaslanır.",
+        "Çizgi grafiği zaman içindeki değişimi gösterir. Örnek: bir şehrin aylık ortalama sıcaklık değişimi çizgi grafiğiyle sunulur.",
+        "Histogram sürekli veriyi sınıf aralıklarına ayırır. Örnek: boylar 150-160, 160-170, 170-180 aralıkları olarak gruplanır.",
+        "Grafikten okuma: en büyük, en küçük, toplam ve fark değerleri doğrudan grafikten bulunur. Örnek: çubuk grafikte en yüksek değer 40, en düşük 10 ise fark 30'dur.",
+        "Yüzde hesabı: parça = toplam × (yüzde/100). Örnek: 200 kişinin %35'i 200·0,35 = 70 kişidir.",
+        "Yanıltıcı grafikler dikey eksenin sıfırdan başlamaması, orantısız ölçek veya 3 boyutlu gösterimle yanlış algı yaratır; yorum yapmadan önce eksen kontrol edilmelidir."
+      ],
+      "formuller": [
+        "Daire grafiğinde açı = (veri/toplam) · 360°",
+        "Yüzde: parça = toplam · (yüzde/100)",
+        "%25 = 90°, %50 = 180°, %10 = 36°",
+        "Sıklık: bir değerin kaç kez geçtiği",
+        "Oran = istenen grup / toplam grup",
+        "En büyük - en küçük = açıklık",
+        "Veri toplama: anket, gözlem, deney, görüşme"
+      ],
+      "ornek": "Bir sınıfta 40 öğrencinin en sevdiği spor dalı sorulmuştur: futbol 16, basketbol 10, voleybol 8, yüzme 6 kişi. Futbolu seçenlerin daire grafiğindeki merkez açısını bulalım. 1) Oran = 16/40 = 0,4. 2) Açı = (16/40)·360° = 0,4·360° = 144°. 3) Kontrol: basketbol (10/40)·360° = 90°, voleybol 72°, yüzme 54°; 144+90+72+54 = 360°. ✓ Sonuç: 144°.",
+      "ipucu": "Daire grafiğinde açı ile yüzde karıştırılır: %25 = 90°, %50 = 180°, %10 = 36°. 'Toplam kaçtır?' sorusunda dilimlerin değerleri toplanır; yüzdeler verilmişse toplam %100 kabul edilir. Yanıltıcı grafik sorularında dikey eksenin nereden başladığı kontrol edilmeden yorum yapılmamalıdır.",
+      "quiz": [
+        {"soru": "120 kişilik bir grubun %25'i kaç kişidir?", "siklar": ["25", "30", "40", "48"], "cevap": 1, "aciklama": "120 · 0,25 = 30 kişi."},
+        {"soru": "Daire grafiğinde toplam verinin %20'sine karşılık gelen merkez açı kaç derecedir?", "siklar": ["20", "36", "72", "90"], "cevap": 2, "aciklama": "0,20 · 360° = 72°."},
+        {"soru": "Bir ankette tüm örneklem yerine yalnızca belirli bir gruba ulaşılması hangi soruna yol açar?", "siklar": ["Veri fazlalığı", "Yanlı (taraflı) sonuç", "Veri kaybı", "Grafik hatası"], "cevap": 1, "aciklama": "Taraflı örneklem anakütleyi temsil etmez ve yanlı sonuç doğurur."},
+        {"soru": "30 öğrenciden 12'si kırmızı, 10'u mavi, 8'i yeşil seçmiştir. Mavi seçenlerin daire grafiğindeki merkez açısı kaç derecedir?", "siklar": ["96", "120", "108", "144"], "cevap": 1, "aciklama": "(10/30)·360° = 120°."},
+        {"soru": "Zaman içinde bir değerin değişimini göstermek için en uygun grafik türü hangisidir?", "siklar": ["çizgi grafiği", "sütun grafiği", "daire grafiği", "şekil grafiği"], "cevap": 0, "aciklama": "Zaman içindeki değişim çizgi grafiğiyle en net biçimde gösterilir."}
+      ]
+    }
+  }
+}

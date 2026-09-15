@@ -1,0 +1,1256 @@
+{
+  "9-tde": {
+    "9|9-tde|9-tde-u1|Şiir ve deneme": {
+      "ozet": "Şiir, duygu ve düşüncelerin ölçü, ahenk ve imgelerle yoğunlaştırılmış dil ile anlatıldığı türdür. Deneme ise yazarın bir konudaki kişisel düşüncelerini kesin bir sonuca bağlamadan, sohbet havasında anlattığı yazı türüdür.",
+      "anlatim": [
+        "Ölçü (vezin): Dizedeki hece sayısının ya da hecelerin uzunluk-kısalığına göre düzenlenmesidir. Hece ölçüsünde dizelerdeki hece sayısı eşittir (7'li, 8'li, 11'li gibi). Örnek: 'Ben gü lüm baş ka sı nın' (7 hece).",
+        "Aruz ölçüsü: Arap ve Fars edebiyatlarından geçmiştir; açık (kısa) ve kapalı (uzun) hecelerin belirli bir kalıpla sıralanmasına dayanır. Divan edebiyatının temel ölçüsüdür.",
+        "Uyak (kafiye): Dize sonlarındaki ses benzerliğidir. Tek ünsüz benzerliği yarım uyak ('gel/gül'), iki ses benzerliği tam uyak ('bahar/yazar' → -ar), üç ve daha fazla ses benzerliği zengin uyak ('çiçek/gerçek' → -çek) sayılır. Cinaslı uyak ise yazılışı aynı, anlamı farklı sözcüklerle kurulur ('yaz' mevsim / 'yaz' eylem).",
+        "Redif: Uyaktan sonra gelen, aynı görevdeki ek ya da sözcüğün tekrarıdır. Örnek: 'Gülüşün baharı getirir bana / Bakışın baharı getirir bana' dizelerinde 'baharı getirir bana' rediftir.",
+        "Ahenk unsurları: ölçü, uyak, redif, aliterasyon (ünsüz tekrarı), asonans (ünlü tekrarı), sözcük tekrarı ve vurgu.",
+        "Nazım birimi: dize (mısra), beyit (iki dize), dörtlük (kıta), bent. Nazım biçimi ise gazel, kaside, koşma, sone gibi kalıplaşmış düzenlerdir.",
+        "Söz sanatları: teşbih (benzetme), teşhis (kişileştirme), intak (konuşturma), mübalağa (abartma), tezat (karşıtlık), tecahül-i arif (bilmezlikten gelme). Örnek: 'Ay, denize gülümsedi.' → teşhis.",
+        "Deneme: Kurucusu Fransız yazar Michel de Montaigne'dir (Essais/Denemeler, 1580). Türk edebiyatında Nurullah Ataç, Ahmet Haşim, Suut Kemal Yetkin deneme türünde eserler vermiştir.",
+        "Denemenin özellikleri: kişisel görüşe dayanır, kanıtlama zorunluluğu yoktur, samimi ve sohbet havasındadır, kesin sonuç iddiası taşımaz, konusu sınırsızdır.",
+        "Deneme ile makale farkı: Makale nesnel, kanıtlayıcı ve öğreticidir; deneme öznel ve sezdirmeye dayalıdır. Fıkra ise güncel konuyu gazete üslubuyla işler."
+      ],
+      "formuller": [
+        "Dize (mısra): şiirin en küçük birimi. Beyit: iki dize. Dörtlük (kıta): dört dize.",
+        "Yarım uyak = tek ses, tam uyak = iki ses, zengin uyak = üç ve daha fazla ses.",
+        "Redif, uyaktan SONRA gelir; benzerlik sözcük/ek düzeyindedir.",
+        "Hece ölçüsü millî, aruz ölçüsü Arap-Fars kaynaklıdır.",
+        "Aliterasyon = ünsüz tekrarı; asonans = ünlü tekrarı.",
+        "Teşhis = kişileştirme, intak = konuşturma, teşbih = benzetme, mübalağa = abartma.",
+        "Denemenin kurucusu Montaigne'dir; eseri Essais (Denemeler).",
+        "Deneme öznel, makale nesneldir."
+      ],
+      "ornek": "Şiirden (Cahit Sıtkı Tarancı, 'Otuz Beş Yaş'): 'Yaş otuz beş! Yolun yarısı eder. / Dante gibi ortasındayız ömrün.' Denemeden (Montaigne): Yazar denemelerinde kendini konu edinir, kesin hüküm vermekten kaçınır ve okuruyla konuşur gibi yazar.",
+      "ipucu": "Dize sonundaki benzerlikte önce 'redif var mı?' diye bak; redif uyaktan sonra gelir. TYT'de tek ünsüz benzerliğine (gel/gül) 'tam uyak' denilerek tuzak kurulur; -ar/-er gibi iki ses tam, -çek gibi üç ses zengin uyaktır.",
+      "quiz": [
+        {
+          "soru": "Dize sonlarında aynı görevdeki ek ya da sözcüğün tekrarlanmasıyla oluşan ahenk unsuru hangisidir?",
+          "siklar": [
+            "Redif",
+            "Uyak",
+            "Ölçü",
+            "Aliterasyon"
+          ],
+          "cevap": 0,
+          "aciklama": "Redif, uyaktan sonra gelen aynı görevli ek ya da sözcüktür. Örnek: 'baharı getirir bana' ifadesinin iki dizede aynen tekrarlanması."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi şiirin ahenk unsurlarından biri değildir?",
+          "siklar": [
+            "Ölçü",
+            "Konu",
+            "Uyak",
+            "Aliterasyon"
+          ],
+          "cevap": 1,
+          "aciklama": "Ölçü, uyak, redif, aliterasyon ve asonans ahenk (ses) unsurlarıdır; konu ise şiirin içeriğine ait bir ögedir."
+        },
+        {
+          "soru": "Deneme türünün kurucusu ve temel eseri hangisinde doğru verilmiştir?",
+          "siklar": [
+            "Cervantes – Don Kişot",
+            "Şinasi – Şair Evlenmesi",
+            "Montaigne – Denemeler",
+            "Homeros – İlyada"
+          ],
+          "cevap": 2,
+          "aciklama": "Fransız yazar Michel de Montaigne, 1580'de yayımladığı Essais (Denemeler) ile deneme türünün kurucusu kabul edilir."
+        },
+        {
+          "soru": "'Çiçek / gerçek' sözcükleri arasındaki uyak türü nedir?",
+          "siklar": [
+            "Yarım uyak",
+            "Tam uyak",
+            "Cinaslı uyak",
+            "Zengin uyak"
+          ],
+          "cevap": 3,
+          "aciklama": "'-çek' bölümünde üç ses (ç, e, k) benzeştiği için zengin uyak sayılır."
+        },
+        {
+          "soru": "Deneme ile makale arasındaki temel fark aşağıdakilerden hangisidir?",
+          "siklar": [
+            "Denemede yazar görüşünü kanıtlama gereği duymadan anlatır",
+            "Deneme yalnızca bilimsel konuları işler",
+            "Makale öznel bir türdür",
+            "Denemede başlık kullanılmaz"
+          ],
+          "cevap": 0,
+          "aciklama": "Makale nesnel, kanıtlayıcı ve öğreticidir; deneme öznel, samimi ve kesin sonuç iddiası olmayan bir türdür."
+        }
+      ]
+    },
+    "9|9-tde|9-tde-u1|Edebiyat-güzel sanatlar ilişkisi": {
+      "ozet": "Edebiyat, malzemesi dil olan bir güzel sanattır. Diğer sanat dallarıyla konu, yapı ve anlatım bakımından ilişki içindedir; güzel sanatlar işitsel, görsel ve dramatik olmak üzere üçe ayrılır.",
+      "anlatim": [
+        "Sanat: İnsanda estetik haz uyandıran, güzellik kaygısıyla üretilen yaratıcı etkinliktir. Zanaatten farkı, fayda yerine güzelliği amaçlamasıdır.",
+        "Güzel sanatlar üç grupta incelenir: işitsel (fonetik), görsel (plastik) ve dramatik sanatlar.",
+        "İşitsel sanatlar: müzik ve edebiyat. Kulağa seslenirler. Müziğin malzemesi ses, edebiyatın malzemesi dildir.",
+        "Görsel (plastik) sanatlar: resim, heykel, mimari, fotoğraf, hat, tezhip. Göze seslenir; malzemeleri boya, taş, mermer, çizgidir.",
+        "Dramatik (karma) sanatlar: tiyatro, sinema, opera, dans. Hareket ve sahnelemeye dayanır; hem görsel hem işitsel ögeler taşır.",
+        "Edebiyat söz sanatıdır; bu nedenle hem işitsel yönü (ses, ahenk) hem de yazıya bağlı yönü vardır.",
+        "Edebiyat-resim ilişkisi: Betimleme (tasvir) sözcüklerle resim yapmaktır. Örnek: 'Uzaktaki dağların karlı dorukları güneşle kızıla dönüyordu.'",
+        "Edebiyat-müzik ilişkisi: Şiirde ahenk, ölçü ve uyak; bestelenen şiirler, şarkı sözleri ve opera librettoları bu ilişkiyi gösterir.",
+        "Edebiyat-tiyatro/sinema ilişkisi: Oyun metinleri ve senaryolar edebiyat ürünüdür; romanlar sinemaya uyarlanır.",
+        "Edebiyatın bilimlerle ilişkisi: Tarih, sosyoloji, psikoloji, felsefe, coğrafya ve din edebiyata konu verir; ancak edebiyat bunların yerini almaz, sanat kimliğini korur."
+      ],
+      "formuller": [
+        "Güzel sanatlar: işitsel (müzik, edebiyat) – görsel (resim, heykel, mimari) – dramatik (tiyatro, sinema, dans).",
+        "Edebiyatın malzemesi dildir (söz).",
+        "Görsel sanatların malzemesi boya, taş, mermer ve çizgidir.",
+        "Dramatik sanatlar hem görsel hem işitsel öge taşır.",
+        "Betimleme (tasvir), edebiyat-resim ilişkisinin temelidir.",
+        "Sanat = estetik haz ve güzellik; zanaat = fayda.",
+        "Bilim anlar ve öğretir, sanat duyurur ve sezdirir."
+      ],
+      "ornek": "Yahya Kemal Beyatlı'nın 'Sessiz Gemi' şiiri ölümü bir gemi yolculuğu imgesiyle resmeder: 'Artık demir almak günü gelmişse zamandan / Meçhule giden bir gemi kalkar bu limandan.' Bu dizelerde söz, resim gibi görselleşir; edebiyat-resim ilişkisi somutlaşır.",
+      "ipucu": "TYT'de 'edebiyat hangi sanat grubundadır?' ya da 'hangisi görsel sanattır?' diye sorulur. En sık tuzak: tiyatro ve sinemayı görsel sanat saymak — oysa onlar dramatik (karma) sanatlardır; edebiyat ise işitsel sanat grubundadır.",
+      "quiz": [
+        {
+          "soru": "Edebiyat, güzel sanatlar sınıflamasında hangi grupta yer alır?",
+          "siklar": [
+            "Görsel (plastik) sanatlar",
+            "İşitsel (fonetik) sanatlar",
+            "Dramatik sanatlar",
+            "Uygulamalı sanatlar"
+          ],
+          "cevap": 1,
+          "aciklama": "Edebiyat ve müzik kulağa seslenen işitsel sanatlardır. Edebiyatın malzemesi dildir."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi görsel (plastik) sanatlar arasında yer almaz?",
+          "siklar": [
+            "Resim",
+            "Heykel",
+            "Müzik",
+            "Mimari"
+          ],
+          "cevap": 2,
+          "aciklama": "Resim, heykel ve mimari görsel sanatlardır; müzik ise işitsel sanattır."
+        },
+        {
+          "soru": "Tiyatro ve sinemanın 'dramatik sanat' sayılmasının nedeni nedir?",
+          "siklar": [
+            "Yalnızca yazıyla var olmaları",
+            "Malzemelerinin dil olması",
+            "Sadece kulağa seslenmeleri",
+            "Hareket ve sahnelemeye dayanmaları, hem görsel hem işitsel öge taşımaları"
+          ],
+          "cevap": 3,
+          "aciklama": "Dramatik sanatlar hareket ve sahneleme temellidir; görüntü ve sesi birlikte kullanır."
+        },
+        {
+          "soru": "Edebiyatın temel malzemesi nedir?",
+          "siklar": [
+            "Dil",
+            "Boya",
+            "Ses",
+            "Mermer"
+          ],
+          "cevap": 0,
+          "aciklama": "Edebiyat bir söz sanatıdır; malzemesi dildir."
+        },
+        {
+          "soru": "Aşağıdaki sanat-malzeme eşleştirmelerinden hangisi yanlıştır?",
+          "siklar": [
+            "Edebiyat – dil",
+            "Sinema – yalnızca yazı",
+            "Müzik – ses",
+            "Heykel – mermer"
+          ],
+          "cevap": 1,
+          "aciklama": "Sinema görüntü, ses ve hareketin birleştiği dramatik bir sanattır; yalnızca yazıya dayanmaz."
+        }
+      ]
+    },
+    "9|9-tde|9-tde-u1|Dil-kültür ilişkisi": {
+      "ozet": "Dil, kültürün taşıyıcısı ve aktarıcısıdır; bir milletin düşünüş, duyuş ve yaşayışını kuşaktan kuşağa geçirir. Dil ile kültür arasındaki ilişki karşılıklıdır.",
+      "anlatim": [
+        "Dil: İnsanlar arasında anlaşmayı sağlayan, seslerden oluşan, kurallı ve doğal iletişim aracıdır. Örnek: 'Kalemi masaya bıraktım.'",
+        "Kültür: Bir toplumun tarih içinde oluşturduğu maddi ve manevi değerler bütünüdür (dil, din, ahlak, sanat, gelenek, hukuk, bilim).",
+        "Dil-kültür ilişkisi karşılıklıdır: Dil kültürü oluşturur ve taşır; kültür de dili besler ve geliştirir.",
+        "Kültürün en önemli taşıyıcısı dildir. Atasözleri, deyimler, bilmeceler, türküler ve destanlar birer kültür hazinesidir.",
+        "Dil, milletin kimliğidir. Bir dil yok olursa o dili konuşan toplumun kültürü de yok olur.",
+        "Doğal dil tarih içinde kendiliğinden oluşur (Türkçe, Almanca); yapay (yapma) dil ise sonradan tasarlanır (Esperanto).",
+        "Dilin özellikleri: doğallık, canlılık, sesli olma, kurallı bir dizge olma, toplumsallık, gizli antlaşma olma ve değişebilirlik.",
+        "Maddi kültür: araç-gereç, mimari, giysi, mutfak. Manevi kültür: dil, inanç, ahlak, sanat, gelenek ve tarih bilinci.",
+        "Edebiyat, dili kullanarak kültürü işler; her edebî metin aynı zamanda bir kültür belgesidir.",
+        "Kültür birikimlidir ve aktarılabilir; yazının bulunuşu kültürün kuşaktan kuşağa aktarılmasında dönüm noktasıdır."
+      ],
+      "formuller": [
+        "Dil = anlaşma aracı; kültür = maddi ve manevi değerler bütünü.",
+        "Kültürü taşıyan ve aktaran temel araç dildir.",
+        "Doğal dil (Türkçe, Almanca) – yapay dil (Esperanto).",
+        "Dilin özellikleri: doğallık, canlılık, toplumsallık, kurallılık, gizli antlaşma, değişebilirlik.",
+        "Maddi kültür: giysi, mimari, araç-gereç. Manevi kültür: dil, inanç, ahlak, sanat.",
+        "Atasözü ve deyimler dilin kültür taşıyıcılığının en açık kanıtıdır."
+      ],
+      "ornek": "Türkçede misafirliğin kutsal sayılması dile de yansımıştır: 'Tanrı misafiri', 'Misafir on kısmetle gelir, birini yer, dokuzunu bırakır.' Bu ifadeler, dilin içinde yaşadığı kültürü nasıl taşıdığını gösterir.",
+      "ipucu": "TYT'de 'aşağıdakilerden hangisi kültürü oluşturan ögelerden değildir?' ya da 'dil-kültür ilişkisini anlatan söz hangisidir?' biçiminde sorulur. Tuzak: dilin özellikleri arasında 'değişmezlik' seçeneği konulur — dil sürekli değişir, değişmezlik dilin özelliği olamaz.",
+      "quiz": [
+        {
+          "soru": "Aşağıdakilerden hangisi kültürün maddi unsurlarından biridir?",
+          "siklar": [
+            "İnanç",
+            "Ahlak",
+            "Geleneksel giysi",
+            "Dil"
+          ],
+          "cevap": 2,
+          "aciklama": "Giysi, mimari ve araç-gereç maddi kültürü; dil, inanç ve ahlak manevi kültürü oluşturur."
+        },
+        {
+          "soru": "Türkçe, oluşumu bakımından hangi tür dildir?",
+          "siklar": [
+            "Yapay dil",
+            "Yapma dil",
+            "Uzlaşma dili",
+            "Doğal dil"
+          ],
+          "cevap": 3,
+          "aciklama": "Türkçe tarih içinde kendiliğinden oluşan doğal bir dildir. Esperanto gibi sonradan tasarlanan diller yapay dildir."
+        },
+        {
+          "soru": "'Bir dil bir insan, iki dil iki insan.' sözü dilin hangi yönünü vurgular?",
+          "siklar": [
+            "Dilin kültür ve düşünce gücüyle ilişkisini",
+            "Dilin bilimle ilişkisini",
+            "Dilin ekonomiyle ilişkisini",
+            "Dilin coğrafyayla ilişkisini"
+          ],
+          "cevap": 0,
+          "aciklama": "Bu söz, her yeni dilin insana yeni bir kültür ve düşünce dünyası kazandırdığını anlatır."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi dilin özellikleri arasında yer almaz?",
+          "siklar": [
+            "Doğallık",
+            "Değişmezlik",
+            "Canlılık",
+            "Toplumsallık"
+          ],
+          "cevap": 1,
+          "aciklama": "Dil sürekli değişen ve gelişen bir dizgedir; değişmezlik dilin özelliği olamaz."
+        },
+        {
+          "soru": "Dil-kültür ilişkisiyle ilgili aşağıdaki yargılardan hangisi doğrudur?",
+          "siklar": [
+            "Dil kültürden tamamen bağımsızdır",
+            "Kültür dil olmadan da kuşaktan kuşağa sorunsuz aktarılır",
+            "Dil, kültürün taşıyıcısı ve aktarıcısıdır",
+            "Dil yalnızca yazıyla var olur"
+          ],
+          "cevap": 2,
+          "aciklama": "Kültürün kuşaktan kuşağa aktarılmasını sağlayan temel araç dildir; dil ile kültür birbirini besler."
+        }
+      ]
+    },
+    "9|9-tde|9-tde-u2|Hikaye ve anı": {
+      "ozet": "Hikâye (öykü), yaşanmış ya da yaşanabilir bir olayın sınırlı zaman, kişi ve mekân içinde anlatıldığı kısa yazı türüdür. Anı (hatıra) ise yazarın kendi yaşadıklarını, tanık olduklarını aradan zaman geçtikten sonra anlattığı türdür.",
+      "anlatim": [
+        "Hikâyenin yapı unsurları: olay (vaka), kişi (kahraman), mekân, zaman ve anlatıcı (bakış açısı).",
+        "Hikâyede olay akışı genellikle serim (giriş) – düğüm (gelişme) – çözüm (sonuç) düzeninde kurulur.",
+        "Hikâye romandan kısadır; tek bir olay ya da bir olay çevresinde gelişir; kişi kadrosu ve mekân sayısı sınırlıdır.",
+        "Olay hikâyesi (Maupassant tarzı): Serim-düğüm-çözüm bölümleri belirgindir, olay ön plandadır. Refik Halit Karay ve Ömer Seyfettin bu tarzın temsilcileridir.",
+        "Durum hikâyesi (Çehov tarzı): Olay değil, hayattan bir an ya da kesit ve iç dünya önemlidir; sonu belirsizdir. Sait Faik Abasıyanık ve Memduh Şevket Esendal bu tarzda yazmıştır. Örnek: Sait Faik, 'Semaver'.",
+        "Bakış açısı: Birinci kişi (kahraman anlatıcı, 'ben'), üçüncü kişi (tanrısal/ilahi anlatıcı her şeyi bilir; gözlemci anlatıcı yalnızca gözlediğini anlatır).",
+        "Hikâyede söyleyişe bağlı dil, anlatım teknikleri (gösterme, anlatma, iç konuşma) ve dilin kullanımı türün niteliğini belirler.",
+        "Anı (hatıra): Yazarın görüp yaşadıklarını, üzerinden zaman geçtikten sonra anlattığı, gerçeğe dayalı yazı türüdür.",
+        "Anıda anlatıcı yazarın kendisidir (birinci kişi); tarihî ve kültürel belge değeri taşır ve öznel anlatım görülür. Örnek: Halide Edip Adıvar, 'Türk'ün Ateşle İmtihanı'.",
+        "Anı ile günlük karıştırılmamalıdır: Günlük yaşanırken yazılır ve tarih atılır; anı ise aradan uzun zaman geçtikten sonra yazılır. Anıda dış olaylar, günlükte iç dünya öne çıkar."
+      ],
+      "formuller": [
+        "Hikâye unsurları: olay, kişi, mekân, zaman, anlatıcı (bakış açısı).",
+        "Olay hikâyesi = Maupassant tarzı; durum hikâyesi = Çehov tarzı.",
+        "Maupassant (Fransız) olay hikâyesinin, Çehov (Rus) durum hikâyesinin öncüsüdür.",
+        "Ömer Seyfettin ve Refik Halit Karay: olay hikâyesi. Sait Faik Abasıyanık ve Memduh Şevket Esendal: durum hikâyesi.",
+        "Anı (hatıra): yazarın yaşadıklarını sonradan anlatması; birinci kişi, gerçeklik, öznellik.",
+        "Günlük yaşanırken, anı yıllar sonra yazılır.",
+        "Kahraman anlatıcı birinci kişi; ilahi (tanrısal) anlatıcı üçüncü kişidir ve her şeyi bilir."
+      ],
+      "ornek": "Ömer Seyfettin'in 'Kaşağı' hikâyesi, kardeşini haksız yere suçlayan bir çocuğun vicdan azabını birinci kişi ağzından anlatır; olay hikâyesinin belirgin örneğidir. Sait Faik'in 'Semaver' hikâyesi ise olaydan çok gündelik hayattan bir kesiti öne çıkaran durum hikâyesidir.",
+      "ipucu": "TYT'de 'bu parça hangi türden alınmıştır?' ve 'hangisi anıdır?' biçiminde sorulur. En sık tuzak: roman ile hikâye sınırı ve Maupassant-Çehov eşleştirmesinin ters verilmesi. Parçada 'ben' anlatıcı görmek tek başına anı demek değildir; yaşanmışlık ve zaman aralığı belirleyicidir.",
+      "quiz": [
+        {
+          "soru": "Aşağıdakilerden hangisi durum hikâyesinin (Çehov tarzı) temsilcisidir?",
+          "siklar": [
+            "Ömer Seyfettin",
+            "Refik Halit Karay",
+            "Guy de Maupassant",
+            "Sait Faik Abasıyanık"
+          ],
+          "cevap": 3,
+          "aciklama": "Sait Faik Abasıyanık ve Memduh Şevket Esendal durum hikâyesinin; Ömer Seyfettin, Refik Halit Karay ve Maupassant olay hikâyesinin temsilcileridir."
+        },
+        {
+          "soru": "Anı (hatıra) ile günlük arasındaki temel fark nedir?",
+          "siklar": [
+            "Günlük yaşanırken, anı aradan zaman geçtikten sonra yazılır",
+            "Anıda tarih atılır, günlükte atılmaz",
+            "Günlük kurgudur, anı gerçektir",
+            "Anı yalnızca üçüncü kişiyle yazılır"
+          ],
+          "cevap": 0,
+          "aciklama": "Günlük günü gününe ve tarih atılarak yazılır; anı ise olayların üzerinden zaman geçtikten sonra kaleme alınır."
+        },
+        {
+          "soru": "Hikâyenin yapı unsuru olarak 'bakış açısı' neyi ifade eder?",
+          "siklar": [
+            "Olayın geçtiği yeri",
+            "Olayı kimin anlattığını ve hangi noktadan gördüğünü",
+            "Hikâyenin uzunluğunu",
+            "Kahraman sayısını"
+          ],
+          "cevap": 1,
+          "aciklama": "Bakış açısı, anlatıcının kim olduğunu ve olaylara hangi konumdan baktığını belirler (birinci kişi, ilahi anlatıcı, gözlemci)."
+        },
+        {
+          "soru": "Serim-düğüm-çözüm bölümleri belirgin olan ve olayı ön plana çıkaran hikâye türü hangisidir?",
+          "siklar": [
+            "Durum hikâyesi",
+            "Modern hikâye",
+            "Olay hikâyesi",
+            "Manzum hikâye"
+          ],
+          "cevap": 2,
+          "aciklama": "Olay hikâyesi (Maupassant tarzı) serim-düğüm-çözüm düzeniyle kurulur ve olayı merkeze alır."
+        },
+        {
+          "soru": "Halide Edip Adıvar'ın 'Türk'ün Ateşle İmtihanı' adlı eseri tür bakımından hangisine örnektir?",
+          "siklar": [
+            "Roman",
+            "Hikâye",
+            "Gezi yazısı",
+            "Anı"
+          ],
+          "cevap": 3,
+          "aciklama": "Eser, yazarın tanık olduğu olayları kendi ağzından anlattığı anı (hatıra) türündedir."
+        }
+      ]
+    },
+    "9|9-tde|9-tde-u2|Yazım kuralları ve noktalama": {
+      "ozet": "Yazım kuralları ve noktalama, yazıda anlamın doğru kurulmasını ve anlaşılmayı sağlayan kurallar bütünüdür. TYT Türkçe bölümünde en çok soru gelen dil bilgisi alanıdır.",
+      "anlatim": [
+        "Büyük harfle başlayanlar: Cümlenin ilk sözcüğü, özel adlar, unvanlar, yer adları, kurum adları, din ve mezhep adları, milliyet ve dil adları. Örnek: 'Yunus Emre', 'Anadolu', 'Türkçe'.",
+        "'de/da' bağlacı her zaman ayrı yazılır ve 'te/ta' biçimine dönüşmez: 'Sen de gelsen.', 'Okul da kapandı.' Ancak bulunma durumu eki olan '-de/-da' bitişik yazılır: 'evde', 'okulda'.",
+        "'ki' bağlacı ayrı yazılır: 'Anladım ki doğru söylüyorsun.' Kalıplaşmış olanlar bitişiktir: belki, çünkü, hâlbuki, mademki, sanki, oysaki, meğerki. Sıfat yapan '-ki' ise bitişiktir: 'akşamki', 'dünkü'.",
+        "'mi' soru eki her zaman ayrı yazılır: 'Geldi mi?', 'Okuyor mu?' Kendisinden sonra ek gelirse yine ayrı kalır: 'Geldi miydi?'",
+        "Kesme işareti ('): Özel adlara getirilen çekim eklerini ayırır: 'Ankara'da', 'Yılmaz'ın', 'Türkiye'ye'. Çoğul ve yapım eki getirildiğinde kesme kullanılmaz: 'Türkler', 'Türkçe'.",
+        "Sayıların yazımı: Cümle içinde küçük sayılar sözcükle yazılır ('yirmi beş öğrenci'); büyük sayılar rakamla yazılır. Ondalık kesirlerde virgül kullanılır: '3,14'. Tarihlerde ay ve gün adları rakamla yazılabilir.",
+        "Noktalama işaretleri: nokta (.), virgül (,), noktalı virgül (;), iki nokta (:), üç nokta (...), soru işareti (?), ünlem (!), kesme ('), tırnak (“ ”), kısa çizgi (-), uzun çizgi (—), yay ayraç ( ), köşeli ayraç ([ ]).",
+        "Noktalı virgül: Anlamca birbirine bağlı ancak virgülle ayrılamayacak kadar karmaşık yapıları ayırır. Örnek: 'Kedi siyah; köpek beyazdı.' Ayrıca virgülle sıralanmış öbekleri ayırır: 'Öğrenciler: Ali, Ayşe; öğretmenler: Can, Deniz.'",
+        "İki nokta: Açıklama, örnek sıralama veya konuşma aktarımından önce gelir. Örnek: 'Şunları söyledi: Yarın geleceğim.'",
+        "Ünlem ve soru işareti: Coşku, korku, üzüntü, emir bildiren cümlelerden sonra ünlem; soru bildiren cümlelerden sonra soru işareti gelir. Örnek: 'Ne güzel bir yer!' / 'Nerede kaldın?'",
+        "Birleşik sözcüklerin yazımı: 'başöğretmen, akşamüstü, bilirkişi' bitişik; 'hiçbir, birçok, birkaç, biraz' bitişik, 'bir şey, bir tek, her şey' ayrı yazılır."
+      ],
+      "formuller": [
+        "'de/da' bağlacı ayrı ve 'te/ta' olmaz; '-de/-da' bulunma eki bitişiktir.",
+        "'ki' bağlacı ayrı; belki, çünkü, hâlbuki, mademki, sanki, oysaki bitişik.",
+        "'mi' soru eki her zaman ayrı yazılır.",
+        "Özel ada çekim eki gelirse kesme işareti kullanılır; çoğul/yapım eki gelirse kullanılmaz.",
+        "Noktalı virgül: birbirine bağlı bağımsız cümleleri veya virgüllü öbekleri ayırır.",
+        "İki nokta: açıklama ve örnek sıralamasından önce gelir.",
+        "hiçbir, birçok, birkaç, biraz bitişik; bir şey, bir tek, her şey ayrı."
+      ],
+      "ornek": "Doğru yazımlar: 'Biz de seninle geliyoruz.' (bağlaç ayrı) – 'Ankara'da oturuyoruz.' (özel ad + çekim eki, kesme var) – 'Ne zaman geleceksin?' (soru eki ayrı) – 'Şunları unutma: defterini ve kalemini al.' (iki nokta açıklamadan önce).",
+      "ipucu": "TYT'de 'yazım yanlışı olan cümle hangisidir?' ya da 'noktalama yanlışı hangisinde vardır?' biçiminde gelir. En sık tuzaklar: 'de/da' bağlacını ekle karıştırmak, 'ki'yi bitişik yazmak, özel ada gelen ekte kesme kullanmamak, soru ekini bitişik yazmak ('geldinmi'), kesmeyi çoğul eklerinde yanlış kullanmak ('Türk'ler').",
+      "quiz": [
+        {
+          "soru": "Aşağıdaki cümlelerin hangisinde 'de/da' bağlacı yanlış yazılmıştır?",
+          "siklar": [
+            "Yarında gelir misin?",
+            "Ben de geleceğim.",
+            "Sen de haklısın.",
+            "Bu konuda da bilgisi yok."
+          ],
+          "cevap": 0,
+          "aciklama": "'Yarında gelir misin?' cümlesindeki 'da' bağlaçtır ve ayrı yazılmalıdır: 'Yarın da gelir misin?' Diğer seçeneklerde yazım doğrudur."
+        },
+        {
+          "soru": "Aşağıdaki cümlelerin hangisinde 'ki' doğru yazılmıştır?",
+          "siklar": [
+            "Anladımki doğru söylüyorsun.",
+            "Belki gelir.",
+            "Dünki gibi hava güzeldi.",
+            "Senki beni sevdin."
+          ],
+          "cevap": 1,
+          "aciklama": "'Belki' kalıplaşmış olduğu için bitişik yazılır. Doğru biçimler: 'Anladım ki', 'Dünkü', 'Sen ki'."
+        },
+        {
+          "soru": "Aşağıdaki cümlelerden hangisinde noktalama yanlışı vardır?",
+          "siklar": [
+            "Pazardan elma, armut ve üzüm aldım.",
+            "Ahmet, yarın gelecek mi?",
+            "Bu kitabı okudunmu?",
+            "Ne kadar güzel bir gün!"
+          ],
+          "cevap": 2,
+          "aciklama": "'mi' soru eki her zaman ayrı yazılır: 'Bu kitabı okudun mu?'"
+        },
+        {
+          "soru": "Özel adlara getirilen çekim ekleri hangi noktalama işaretiyle ayrılır?",
+          "siklar": [
+            "Kısa çizgi",
+            "İki nokta",
+            "Üç nokta",
+            "Kesme işareti"
+          ],
+          "cevap": 3,
+          "aciklama": "'Ankara'da', 'Yılmaz'ın' örneklerinde kesme işareti kullanılır; ancak 'Türkler', 'Türkçe' gibi çoğul/yapım eki alan özel adlarda kesme kullanılmaz."
+        },
+        {
+          "soru": "Aşağıdaki sözcüklerden hangisi bitişik yazılır?",
+          "siklar": [
+            "birkaç",
+            "bir çok",
+            "hiç bir",
+            "bir şey"
+          ],
+          "cevap": 0,
+          "aciklama": "'birkaç' bitişik yazılır ('birçok', 'biraz', 'hiçbir' de bitişiktir); 'bir şey' ve 'bir tek' ise ayrı yazılır."
+        }
+      ]
+    },
+    "9|9-tde|9-tde-u2|İsimler": {
+      "ozet": "İsim (ad), varlıkları, kavramları ve duyguları karşılayan sözcüklerdir. İsim tamlaması ise iki ismin tamlayan-tamlanan ilişkisiyle bir araya gelmesiyle oluşur.",
+      "anlatim": [
+        "İsim (ad): Canlı-cansız varlıkları, kavramları ve duyguları karşılayan sözcüklerdir. Örnek: kitap, sevgi, İstanbul, Ali.",
+        "Varlıklara verilişine göre: özel isim (tek bir varlığı karşılar: Ali, Ankara, Türkçe) ve cins (tür) ismi (aynı türden varlıkları karşılar: şehir, kalem).",
+        "Sayısına göre: tekil (kalem), çoğul (kalemler), topluluk ismi (ordu, sürü, meclis, orman). Topluluk ismi tekil görünür ama topluluk bildirir.",
+        "Somut isim duyu organlarıyla algılanır (taş, koku, ses); soyut isim algılanamaz, kavram ve duygu bildirir (mutluluk, adalet, özlem).",
+        "Yapısına göre: basit (göz), türemiş (gözlük, gözcü), birleşik (hanımeli, başkent, keçiboynuzu, bilirkişi).",
+        "İsimler çekim ekleriyle kullanılır: hâl (durum) ekleri (-i, -e, -de, -den), iyelik ekleri (-im, -in, -i, -imiz, -iniz, -leri) ve çoğul eki (-ler).",
+        "İsim tamlaması: tamlayan (belirten) ve tamlanan (belirtilen) olmak üzere iki ögeden oluşur.",
+        "Belirtili isim tamlaması: Tamlayan '-ın/-in/-un/-ün', tamlanan '-ı/-i/-u/-ü' eki alır. Örnek: 'kapının kolu', 'bahçenin kapısı'.",
+        "Belirtisiz isim tamlaması: Tamlayan ek almaz, tamlanan '-ı/-i' eki alır. Örnek: 'kapı kolu', 'bahçe kapısı'.",
+        "Zincirleme isim tamlaması: En az iki tamlamanın iç içe geçmesiyle oluşur: 'okulun bahçe kapısı'. Takısız (ad) tamlaması ise ek almaz ve madde/cins bildirir: 'altın kolye, demir kapı'."
+      ],
+      "formuller": [
+        "Özel isim – cins isim; tekil – çoğul – topluluk ismi; somut – soyut isim; basit – türemiş – birleşik isim.",
+        "Belirtili isim tamlaması: tamlayan + -ın/-in, tamlanan + -ı/-i. 'Bahçenin kapısı'.",
+        "Belirtisiz isim tamlaması: tamlayan ek almaz, tamlanan + -ı/-i. 'Bahçe kapısı'.",
+        "Zincirleme tamlama: 'okulun bahçe kapısı' (iki tamlama iç içe).",
+        "Takısız tamlama: 'altın kolye' – her iki öge de ek almaz, tamlayan madde bildirir.",
+        "Topluluk ismi tekil biçimlidir ancak topluluk bildirir: ordu, sürü, meclis, orman.",
+        "Hâl ekleri: yalın – belirtme (-i) – yönelme (-e) – bulunma (-de) – ayrılma (-den)."
+      ],
+      "ornek": "'Kapının kolu kırıldı.' cümlesinde 'kapının' tamlayan (-ın), 'kolu' tamlanandır (-ı): belirtili isim tamlaması. 'Demir kapı yavaşça kapandı.' cümlesinde ise iki öge de ek almadığı ve 'demir' madde bildirdiği için takısız isim tamlaması vardır.",
+      "ipucu": "TYT'de 'altı çizili sözde ne tür isim tamlaması vardır?' diye sorulur. Tuzak: belirtili ile belirtisiz tamlamayı karıştırmak ve takısız tamlamayı ('altın kolye') sıfat tamlaması sanmak. Ayrıca 'orman, ordu' gibi sözcüklerin çoğul sanılması tuzağa düşürür.",
+      "quiz": [
+        {
+          "soru": "'Okulun bahçe kapısı' ifadesi hangi tamlama türüdür?",
+          "siklar": [
+            "Belirtili isim tamlaması",
+            "Zincirleme isim tamlaması",
+            "Belirtisiz isim tamlaması",
+            "Sıfat tamlaması"
+          ],
+          "cevap": 1,
+          "aciklama": "'Okulun bahçesi' ile 'bahçe kapısı' tamlamalarının iç içe geçmesi zincirleme isim tamlaması oluşturur."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi topluluk ismidir?",
+          "siklar": [
+            "Kalem",
+            "Mutluluk",
+            "Sürü",
+            "İstanbul"
+          ],
+          "cevap": 2,
+          "aciklama": "Sürü, ordu, meclis, orman gibi isimler tekil görünse de topluluk bildirir; mutluluk soyut, İstanbul özel isimdir."
+        },
+        {
+          "soru": "'Sevgi' sözcüğü hangi tür isimdir?",
+          "siklar": [
+            "Somut",
+            "Özel",
+            "Topluluk",
+            "Soyut"
+          ],
+          "cevap": 3,
+          "aciklama": "Sevgi duyu organlarıyla algılanamayan, kavram bildiren soyut bir isimdir."
+        },
+        {
+          "soru": "'Altın kolye' ifadesindeki tamlama türü nedir?",
+          "siklar": [
+            "Takısız isim tamlaması",
+            "Belirtili isim tamlaması",
+            "Belirtisiz isim tamlaması",
+            "Zincirleme isim tamlaması"
+          ],
+          "cevap": 0,
+          "aciklama": "Tamlayan da tamlanan da ek almadığı ve 'altın' madde bildirdiği için bu ifade takısız (ad) tamlamasıdır."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi yapısına göre birleşik isimdir?",
+          "siklar": [
+            "Gözlük",
+            "Hanımeli",
+            "Kalemler",
+            "Bahçede"
+          ],
+          "cevap": 1,
+          "aciklama": "Hanımeli birleşik isimdir; gözlük türemiş, kalemler çoğul eki almış basit, bahçede hâl eki almış basit isimdir."
+        }
+      ]
+    },
+    "9|9-tde|9-tde-u3|Gezi yazısı ve belgesel": {
+      "ozet": "Gezi yazısı (seyahatname), bir yazarın gezip gördüğü yerleri gözlemlerine dayanarak anlattığı türdür. Belgesel ise gerçek olay ve durumları belge değeri taşıyacak biçimde görüntü ve sesle anlatan yapımdır.",
+      "anlatim": [
+        "Gezi yazısı (seyahatname): Gezilen yerlerin coğrafyası, insanı, kültürü ve tarihi hakkında bilgi ve izlenim veren yazı türüdür.",
+        "Gezi yazısında gözlem ön plandadır; yazar gördüklerini betimleme (tasvir) yoluyla anlatır.",
+        "Gezi yazısı hem öznel (izlenim, duygu) hem nesnel (bilgi, veri) bir yön taşır.",
+        "Türk edebiyatının en ünlü seyahatnamesi, 17. yüzyılda Evliya Çelebi'nin yazdığı 'Seyahatname'dir.",
+        "Diğer gezi yazısı örnekleri: Ahmet Haşim 'Frankfurt Seyahatnamesi', Falih Rıfkı Atay 'Bizim Akdeniz', Reşat Nuri Güntekin 'Anadolu Notları'.",
+        "Dünya edebiyatında gezi türünün önemli eserleri: Marco Polo 'Doğu'nun Harikaları', İbn Battuta 'Seyahatname'.",
+        "Belgesel: Gerçek olayları, kişileri, doğa ve toplum olaylarını belge niteliğinde görüntü ve sesle anlatan sinema/televizyon türüdür.",
+        "Belgesel kurgu değildir; gerçeğe dayanır ve kanıt sunmayı amaçlar. Doğa, tarih, savaş, bilim ve biyografi belgeselleri yaygındır.",
+        "Gezi yazısı ile belgeselin ortak yönü gözleme ve gerçekliğe dayanmalarıdır. Farkı: gezi yazısında yazarın kişisel izlenimi, belgeselde ise görüntü ve belge öne çıkar.",
+        "Gezi yazısı anı ve günlükle karıştırılmamalıdır: gezi yazısında mekân ve izlenim, anıda yaşanmış olay, günlükte ise gün gün yaşananlar öne çıkar."
+      ],
+      "formuller": [
+        "Seyahatname = gezi yazısı.",
+        "Evliya Çelebi (17. yüzyıl) – 'Seyahatname': Türk gezi edebiyatının temel eseri.",
+        "Ahmet Haşim – Frankfurt Seyahatnamesi; Reşat Nuri Güntekin – Anadolu Notları; Falih Rıfkı Atay – Bizim Akdeniz.",
+        "Marco Polo – Doğu'nun Harikaları; İbn Battuta – Seyahatname.",
+        "Gezi yazısı = gözlem + izlenim + bilgi.",
+        "Belgesel = gerçek olay + belge değeri + görüntü ve ses.",
+        "Gezi yazısında en çok kullanılan anlatım biçimi betimlemedir (tasvir)."
+      ],
+      "ornek": "Evliya Çelebi, 'Seyahatname'sinde gittiği şehirlerin camilerini, çarşılarını, halkın geleneklerini ve kullandığı dili ayrıntılı biçimde anlatır. Bu yönüyle eser, aynı zamanda bir kültür tarihi belgesi niteliği taşır.",
+      "ipucu": "TYT'de 'bu parça hangi türden alınmıştır?' sorusunda gezi yazısı-anı-günlük ayrımı belirleyicidir. Tuzak: parçada 'ben' anlatıcının bulunmasını anı saymak (gezi yazısı da birinci kişiyle yazılır) ve belgeseli 'kurgu' sayan seçeneği işaretlemek.",
+      "quiz": [
+        {
+          "soru": "Türk edebiyatının en ünlü seyahatnamesinin yazarı kimdir?",
+          "siklar": [
+            "Ahmet Haşim",
+            "Falih Rıfkı Atay",
+            "Evliya Çelebi",
+            "İbn Battuta"
+          ],
+          "cevap": 2,
+          "aciklama": "Evliya Çelebi, 17. yüzyılda 'Seyahatname'yi kaleme almıştır."
+        },
+        {
+          "soru": "'Frankfurt Seyahatnamesi' adlı eser kime aittir?",
+          "siklar": [
+            "Reşat Nuri Güntekin",
+            "Yakup Kadri Karaosmanoğlu",
+            "Azra Erhat",
+            "Ahmet Haşim"
+          ],
+          "cevap": 3,
+          "aciklama": "Ahmet Haşim'in gezi yazılarını topladığı eseridir."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi belgesel için söylenemez?",
+          "siklar": [
+            "Tamamen kurmaca bir olay örgüsüne dayanır",
+            "Gerçek olaylara dayanır",
+            "Belge değeri taşır",
+            "Görüntü ve sesten yararlanır"
+          ],
+          "cevap": 0,
+          "aciklama": "Belgesel kurgu değildir; gerçek olay ve durumları belge niteliğinde görüntü ve sesle aktarır."
+        },
+        {
+          "soru": "Gezi yazısında en çok kullanılan anlatım biçimi hangisidir?",
+          "siklar": [
+            "Tartışma",
+            "Betimleme",
+            "Tanık gösterme",
+            "Tanımlama"
+          ],
+          "cevap": 1,
+          "aciklama": "Gezilen yerin görünüşü ve özellikleri ayrıntılı biçimde betimlendiği için en çok kullanılan anlatım biçimi betimlemedir."
+        },
+        {
+          "soru": "Gezi yazısı ile belgeselin ortak yönü nedir?",
+          "siklar": [
+            "İkisinin de kurguya dayanması",
+            "İkisinin de yalnızca yazıyla var olması",
+            "İkisinin de gözleme ve gerçekliğe dayanması",
+            "İkisinde de öznelliğin öne çıkması"
+          ],
+          "cevap": 2,
+          "aciklama": "Her iki tür de gözleme ve gerçekliğe dayanır; farkları anlatım aracı ve öznellik derecesidir."
+        }
+      ]
+    },
+    "9|9-tde|9-tde-u3|Sıfatlar, edat-bağlaç-ünlem": {
+      "ozet": "Sıfat (ön ad), bir ismi niteleyen ya da belirten sözcüktür. Edat, bağlaç ve ünlem ise tek başına anlamı olmayan, cümle içinde görev ve anlam kazanan sözcük türleridir.",
+      "anlatim": [
+        "Sıfat (ön ad): İsmin önüne gelerek onu niteleyen veya belirten sözcüktür. Tek başına sıfat olmaz; mutlaka bir ismi etkilemesi gerekir.",
+        "Niteleme sıfatı: İsmin rengini, biçimini, durumunu bildirir; isme 'nasıl?' sorusu sorulur. Örnek: 'yeşil elma', 'uzun yol', 'kırık kalem'.",
+        "İşaret sıfatı: 'bu kitap', 'şu ev', 'o adam'. Sayı sıfatı: 'iki kalem', 'ikinci sıra', 'yarım elma'.",
+        "Belgisiz sıfat: 'bazı insanlar', 'birçok soru', 'hiçbir öğrenci'. Soru sıfatı: 'hangi yol', 'kaç kişi'.",
+        "Sıfat tamlaması: Sıfat + isim biçiminde kurulur. 'Mavi deniz', 'yaşlı adam'. Sıfat tamlayan, isim tamlanan konumundadır.",
+        "Sıfat ile isim karıştırılmamalıdır: 'güzel' tek başına nitelik bildiren bir sözcüktür; 'güzel kız' ifadesinde ismi nitelediği için sıfat olur.",
+        "Edat (ilgeç): Tek başına anlamı olmayan, kendinden önceki sözcükle öbek kurup anlam kazanan sözcüktür. Başlıcaları: gibi, kadar, ile, için, göre, dolayı, başka, öte, beri, karşı, doğru, rağmen, üzere.",
+        "Bağlaç: Sözcükleri, söz öbeklerini veya cümleleri birbirine bağlayan sözcüklerdir: ve, veya, ya da, ama, fakat, ancak, lakin, çünkü, mademki, hem... hem, ne... ne, de/da, ki.",
+        "Ünlem: Sevinç, korku, üzüntü, şaşma, özlem gibi duyguları ve seslenmeleri anlatan sözcüklerdir: ah, of, ey, hey, vah, tüh, haydi, yazık.",
+        "Edat ile bağlaç ayrımı: Edat kendinden önceki sözcükle yeni bir anlam öbeği kurar ('senin için'); bağlaç ise eş görevli ögeleri veya cümleleri bağlar ('Ali ve Ayşe geldi').",
+        "'ile' sözcüğü hem edat hem bağlaç olabilir: 'Kalem ile yazdı.' (araç anlamı → edat) – 'Ali ile Ayşe geldi.' (bağlama → bağlaç)."
+      ],
+      "formuller": [
+        "Sıfat = ismi niteleyen ya da belirten sözcük; sıfat + isim = sıfat tamlaması.",
+        "Niteleme sıfatı 'nasıl?', işaret sıfatı 'hangi?', sayı sıfatı 'kaç?', belgisiz sıfat belirsizlik, soru sıfatı soru bildirir.",
+        "Sıfat tek başına bulunmaz; ismi etkilemediği sürece o sözcük isimdir.",
+        "Edatlar: gibi, kadar, ile, için, göre, dolayı, başka, öte, beri, karşı, doğru, rağmen, üzere.",
+        "Bağlaçlar: ve, veya, ama, fakat, ancak, çünkü, mademki, de/da, ki.",
+        "Ünlemler: ah, of, ey, hey, vah, tüh, haydi, yazık.",
+        "'ile' araç anlamındaysa edat, bağlama görevindeyse bağlaçtır."
+      ],
+      "ornek": "'Bu uzun yolda yalnız değilsin; çünkü senin gibi dostlar var.' cümlesinde 'bu' işaret sıfatı, 'uzun' niteleme sıfatı, 'gibi' edat, 'çünkü' bağlaçtır.",
+      "ipucu": "TYT'de 'altı çizili sözcük hangi türdedir?' ve 'aşağıdakilerden hangisinde sıfat kullanılmamıştır?' biçiminde sorulur. En sık tuzaklar: 'çünkü, ancak, yalnız' sözcüklerinin edat mı bağlaç mı olduğu ve 'ile' sözcüğünün görev değiştirmesi. Ayrıca 'çalışkan öğrenci'deki sıfatı isim sanmak.",
+      "quiz": [
+        {
+          "soru": "'Beş öğrenci sınava geç girdi.' cümlesindeki 'beş' sözcüğü hangi sıfat türüdür?",
+          "siklar": [
+            "Niteleme sıfatı",
+            "İşaret sıfatı",
+            "Soru sıfatı",
+            "Sayı sıfatı"
+          ],
+          "cevap": 3,
+          "aciklama": "'Beş' isme kaç sorusunun cevabını verdiği için sayı sıfatıdır."
+        },
+        {
+          "soru": "Aşağıdaki sözcüklerden hangisi bağlaçtır?",
+          "siklar": [
+            "fakat",
+            "kadar",
+            "göre",
+            "üzere"
+          ],
+          "cevap": 0,
+          "aciklama": "'kadar, göre, üzere' edattır; 'fakat' ise cümleleri ve eş görevli ögeleri bağlayan bağlaçtır."
+        },
+        {
+          "soru": "'Senin için her şeyi yaparım.' cümlesindeki 'için' sözcüğünün türü nedir?",
+          "siklar": [
+            "Bağlaç",
+            "Edat",
+            "Ünlem",
+            "Zamir"
+          ],
+          "cevap": 1,
+          "aciklama": "'için' kendinden önceki sözcükle öbek kurup anlam kazanan bir edattır."
+        },
+        {
+          "soru": "Aşağıdaki cümlelerin hangisinde 'ile' bağlaç görevindedir?",
+          "siklar": [
+            "Bıçak ile ekmeği kesti.",
+            "Kalem ile yazdı.",
+            "Ali ile Ayşe sinemaya gitti.",
+            "Otobüs ile geldi."
+          ],
+          "cevap": 2,
+          "aciklama": "'Ali ile Ayşe sinemaya gitti.' cümlesinde 'ile' iki özneyi birbirine bağlar (bağlaç); diğerlerinde araç anlamıyla edattır."
+        },
+        {
+          "soru": "'Ah, bu ne güzel manzara!' cümlesindeki 'ah' sözcüğünün türü nedir?",
+          "siklar": [
+            "Edat",
+            "Bağlaç",
+            "Sıfat",
+            "Ünlem"
+          ],
+          "cevap": 3,
+          "aciklama": "'ah' duygu bildiren bir ünlemdir."
+        }
+      ]
+    },
+    "9|9-tde|9-tde-u4|Roman ve tiyatro": {
+      "ozet": "Roman, olay, kişi, mekân ve zaman ögeleri çevresinde kurulan uzun anlatı türüdür. Tiyatro ise sahnede oynanmak üzere yazılan, hareket ve konuşmaya dayalı dramatik bir türdür.",
+      "anlatim": [
+        "Roman: Yaşanmış ya da yaşanabilir olayların, geniş bir zaman dilimi ve kalabalık bir kişi kadrosuyla ayrıntılı biçimde anlatıldığı uzun yazı türüdür.",
+        "Romanın yapı unsurları: olay örgüsü, kişi kadrosu, mekân, zaman, bakış açısı (anlatıcı) ve tema.",
+        "Roman hikâyeden uzundur; birden çok olayı, geniş kişi kadrosunu ve ayrıntılı mekân tasvirlerini barındırır.",
+        "Roman türleri: tarihî roman, sosyal roman, psikolojik roman, macera romanı, bilim kurgu, köy romanı, tezli roman, otobiyografik roman.",
+        "Dünya edebiyatında romanın ilk önemli örneği Miguel de Cervantes'in 'Don Kişot' (1605) adlı eseridir. Daniel Defoe 'Robinson Crusoe' ile modern romanın öncüleri arasındadır.",
+        "Türk edebiyatında ilkler: Şemsettin Sami 'Taaşşuk-ı Talat ve Fitnat' (1872) ilk yerli roman; Namık Kemal 'İntibah' (1876) ilk edebî roman; Namık Kemal 'Cezmi' (1880) ilk tarihî roman.",
+        "Diğer ilkler: Recaizade Mahmut Ekrem 'Araba Sevdası' (1896) ilk realist roman; Nabizade Nazım 'Karabibik' (1890) ilk köy romanı; Halit Ziya Uşaklıgil 'Mai ve Siyah' Servet-i Fünun romanının önemli örneğidir.",
+        "Tiyatro: Bir olayın sahnede, oyuncular tarafından hareket ve konuşmayla canlandırıldığı dramatik sanat türüdür.",
+        "Tiyatronun temel ögeleri: oyun metni, sahne, oyuncu, dekor, kostüm, ışık, seyirci ve rejisör (yönetmen).",
+        "Tiyatro türleri: trajedi (acıklı, soylu kişiler, ölümle bitebilir), komedi (güldürü), dram (hem acı hem güldürü ögesi taşıyan, günlük hayata yakın tür).",
+        "Türk edebiyatının ilk tiyatro eseri, Şinasi'nin 1859'da yazdığı 'Şair Evlenmesi' adlı komedisidir."
+      ],
+      "formuller": [
+        "Romanın unsurları: olay örgüsü, kişi, mekân, zaman, bakış açısı, tema.",
+        "Don Kişot (Cervantes, 1605) – roman türünün ilk önemli örneği.",
+        "Türk edebiyatı ilkleri: Taaşşuk-ı Talat ve Fitnat (ilk yerli roman), İntibah (ilk edebî roman), Cezmi (ilk tarihî roman), Araba Sevdası (ilk realist roman), Karabibik (ilk köy romanı).",
+        "İlk Türk tiyatro eseri: Şinasi – Şair Evlenmesi (1859).",
+        "Tiyatro türleri: trajedi, komedi, dram.",
+        "Romanda olay anlatılır; tiyatroda olay sahnede gösterilir.",
+        "Roman hikâyeden uzun; kişi ve olay bakımından zengindir."
+      ],
+      "ornek": "Namık Kemal'in 'İntibah' (1876) romanı, Ali Bey'in kendisini felakete sürükleyen bir ilişkiye kapılmasını anlatır ve ilk edebî roman kabul edilir. Cervantes'in 'Don Kişot'u (1605) ise yel değirmenlerine savaş açan bir hayalperestin öyküsüdür ve roman türünün ilk önemli örneği sayılır.",
+      "ipucu": "TYT'de 'ilk'ler en çok sorulan alandır. En büyük tuzak: 'ilk yerli roman' (Taaşşuk-ı Talat ve Fitnat, 1872) ile 'ilk edebî roman'ın (İntibah, 1876) yer değiştirilmesidir. Ayrıca ilk Türk tiyatro eserinin Şinasi'nin 'Şair Evlenmesi' olduğu bilinmelidir.",
+      "quiz": [
+        {
+          "soru": "İlk yerli Türk romanı hangisidir?",
+          "siklar": [
+            "Taaşşuk-ı Talat ve Fitnat",
+            "İntibah",
+            "Araba Sevdası",
+            "Çalıkuşu"
+          ],
+          "cevap": 0,
+          "aciklama": "Şemsettin Sami'nin 1872'de yayımladığı 'Taaşşuk-ı Talat ve Fitnat' ilk yerli romandır; Namık Kemal'in 'İntibah'ı ise ilk edebî romandır."
+        },
+        {
+          "soru": "Türk edebiyatının ilk tiyatro eseri kimin eseridir?",
+          "siklar": [
+            "Namık Kemal",
+            "Şinasi",
+            "Ahmet Mithat Efendi",
+            "Abdülhak Hamit Tarhan"
+          ],
+          "cevap": 1,
+          "aciklama": "'Şair Evlenmesi' (1859) Şinasi'nin eseridir ve ilk Türk tiyatro eseri kabul edilir."
+        },
+        {
+          "soru": "Yel değirmenlerine saldıran bir kahramanın anlatıldığı, roman türünün ilk önemli örneği sayılan eser hangisidir?",
+          "siklar": [
+            "Robinson Crusoe",
+            "Sefiller",
+            "Don Kişot",
+            "Suç ve Ceza"
+          ],
+          "cevap": 2,
+          "aciklama": "Miguel de Cervantes'in 1605 tarihli 'Don Kişot' adlı eseridir."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi tiyatro türlerinden biri değildir?",
+          "siklar": [
+            "Trajedi",
+            "Komedi",
+            "Dram",
+            "Mesnevi"
+          ],
+          "cevap": 3,
+          "aciklama": "Mesnevi, divan edebiyatına ait bir nazım biçimidir; tiyatro türü değildir."
+        },
+        {
+          "soru": "Nabizade Nazım'ın 'Karabibik' romanı hangi özelliğiyle Türk edebiyatında bilinir?",
+          "siklar": [
+            "İlk köy romanı olması",
+            "İlk tarihî roman olması",
+            "İlk realist roman olması",
+            "İlk psikolojik roman olması"
+          ],
+          "cevap": 0,
+          "aciklama": "'Karabibik' (1890) Anadolu köy hayatını konu alan ilk köy romanı sayılır."
+        }
+      ]
+    },
+    "9|9-tde|9-tde-u4|Zamir, zarf, fiil": {
+      "ozet": "Zamir (adıl), ismin yerini tutan; zarf (belirteç), fiilin, sıfatın ya da başka bir zarfın anlamını etkileyen; fiil ise iş, oluş ve durum bildiren sözcük ya da sözcük topluluğudur.",
+      "anlatim": [
+        "Zamir (adıl): Varlıkların adını söylemeden onların yerini tutan sözcüklerdir. 'Ahmet geldi.' → 'O geldi.' cümlesinde 'o' zamirdir.",
+        "Zamir türleri: kişi (ben, sen, o, biz, siz, onlar), işaret (bu, şu, o, bunlar, orası), belgisiz (kimse, herkes, bazısı, birkaçı, hiçbiri), soru (kim, ne, hangisi, kaçı), dönüşlülük (kendi, öz), iyelik ve ilgi zamirleri.",
+        "Kişi zamirleri hâl ekleriyle çekimlenir: ben → bana, sen → sana, o → ona; 'beni, seni, onu' biçimleri görülür.",
+        "Zarf (belirteç): Fiilin, sıfatın veya başka bir zarfın anlamını zaman, durum, miktar, yer-yön ve soru bakımından etkileyen sözcüktür.",
+        "Zarf türleri: zaman (dün, şimdi, sabah, az önce), durum/niteleme (hızlı, güzel, yavaşça), azlık-çokluk (az, çok, pek, daha, en), yer-yön (ileri, geri, yukarı, aşağı, öte), soru (nasıl, ne zaman, neden, niçin).",
+        "Fiil: İş, oluş, hareket ve durum bildiren sözcüklerdir: koşmak, düşünmek, uyumak, yaşlanmak.",
+        "Fiilin çekim özellikleri: kip ve kişi. Haber kipleri: -di (görülen geçmiş), -miş (duyulan geçmiş), -yor (şimdiki), -ecek (gelecek), -r (geniş zaman).",
+        "Dilek kipleri: -meli (gereklilik), -se (şart), -e/-a (istek), -sin (emir). Örnek: 'Gelmelisin.', 'Gelsen.', 'Gelesin.'",
+        "Ek fiil (imek): İsimlere ve fiillere gelerek onları yüklem yapan fiildir; 'idi, imiş, ise, dir' biçimleri vardır. Örnek: 'Yorgundu.', 'Çalışmışmış.', 'Yorgunsa.'",
+        "Fiilde çatı: etken ('Ali kapıyı açtı') – edilgen ('Kapı açıldı'), geçişli – geçişsiz, dönüşlü, işteş.",
+        "Fiilimsiler: isim-fiil (mastar: gelmek, gelme), sıfat-fiil (ortaç: gelen, gelmiş, gelecek), zarf-fiil (bağ-fiil: gelerek, gelip, gelince, gelmeden)."
+      ],
+      "formuller": [
+        "Zamir türleri: kişi, işaret, belgisiz, soru, dönüşlülük, iyelik, ilgi.",
+        "Zarf türleri: zaman, durum, miktar (azlık-çokluk), yer-yön, soru.",
+        "Haber kipleri: -di, -miş, -yor, -ecek, -r.",
+        "Dilek kipleri: -meli (gereklilik), -se (şart), -e/-a (istek), -sin (emir).",
+        "Ek fiil biçimleri: idi – imiş – ise – dir.",
+        "Fiilimsiler: isim-fiil (-mak/-mek, -ma/-me), sıfat-fiil (-an, -mış, -acak), zarf-fiil (-erek, -ip, -ince, -ken, -meden).",
+        "Bir sözcük ismin yerini tutuyorsa zamir; fiili, sıfatı ya da zarfı etkiliyorsa zarftır."
+      ],
+      "ornek": "'Dün akşam hızlı hızlı yürüdü.' cümlesinde 'dün akşam' zaman zarfı, 'hızlı hızlı' durum zarfı, 'yürüdü' ise -di ekli görülen geçmiş zamanla çekimlenmiş fiildir. 'Kitabı ona verdim.' cümlesinde 'ona' kişi zamiridir (o + yönelme eki).",
+      "ipucu": "TYT'de 'altı çizili sözcük zarf mı zamir mi?' sorusu çok sık gelir. Ayırt etme yolu: sözcük bir ismin yerini tutuyorsa zamir, bir fiili/sıfatı/zarfı etkiliyorsa zarftır. Tuzak: 'çok' sözcüğü ismi etkilerse sıfat ('çok kitap'), fiili etkilerse zarftır ('çok çalıştı').",
+      "quiz": [
+        {
+          "soru": "'Onu dün gördüm.' cümlesindeki 'onu' ve 'dün' sözcüklerinin türleri sırasıyla nedir?",
+          "siklar": [
+            "Zarf – zamir",
+            "Zamir – zarf",
+            "Sıfat – zamir",
+            "Zamir – sıfat"
+          ],
+          "cevap": 1,
+          "aciklama": "'Onu' ismin yerini tutan kişi zamiri; 'dün' fiilin ne zaman yapıldığını bildiren zaman zarfıdır."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi belgisiz zamirdir?",
+          "siklar": [
+            "Ben",
+            "Şu",
+            "Kimse",
+            "Nasıl"
+          ],
+          "cevap": 2,
+          "aciklama": "'Kimse' hangi varlığı karşıladığı belirsiz olan zamirdir; 'ben' kişi, 'şu' işaret, 'nasıl' soru sözcüğüdür."
+        },
+        {
+          "soru": "'Çok çalışkan öğrenciler sınavı kazandı.' cümlesindeki 'çok' sözcüğü hangi görevdedir?",
+          "siklar": [
+            "Zarf",
+            "Zamir",
+            "Edat",
+            "Sıfat"
+          ],
+          "cevap": 3,
+          "aciklama": "'Çok' burada 'çalışkan' sözcüğünü etkilediği için sıfattır; fiili etkilerse zarf olur: 'Çok çalıştı.'"
+        },
+        {
+          "soru": "'Yarın sen de gelmelisin.' cümlesindeki 'sen' sözcüğünün türü nedir?",
+          "siklar": [
+            "Kişi zamiri",
+            "İşaret zamiri",
+            "Belgisiz zamir",
+            "Soru zamiri"
+          ],
+          "cevap": 0,
+          "aciklama": "'Sen' bir varlığın adını söylemeden onun yerini tutan kişi zamiridir."
+        },
+        {
+          "soru": "'Gelmişse konuşuruz.' cümlesindeki fiilde hangi kip kullanılmıştır?",
+          "siklar": [
+            "Gereklilik",
+            "Şart",
+            "Emir",
+            "İstek"
+          ],
+          "cevap": 1,
+          "aciklama": "'-se' ekiyle şart (koşul) kipi kurulmuştur. Gereklilik '-meli', emir '-sin', istek '-e/-a' ekleriyle yapılır."
+        }
+      ]
+    },
+    "9|9-tde|9-tde-u4|Biyografi, mektup, günlük-blog": {
+      "ozet": "Biyografi bir kişinin hayatını anlatan, mektup bir duygu veya düşüncenin birine yazıyla iletildiği, günlük ise günü gününe tutulan notların oluşturduğu türdür. Blog, dijital ortamda tutulan günlüktür.",
+      "anlatim": [
+        "Biyografi (yaşam öyküsü): Bir kişinin hayatını, eserlerini ve kişiliğini nesnel biçimde, üçüncü kişi ağzından anlatan türdür.",
+        "Otobiyografi (öz yaşam öyküsü): Kişinin kendi hayatını birinci kişi ağzından anlattığı türdür. Örnek: Halide Edip Adıvar, 'Mor Salkımlı Ev'.",
+        "Monografi: Tek bir kişiyi ya da tek bir konuyu ayrıntılı biçimde inceleyen eserdir. Portre: Kişinin karakterini ve dış görünüşünü kısa biçimde anlatan yazıdır.",
+        "Türk edebiyatında biyografi örnekleri: Şevket Süreyya Aydemir 'Tek Adam' (Atatürk), 'İkinci Adam' (İnönü); Yusuf Ziya Ortaç 'Bir Rüzgâr Esti'.",
+        "Mektup: Bir düşüncenin, duygunun veya isteğin bir başkasına yazıyla iletildiği türdür. Özel mektup, resmî mektup, iş mektubu ve edebî mektup gibi çeşitleri vardır.",
+        "Mektubun bölümleri: hitap (seslenme), giriş, gelişme, sonuç, kapanış ve imza. Resmî mektuplarda tarih ve adres de bulunur.",
+        "Dünya edebiyatında mektup türünün önemli örnekleri: Seneca'nın 'Ahlak Mektupları' ve Goethe'nin 'Genç Werther'in Acıları' (mektup roman).",
+        "Günlük (günce): Kişinin günü gününe yaşadıklarını, izlenimlerini tarih atarak yazdığı türdür; içe dönük ve özneldir.",
+        "Günlükte yazar olayları yaşadığı gün yazar; anıda ise aradan zaman geçtikten sonra yazılır. Türk edebiyatında Nurullah Ataç 'Günce' türünde eser vermiştir.",
+        "Blog (web günlüğü): İnternet ortamında kişisel yaşantı ve düşüncelerin tarih sırasıyla paylaşıldığı dijital günlük türüdür; okur yorum yapabilir, içerik paylaşılabilir."
+      ],
+      "formuller": [
+        "Biyografi: üçüncü kişi, nesnel. Otobiyografi: birinci kişi, öznel.",
+        "Monografi: tek kişi/konu, ayrıntılı inceleme. Portre: kişiyi kısaca tanıtma.",
+        "Mektubun bölümleri: hitap, giriş, gelişme, sonuç, kapanış-imza (resmîde tarih ve adres).",
+        "Günlük yaşanırken, anı yıllar sonra yazılır.",
+        "Blog = dijital günlük.",
+        "Şevket Süreyya Aydemir – Tek Adam (Atatürk biyografisi), İkinci Adam (İnönü).",
+        "Mektup roman örneği: Goethe – Genç Werther'in Acıları."
+      ],
+      "ornek": "Biyografi: 'Mustafa Kemal Atatürk, 1881'de Selanik'te doğdu.' (üçüncü kişi, nesnel anlatım) – Otobiyografi: '1881'de Selanik'te doğdum.' (birinci kişi, öznel anlatım). Bu iki cümle, türler arasındaki en belirgin ayrımı gösterir.",
+      "ipucu": "TYT'de 'bu parça hangi türdendir?' sorusunda biyografi-otobiyografi ve günlük-anı ayrımı belirleyicidir. Tuzak: parçada 'ben' anlatıcı görmenin otomatik olarak otobiyografi sayılması — anı da birinci kişiyle yazılır. Tarih atılması günlüğün, olayların üzerinden zaman geçmiş olması anının belirtisidir.",
+      "quiz": [
+        {
+          "soru": "Bir kişinin hayatını üçüncü kişi ağzından, nesnel biçimde anlatan tür hangisidir?",
+          "siklar": [
+            "Otobiyografi",
+            "Anı",
+            "Biyografi",
+            "Günlük"
+          ],
+          "cevap": 2,
+          "aciklama": "Biyografi üçüncü kişi ağzından ve nesnel anlatımla yazılır; otobiyografi ise yazarın kendi hayatını birinci kişiyle anlatmasıdır."
+        },
+        {
+          "soru": "Aşağıdaki eserlerden hangisi biyografi türündedir?",
+          "siklar": [
+            "Namık Kemal – İntibah",
+            "Sait Faik Abasıyanık – Semaver",
+            "Nurullah Ataç – Günce",
+            "Şevket Süreyya Aydemir – Tek Adam"
+          ],
+          "cevap": 3,
+          "aciklama": "'Tek Adam' Atatürk'ün hayatını anlatan biyografidir; İntibah roman, Semaver hikâye, Günce ise günlük türündedir."
+        },
+        {
+          "soru": "Günlük ile anı arasındaki temel fark nedir?",
+          "siklar": [
+            "Günlük olayların hemen ardından, anı uzun zaman sonra yazılır",
+            "Günlük nesnel, anı özneldir",
+            "Anıda tarih atılır, günlükte atılmaz",
+            "Günlük yalnızca üçüncü kişiyle yazılır"
+          ],
+          "cevap": 0,
+          "aciklama": "Günlük yaşanırken ve tarih atılarak yazılır; anı ise olayların üzerinden zaman geçtikten sonra kaleme alınır."
+        },
+        {
+          "soru": "İnternette tarih sırasıyla tutulan ve okurların yorum yapabildiği dijital günlük türüne ne denir?",
+          "siklar": [
+            "Portre",
+            "Blog",
+            "Monografi",
+            "Mektup"
+          ],
+          "cevap": 1,
+          "aciklama": "Blog (web günlüğü), günlüğün dijital ortamdaki karşılığıdır."
+        },
+        {
+          "soru": "Tek bir kişiyi ya da konuyu ayrıntılı biçimde inceleyen esere ne denir?",
+          "siklar": [
+            "Portre",
+            "Biyografi",
+            "Monografi",
+            "Otobiyografi"
+          ],
+          "cevap": 2,
+          "aciklama": "Portre kişiyi kısaca tanıtır; monografi ise tek kişi ya da konuyu ayrıntılı biçimde inceler."
+        }
+      ]
+    }
+  },
+  "10-tde": {
+    "10|10-tde|10-tde-u1|Destan": {
+      "ozet": "Destan, bir milletin hayatını derinden etkileyen olayları (savaş, göç, kıtlık, doğal felaket) olağanüstü ögelerle ve kahramanlık temasıyla anlatan uzun halk anlatısıdır.",
+      "anlatim": [
+        "Destan toplumun ortak malıdır (anonimdir); sözlü gelenekte oluşur ve kuşaktan kuşağa aktarılır.",
+        "Destanda olağanüstülük belirgindir: kahramanların doğuşu, güçleri, yardımcı hayvanlar ve mitolojik ögeler.",
+        "Destanlar doğal (anonim) ve yapay (yazma) destanlar olarak ikiye ayrılır. Doğal destanlar halk arasında oluşur; yapay destanları belli bir şair belirli bir olay üzerine yazar.",
+        "Doğal destanların oluşum aşamaları: 1) Çekirdek olay, 2) sözlü yayılma/derleme, 3) yazıya geçirilme.",
+        "İslamiyet öncesi Türk destanları: Altay-Yakut (Yaratılış), Saka (Alp Er Tunga, Şu), Hun-Göktürk (Oğuz Kağan, Ergenekon, Bozkurt), Uygur (Türeyiş, Göç).",
+        "Türk destanlarında at, kurt (Bozkurt), demir, ağaç ve su kutsal sayılır; kurt yol göstericidir.",
+        "Dünya destanları: Gılgamış (Sümer), İlyada ve Odysseia (Homeros – Yunan), Şehname (Firdevsi – İran), Nibelungen (Alman), Kalevala (Fin), Ramayana ve Mahabharata (Hint).",
+        "Yapay destan örnekleri: Kayıkçı Kul Mustafa 'Genç Osman Destanı', Fazıl Hüsnü Dağlarca 'Üç Şehitler Destanı', Niyazi Yıldırım Gençosmanoğlu 'Malazgirt Destanı'.",
+        "Destanların biçim özellikleri: nazım birimi dörtlük ya da beyit, ölçü genellikle hece ölçüsü, söyleyeni belli değildir; zaman ve mekân olağanüstüdür.",
+        "Destan, efsane ve masal karıştırılmamalıdır: destan uzun ve millîdir; efsane kısa, yerel ve inandırıcıdır; masal ise olağanüstü, evrensel ve çoğunlukla çocuğa yöneliktir."
+      ],
+      "formuller": [
+        "Destan: anonim, olağanüstü, millî, uzun, manzum (ya da manzum-nesir karışık).",
+        "Doğal destan halk arasında oluşur; yapay destanı bir şair yazar.",
+        "İslamiyet öncesi Türk destanları: Yaratılış, Alp Er Tunga, Şu, Oğuz Kağan, Ergenekon, Bozkurt, Türeyiş, Göç.",
+        "Dünya destanları: Gılgamış, İlyada-Odysseia (Homeros), Şehname (Firdevsi), Kalevala (Fin), Nibelungen (Alman).",
+        "Doğal destanın oluşumu: çekirdek olay → sözlü yayılma → yazıya geçirilme.",
+        "Yapay destanlar: Genç Osman Destanı, Üç Şehitler Destanı, Malazgirt Destanı.",
+        "Türk destanlarında kurt yol gösterici, at ve demir kutsaldır."
+      ],
+      "ornek": "Oğuz Kağan Destanı'nda Oğuz olağanüstü koşullarda doğar, kısa sürede büyür ve cihana hâkim olmak üzere yola çıkar; ona bir kurt yol gösterir. Bu olağanüstülük ve millî ideal, destan türünün temel özelliklerini yansıtır.",
+      "ipucu": "TYT'de 'aşağıdakilerden hangisi doğal (anonim) Türk destanıdır?' ya da 'hangisi Türk destanı değildir?' biçiminde sorulur. Tuzak: Şehname'yi (Firdevsi – İran) Türk destanı sanmak, İlyada-Odysseia'yı Homeros dışında birine vermek ve yapay destanları anonim saymak.",
+      "quiz": [
+        {
+          "soru": "Aşağıdakilerden hangisi doğal (anonim) Türk destanlarından biridir?",
+          "siklar": [
+            "Genç Osman Destanı",
+            "Üç Şehitler Destanı",
+            "Malazgirt Destanı",
+            "Ergenekon Destanı"
+          ],
+          "cevap": 3,
+          "aciklama": "Ergenekon Destanı halk arasında oluşan doğal destandır; diğerleri belli şairlerce yazılmış yapay destanlardır."
+        },
+        {
+          "soru": "'Şehname' adlı destan hangi edebiyata aittir?",
+          "siklar": [
+            "İran",
+            "Yunan",
+            "Fin",
+            "Alman"
+          ],
+          "cevap": 0,
+          "aciklama": "Firdevsi'nin yazdığı Şehname İran (Fars) edebiyatına aittir; Türk destanı değildir."
+        },
+        {
+          "soru": "İlyada ve Odysseia destanlarının yazarı kimdir?",
+          "siklar": [
+            "Firdevsi",
+            "Homeros",
+            "Cervantes",
+            "Montaigne"
+          ],
+          "cevap": 1,
+          "aciklama": "İlyada ve Odysseia, Yunan edebiyatının destan şairi Homeros'a aittir."
+        },
+        {
+          "soru": "Doğal destanların oluşum sürecinde aşağıdakilerden hangisi yer almaz?",
+          "siklar": [
+            "Çekirdek olay",
+            "Sözlü yayılma",
+            "Yazarın bilinçli kurgusu",
+            "Yazıya geçirilme"
+          ],
+          "cevap": 2,
+          "aciklama": "Doğal destanlar anonimdir ve halk arasında oluşur; bilinçli yazar kurgusu yapay destanlarda görülür."
+        },
+        {
+          "soru": "'Kalevala' destanı hangi ulusa aittir?",
+          "siklar": [
+            "Almanya",
+            "Hindistan",
+            "İran",
+            "Finlandiya"
+          ],
+          "cevap": 3,
+          "aciklama": "Kalevala Fin destanıdır; Nibelungen Alman, Ramayana ve Mahabharata Hint, Şehname İran destanıdır."
+        }
+      ]
+    },
+    "10|10-tde|10-tde-u2|Mesnevi ve halk hikayesi": {
+      "ozet": "Mesnevi, divan edebiyatında her beyti kendi arasında kafiyelenen (aa, bb, cc) ve aruz ölçüsüyle yazılan uzun nazım biçimidir. Halk hikâyesi ise Türk halk edebiyatında aşk ve kahramanlık konularını işleyen, anonim, manzum-nesir karışık anlatıdır.",
+      "anlatim": [
+        "Mesnevi: Divan edebiyatı nazım biçimidir; her beyit kendi arasında kafiyelenir (aa bb cc dd). Aruz ölçüsüyle yazılır.",
+        "Mesnevinin konusu sınırsızdır: aşk, din, tasavvuf, ahlak, tarih, kahramanlık. Bu nedenle şairler uzun anlatılar için mesneviyi tercih etmiştir.",
+        "Mesnevide beyitler arasında konu bütünlüğü vardır; kafiye zorunluluğu şairi sınırlamadığı için uzun hikâyeler anlatılabilir.",
+        "Türk edebiyatında önemli mesneviler: Mevlânâ 'Mesnevi' (Farsça, tasavvufi), Şeyhî 'Harnâme' (hiciv), Fuzûlî 'Leylâ vü Mecnûn', Nâbî 'Hayriyye', Şeyh Galib 'Hüsn ü Aşk'.",
+        "Divan edebiyatı nazım biçimleri: gazel, kaside, mesnevi, kıt'a, rubaî, tuyuğ, murabba, şarkı.",
+        "Halk hikâyesi: Türk halk edebiyatında, çoğunlukla âşıkların saz eşliğinde anlattığı, aşk ve kahramanlık temalı, manzum-nesir karışık uzun anlatıdır.",
+        "Halk hikâyeleri anonimdir ve sözlü gelenekte oluşur; olağanüstü ögeler taşısa da destana göre gerçek hayata daha yakındır.",
+        "Dede Korkut Hikâyeleri (Kitâb-ı Dede Korkut), destandan halk hikâyesine geçişin örnekleridir; bir mukaddime ve on iki hikâyeden oluşur.",
+        "Ünlü halk hikâyeleri: 'Kerem ile Aslı', 'Tâhir ile Zühre', 'Ferhat ile Şirin', 'Arzu ile Kamber', 'Köroğlu', 'Âşık Garip'.",
+        "Mesnevi ile halk hikâyesinin farkı: Mesnevi divan edebiyatına aittir, yazarı bellidir, aruz vezniyle ve yazılı olarak kaleme alınmıştır; halk hikâyesi halk edebiyatına aittir, anonim ve sözlüdür, manzum-nesir karışıktır."
+      ],
+      "formuller": [
+        "Mesnevinin kafiye düzeni: aa bb cc dd...",
+        "Mesnevi: aruz ölçüsü, beyitlerle yazılır, konu sınırsızdır, uzun anlatılar için kullanılır.",
+        "Şeyhî – Harnâme; Fuzûlî – Leylâ vü Mecnûn; Şeyh Galib – Hüsn ü Aşk; Nâbî – Hayriyye; Mevlânâ – Mesnevi.",
+        "Gazel = aşk ve lirik şiir, kaside = övgü, mesnevi = uzun öykü, kıt'a = didaktik.",
+        "Dede Korkut Hikâyeleri: destandan halk hikâyesine geçiş; bir mukaddime ve on iki hikâye.",
+        "Halk hikâyeleri: Kerem ile Aslı, Tâhir ile Zühre, Ferhat ile Şirin, Arzu ile Kamber, Köroğlu.",
+        "Halk hikâyesinde manzum (türkü) ve nesir bölümleri bir arada bulunur."
+      ],
+      "ornek": "Fuzûlî'nin 'Leylâ vü Mecnûn' mesnevisi, Kays'ın (Mecnûn) Leylâ'ya duyduğu aşkla çöle düşmesini anlatır ve aa-bb-cc kafiye düzeniyle yazılmıştır. Öte yandan 'Kerem ile Aslı' bir halk hikâyesidir; âşıklar tarafından saz eşliğinde, manzum ve nesir bölümlerle anlatılır.",
+      "ipucu": "TYT'de 'mesnevinin kafiye düzeni nasıldır?' ve 'hangisi halk hikâyesidir?' sorulur. Tuzak: mesnevinin kafiye düzenini gazelle (aa ba ca) karıştırmak, 'Köroğlu'nu yalnızca destan saymak ve mesneviyi aruz dışında bir ölçüyle yazılmış sanmak.",
+      "quiz": [
+        {
+          "soru": "Mesnevi nazım biçiminin kafiye düzeni nasıldır?",
+          "siklar": [
+            "aa bb cc",
+            "aa ba ca",
+            "abab",
+            "aaaa"
+          ],
+          "cevap": 0,
+          "aciklama": "Mesnevide her beyit kendi içinde kafiyelenir: aa, bb, cc, dd... Gazelin düzeni ise aa ba ca biçimindedir."
+        },
+        {
+          "soru": "'Hüsn ü Aşk' mesnevisi kime aittir?",
+          "siklar": [
+            "Fuzûlî",
+            "Şeyh Galib",
+            "Şeyhî",
+            "Nâbî"
+          ],
+          "cevap": 1,
+          "aciklama": "'Hüsn ü Aşk' Şeyh Galib'in eseridir; Fuzûlî 'Leylâ vü Mecnûn', Şeyhî 'Harnâme', Nâbî 'Hayriyye' adlı eserleri yazmıştır."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi bir halk hikâyesidir?",
+          "siklar": [
+            "Harnâme",
+            "Hüsn ü Aşk",
+            "Kerem ile Aslı",
+            "Hayriyye"
+          ],
+          "cevap": 2,
+          "aciklama": "Kerem ile Aslı halk hikâyesidir; Harnâme, Hüsn ü Aşk ve Hayriyye divan edebiyatına ait mesnevilerdir."
+        },
+        {
+          "soru": "Dede Korkut Hikâyeleri'nin Türk edebiyatındaki önemi nedir?",
+          "siklar": [
+            "İlk mesnevi örneği olması",
+            "İlk realist roman sayılması",
+            "İlk tiyatro eseri olması",
+            "Destandan halk hikâyesine geçiş ürünü olması"
+          ],
+          "cevap": 3,
+          "aciklama": "Kitâb-ı Dede Korkut, destandan halk hikâyesine geçiş dönemini yansıtır; bir mukaddime ve on iki hikâyeden oluşur."
+        },
+        {
+          "soru": "Mesnevi ile halk hikâyesi arasındaki temel fark nedir?",
+          "siklar": [
+            "Mesnevi divan edebiyatına aittir ve yazarı bellidir; halk hikâyesi anonimdir",
+            "Mesnevi anonim, halk hikâyesi yazılıdır",
+            "İkisi de aruz vezniyle yazılır",
+            "Halk hikâyesinin kafiye düzeni aa bb cc'dir"
+          ],
+          "cevap": 0,
+          "aciklama": "Mesnevi divan edebiyatına ait, yazarı belli, aruz vezinli ve yazılı bir biçimdir; halk hikâyesi ise anonim, sözlü ve manzum-nesir karışıktır."
+        }
+      ]
+    },
+    "10|10-tde|10-tde-u3|Tanzimat-edebiyat dönemleri": {
+      "ozet": "Türk edebiyatı tarihî dönemlere ayrılır: İslamiyet öncesi, İslamiyet etkisinde (divan ve halk edebiyatı), Tanzimat, Servet-i Fünun, Fecr-i Âtî ve Millî Edebiyat. TYT'de dönemlerin sanatçı ve eserleri sık sorulur.",
+      "anlatim": [
+        "İslamiyet öncesi Türk edebiyatı sözlü (koşuk, sagu, sav, destan) ve yazılı (Orhun Yazıtları, Uygur metinleri) dönemlere ayrılır.",
+        "İslamiyet etkisinde Türk edebiyatı iki kolda gelişir: Divan edebiyatı (saray ve aydın çevresi, aruz, Arapça-Farsça etkisi) ve Halk edebiyatı (anonim halk edebiyatı, âşık edebiyatı, tekke-tasavvuf edebiyatı).",
+        "Divan edebiyatının önemli sanatçıları: Ahmedî, Şeyhî, Fuzûlî, Bâkî, Nef'î, Nâbî, Nedim, Şeyh Galib. Şeyh Galib divan edebiyatının son büyük temsilcisi sayılır.",
+        "Tanzimat edebiyatı 1860'ta 'Tercüman-ı Ahval' gazetesinin çıkarılmasıyla başlar; birinci dönem (1860-1876) ve ikinci dönem (1876-1896) olarak incelenir.",
+        "Birinci dönem Tanzimat sanatçıları: Şinasi, Namık Kemal, Ziya Paşa. 'Sanat toplum içindir' anlayışı, halkı eğitme amacı; vatan, millet ve hürriyet temaları öne çıkar.",
+        "İkinci dönem Tanzimat sanatçıları: Recaizade Mahmut Ekrem, Abdülhak Hamit Tarhan, Sami Paşazade Sezai. 'Sanat sanat içindir' anlayışı ve bireysel temalar görülür.",
+        "Servet-i Fünun (Edebiyat-ı Cedide) 1896-1901: Tevfik Fikret, Cenap Şahabettin, Halit Ziya Uşaklıgil, Mehmet Rauf. Aruz vezni daha da geliştirilmiş, 'sanat sanat içindir' anlayışı ve Batı edebiyatı etkisi öne çıkmıştır.",
+        "Fecr-i Âtî (1909-1912): Ahmet Haşim ve Mehmet Fuat Köprülü gibi isimler yer alır; 'Sanat şahsi ve muhteremdir' görüşüyle Servet-i Fünun'un devamı sayılır.",
+        "Türk edebiyatında ilkler: İlk Türkçe özel gazete 'Tercüman-ı Ahval' (1860, Şinasi ve Agâh Efendi); ilk yerli roman 'Taaşşuk-ı Talat ve Fitnat' (Şemsettin Sami, 1872); ilk edebî roman 'İntibah' (Namık Kemal, 1876); ilk tarihî roman 'Cezmi' (Namık Kemal, 1880); ilk realist roman 'Araba Sevdası' (Recaizade Mahmut Ekrem, 1896).",
+        "Namık Kemal (1840-1888): 'Vatan Şairi' olarak anılır. 'İntibah', 'Cezmi' ve ilk sahnelenen Türk tiyatro oyunlarından 'Vatan Yahut Silistre' onun eserleridir.",
+        "Ziya Paşa: 'Terkib-i Bend' ve 'Zafernâme' gibi eserleriyle Tanzimat'ın düşünce şairlerindendir."
+      ],
+      "formuller": [
+        "Tanzimat edebiyatı 1860'ta Tercüman-ı Ahval gazetesiyle başlar.",
+        "1. dönem: Şinasi, Namık Kemal, Ziya Paşa – 'sanat toplum için'. 2. dönem: Recaizade M. Ekrem, A. Hamit Tarhan, Sami Paşazade Sezai – 'sanat sanat için'.",
+        "Servet-i Fünun (1896-1901): Tevfik Fikret, Cenap Şahabettin, Halit Ziya Uşaklıgil, Mehmet Rauf.",
+        "Fecr-i Âtî (1909-1912): Ahmet Haşim, M. Fuat Köprülü; 'Sanat şahsi ve muhteremdir.'",
+        "Namık Kemal = Vatan Şairi.",
+        "İlkler: Tercüman-ı Ahval (ilk özel gazete), Taaşşuk-ı Talat ve Fitnat (ilk yerli roman), İntibah (ilk edebî roman), Cezmi (ilk tarihî roman), Araba Sevdası (ilk realist roman).",
+        "Divan edebiyatının son büyük temsilcisi Şeyh Galib'dir."
+      ],
+      "ornek": "Namık Kemal'in 'İntibah'ı (1876) ilk edebî roman kabul edilir; 'Vatan Yahut Silistre' (1873) ise ilk sahnelenen Türk tiyatro oyunu olarak edebiyatımızda yer alır. Şinasi'nin 1860'ta Agâh Efendi ile birlikte çıkardığı 'Tercüman-ı Ahval' ise ilk özel Türkçe gazetedir.",
+      "ipucu": "TYT'de en çok 'ilk'ler sorulur. Tuzak: ilk özel gazete (Tercüman-ı Ahval), ilk yerli roman (Taaşşuk-ı Talat ve Fitnat) ve ilk edebî roman (İntibah) birbirine karıştırılır. Ayrıca Tanzimat'ın iki döneminin sanat anlayışları ters verilir: birinci dönem 'sanat toplum için', ikinci dönem 'sanat sanat için'dir.",
+      "quiz": [
+        {
+          "soru": "Türk edebiyatının ilk edebî romanı hangisidir?",
+          "siklar": [
+            "Taaşşuk-ı Talat ve Fitnat",
+            "İntibah",
+            "Cezmi",
+            "Araba Sevdası"
+          ],
+          "cevap": 1,
+          "aciklama": "İlk yerli roman Taaşşuk-ı Talat ve Fitnat (1872), ilk edebî roman İntibah (1876), ilk tarihî roman Cezmi (1880), ilk realist roman ise Araba Sevdası'dır."
+        },
+        {
+          "soru": "Servet-i Fünun edebiyatı hangi yıllar arasında etkin olmuştur?",
+          "siklar": [
+            "1860-1876",
+            "1876-1896",
+            "1896-1901",
+            "1909-1912"
+          ],
+          "cevap": 2,
+          "aciklama": "Servet-i Fünun (Edebiyat-ı Cedide) dönemi 1896-1901 yıllarını kapsar."
+        },
+        {
+          "soru": "Aşağıdaki sanatçılardan hangisi Tanzimat edebiyatının birinci dönemine aittir?",
+          "siklar": [
+            "Tevfik Fikret",
+            "Ahmet Haşim",
+            "Recaizade Mahmut Ekrem",
+            "Namık Kemal"
+          ],
+          "cevap": 3,
+          "aciklama": "Namık Kemal birinci dönem Tanzimat sanatçısıdır. Recaizade M. Ekrem ikinci dönem; Tevfik Fikret Servet-i Fünun; Ahmet Haşim Fecr-i Âtî dönemine aittir."
+        },
+        {
+          "soru": "'Sanat şahsi ve muhteremdir' görüşü hangi edebiyat topluluğuna aittir?",
+          "siklar": [
+            "Fecr-i Âtî",
+            "Tanzimat",
+            "Servet-i Fünun",
+            "Millî Edebiyat"
+          ],
+          "cevap": 0,
+          "aciklama": "Bu görüş Fecr-i Âtî topluluğuna aittir; topluluk Servet-i Fünun'un devamı sayılır."
+        },
+        {
+          "soru": "İlk Türkçe özel gazete hangisidir?",
+          "siklar": [
+            "Takvim-i Vekayi",
+            "Tercüman-ı Ahval",
+            "Tasvir-i Efkâr",
+            "Servet-i Fünun"
+          ],
+          "cevap": 1,
+          "aciklama": "Takvim-i Vekayi (1831) resmî gazetedir; ilk özel gazete ise 1860'ta Şinasi ve Agâh Efendi'nin çıkardığı Tercüman-ı Ahval'dir."
+        }
+      ]
+    },
+    "10|10-tde|10-tde-u4|Milli edebiyat": {
+      "ozet": "Millî Edebiyat (1911-1923), Ömer Seyfettin'in 'Yeni Lisan' makalesiyle başlayan; sade dil, hece ölçüsü ve millî konuları esas alan edebiyat dönemidir.",
+      "anlatim": [
+        "Millî Edebiyat dönemi 1911'de Selanik'te çıkarılan 'Genç Kalemler' dergisiyle başlar.",
+        "Ömer Seyfettin'in 'Yeni Lisan' makalesi (1911) dönemin bildirisi niteliğindedir: Millî bir edebiyatın ancak sade ve konuşma diline dayanan millî bir dille kurulabileceğini savunur.",
+        "Millî Edebiyat'ın temel ilkeleri: sade dil (konuşma Türkçesi), hece ölçüsü, millî konular, Anadolu'ya ve halka yönelme, yerli hayatı işleme.",
+        "Dönemin fikir öncüsü Ziya Gökalp'tir; 'Türkçülüğün Esasları' adlı eseriyle Türkçülük düşüncesini sistemleştirmiştir.",
+        "Millî Edebiyat'ın şairleri arasında Beş Hececiler yer alır: Faruk Nafiz Çamlıbel, Enis Behiç Koryürek, Halit Fahri Ozansoy, Yusuf Ziya Ortaç ve Orhan Seyfi Orhon.",
+        "Beş Hececiler, şiirde aruz yerine hece ölçüsünü yerleştirmiş; Anadolu'yu ve yurt sevgisini işlemiştir.",
+        "Yahya Kemal Beyatlı ve Ahmet Haşim dönemin bağımsız isimleridir; kendi şiir anlayışlarını sürdürmüşlerdir.",
+        "Millî Edebiyat'ın hikâye ve roman yazarları: Ömer Seyfettin (hikâye), Refik Halit Karay ('Memleket Hikâyeleri'), Halide Edip Adıvar ('Ateşten Gömlek'), Yakup Kadri Karaosmanoğlu ('Yaban'), Reşat Nuri Güntekin ('Çalıkuşu', 1922).",
+        "'Çalıkuşu' romanı, Anadolu'ya öğretmen olarak giden Feride'nin öyküsünü anlatır ve dönemin Anadolu'ya yönelme anlayışını yansıtır.",
+        "Refik Halit Karay'ın 'Memleket Hikâyeleri' Anadolu'yu gerçekçi biçimde anlatan ilk hikâye kitaplarından biridir. Millî Edebiyat dönemi, Cumhuriyet dönemi edebiyatının zeminini hazırlar."
+      ],
+      "formuller": [
+        "Millî Edebiyat: 1911-1923; Genç Kalemler dergisi; 'Yeni Lisan' makalesi (Ömer Seyfettin).",
+        "İlkeleri: sade dil, hece ölçüsü, millî konular, Anadolu'ya ve halka yönelme.",
+        "Ziya Gökalp – Türkçülüğün Esasları.",
+        "Beş Hececiler: Faruk Nafiz Çamlıbel, Enis Behiç Koryürek, Halit Fahri Ozansoy, Yusuf Ziya Ortaç, Orhan Seyfi Orhon.",
+        "Bağımsız şairler: Yahya Kemal Beyatlı ve Ahmet Haşim.",
+        "Refik Halit Karay – Memleket Hikâyeleri; Halide Edip Adıvar – Ateşten Gömlek; Yakup Kadri Karaosmanoğlu – Yaban; Reşat Nuri Güntekin – Çalıkuşu (1922).",
+        "Millî Edebiyat şiirde aruzu değil hece ölçüsünü esas alır."
+      ],
+      "ornek": "Ömer Seyfettin'in 'Yeni Lisan' makalesi, millî bir edebiyatın ancak millî ve sade bir dille kurulabileceğini savunur. Reşat Nuri Güntekin'in 'Çalıkuşu' (1922) romanında Feride'nin Anadolu'daki öğretmenlik yılları, Millî Edebiyat'ın Anadolu'ya yönelme ilkesini somutlaştırır.",
+      "ipucu": "TYT'de 'Millî Edebiyat'ın özelliklerinden değildir?' ya da 'Beş Hececilerden biri değildir?' biçiminde sorulur. Tuzak: Yahya Kemal ve Ahmet Haşim'i Beş Hececilerden saymak (onlar bağımsız şairlerdir) ve Millî Edebiyat'ın ölçüsünü aruz sanmak (dönem hece ölçüsünü esas alır).",
+      "quiz": [
+        {
+          "soru": "Millî Edebiyat dönemi hangi gelişmeyle başlar?",
+          "siklar": [
+            "Tercüman-ı Ahval'in çıkarılması",
+            "Servet-i Fünun dergisinin kapanması",
+            "Genç Kalemler dergisi ve 'Yeni Lisan' makalesi",
+            "Harf Devrimi"
+          ],
+          "cevap": 2,
+          "aciklama": "Millî Edebiyat, 1911'de Selanik'te çıkarılan Genç Kalemler dergisi ve Ömer Seyfettin'in 'Yeni Lisan' makalesiyle başlar."
+        },
+        {
+          "soru": "'Türkçülüğün Esasları' adlı eser kime aittir?",
+          "siklar": [
+            "Ömer Seyfettin",
+            "Mehmet Fuat Köprülü",
+            "Yahya Kemal Beyatlı",
+            "Ziya Gökalp"
+          ],
+          "cevap": 3,
+          "aciklama": "Ziya Gökalp, 'Türkçülüğün Esasları' ile Türkçülük düşüncesini sistemleştirmiştir."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi Beş Hececilerden biri değildir?",
+          "siklar": [
+            "Ahmet Haşim",
+            "Faruk Nafiz Çamlıbel",
+            "Enis Behiç Koryürek",
+            "Halit Fahri Ozansoy"
+          ],
+          "cevap": 0,
+          "aciklama": "Ahmet Haşim dönemin bağımsız şairlerindendir. Beş Hececiler: Faruk Nafiz Çamlıbel, Enis Behiç Koryürek, Halit Fahri Ozansoy, Yusuf Ziya Ortaç ve Orhan Seyfi Orhon."
+        },
+        {
+          "soru": "Millî Edebiyat döneminde şiirde hangi ölçü esas alınmıştır?",
+          "siklar": [
+            "Aruz ölçüsü",
+            "Hece ölçüsü",
+            "Serbest ölçü",
+            "Karma ölçü"
+          ],
+          "cevap": 1,
+          "aciklama": "Millî Edebiyat şairleri aruz yerine hece ölçüsünü esas almış ve sade bir dil kullanmıştır."
+        },
+        {
+          "soru": "'Çalıkuşu' romanının yazarı kimdir?",
+          "siklar": [
+            "Halide Edip Adıvar",
+            "Yakup Kadri Karaosmanoğlu",
+            "Reşat Nuri Güntekin",
+            "Refik Halit Karay"
+          ],
+          "cevap": 2,
+          "aciklama": "'Çalıkuşu' (1922) Reşat Nuri Güntekin'in eseridir; Anadolu'ya öğretmen olarak giden Feride'nin öyküsünü anlatır."
+        }
+      ]
+    }
+  }
+}

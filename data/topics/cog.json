@@ -1,0 +1,823 @@
+{
+  "9-cog": {
+    "9|9-cog|9-cog-u1|Coğrafyanın konusu ve bölümleri": {
+      "ozet": "Coğrafya, insan ile doğal ortam arasındaki karşılıklı etkileşimi mekân (yer) boyutuyla inceleyen bilim dalıdır; fiziki ve beşeri olmak üzere iki ana bölüme ayrılır.",
+      "anlatim": [
+        "Coğrafya (yer betimlemesi) insan-doğa etkileşimini neden-sonuç ve dağılış ilkeleriyle inceler.",
+        "Coğrafyanın üç temel ilkesi vardır: dağılış, ilişki (bağlılık) ve nedensellik.",
+        "Fiziki coğrafya: jeomorfoloji (yer şekilleri), klimatoloji (iklim), hidrografya (su), biyocoğrafya (canlı), toprak coğrafyası.",
+        "Beşeri coğrafya: nüfus, yerleşme, ekonomik, siyasi ve kültürel coğrafya.",
+        "Genel (sistematik) coğrafya bir konuyu dünya ölçeğinde, yöresel (bölgesel) coğrafya ise belirli bir bölgeyi inceler.",
+        "Erciyes Dağı'nın volkanik bir koni olması jeomorfolojinin, Karadeniz kıyılarında her mevsim yağış görülmesi klimatolojinin konusudur.",
+        "İstanbul'un yoğun nüfusu ve sürekli göç alması beşeri coğrafyanın inceleme alanına girer.",
+        "Coğrafya; tarih, sosyoloji, jeoloji, biyoloji ve ekonomi gibi bilimlerle yardımcı bilim ilişkisi kurar.",
+        "Doğal ortam ile beşeri ortam sürekli etkileşimdedir: İç Anadolu'da kuraklık nedeniyle tahıl tarımının yaygın olması buna örnektir.",
+        "TYT'de 'verilen olay hangi coğrafya bölümüyle ilgilidir' eşleştirme sorusu sıkça çıkar."
+      ],
+      "formuller": [
+        "Fiziki coğrafya = doğal ortam; Beşeri coğrafya = insan ve faaliyetleri",
+        "Üç temel ilke: Dağılış - İlişki - Nedensellik",
+        "Jeomorfoloji=yer şekli, Klimatoloji=iklim, Hidrografya=su, Biyocoğrafya=canlı, Toprak=pedoloji"
+      ],
+      "ornek": "Doğu Karadeniz'de yıllık yağışın 2000 mm'yi aşması (klimatoloji) → gür orman örtüsü (biyocoğrafya) → ahşap ev yapımı (beşeri coğrafya) zinciri, coğrafyanın ilişki ilkesini gösterir.",
+      "ipucu": "Aynı olay iki bölüme de girebilir; soruda olayın DOĞA mı yoksa İNSAN faaliyeti mi olduğuna bak. 'Dağın oluşumu' fiziki, 'dağ köyünde seracılık' beşeri coğrafyadır.",
+      "quiz": [
+        {
+          "soru": "Dünya üzerinde depremlerin dağılışı ile levha sınırlarının örtüşmesini inceleyen bir araştırmacı, coğrafyanın hangi ilkesini en çok kullanmaktadır?",
+          "siklar": ["Nedensellik", "Dağılış", "Etkileşim", "Yerellik"],
+          "cevap": 1,
+          "aciklama": "Olguların nerede ve nasıl dağıldığını göstermek dağılış ilkesidir; deprem-lehva sınırı örtüşmesi bir dağılış ilişkisidir."
+        },
+        {
+          "soru": "Akarsuların oluşturduğu vadi, delta ve menderes gibi şekilleri inceleyen fiziki coğrafya bölümü hangisidir?",
+          "siklar": ["Klimatoloji", "Hidrografya", "Jeomorfoloji", "Biyocoğrafya"],
+          "cevap": 2,
+          "aciklama": "Yer şekillerinin oluşumunu ve gelişimini inceleyen bölüm jeomorfolojidir; akarsu şekilleri de bu alana girer."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi doğrudan beşeri coğrafyanın inceleme alanına girer?",
+          "siklar": ["Kars'ta kışın kar yağışının artması", "Iğdır'da rüzgârın şiddetlenmesi", "Mersin'e yapılan iç göçün nedenleri", "Toros Dağları'nın oluşumu"],
+          "cevap": 2,
+          "aciklama": "İç göç, nüfus hareketleriyle ilgili olduğu için beşeri coğrafyanın konusudur; diğerleri doğal ortamla ilgilidir."
+        },
+        {
+          "soru": "Coğrafyanın bir konuyu tüm dünya ölçeğinde değil, yalnızca belirli bir yörede inceleyen bölümü hangisidir?",
+          "siklar": ["Genel coğrafya", "Yöresel (bölgesel) coğrafya", "Fiziki coğrafya", "Sistematik coğrafya"],
+          "cevap": 1,
+          "aciklama": "Belli bir bölgeyi veya yöreyi ele alan bölüm yöresel (bölgesel) coğrafyadır; genel coğrafya dünya ölçeğindedir."
+        },
+        {
+          "soru": "Bir öğrenci 'İç Anadolu'da bozkır bitki örtüsünün yaygın olmasının nedenini' araştırmaktadır. Bu araştırma coğrafyanın hangi ilkesiyle doğrudan ilgilidir?",
+          "siklar": ["Dağılış", "Nedensellik", "Betimleme", "Karşılaştırma"],
+          "cevap": 1,
+          "aciklama": "Bir olayın nedenini ('neden bozkır var?') açıklamak nedensellik ilkesidir."
+        }
+      ]
+    },
+    "9|9-cog|9-cog-u1|Coğrafya biliminin gelişimi": {
+      "ozet": "Coğrafya İlk Çağ'dan bugüne haritacılık, keşifler ve bilimsel yöntemle gelişmiş; Eratosthenes, Batlamyus, İslam coğrafyacıları ile Humboldt ve Ritter bu gelişimin dönüm noktalarıdır.",
+      "anlatim": [
+        "Coğrafya kelimesini ilk kullanan ve Dünya'nın çevresini yaklaşık ölçen bilim insanı Eratosthenes'tir (MÖ III. yüzyıl).",
+        "Heredot (Herodot) gezilerinde gördüklerini yazmış, coğrafyaya olduğu kadar tarihe de katkı sağlamıştır.",
+        "Batlamyus (Ptolemy), 'Coğrafya Kılavuzu' ve çizdiği dünya haritasıyla İslam coğrafyacılarını derinden etkilemiştir.",
+        "İslam dünyasında Biruni, İdrisi ve İbn Batuta coğrafya bilimine önemli katkılar sunmuştur.",
+        "Piri Reis'in Kitab-ı Bahriye adlı eseri ve 1513 tarihli dünya haritası Türk coğrafya tarihinin temel eserleridir.",
+        "Yakın Çağ'da büyük coğrafi keşifler, haritacılık ve astronomi alanındaki gelişmelerle coğrafya hızla ilerlemiştir.",
+        "Modern coğrafyanın kurucuları Alexander von Humboldt ve Carl Ritter'dir; doğa ve insanı bir bütün olarak ele almışlardır.",
+        "Türkiye'de Cumhuriyet döneminde coğrafya eğitimi kurumsallaşmış, Türk Coğrafya Kurumu 1942'de kurulmuştur.",
+        "Haritacılık alanında Harita Genel Müdürlüğü ve üniversiteler; coğrafi bilgi sistemlerinde ise TÜBİTAK ve ilgili kurumlar çalışma yürütür.",
+        "TYT'de 'ilk' ifadeleri (coğrafya kelimesini ilk kullanan, modern coğrafyanın kurucuları) klasik soru tipidir."
+      ],
+      "formuller": [
+        "Coğrafya kelimesini ilk kullanan: Eratosthenes",
+        "Modern coğrafyanın kurucuları: Humboldt ve Ritter",
+        "Piri Reis: Kitab-ı Bahriye + 1513 Dünya Haritası",
+        "Batlamyus: Coğrafya Kılavuzu (İslam coğrafyasını etkiledi)"
+      ],
+      "ornek": "Eratosthenes'in İskenderiye ile Assuan arasındaki gölge açısı farkından yararlanarak Dünya'nın çevresini yaklaşık ölçmesi, matematiksel yaklaşımın coğrafyaya girişine örnektir.",
+      "ipucu": "İsimleri karıştırma: Eratosthenes (kelimeyi ilk kullanan), Batlamyus (harita kılavuzu), Humboldt-Ritter (modern coğrafya), Piri Reis (Türk, 1513 dünya haritası).",
+      "quiz": [
+        {
+          "soru": "Coğrafya kelimesini ilk kez kullanan bilim insanı kimdir?",
+          "siklar": ["Heredot", "Batlamyus", "Eratosthenes", "Humboldt"],
+          "cevap": 2,
+          "aciklama": "Eratosthenes coğrafya terimini ilk kullanan bilim insanıdır ve Dünya'nın çevresini ölçmüştür."
+        },
+        {
+          "soru": "Modern coğrafyanın kurucuları olarak kabul edilen bilim insanları hangi seçenekte birlikte verilmiştir?",
+          "siklar": ["Humboldt ve Ritter", "Eratosthenes ve Batlamyus", "Piri Reis ve İdrisi", "Heredot ve İbn Batuta"],
+          "cevap": 0,
+          "aciklama": "Alexander von Humboldt ve Carl Ritter, doğa-insan bütünlüğünü esas alan modern coğrafyanın kurucularıdır."
+        },
+        {
+          "soru": "1513 tarihli dünya haritası ve Kitab-ı Bahriye adlı eser kime aittir?",
+          "siklar": ["Biruni", "Piri Reis", "İdrisi", "Batlamyus"],
+          "cevap": 1,
+          "aciklama": "Piri Reis'in 1513 dünya haritası ve Kitab-ı Bahriye'si Türk coğrafya-haritacılık tarihinin temel eserleridir."
+        },
+        {
+          "soru": "Çizdiği dünya haritası ve 'Coğrafya Kılavuzu' ile İslam coğrafyacılarını etkileyen bilim insanı kimdir?",
+          "siklar": ["Batlamyus", "Heredot", "Ritter", "Eratosthenes"],
+          "cevap": 0,
+          "aciklama": "Batlamyus'un eserleri ve haritası, İslam dünyasındaki coğrafya çalışmalarını uzun süre etkilemiştir."
+        },
+        {
+          "soru": "Türkiye'de coğrafya biliminin kurumsallaşmasıyla ilgili hangisi doğrudur?",
+          "siklar": ["İlk coğrafya kürsüsü Osmanlı'nın son döneminde kurulmuştur ve hiç gelişmemiştir", "Türk Coğrafya Kurumu 1942'de kurulmuştur", "Coğrafya eğitimi Cumhuriyet'ten önce yasaklanmıştır", "Türkiye'de coğrafya eğitimi 2000'li yıllarda başlamıştır"],
+          "cevap": 1,
+          "aciklama": "Türk Coğrafya Kurumu 1942'de kurulmuş; Cumhuriyet döneminde coğrafya eğitimi kurumsallaşmıştır."
+        }
+      ]
+    },
+    "9|9-cog|9-cog-u2|Haritalar": {
+      "ozet": "Harita, kuşbakışı görünümün belirli bir ölçekle küçültülerek gösterildiği mekân modelidir; ölçeğin büyüklüğü ayrıntıyı ve kapsanan alanı belirler.",
+      "anlatim": [
+        "Haritanın temel unsurları: başlık, ölçek, yön oku, lejant (açıklama) ve koordinat bilgileridir.",
+        "Ölçek, gerçek uzunlukların haritada küçültülme oranıdır; kesir ölçek (1/100.000) veya çizgi ölçek olarak gösterilir.",
+        "Ölçek paydası küçüldükçe (1/25.000 → 1/1.000.000) harita büyük ölçekli olur; ayrıntı artar, gösterilen alan küçülür.",
+        "Gerçek Uzunluk = Harita Uzunluğu × Ölçek Paydası.",
+        "Alan hesabında ölçek paydasının KARESİ alınır: Gerçek Alan = Harita Alanı × (Ölçek Paydası)².",
+        "İzohips (eş yükselti) haritalarında iç içe halkalar zirveyi, eğrilerin sıklaşması dik yamacı gösterir.",
+        "Kroki ölçeksiz taslak çizimdir; plan ise bir yapının veya alanın kuşbakışı ölçekli gösterimidir.",
+        "Projeksiyon, küre yüzeyinin düzleme aktarılma yöntemidir; bu nedenle haritalarda bir miktar bozulma kaçınılmazdır.",
+        "Türkiye'de 1/25.000 ölçekli haritalar ayrıntılı (kadastro, askeri) amaçlı; 1/2.000.000 ölçekli haritalar bölgesel planlama amaçlıdır.",
+        "TYT'de ölçek-uzunluk ve ölçek-alan çevrimi ile ölçek karşılaştırma soruları en sık çıkan tiplerdir."
+      ],
+      "formuller": [
+        "Gerçek Uzunluk = Harita Uzunluğu × Ölçek Paydası",
+        "Harita Uzunluğu = Gerçek Uzunluk ÷ Ölçek Paydası",
+        "Gerçek Alan = Harita Alanı × (Ölçek Paydası)²",
+        "Payda küçük = ölçek büyük = ayrıntı fazla = alan küçük"
+      ],
+      "ornek": "1/500.000 ölçekli bir haritada iki kent arası 2 cm ise gerçek uzaklık 2 × 500.000 = 1.000.000 cm = 10 km'dir.",
+      "ipucu": "Birimleri mutlaka cm'den km'ye çevir (cm ÷ 100.000). Alan sorusunda ölçek paydasının KARESİNİ almayı unutma; iki haritayı karşılaştırırken paydaların karelerini oranla.",
+      "quiz": [
+        {
+          "soru": "1/200.000 ölçekli bir haritada 3 cm ile gösterilen yol, gerçekte kaç km'dir?",
+          "siklar": ["3 km", "6 km", "9 km", "60 km"],
+          "cevap": 1,
+          "aciklama": "Gerçek uzunluk = 3 × 200.000 = 600.000 cm = 6 km."
+        },
+        {
+          "soru": "1/100.000 ölçekli haritada 4 cm² olarak ölçülen bir gölün gerçek alanı kaç km²'dir?",
+          "siklar": ["0,4 km²", "4 km²", "40 km²", "400 km²"],
+          "cevap": 2,
+          "aciklama": "Gerçek alan = 4 cm² × (100.000)² = 4 × 10¹⁰ cm². 1 km² = 10¹⁰ cm² olduğundan sonuç 40 km²'dir."
+        },
+        {
+          "soru": "Aşağıdaki ölçeklerden hangisi ile çizilen harita daha ayrıntılıdır?",
+          "siklar": ["1/1.000.000", "1/500.000", "1/100.000", "1/25.000"],
+          "cevap": 3,
+          "aciklama": "Paydası en küçük olan (1/25.000) en büyük ölçekli haritadır ve en ayrıntılıdır."
+        },
+        {
+          "soru": "Bir haritanın elemanları arasında aşağıdakilerden hangisi yer almaz?",
+          "siklar": ["Lejant", "Ölçek", "Yön oku", "Nüfus sayım tarihi"],
+          "cevap": 3,
+          "aciklama": "Başlık, ölçek, yön oku ve lejant harita elemanlarıdır; nüfus sayım tarihi ise harita elemanı değildir."
+        },
+        {
+          "soru": "1/800.000 ölçekli haritadaki 5 cm'lik bir mesafeyi, 1/400.000 ölçekli harita kaç cm'de gösterir?",
+          "siklar": ["2,5 cm", "5 cm", "10 cm", "20 cm"],
+          "cevap": 2,
+          "aciklama": "Gerçek uzaklık = 5 × 800.000 = 4.000.000 cm. İkinci haritada: 4.000.000 ÷ 400.000 = 10 cm."
+        }
+      ]
+    },
+    "9|9-cog|9-cog-u2|Türkiye'nin konumu": {
+      "ozet": "Türkiye 36°-42° kuzey enlemleri ile 26°-45° doğu boylamları arasında yer alır; matematik ve özel konumu iklimi, yerel saat farkını ve ticari önemini belirler.",
+      "anlatim": [
+        "Matematik (mutlak) konum: 36°-42° Kuzey enlemleri, 26°-45° Doğu boylamları arasında yer alır.",
+        "Kuzey yarımkürenin orta kuşağında bulunduğu için dört mevsim belirgin olarak yaşanır.",
+        "En batı (Gökçeada) ile en doğu (Iğdır, Aras) arasında yaklaşık 19° boylam farkı vardır.",
+        "Yerel saat farkı hesaplanırken her 1° boylam 4 dakikaya eşittir; 19 × 4 = 76 dakika (yaklaşık 1 saat 16 dakika).",
+        "En kuzey (Sinop) ile en güney (Hatay) arasında 6° enlem farkı bulunur; güneyden kuzeye gidildikçe sıcaklık azalır.",
+        "Özel (göreceli) konum: üç tarafı denizlerle çevrili, Boğazlara ve Asya-Avrupa geçiş yollarına sahip, ortalama yükseltisi fazla bir ülkedir.",
+        "Ortalama yükselti 1141 m civarındadır; yükselti nedeniyle Türkiye'de sıcaklık enleminin beklettiğinden daha düşüktür.",
+        "Dağlar kıyıya paralel uzandığı için Akdeniz ve Karadeniz'de deniz etkisi içeriye sokulamaz, bu da karasallığı artırır.",
+        "Türkiye 8 ülke ile komşudur: Yunanistan, Bulgaristan, Gürcistan, Ermenistan, Azerbaycan (Nahçıvan), İran, Irak ve Suriye.",
+        "36° enlemi üzerindeki İspanya, Kore gibi ülkelerle benzer sıcaklık kuşağında bulunması matematik konumun bir sonucudur."
+      ],
+      "formuller": [
+        "Türkiye: 36°-42° Kuzey enlemi, 26°-45° Doğu boylamı",
+        "Yerel saat farkı = Boylam farkı × 4 dakika",
+        "Boylam farkı = 45 − 26 = 19° → 19 × 4 = 76 dakika",
+        "Doğuda güneş daha erken doğar (aynı enlemde doğu-batı boyunca)"
+      ],
+      "ornek": "Ağrı ile İzmir arasındaki boylam farkı 10° ise yerel saat farkı 10 × 4 = 40 dakikadır; Ağrı'da güneş İzmir'den daha önce doğar.",
+      "ipucu": "Enlem farkı sıcaklık ve gölge boyunu, boylam farkı yerel saati belirler. Bu iki kavramı soruda karıştırmamak için 'yerel saat = boylam' diye kodla.",
+      "quiz": [
+        {
+          "soru": "Türkiye'nin matematik (mutlak) konumu hangi seçenekte doğru verilmiştir?",
+          "siklar": ["26°-45° Kuzey enlemi, 36°-42° Doğu boylamı", "36°-42° Kuzey enlemi, 26°-45° Doğu boylamı", "36°-42° Güney enlemi, 26°-45° Batı boylamı", "42°-52° Kuzey enlemi, 26°-45° Doğu boylamı"],
+          "cevap": 1,
+          "aciklama": "Türkiye kuzey yarımkürede 36°-42° kuzey enlemleri ile 26°-45° doğu boylamları arasındadır."
+        },
+        {
+          "soru": "Türkiye'de en batı ile en doğu nokta arasındaki yaklaşık boylam farkı 19° olduğuna göre yerel saat farkı kaç dakikadır?",
+          "siklar": ["19", "38", "76", "114"],
+          "cevap": 2,
+          "aciklama": "Her 1° boylam 4 dakikadır: 19 × 4 = 76 dakika."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi Türkiye'nin ÖZEL (göreceli) konumuyla ilgilidir?",
+          "siklar": ["36°-42° enlemleri arasında yer alması", "Kuzey yarımkürede bulunması", "Üç tarafının denizlerle çevrili ve Boğazlara sahip olması", "Orta kuşakta yer alması"],
+          "cevap": 2,
+          "aciklama": "Denizlere ve Boğazlara komşuluk özel konum; enlem ve yarım küre konumu matematik konumdur."
+        },
+        {
+          "soru": "Türkiye'de ortalama yükseltinin fazla olması aşağıdaki sonuçlardan hangisini doğurur?",
+          "siklar": ["Sıcaklığın enlemin beklettiğinden daha düşük olmasını", "Yerel saat farkının artmasını", "Yıllık yağışın her yerde azalmasını", "Yer çekiminin azalmasını"],
+          "cevap": 0,
+          "aciklama": "Yükselti arttıkça sıcaklık düşer; bu nedenle Türkiye'de sıcaklık yalnızca enleme göre beklenenden daha düşüktür."
+        },
+        {
+          "soru": "Türkiye'nin kaç ülke ile kara komşuluğu vardır?",
+          "siklar": ["6", "7", "8", "9"],
+          "cevap": 2,
+          "aciklama": "Türkiye 8 ülke ile komşudur: Yunanistan, Bulgaristan, Gürcistan, Ermenistan, Azerbaycan (Nahçıvan), İran, Irak, Suriye."
+        }
+      ]
+    },
+    "9|9-cog|9-cog-u3|Hava olayları": {
+      "ozet": "Atmosferdeki sıcaklık, basınç, nem ve rüzgâr etkileşimi kısa süreli hava olaylarını oluşturur; bu olaylar troposferde meydana gelir ve hava durumu olarak adlandırılır.",
+      "anlatim": [
+        "Atmosfer katmanları: troposfer, stratosfer (ozon tabakası), mezosfer, termosfer ve ekzosfer.",
+        "Hava olayları yerden yaklaşık 12 km yükseklikteki troposferde oluşur; yükseldikçe sıcaklık her 200 m'de yaklaşık 1°C azalır.",
+        "Sıcaklığın temel enerji kaynağı güneştir; enlem, yükselti, bakı ve denizellik sıcaklığı etkiler.",
+        "Basınç yükseldikçe azalır; yüksek basınçta hava alçalır ve açık hava, alçak basınçta hava yükselir ve yağış görülür.",
+        "Rüzgâr, yüksek basınçtan alçak basınca doğru eser; basınç farkı arttıkça rüzgâr hızlanır.",
+        "Nem, havadaki su buharıdır; hava soğuyunca yoğuşma olur ve bulut ile yağış meydana gelir.",
+        "Yağış türleri: konveksiyonel (İç Anadolu'da öğleden sonra sağanakları), orografik (Doğu Karadeniz), cephesel (kışın Kuzeybatı Anadolu).",
+        "Hava durumu kısa süreli (günlük-haftalık), iklim ise uzun süreli (30+ yıl) ortalamalar bütünüdür.",
+        "Türkiye'de en yüksek sıcaklıklar yazın Güneydoğu Anadolu'da (Cizre çevresi), en düşük sıcaklıklar kışın Doğu Anadolu'da (Ağrı, Kars) ölçülür.",
+        "Sis, çiy, kırağı ve kırç gibi yoğuşma ve don olayları da hava olayları kapsamında değerlendirilir."
+      ],
+      "formuller": [
+        "Hava durumu = kısa süreli; İklim = uzun süreli (30+ yıl) ortalama",
+        "Yükseldikçe sıcaklık her 200 m'de yaklaşık 1°C azalır",
+        "Yüksek basınç = alçalıcı hava = açık hava; Alçak basınç = yükselici hava = yağış",
+        "Orografik yağış = nemli havanın dağ yamacına çarpıp yükselmesiyle oluşur"
+      ],
+      "ornek": "Doğu Karadeniz'de nemle yüklü havanın dağlara çarparak bol yağış bırakması orografik yağıştır; bu nedenle Rize Türkiye'nin en yağışlı ilidir.",
+      "ipucu": "Hava durumu sorusunda 'bugün, yarın, birkaç gün' ipucu; iklim sorusunda 'yıllık ortalama, uzun yıllar' ipucu aranır.",
+      "quiz": [
+        {
+          "soru": "Hava olaylarının meydana geldiği atmosfer katmanı hangisidir?",
+          "siklar": ["Stratosfer", "Troposfer", "Mezosfer", "Termosfer"],
+          "cevap": 1,
+          "aciklama": "Bulut, yağış, rüzgâr gibi tüm hava olayları yere en yakın katman olan troposferde oluşur."
+        },
+        {
+          "soru": "Akşamüstü İç Anadolu'da ısınan havanın yükselerek aniden sağanak yağış bırakması hangi yağış türüdür?",
+          "siklar": ["Orografik", "Cephesel", "Konveksiyonel", "Yapay"],
+          "cevap": 2,
+          "aciklama": "Yer ısınmasıyla havanın yükselip yoğuşmasıyla oluşan yağış konveksiyonel yağıştır."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi iklimi hava durumundan ayıran temel özelliktir?",
+          "siklar": ["Günlük değişimi göstermesi", "Kısa süreli olması", "Uzun yılların ortalamasını yansıtması", "Yalnızca sıcaklığı içermesi"],
+          "cevap": 2,
+          "aciklama": "İklim, bir yerde uzun yıllar boyunca görülen ortalama hava koşullarıdır; hava durumu ise kısa sürelidir."
+        },
+        {
+          "soru": "Yükselti arttıkça sıcaklık ortalama olarak nasıl değişir?",
+          "siklar": ["Her 200 m'de 1°C artar", "Her 200 m'de 1°C azalır", "Değişmez", "Her 1000 m'de 10°C azalır"],
+          "cevap": 1,
+          "aciklama": "Troposferde yükseldikçe sıcaklık her 200 metrede yaklaşık 1°C azalır."
+        },
+        {
+          "soru": "Havadaki nemin yoğuşarak yere yakın cisimler üzerinde buz kristalleri halinde birikmesiyle oluşan olay hangisidir?",
+          "siklar": ["Çiy", "Sis", "Kırağı", "Dolu"],
+          "cevap": 2,
+          "aciklama": "Soğuk yüzeylerde su buharının doğrudan buz kristaline dönüşmesi kırağıdır; damla halinde oluşursa çiy olur."
+        }
+      ]
+    },
+    "9|9-cog|9-cog-u3|İklim bileşenleri ve türleri": {
+      "ozet": "İklim; sıcaklık, basınç, rüzgâr ve nem-yağış elemanlarının, enlem ve yükselti gibi faktörlerle etkileşimi sonucu oluşur; Türkiye'de Akdeniz, Karadeniz ve Karasal olmak üzere üç ana iklim tipi görülür.",
+      "anlatim": [
+        "İklim elemanları: sıcaklık, basınç, rüzgâr, nem ve yağıştır.",
+        "İklim faktörleri: enlem, yükselti, denizellik-karasallık, bakı, dağların uzanışı ve okyanus akıntıları.",
+        "Akdeniz iklimi: yazlar sıcak-kurak, kışlar ılık-yağışlı; bitki örtüsü makidir (Antalya, İzmir, Adana).",
+        "Karadeniz iklimi: her mevsim yağışlı ve ılıman; gür orman örtüsü görülür (Rize, Trabzon, Sinop).",
+        "Karasal iklim: yaz-kış ve gece-gündüz sıcaklık farkı büyük, yağış az; bitki örtüsü bozkırdır (Ankara, Konya, Erzurum).",
+        "Marmara (geçiş) iklimi, Akdeniz ile Karadeniz iklimi arasında özellik gösterir (İstanbul, Bursa).",
+        "Güneydoğu Anadolu'da yazlar çok sıcak ve kurak geçer; Akdeniz ikliminin karasal etkili bir biçimi görülür.",
+        "Yağış rejimi: Akdeniz'de kış maksimum, Karadeniz'de sonbahar-kış maksimum, karasal bölgelerde ilkbahar maksimumdur.",
+        "Türkiye'de yıllık ortalama yağış 640 mm civarındadır; en yağışlı yer Rize, en kurak alanlar İç Anadolu'nun (Konya, Tuz Gölü çevresi) güneyidir.",
+        "Bitki örtüsü iklimin aynasıdır: maki (Akdeniz), orman (Karadeniz), bozkır (karasal iklim)."
+      ],
+      "formuller": [
+        "Akdeniz: yaz kurak - kış yağışlı = maki bitki örtüsü",
+        "Karadeniz: her mevsim yağışlı = gür orman",
+        "Karasal: sıcaklık farkı büyük + az yağış = bozkır",
+        "Türkiye ortalama yıllık yağış ≈ 640 mm"
+      ],
+      "ornek": "Antalya'da kışın 15°C ve yağışlı, yazın 34°C ve kurak geçmesi Akdeniz iklimini; Erzurum'da kış sıcaklığının -15°C'ye düşmesi karasal iklimi gösterir.",
+      "ipucu": "Sıcaklık-yağış grafiğinde: kurak yaz = Akdeniz, her ay yağış = Karadeniz, düşük yağış + büyük sıcaklık farkı = karasal. Yağış rejimi ile iklim tipini eşleştir.",
+      "quiz": [
+        {
+          "soru": "Yazları sıcak ve kurak, kışları ılık ve yağışlı geçen, bitki örtüsü maki olan iklim tipi hangisidir?",
+          "siklar": ["Karadeniz iklimi", "Karasal iklim", "Akdeniz iklimi", "Marmara iklimi"],
+          "cevap": 2,
+          "aciklama": "Yaz kuraklığı ve kış yağışı Akdeniz ikliminin temel özelliğidir; maki bu iklimin bitki örtüsüdür."
+        },
+        {
+          "soru": "Her mevsim yağışlı olması ve gür orman örtüsüyle bilinen iklim tipi hangi bölgede yaygındır?",
+          "siklar": ["İç Anadolu", "Doğu Karadeniz", "Güneydoğu Anadolu", "Tuz Gölü çevresi"],
+          "cevap": 1,
+          "aciklama": "Her mevsim yağışlı Karadeniz iklimi özellikle Doğu Karadeniz kıyılarında (Rize, Trabzon) etkilidir."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi bir iklim FAKTÖRÜ değildir?",
+          "siklar": ["Enlem", "Yükselti", "Bitki örtüsü", "Denizellik"],
+          "cevap": 2,
+          "aciklama": "Bitki örtüsü iklimin sonucudur; enlem, yükselti ve denizellik ise iklimi belirleyen faktörlerdir."
+        },
+        {
+          "soru": "Karasal iklimin görüldüğü bir yerde bitki örtüsü genellikle hangisidir?",
+          "siklar": ["Maki", "Bozkır (step)", "Gür orman", "Tropikal yağmur ormanı"],
+          "cevap": 1,
+          "aciklama": "Az yağışlı karasal iklimde ilkbahar yağışlarıyla yeşeren bozkır (step) bitki örtüsü yaygındır."
+        },
+        {
+          "soru": "Aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+          "siklar": ["Antalya - Akdeniz iklimi", "Rize - Karadeniz iklimi", "Konya - karasal iklim", "İzmir - karasal iklim"],
+          "cevap": 3,
+          "aciklama": "İzmir'de Akdeniz iklimi görülür; karasal iklim İç ve Doğu Anadolu'da yaygındır."
+        }
+      ]
+    },
+    "9|9-cog|9-cog-u4|Nüfus değişimi ve hareketleri": {
+      "ozet": "Nüfus doğum, ölüm ve göçlerle değişir; nüfus piramitleri ve yoğunluk haritaları nüfusun yapısını ve dağılışını gösterir.",
+      "anlatim": [
+        "Nüfus artışı = doğal artış (doğum − ölüm) + net göç.",
+        "Doğal artış hızı (‰) = (Doğum − Ölüm) ÷ Toplam nüfus × 1000.",
+        "Nüfus piramidi yaş ve cinsiyet dağılımını gösterir: geniş taban yüksek doğumu, arı kovanı biçimi yaşlı nüfusu temsil eder.",
+        "Türkiye nüfusu 2024 TÜİK verisiyle yaklaşık 85,7 milyondur ve nüfus artış hızı azalan bir eğilim gösterir.",
+        "Nüfus yoğunluğu = Nüfus ÷ Yüzölçümü; Türkiye ortalaması yaklaşık 110 kişi/km²'dir.",
+        "Türkiye'de nüfus dengesiz dağılır: İstanbul, Kocaeli ve İzmir yoğunken Tunceli, Ardahan ve Bayburt seyrektir.",
+        "Göç türleri: iç göç, dış göç, zorunlu göç, gönüllü göç, mevsimlik göç ve beyin göçü.",
+        "1950'lerden sonra kırdan kente göç hızlanmış; İstanbul, Ankara ve İzmir en çok göç alan iller olmuştur.",
+        "Göçün sonuçları: çarpık kentleşme ve gecekondulaşma; kaynak bölgede nüfus kaybı ve yaşlanma.",
+        "Nüfus politikaları artırıcı, azaltıcı ve nüfusun niteliğini iyileştirici (koruyucu) politikalar olarak sınıflanır."
+      ],
+      "formuller": [
+        "Doğal artış = Doğum − Ölüm",
+        "Doğal artış hızı (‰) = (Doğum − Ölüm) ÷ Nüfus × 1000",
+        "Nüfus yoğunluğu = Nüfus ÷ Alan",
+        "Bağımlı nüfus oranı = (0-14 yaş + 65+ yaş) ÷ (15-64 yaş) × 100"
+      ],
+      "ornek": "Bir ülkede yılda 20.000 doğum ve 5.000 ölüm varsa doğal artış 15.000 kişidir; nüfus 500.000 ise doğal artış hızı (15.000 ÷ 500.000) × 1000 = 30‰ olur.",
+      "ipucu": "Binde (‰) hesabında 1000 ile çarpmayı unutma. Piramit sorusunda tabanı tepeyle karşılaştır: geniş taban = genç nüfus = gelişmekte olan ülke.",
+      "quiz": [
+        {
+          "soru": "Bir ülkede 30.000 doğum ve 10.000 ölüm gerçekleşmiş; nüfus 400.000 ise doğal artış hızı kaç ‰'dir?",
+          "siklar": ["5", "20", "50", "200"],
+          "cevap": 2,
+          "aciklama": "Doğal artış = 30.000 − 10.000 = 20.000. Hız = (20.000 ÷ 400.000) × 1000 = 50‰."
+        },
+        {
+          "soru": "Nüfus piramidinin tabanının geniş, tepesinin dar olması neyi gösterir?",
+          "siklar": ["Yaşlı nüfusun fazla olduğunu", "Doğum oranının yüksek olduğunu", "Nüfusun azaldığını", "Göçün durduğunu"],
+          "cevap": 1,
+          "aciklama": "Geniş taban küçük yaş gruplarının (0-14) fazlalığını, yani yüksek doğum oranını gösterir."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi göçün kaynak bölgede yarattığı bir sonuçtur?",
+          "siklar": ["Nüfus yoğunluğunun artması", "İş gücünün gençleşmesi", "Nüfusun azalması ve yaşlanması", "Altyapının güçlenmesi"],
+          "cevap": 2,
+          "aciklama": "Göç veren bölgede genç nüfus ayrıldığı için nüfus azalır ve yaş ortalaması yükselir."
+        },
+        {
+          "soru": "Türkiye'de 1950 sonrası kırdan kente göçün temel itici nedeni hangisidir?",
+          "siklar": ["Kırsal alanda tarımsal iş gücü fazlalığı ve makineleşme", "Kentlerdeki nüfusun azalması", "Kırsal alanda sanayinin yoğunlaşması", "Kentlerde tarım alanlarının artması"],
+          "cevap": 0,
+          "aciklama": "Tarımda makineleşme kırsalda iş gücü fazlalığı yaratmış, insanlar iş bulmak için kentlere göç etmiştir."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi mevsimlik (geçici) göçe örnek olarak gösterilebilir?",
+          "siklar": ["Bir ailenin iş nedeniyle İstanbul'a yerleşmesi", "Yöre halkının yazın yaylaya çıkması", "Öğrencilerin üniversite için başka ile gitmesi", "Deprem sonrası zorunlu taşınma"],
+          "cevap": 1,
+          "aciklama": "Yaylaya yazın çıkıp dönmek mevsimlik göçtür; kalıcı yer değişiklikleri değildir."
+        }
+      ]
+    },
+    "9|9-cog|9-cog-u4|Ekonomik faaliyetler": {
+      "ozet": "Ekonomik faaliyetler üretim biçimine göre birincil (tarım-madencilik), ikincil (sanayi), üçüncül (hizmet) ve dördüncül (bilgi) sektörler olarak sınıflanır.",
+      "anlatim": [
+        "Birincil faaliyetler doğadan doğrudan elde edilir: tarım, hayvancılık, madencilik, ormancılık ve balıkçılık.",
+        "İkincil faaliyetler hammaddeden mamul ürün üreten sanayi faaliyetleridir.",
+        "Üçüncül faaliyetler hizmet sektörüdür: ticaret, turizm, ulaşım, bankacılık, eğitim ve sağlık.",
+        "Dördüncül faaliyetler bilgi üretimine dayalıdır: bilişim, AR-GE, yazılım ve danışmanlık.",
+        "Gelişmiş ülkelerde üçüncül ve dördüncül sektör payı yüksek, gelişmekte olan ülkelerde birincil sektör daha ağırlıklıdır.",
+        "Türkiye'de istihdam ağırlıklı olarak hizmet (üçüncül) sektöründe yoğunlaşmış; tarım istihdamı giderek azalmaktadır.",
+        "GAP ile Fırat ve Dicle havzasında sulamalı tarım ve sanayi gelişerek Güneydoğu Anadolu'nun ekonomisi dönüşmüştür.",
+        "Rize'de çay, Karadeniz'de balıkçılık, Antalya'da turizm; coğrafi koşulların faaliyet türünü belirlediğinin örneğidir.",
+        "İklim, yer şekilleri, doğal kaynaklar, ulaşım ve sermaye ekonomik faaliyetlerin dağılışını etkiler.",
+        "Sürdürülebilirlik esastır: aşırı otlatma, orman tahribi ve düzensiz kentleşme sel ve heyelan gibi sorunları artırır."
+      ],
+      "formuller": [
+        "1. Birincil = tarım-maden; 2. İkincil = sanayi; 3. Üçüncül = hizmet; 4. Dördüncül = bilgi",
+        "Sektör paylarının dağılımı ülkenin gelişmişlik düzeyini gösterir",
+        "Türkiye'de en büyük istihdam payı hizmet sektöründedir"
+      ],
+      "ornek": "Soma'da linyit çıkarılması birincil, bu kömürün termik santralde elektriğe dönüştürülmesi ikincil, üretilen elektriğin satılması üçüncül faaliyettir.",
+      "ipucu": "Bir faaliyetin hangi sektöre girdiğini bulmak için ürünün hangi aşamada olduğuna bak: doğadan elde = 1, işleme = 2, hizmet/satış = 3, bilgi = 4.",
+      "quiz": [
+        {
+          "soru": "Aşağıdakilerden hangisi birincil (tarımsal) ekonomik faaliyet kapsamındadır?",
+          "siklar": ["Fabrikada tekstil üretimi", "Bankacılık hizmeti", "Balıkçılık", "Yazılım geliştirme"],
+          "cevap": 2,
+          "aciklama": "Balıkçılık doğadan doğrudan ürün elde etmeye dayandığı için birincil faaliyettir."
+        },
+        {
+          "soru": "Bir ülkede üçüncül (hizmet) sektörün istihdam payı çok yüksekse bu ülke için hangi yargıya varılır?",
+          "siklar": ["Ekonomisi tarıma dayalıdır", "Ekonomik yönden gelişmiş olma eğilimindedir", "Sanayi hiç gelişmemiştir", "Nüfusu çok azdır"],
+          "cevap": 1,
+          "aciklama": "Gelişmiş ülkelerde istihdamın ve GSYH'nin büyük bölümünü hizmet sektörü oluşturur."
+        },
+        {
+          "soru": "GAP'ın bölge ekonomisine en önemli katkısı hangisidir?",
+          "siklar": ["Bölgede sulamalı tarım ve sanayinin gelişmesi", "Kış turizminin artması", "Balıkçılığın gelişmesi", "Ormancılığın artması"],
+          "cevap": 0,
+          "aciklama": "GAP ile sulama imkânları artmış, tarımsal verim yükselmiş ve buna bağlı sanayi faaliyetleri gelişmiştir."
+        },
+        {
+          "soru": "AR-GE ve yazılım gibi bilgi üretimine dayalı faaliyetler hangi sektörde sınıflanır?",
+          "siklar": ["Birincil", "İkincil", "Üçüncül", "Dördüncül"],
+          "cevap": 3,
+          "aciklama": "Bilgi üretimi, AR-GE ve teknoloji faaliyetleri dördüncül sektör kapsamındadır."
+        },
+        {
+          "soru": "Rize'de çay tarımının yaygın olmasının temel nedeni hangisidir?",
+          "siklar": ["Kar yağışının fazlalığı", "Her mevsim yağışlı ve nemli iklim", "Yer şekillerinin düz olması", "Nüfus yoğunluğunun azlığı"],
+          "cevap": 1,
+          "aciklama": "Çay, bol yağış ve neme gereksinim duyar; Karadeniz ikliminin nemli yapısı Rize'de çay tarımını mümkün kılar."
+        }
+      ]
+    },
+    "9|9-cog|9-cog-u5|Afet türleri ve yönetimi": {
+      "ozet": "Afetler doğal veya insan kaynaklı olabilir; afet yönetimi risk azaltma, hazırlık, müdahale ve iyileştirme aşamalarından oluşur.",
+      "anlatim": [
+        "Afet, doğal ya da insan kaynaklı olup can ve mal kaybına yol açan olaydır.",
+        "Jeolojik afetler: deprem, volkan patlaması, heyelan, kaya düşmesi ve tsunami.",
+        "Klimatik-meteorolojik afetler: sel, taşkın, çığ, fırtına, kuraklık ve orman yangını.",
+        "Biyolojik afetler: salgın hastalıklar ve böcek istilaları.",
+        "Türkiye Alp-Himalaya deprem kuşağındadır; Kuzey Anadolu Fayı (KAF), Doğu Anadolu Fayı (DAF) ve Batı Anadolu grabenleri etkilidir.",
+        "1999 Marmara ve 2023 Kahramanmaraş merkezli depremler Türkiye'nin en yıkıcı afet örnekleridir.",
+        "Sel, Doğu Karadeniz'de aşırı yağış ve eğim nedeniyle sık görülür.",
+        "Heyelan, Karadeniz'de eğim, yağış ve killi zeminin bir araya gelmesiyle yaygındır (1998 Trabzon-Çatak örneği).",
+        "Afet yönetimi aşamaları: zarar azaltma, hazırlık, müdahale ve iyileştirme (yeniden yapılanma).",
+        "Risk azaltma yolları: zemin etüdü, imar denetimi, depreme dayanıklı yapı, erken uyarı, eğitim ve sigorta; AFAD koordinasyon kurumudur."
+      ],
+      "formuller": [
+        "Afet döngüsü: Zarar azaltma → Hazırlık → Müdahale → İyileştirme",
+        "KAF = Kuzey Anadolu Fayı, DAF = Doğu Anadolu Fayı",
+        "AFAD = Afet ve Acil Durum Yönetimi Başkanlığı"
+      ],
+      "ornek": "2023 Kahramanmaraş merkezli depremler Doğu Anadolu Fayı üzerinde gerçekleşmiş; zemin koşulları ve yapı kalitesinin kayıplar üzerindeki belirleyici etkisini göstermiştir.",
+      "ipucu": "Afet türünü kökenine göre ayır (jeolojik mi meteorolojik mi). 'Müdahale' ile 'zarar azaltma'yı karıştırma: deprem sonrası arama-kurtarma müdahale, binayı güçlendirme zarar azaltmadır.",
+      "quiz": [
+        {
+          "soru": "Aşağıdakilerden hangisi jeolojik kökenli bir afettir?",
+          "siklar": ["Sel", "Heyelan", "Kuraklık", "Salgın hastalık"],
+          "cevap": 1,
+          "aciklama": "Heyelan yerin iç yapısı ve eğimle ilgili olduğundan jeolojik kökenli afettir; sel ve kuraklık meteorolojik, salgın biyolojiktir."
+        },
+        {
+          "soru": "Bir binanın deprem öncesinde güçlendirilmesi afet yönetiminin hangi aşamasına girer?",
+          "siklar": ["Müdahale", "İyileştirme", "Zarar azaltma", "Yeniden yapılanma"],
+          "cevap": 2,
+          "aciklama": "Afet olmadan önce riski azaltmaya yönelik çalışmalar zarar azaltma aşamasıdır."
+        },
+        {
+          "soru": "Türkiye'de afet koordinasyonundan sorumlu temel kurum hangisidir?",
+          "siklar": ["TÜBİTAK", "AFAD", "Meteoroloji Genel Müdürlüğü", "Kızılay"],
+          "cevap": 1,
+          "aciklama": "AFAD (Afet ve Acil Durum Yönetimi Başkanlığı) afet yönetiminin koordinasyonundan sorumludur."
+        },
+        {
+          "soru": "Karadeniz Bölgesi'nde heyelanın yaygın olmasının temel nedeni hangisidir?",
+          "siklar": ["Kuraklığın fazlalığı", "Eğim, bol yağış ve killi zeminin bir arada bulunması", "Volkanik aktivite", "Yer altı sularının azlığı"],
+          "cevap": 1,
+          "aciklama": "Dik eğim, killi zemin ve aşırı yağışın birlikteliği Karadeniz'de heyelanı tetikler."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi sel ve taşkın riskini artıran beşeri bir etkendir?",
+          "siklar": ["Dere yataklarının yapılaşmaya açılması", "Ağaçlandırma yapılması", "Erken uyarı sistemi kurulması", "Dere yatağının temizlenmesi"],
+          "cevap": 0,
+          "aciklama": "Dere yataklarının imara açılması suyun akışını engelleyerek sel ve taşkın riskini artırır."
+        }
+      ]
+    },
+    "9|9-cog|9-cog-u5|Bölge ve sınır": {
+      "ozet": "Bölge, belirli özelliklerle benzerlik gösteren alanların oluşturduğu birimdir; sınırlar doğal veya yapay olabilir ve zamanla değişebilir.",
+      "anlatim": [
+        "Bölge, doğal ya da beşeri özellikler açısından benzerlik gösteren alanlar bütünüdür.",
+        "Doğal bölgeler: iklim, bitki örtüsü ve yer şekli bölgeleri (örn. Karadeniz iklim bölgesi).",
+        "Beşeri ve ekonomik bölgeler: sanayi, tarım ve turizm bölgeleri (örn. GAP, Doğu Karadeniz turizm bölgesi).",
+        "İşlevsel (fonksiyonel) bölge, bir merkeze bağlı etki alanıdır (örn. İstanbul'un metropoliten etki alanı).",
+        "Siyasi bölge, devlet sınırlarıyla belirlenmiş ülke topraklarıdır.",
+        "Sınır türleri: doğal sınır (dağ, nehir, deniz — Meriç Nehri, Toroslar) ve yapay sınır (siyasi anlaşmalarla çizilen sınır).",
+        "Türkiye 8 komşusuyla sınır paylaşır; Meriç Nehri Yunanistan ve Bulgaristan sınırının bir bölümünü oluşturur.",
+        "Bölge sınırları kesin çizgiler değildir; geçiş alanlarında özellikler iç içe girer (Marmara gibi geçiş iklimi).",
+        "Bölge sınıflandırması ölçeğe göre değişir: yerel, ulusal ve küresel bölge.",
+        "Coğrafi bölge ile yönetim bölgesi farklıdır: Türkiye'de 7 coğrafi bölge, 81 il bulunur."
+      ],
+      "formuller": [
+        "Türkiye: 7 coğrafi bölge, 81 il, 8 komşu ülke",
+        "Doğal sınır: dağ-nehir-deniz; Yapay sınır: anlaşmayla çizilen sınır",
+        "İşlevsel bölge = bir merkezin etki alanı"
+      ],
+      "ornek": "Meriç Nehri Türkiye ile Yunanistan arasında doğal sınır oluşturur; bu sınır hem bir doğal engel hem de siyasi bir sınırdır.",
+      "ipucu": "Nehir, dağ ve denizin oluşturduğu sınırlar 'doğal sınır'; cetvelle/düz çizgiyle çizilen veya anlaşmayla belirlenen sınırlar 'yapay sınır'dır. Coğrafi bölge ile idari bölgeyi karıştırma.",
+      "quiz": [
+        {
+          "soru": "Meriç Nehri'nin Türkiye ile komşu ülkeler arasında oluşturduğu sınır hangi tür sınırdır?",
+          "siklar": ["Yapay sınır", "Doğal sınır", "İşlevsel sınır", "Kültürel sınır"],
+          "cevap": 1,
+          "aciklama": "Nehir, dağ ve deniz gibi doğal unsurların oluşturduğu sınırlar doğal sınırdır."
+        },
+        {
+          "soru": "İstanbul'un etrafındaki illeri de etkileyen ekonomik ve idari etki alanı hangi bölge türüne örnektir?",
+          "siklar": ["Doğal bölge", "İşlevsel (fonksiyonel) bölge", "Siyasi bölge", "Kültürel bölge"],
+          "cevap": 1,
+          "aciklama": "Bir merkezin çevresine yayılan etki alanı işlevsel (fonksiyonel) bölgedir."
+        },
+        {
+          "soru": "Türkiye'de kaç coğrafi bölge bulunmaktadır?",
+          "siklar": ["5", "7", "9", "81"],
+          "cevap": 1,
+          "aciklama": "Türkiye'de 7 coğrafi bölge, 81 il (yönetim bölgesi) vardır."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi bir DOĞAL bölge örneğidir?",
+          "siklar": ["GAP", "Karadeniz iklim bölgesi", "İstanbul sanayi bölgesi", "Antalya turizm bölgesi"],
+          "cevap": 1,
+          "aciklama": "İklim bölgeleri doğal özelliklere dayanır; GAP, sanayi ve turizm bölgeleri beşeri-ekonomik bölgelerdir."
+        },
+        {
+          "soru": "Bölge sınırlarıyla ilgili hangisi doğrudur?",
+          "siklar": ["Bölge sınırları hiçbir zaman değişmez", "Bölge sınırları kesin çizgiler değildir, geçiş alanlarında özellikler karışır", "Her bölgenin tek bir özelliği olur", "Bölgeler yalnızca siyasi ölçütlere göre belirlenir"],
+          "cevap": 1,
+          "aciklama": "Bölgeler kesin çizgilerle ayrılmaz; geçiş alanlarında özellikler iç içe geçer (Marmara geçiş iklimi gibi)."
+        }
+      ]
+    }
+  },
+  "10-cog": {
+    "10|10-cog|10-cog-u1|Tektonik süreçler ve yeryüzü şekilleri": {
+      "ozet": "İç kuvvetler (orojenez, epirojenez, volkanizma, deprem) yeryüzünü yükseltip şekillendirirken dış kuvvetler (akarsu, rüzgâr, buzul, dalga) aşındırıp yeniden biçimlendirir; Türkiye genç oluşumlu bir ülkedir.",
+      "anlatim": [
+        "Levha tektoniği: litosfer levhaları hareket eder; yaklaşma (orojenez), uzaklaşma (rift) ve yanal hareket (transform fay) görülür.",
+        "Orojenez dağ oluşumudur; Alp-Himalaya kuşağında Toroslar ve Kuzey Anadolu Dağları oluşmuştur.",
+        "Epirojenez geniş alanların yükselmesi veya alçalmasıdır; Anadolu'nun genç jeolojik dönemde yükselmesi karasal özelliğini artırmıştır.",
+        "Volkanizma, magmanın yüzeye çıkmasıdır: Ağrı (5137 m), Süphan, Erciyes, Nemrut ve Hasan Dağı volkaniktir.",
+        "Deprem, fay hatlarında biriken enerjinin boşalmasıdır; Türkiye'de KAF, DAF ve Batı Anadolu fay sistemleri etkilidir.",
+        "Dış kuvvetler: akarsular (vadi, delta, menderes, peribacası), rüzgâr (mantar kaya, kumul), buzul (sirk, moren), karst (obruk, traverten).",
+        "Türkiye'nin ortalama yükseltisi 1141 m civarındadır; Çukurova, Haymana, Erzurum-Kars gibi yüksek platolar yaygındır.",
+        "Kıyı şekilleri: ria kıyı (İstanbul-Boğaz), dalmaçya kıyı (Güneybatı Anadolu), dalga-kıyı okları (Çukurova, Kızılırmak deltası).",
+        "Peribacaları, Ürgüp-Göreme çevresinde volkanik tüflerin akarsu ve rüzgârla aşındırılmasıyla oluşmuştur.",
+        "Karstik şekiller: Antalya travertenleri, Konya Karapınar obrukları ve Karain, Damlataş gibi mağaralar."
+      ],
+      "formuller": [
+        "İç kuvvet = oluşturucu (orojenez, epirojenez, volkanizma, deprem)",
+        "Dış kuvvet = aşındırıcı (akarsu, rüzgâr, buzul, dalga, karst)",
+        "Türkiye'nin en yüksek noktası: Ağrı Dağı 5137 m",
+        "KAF + DAF = Türkiye'nin deprem kuşağı (Alp-Himalaya)"
+      ],
+      "ornek": "Erciyes Dağı volkanizma sonucu oluşmuş bir volkan konisidir; çevresindeki tüflerin akarsu ve rüzgârla aşınmasıyla Kapadokya peribacaları meydana gelmiştir (iç ve dış kuvvet birlikte).",
+      "ipucu": "İç kuvvetler 'oluşturur/yükseltir', dış kuvvetler 'şekillendirir/aşındırır'. Yer şeklinin hangi kuvvete ait olduğunu ayırt et: delta = akarsu (dış), fay = iç kuvvet.",
+      "quiz": [
+        {
+          "soru": "Aşağıdakilerden hangisi bir dış kuvvetin oluşturduğu yer şeklidir?",
+          "siklar": ["Fay hattı", "Volkan konisi", "Delta ovası", "Orojenezle oluşan dağ"],
+          "cevap": 2,
+          "aciklama": "Delta, akarsuların taşıdığı alüvyonları denize doldurmasıyla oluşur; akarsu bir dış kuvvettir."
+        },
+        {
+          "soru": "Ağrı Dağı'nın oluşumu hangi iç kuvvetle açıklanır?",
+          "siklar": ["Epirojenez", "Volkanizma", "Orojenez", "Karstlaşma"],
+          "cevap": 1,
+          "aciklama": "Ağrı Dağı volkanik bir dağdır; magmanın yüzeye çıkmasıyla oluşmuştur."
+        },
+        {
+          "soru": "Kapadokya'daki peribacalarının oluşumunda etkili olan temel süreç hangisidir?",
+          "siklar": ["Volkanik tüflerinin akarsu ve rüzgârla aşındırılması", "Buzul aşındırması", "Karstlaşma", "Epirojenik yükselme"],
+          "cevap": 0,
+          "aciklama": "Kapadokya'da volkanik tüfler akarsu ve rüzgâr erozyonuyla aşındırılmış, peribacaları oluşmuştur."
+        },
+        {
+          "soru": "Türkiye'nin genç oluşumlu (alp orojenezi etkili) bir ülke olmasının en önemli sonucu hangisidir?",
+          "siklar": ["Deprem riskinin yüksek olması", "Yıllık yağışın az olması", "Ortalama yükseltinin düşük olması", "Kıyıların düz olması"],
+          "cevap": 0,
+          "aciklama": "Genç oluşumlu arazi, aktif fay hatları ve yüksek deprem riski anlamına gelir."
+        },
+        {
+          "soru": "Aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+          "siklar": ["Mantar kaya - rüzgâr", "Sirk - buzul", "Obruk - karst", "Moren - akarsu"],
+          "cevap": 3,
+          "aciklama": "Moren buzul taşıdığı malzemenin birikmesiyle oluşur; akarsu şekli değildir."
+        }
+      ]
+    },
+    "10|10-cog|10-cog-u2|Yerleşmeler": {
+      "ozet": "Yerleşmeler kır ve kent olarak sınıflanır; yerleşme yerinin seçimini doğal ve beşeri faktörler belirler, yerleşme dokusu toplu veya dağınık olabilir.",
+      "anlatim": [
+        "Yerleşme, insanın barınmak için seçtiği yerdir; ilk yerleşmeler su kenarı, verimli toprak ve ılıman iklim alanlarında kurulmuştur.",
+        "Kır yerleşmeleri: köy, mezra, yayla, oba ve çiftlik; geçim tarım ve hayvancılığa dayanır.",
+        "Kent yerleşmelerinde nüfus ve fonksiyon çeşitliliği fazladır; sanayi, ticaret ve hizmet yoğunlaşmıştır.",
+        "Yerleşme dokusu toplu (su kaynağı çevresi, İç Anadolu köyleri) veya dağınık (bol yağış alan Karadeniz) olabilir.",
+        "Karadeniz'de dağınık yerleşme yaygındır; bol yağış, eğim ve arazinin parçalı olması buna yol açar.",
+        "Yerleşme yerini etkileyen doğal faktörler: iklim, yer şekli, su kaynakları, toprak ve bitki örtüsü.",
+        "Beşeri faktörler: ulaşım, sanayi, ticaret, güvenlik, turizm ve idari fonksiyonlar.",
+        "Türkiye'de hızlı kentleşme 1950 sonrası sanayileşme ve kırdan göçle hızlanmıştır.",
+        "Kentleşmenin sorunları: gecekondu, trafik, altyapı yetersizliği ve çevre kirliliği.",
+        "Yayla ve yaylacılık, Türkiye'de hem hayvancılık hem de turizm amaçlı sürdürülen bir yerleşme biçimidir."
+      ],
+      "formuller": [
+        "Kır yerleşmeleri: köy-mezra-yayla-oba-çiftlik; Kent: nüfus + fonksiyon çeşitliliği",
+        "Toplu yerleşme = su az (İç Anadolu); Dağınık yerleşme = yağış/eğim fazla (Karadeniz)",
+        "İlk yerleşmelerin koşulları: su + verimli toprak + ılıman iklim"
+      ],
+      "ornek": "Giresun ve Ordu köylerinin dağınık, Konya köylerinin toplu olması; su ve arazi koşullarının yerleşme dokusunu belirlediğini gösterir.",
+      "ipucu": "Yerleşme dokusu sorusunda önce yağış/iklim koşuluna bak: bol yağış = dağınık (Karadeniz), az su = toplu (İç Anadolu).",
+      "quiz": [
+        {
+          "soru": "Karadeniz Bölgesi'nde dağınık yerleşmenin yaygın olmasının temel nedeni hangisidir?",
+          "siklar": ["Su kaynaklarının azlığı", "Bol yağış, eğim ve parçalı arazi", "Düz ve geniş ovalar", "Sanayinin yoğunluğu"],
+          "cevap": 1,
+          "aciklama": "Bol yağış ve engebeli arazi evlerin birbirinden uzak kurulmasına yol açar; bu da dağınık dokuyu oluşturur."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi bir kır yerleşmesi türü değildir?",
+          "siklar": ["Mezra", "Yayla", "Oba", "Gecekondu"],
+          "cevap": 3,
+          "aciklama": "Gecekondu kent içinde oluşan bir konut/yerleşme sorunudur; köy-mezra-yayla-oba kır yerleşmeleridir."
+        },
+        {
+          "soru": "Bir yerleşim yerinin seçiminde aşağıdakilerden hangisi beşeri bir faktördür?",
+          "siklar": ["İklim koşulları", "Toprak verimliliği", "Ulaşım ve ticaret", "Yer şekilleri"],
+          "cevap": 2,
+          "aciklama": "Ulaşım, ticaret ve sanayi insan faaliyetiyle ilgili beşeri faktörlerdir; diğerleri doğal faktörlerdir."
+        },
+        {
+          "soru": "Türkiye'de hızlı kentleşmenin 1950 sonrasında hızlanmasının temel nedeni hangisidir?",
+          "siklar": ["Sanayileşme ve kırdan kente göç", "Nüfus artış hızının sıfırlanması", "Tarım alanlarının artması", "Kent nüfusunun azalması"],
+          "cevap": 0,
+          "aciklama": "1950 sonrası sanayileşme kentlerde iş imkânı yaratmış, kırdan kente göç kentleşmeyi hızlandırmıştır."
+        },
+        {
+          "soru": "Yaylacılık faaliyeti için hangisi doğrudur?",
+          "siklar": ["Yalnızca kış aylarında yapılır", "Hem hayvancılık hem turizm amaçlı sürdürülebilir", "Sadece kıyı bölgelerinde görülür", "Tarım faaliyetidir"],
+          "cevap": 1,
+          "aciklama": "Yaylacılık yaz aylarında hayvancılık amaçlı yapılır; günümüzde serin iklim nedeniyle turizm amaçlı da tercih edilir."
+        }
+      ]
+    },
+    "10|10-cog|10-cog-u2|Ekonomik faaliyetler": {
+      "ozet": "Ekonomik faaliyetler coğrafi koşullara bağlı olarak gelişir ve dört sektöre ayrılır; sürdürülebilir üretim ekonomik gelecek için temel koşuldur.",
+      "anlatim": [
+        "Ekonomik faaliyet sınıflaması: birincil (doğadan elde), ikincil (işleme), üçüncül (hizmet) ve dördüncül (bilgi teknolojileri).",
+        "Birincil sektör iklim ve yer şekillerine bağlıdır: Rize'de çay, Şanlıurfa'da pamuk, Edirne'de ayçiçeği yetiştirilir.",
+        "İkincil sektör ham madde, enerji ve ulaşımın uygun olduğu yerlerde gelişir: Kocaeli'de petrokimya, Bursa'da otomotiv.",
+        "Üçüncül sektör kentleşmeyle büyür: Antalya ve Kapadokya'da turizm, İstanbul'da finans ve ticaret.",
+        "Güney Marmara, Ege ve Marmara bölgeleri sanayinin en yoğun olduğu alanlardır.",
+        "Ulaşım ağı, limanlar (Ambarlı, Mersin, İzmir) ve demir yolları ekonomik faaliyetlerin dağılışını şekillendirir.",
+        "Madencilik birincil faaliyettir: Soma'da linyit, Divriği'nde demir, Seydişehir'de boksit çıkarılır.",
+        "Enerji üretimi kaynaklara bağlıdır: hidroelektrik (Atatürk Barajı), jeotermal (Denizli-Sarayköy), rüzgâr (Çanakkale).",
+        "Sürdürülebilir üretim için yenilenebilir enerji, sulama, toprak koruma ve geri dönüşüm önemlidir.",
+        "Ekonomik faaliyetlerin aşırı ve düzensiz yapılması orman tahribi, sel, kuraklık ve tuzlanma gibi çevresel sorunlara yol açar."
+      ],
+      "formuller": [
+        "Doğadan elde = birincil, işleme = ikincil, hizmet = üçüncül, bilgi = dördüncül",
+        "Sanayileşme koşulları = ham madde + enerji + ulaşım + sermaye",
+        "Türkiye'de en büyük istihdam payı hizmet sektöründedir"
+      ],
+      "ornek": "Denizli'de jeotermal kaynakla çalışan tekstil fabrikaları ve termal turizm; doğal bir kaynağın ekonomik faaliyeti nasıl çeşitlendirdiğine örnektir.",
+      "ipucu": "Sektörü belirlerken üretimin aşamasına bak: kavunun tarladan toplanması birincil, konserve yapımı ikincil, markette satışı üçüncül faaliyettir.",
+      "quiz": [
+        {
+          "soru": "Denizli'de jeotermal kaynaktan yararlanılarak termal turizm yapılması hangi sektör kapsamındadır?",
+          "siklar": ["Birincil", "İkincil", "Üçüncül", "Madencilik"],
+          "cevap": 2,
+          "aciklama": "Turizm bir hizmet faaliyetidir ve üçüncül sektör kapsamında değerlendirilir."
+        },
+        {
+          "soru": "Aşağıdaki eşleştirmelerden hangisi doğrudur?",
+          "siklar": ["Soma - demir", "Divriği - demir", "Seydişehir - linyit", "Zonguldak - boksit"],
+          "cevap": 1,
+          "aciklama": "Divriği'nde demir, Soma'da linyit, Seydişehir'de boksit, Zonguldak'ta taş kömürü çıkarılır."
+        },
+        {
+          "soru": "Bir fabrikanın kurulacağı yeri belirlerken aşağıdakilerden hangisi göz önünde bulundurulması gereken beşeri/ekonomik etkenlerdendir?",
+          "siklar": ["Yağış rejimi", "Toprak türü", "Ulaşım ve pazara yakınlık", "Bitki örtüsü"],
+          "cevap": 2,
+          "aciklama": "Ham maddeye ve pazara yakınlık, ulaşım ve enerji gibi beşeri-ekonomik etkenler sanayi yer seçimini belirler."
+        },
+        {
+          "soru": "Hidroelektrik üretiminde Türkiye'nin en önemli barajlarından biri hangisidir?",
+          "siklar": ["Atatürk Barajı", "Sarayköy Jeotermal", "Çanakkale Rüzgâr", "Soma Termik"],
+          "cevap": 0,
+          "aciklama": "Atatürk Barajı Fırat üzerinde kurulu, Türkiye'nin en büyük hidroelektrik santrallerinden biridir."
+        },
+        {
+          "soru": "Aşırı sulama sonucu İç Anadolu'da görülebilen çevre sorunu hangisidir?",
+          "siklar": ["Toprağın tuzlanması", "Toprak verimliliğinin artması", "Yağışın artması", "Yer altı suyunun yükselmesi"],
+          "cevap": 0,
+          "aciklama": "Drenajı yetersiz aşırı sulama, toprakta tuzlanmaya (çoraklaşmaya) yol açar."
+        }
+      ]
+    },
+    "10|10-cog|10-cog-u3|Afetler": {
+      "ozet": "Afetler doğal ve beşeri süreçlerden kaynaklanır; afet riskini azaltmak için bilimsel, planlama ve toplumsal önlemler birlikte alınmalıdır.",
+      "anlatim": [
+        "Afet, toplumun kendi imkânlarıyla üstesinden gelemeyeceği ölçekte can ve mal kaybına yol açan olaydır.",
+        "Doğal afet grupları: jeolojik (deprem, heyelan, volkan), meteorolojik (sel, çığ, kuraklık) ve biyolojik (salgın).",
+        "Türkiye deprem riski en yüksek ülkelerden biridir; nüfusun büyük bölümü deprem kuşağında yaşar.",
+        "Kuraklık, İç Anadolu ve Güneydoğu Anadolu'da tarım ve su kaynakları için ciddi bir risktir.",
+        "Çığ, Doğu Anadolu'da eğim, kar örtüsü ve yerleşme konumu nedeniyle görülür (Van, Bitlis, Hakkari).",
+        "Yangın riski Akdeniz ve Ege'de yaz kuraklığıyla artar (Muğla, Antalya, İzmir).",
+        "Afet yönetimi döngüsü: zarar azaltma, hazırlık, müdahale ve iyileştirme.",
+        "Zarar azaltma: zemin etüdü, deprem yönetmeliğine uygun yapı, imar planı ve ağaçlandırma.",
+        "Kurumlar: AFAD, Kızılay, Meteoroloji Genel Müdürlüğü ve üniversiteler; erken uyarı sistemleri kurar.",
+        "Bireysel önlemler: afet çantası, tahliye planı, sigorta, eğitim ve tatbikatlar."
+      ],
+      "formuller": [
+        "Afet döngüsü: Zarar azaltma → Hazırlık → Müdahale → İyileştirme",
+        "Deprem riski = fay uzaklığı + zemin koşulu + yapı kalitesi",
+        "Afet çantası: su, gıda, ilk yardım malzemesi, düdük, radyo, belge"
+      ],
+      "ornek": "Konya Karapınar'da aşırı yer altı suyu çekimi ve karstik yapı obruk oluşumunu artırmış; bu durum beşeri faaliyetin afet riskini büyüttüğünü gösterir.",
+      "ipucu": "Afet türü ile oluşum sürecini eşleştir: obruk/karst → çökme; heyelan → eğim+yağış+killi zemin; çığ → eğim+kar+yerleşim konumu.",
+      "quiz": [
+        {
+          "soru": "Türkiye'de nüfusun büyük bölümünün deprem riski taşımasının temel nedeni hangisidir?",
+          "siklar": ["Ülkenin Alp-Himalaya deprem kuşağında yer alması", "Kurak iklimin etkili olması", "Ortalama yükseltinin az olması", "Kıyıların düz olması"],
+          "cevap": 0,
+          "aciklama": "Türkiye aktif fay hatları içeren Alp-Himalaya deprem kuşağında bulunduğu için deprem riski yüksektir."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi afet öncesi 'zarar azaltma' çalışmalarından biridir?",
+          "siklar": ["Deprem sonrası arama-kurtarma", "Zemin etüdü yapılması", "Enkaz kaldırma", "Yaralıların tedavisi"],
+          "cevap": 1,
+          "aciklama": "Zemin etüdü afet olmadan önce riski azaltmak için yapılan bir zarar azaltma çalışmasıdır."
+        },
+        {
+          "soru": "Sıcaklığın mevsim normallerinin altına düşerek uzun süreli soğuk hava dalgasına neden olması hangi afet türüne girer?",
+          "siklar": ["Jeolojik", "Meteorolojik", "Biyolojik", "Teknolojik"],
+          "cevap": 1,
+          "aciklama": "Fırtına, sel, çığ, kuraklık ve soğuk hava dalgaları meteorolojik afetlerdir."
+        },
+        {
+          "soru": "Doğu Anadolu'da çığ riskinin yüksek olmasının temel nedeni hangisidir?",
+          "siklar": ["Yer altı sularının fazlalığı", "Dik eğim, kalın kar örtüsü ve yerleşme konumu", "Yaz kuraklığı", "Volkanik arazilerin varlığı"],
+          "cevap": 1,
+          "aciklama": "Dik eğim, uzun süreli kar örtüsü ve yerleşmelerin kar toplanma alanlarına yakınlığı çığ riskini artırır."
+        },
+        {
+          "soru": "Bireysel düzeyde afet hazırlığı için aşağıdakilerden hangisi yapılmalıdır?",
+          "siklar": ["Afet çantası hazırlamak ve tahliye planını öğrenmek", "Deprem anını bekleyip sonrasında plan yapmak", "Sadece resmi kurumların çalışmasını beklemek", "Afet sigortasını iptal etmek"],
+          "cevap": 0,
+          "aciklama": "Afet çantası hazırlamak, tahliye planını öğrenmek ve tatbikatlara katılmak bireysel hazırlığın temelidir."
+        }
+      ]
+    },
+    "10|10-cog|10-cog-u3|Türk kültürü": {
+      "ozet": "Türk kültürü Orta Asya'dan Anadolu'ya uzanan zengin bir mirasa sahiptir; kültürel öğeler coğrafyayla şekillenir ve nesilden nesile aktarılır.",
+      "anlatim": [
+        "Kültür, bir toplumun maddi ve manevi birikimi ve yaşam biçimidir; coğrafyayla karşılıklı etkileşim içindedir.",
+        "Türk kültürünün kökeni Orta Asya'ya uzanır; göçlerle Anadolu, Balkanlar ve Orta Doğu'ya yayılmıştır.",
+        "Kültürel öğeler: dil, din, gelenek-görenek, mutfak, müzik, halk oyunları ve mimari.",
+        "Somut kültürel miras: Divriği Ulu Camii, Göbeklitepe, Efes, Pamukkale ve Kapadokya (UNESCO Dünya Mirası).",
+        "Somut olmayan kültürel miras: Karagöz, meddahlık, Kırkpınar, Mevlevi Sema, Türk kahvesi ve çay kültürü.",
+        "Türk kahvesi ve çay, sosyal yaşamın ve misafirperverliğin kültürel simgeleridir.",
+        "Yayla kültürü, Türkmen ve Yörük göçebe yaşamının coğrafyayla bağını yansıtır.",
+        "Gelenekler bölgeye göre çeşitlenir: Karadeniz'de horon, Ege'de zeybek, Doğu Anadolu'da halay yaygındır.",
+        "Kentleşme ve göç kültürel değişimi hızlandırır; kültürel mirasın korunması bu nedenle önemlidir.",
+        "Kültürel mirasın korunmasında müzeler, millî parklar, Vakıflar Genel Müdürlüğü ve tescil-restorasyon çalışmaları rol oynar."
+      ],
+      "formuller": [
+        "Somut miras = yapı/eser; Somut olmayan miras = gelenek-müzik-ritüel",
+        "Türk kültürü kökeni = Orta Asya → göçlerle Anadolu ve çevresine yayıldı",
+        "UNESCO Dünya Mirası örnekleri (Türkiye): Göbeklitepe, Pamukkale, Divriği Ulu Camii"
+      ],
+      "ornek": "Kırkpınar Yağlı Güreşleri somut olmayan kültürel miras; Edirne'deki Selimiye Camii ise somut kültürel mirastır.",
+      "ipucu": "Somut ve somut olmayan kültürel mirası ayırt et: 'elle tutulabilen yapı/eser' somut, 'yaşayan gelenek, gösteri, ritüel' somut olmayan mirastır.",
+      "quiz": [
+        {
+          "soru": "Aşağıdakilerden hangisi somut kültürel mirasa örnek gösterilebilir?",
+          "siklar": ["Karagöz ve Hacivat", "Kırkpınar Yağlı Güreşleri", "Divriği Ulu Camii", "Mevlevi Sema töreni"],
+          "cevap": 2,
+          "aciklama": "Divriği Ulu Camii elle tutulabilen bir yapı olduğu için somut kültürel mirastır; diğerleri somut olmayan mirastır."
+        },
+        {
+          "soru": "Türk kültürünün kökeni ve yayılışıyla ilgili hangisi doğrudur?",
+          "siklar": ["Kökeni Orta Asya'ya uzanır ve göçlerle yayılmıştır", "Yalnızca Anadolu'da doğmuştur", "Hiç etkileşime girmemiştir", "Sadece yazılı kaynaklarla aktarılmıştır"],
+          "cevap": 0,
+          "aciklama": "Türk kültürünün kökeni Orta Asya'dır ve tarih boyunca göçlerle geniş coğrafyalara yayılmıştır."
+        },
+        {
+          "soru": "Karadeniz Bölgesi'nde yaygın olan geleneksel halk oyunu hangisidir?",
+          "siklar": ["Zeybek", "Horon", "Halay", "Çiftetelli"],
+          "cevap": 1,
+          "aciklama": "Horon Karadeniz, zeybek Ege, halay Doğu ve Güneydoğu Anadolu'nun geleneksel oyunudur."
+        },
+        {
+          "soru": "Aşağıdakilerden hangisi somut olmayan kültürel miras listesinde yer alır?",
+          "siklar": ["Pamukkale travertenleri", "Türk kahvesi kültürü ve geleneği", "Efes Antik Kenti", "Göbeklitepe"],
+          "cevap": 1,
+          "aciklama": "Türk kahvesi kültürü ve geleneği yaşayan bir uygulama olduğu için somut olmayan kültürel mirastır."
+        },
+        {
+          "soru": "Yayla kültürünün Türk kültüründeki önemi hangi seçenekte doğru açıklanmıştır?",
+          "siklar": ["Kışın deniz turizmine dayanır", "Göçebe ve yarı göçebe yaşamın coğrafyayla bağını yansıtır", "Yalnızca kentlerde sürdürülür", "Kültürle hiç ilgisi yoktur"],
+          "cevap": 1,
+          "aciklama": "Yaylacılık, Türkmen ve Yörüklerin göçebe yaşam biçiminin coğrafyayla kurduğu bağın kültürel yansımasıdır."
+        }
+      ]
+    }
+  }
+}
