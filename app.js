@@ -143,7 +143,22 @@ function temaDegistir() {
 }
 
 /* ---------- üst bar / alt bar ---------- */
-function ustbarCiz(geri, baslik, altYazi) {
+function ustbarNav(aktif) {
+  const ogeler = [
+    { id: "ana", ik: "ev", ad: "Ana Sayfa", hash: "#/" },
+    { id: "dersler", ik: "kitap", ad: "Dersler", hash: "#/dersler" },
+    { id: "ilerleme", ik: "grafik", ad: "İlerleme", hash: "#/ilerleme" },
+  ];
+  return `<nav class="ustbar-nav">${ogeler
+    .map((o) => `<button data-git="${o.hash}" class="${aktif === o.id ? "aktif" : ""}">${ikon(o.ik, 17, 1.9)} ${o.ad}</button>`)
+    .join("")}</nav>`;
+}
+
+function ustbarNavBagla() {
+  document.querySelectorAll(".ustbar-nav button").forEach((b) => (b.onclick = () => (location.hash = b.dataset.git)));
+}
+
+function ustbarCiz(geri, baslik, altYazi, aktifBolum) {
   const bar = el("ustbar");
   const temaAd = document.documentElement.getAttribute("data-tema") === "koyu" ? "gunes" : "ay";
   if (geri) {
@@ -153,24 +168,30 @@ function ustbarCiz(geri, baslik, altYazi) {
         <div class="marka-ad" style="font-size:14.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(baslik || "")}</div>
         ${altYazi ? `<div class="marka-alt" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(altYazi)}</div>` : ""}
       </div>
+      ${ustbarNav(aktifBolum)}
       <div class="ustbar-sag"><button class="ikon-btn" id="temaBtn" title="Tema">${ikon(temaAd)}</button></div>`;
     el("geriBtn").onclick = () => { if (history.length > 1) history.back(); else location.hash = "#/"; };
   } else {
     bar.innerHTML = `
-      <div class="marka">
+      <div class="marka" id="markaGit" role="button" tabindex="0">
         <div class="marka-logo">📚</div>
         <div style="min-width:0">
           <div class="marka-ad">TYT 9–10</div>
           <div class="marka-alt">Konu anlatımı · video · quiz</div>
         </div>
       </div>
+      ${ustbarNav(aktifBolum)}
       <div class="ustbar-sag">
         <button class="ikon-btn" id="araBtn" title="Ara">${ikon("ara")}</button>
         <button class="ikon-btn" id="temaBtn" title="Tema">${ikon(temaAd)}</button>
       </div>`;
     el("araBtn").onclick = () => (location.hash = "#/ara");
+    const marka = el("markaGit");
+    marka.style.cursor = "pointer";
+    marka.onclick = () => (location.hash = "#/");
   }
   el("temaBtn").onclick = temaDegistir;
+  ustbarNavBagla();
 }
 
 function altbarCiz(aktif) {
@@ -220,23 +241,34 @@ function anaCiz() {
   const t = toplamIlerleme(sinifId);
   const devam = devamKonusu(sinifId);
   ilerlemeSerit(t.yuzde);
-  ustbarCiz(false);
+  ustbarCiz(false, "", "", "ana");
   altbarCiz("ana");
 
   el("gorunum").innerHTML = `
     <section class="hero">
-      <h1>Bugün ne çalışıyoruz?</h1>
-      <p>${esc(VERI.mufredat.meta.program)} müfredatına göre sıralı konu anlatımı, formüller, çözümlü örnek, video ve quiz. İlerlemen bu cihazda saklanır.</p>
-      <div class="segmente" id="sinifSec">
-        ${VERI.mufredat.siniflar.map((s) => `<button data-s="${s.id}" class="${s.id === sinifId ? "aktif" : ""}">${s.ad}</button>`).join("")}
-      </div>
-      ${devam
-        ? `<button class="btn btn-birincil btn-tam" id="devamBtn">▶ ${esc(devam.konu)} konusuna devam et</button>`
-        : `<div class="rozet" style="padding:8px 14px">🎉 ${esc(sinif.ad)} tamamlandı!</div>`}
-      <div class="hero-istat">
-        <div><span>Bitirilen konu</span><b>${t.biten}<small style="font-size:14px;color:var(--soluk)">/${t.toplam}</small></b></div>
-        <div><span>Genel ilerleme</span><b>${t.yuzde}%</b></div>
-        <div><span>Ders</span><b>${sinif.dersler.length}</b></div>
+      <div class="hero-izgara">
+        <div>
+          <h1>Bugün ne çalışıyoruz?</h1>
+          <p>${esc(VERI.mufredat.meta.program)} müfredatına göre sıralı konu anlatımı, formüller, çözümlü örnek, video ve test. İlerlemen bu cihazda saklanır.</p>
+          <div class="segmente" id="sinifSec">
+            ${VERI.mufredat.siniflar.map((s) => `<button data-s="${s.id}" class="${s.id === sinifId ? "aktif" : ""}">${s.ad}</button>`).join("")}
+          </div>
+          ${devam
+            ? `<button class="btn btn-birincil btn-tam" id="devamBtn">${ikon("ileri", 15, 2.4)} ${t.biten === 0 ? esc(devam.konu) + " konusuna başla" : esc(devam.konu) + " konusuna devam et"}</button>`
+            : `<div class="rozet" style="padding:8px 14px">🎉 ${esc(sinif.ad)} tamamlandı!</div>`}
+          <div class="hero-istat">
+            <div><span>Bitirilen konu</span><b>${t.biten}<small style="font-size:14px;color:var(--soluk)">/${t.toplam}</small></b></div>
+            <div><span>Genel ilerleme</span><b>${t.yuzde}%</b></div>
+            <div><span>Ders</span><b>${sinif.dersler.length}</b></div>
+          </div>
+        </div>
+        <aside class="sira-kutu">
+          <h3>Nasıl çalışılır?</h3>
+          <div class="sira-adim"><span class="sira-no">1</span><span><b>Anlatımı oku</b><br>Kısaca + maddeler + ezberlenecekler.</span></div>
+          <div class="sira-adim"><span class="sira-no">2</span><span><b>Videoyu izle</b><br>Durdur, soruyu önce sen çöz.</span></div>
+          <div class="sira-adim"><span class="sira-no">3</span><span><b>Testi çöz</b><br>5 soruda tam puan al.</span></div>
+          <div class="sira-adim"><span class="sira-no">4</span><span><b>Bitir</b><br>İlerlemene eklensin.</span></div>
+        </aside>
       </div>
     </section>
 
@@ -263,7 +295,7 @@ function dersCiz(dersId) {
   if (!b) return anaGit();
   const r = dersIlerleme(dersId);
   const p = ilerleme();
-  ustbarCiz(true, b.ders.ad, `${b.sinif.ad} · ${r.biten}/${r.toplam} konu`);
+  ustbarCiz(true, b.ders.ad, `${b.sinif.ad} · ${r.biten}/${r.toplam} konu`, "dersler");
   altbarCiz("dersler");
   ilerlemeSerit(r.yuzde);
 
@@ -326,7 +358,7 @@ function konuCiz(dersId, uniteId, sira) {
   const k = anahtar(b.sinif.id, dersId, uniteId, konuAd);
   const tamam = !!ilerleme()[k];
 
-  ustbarCiz(true, konuAd, `${b.ders.ad} · ${unite.ad}`);
+  ustbarCiz(true, konuAd, `${b.ders.ad} · ${unite.ad}`, "dersler");
   altbarCiz("");
   ilerlemeSerit(dersIlerleme(dersId).yuzde);
 
@@ -536,7 +568,7 @@ function quizBaslat(sorular, konuAnahtari, dersId, uniteId, sira) {
 function derslerCiz() {
   const sinifId = seciliSinif();
   const sinif = VERI.mufredat.siniflar.find((x) => x.id === sinifId);
-  ustbarCiz(false);
+  ustbarCiz(false, "", "", "dersler");
   altbarCiz("dersler");
   ilerlemeSerit(toplamIlerleme(sinifId).yuzde);
   el("gorunum").innerHTML = `
@@ -554,7 +586,7 @@ function derslerCiz() {
 }
 
 function ilerlemeCiz() {
-  ustbarCiz(false);
+  ustbarCiz(false, "", "", "ilerleme");
   altbarCiz("ilerleme");
   const p = ilerleme();
   const tumKonular = VERI.mufredat.siniflar.flatMap((s) => s.dersler.flatMap((d) => konuListesi(d.id)));
@@ -616,7 +648,7 @@ function ilerlemeCiz() {
 }
 
 function aramaCiz() {
-  ustbarCiz(false);
+  ustbarCiz(false, "", "", "");
   altbarCiz("");
   el("gorunum").innerHTML = `
     <h1 style="font-size:22px;margin:6px 0 14px">Ara</h1>

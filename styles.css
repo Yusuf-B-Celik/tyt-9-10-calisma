@@ -173,6 +173,24 @@ button { font-family: inherit; }
 .hero-istat div span { display: block; font-size: 11.5px; color: var(--soluk); font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
 .hero-istat div b { font-size: 21px; font-weight: 800; }
 
+/* hero içi iki kolon: içerik + çalışma sırası */
+.hero-izgara { display: grid; grid-template-columns: 1fr; gap: 18px; }
+@media (min-width: 860px) { .hero-izgara { grid-template-columns: minmax(0, 1fr) 268px; align-items: start; } }
+
+.sira-kutu {
+  background: color-mix(in srgb, var(--yuzey) 70%, transparent);
+  border: 1px solid var(--kenar); border-radius: var(--r);
+  padding: 14px;
+}
+.sira-kutu h3 { margin: 0 0 10px; font-size: 12px; letter-spacing: .6px; text-transform: uppercase; color: var(--soluk); }
+.sira-adim { display: flex; gap: 10px; align-items: flex-start; padding: 7px 0; font-size: 13.5px; color: var(--yazi-2); }
+.sira-adim b { color: var(--yazi); font-weight: 650; }
+.sira-no {
+  width: 20px; height: 20px; flex: none; border-radius: 6px; display: grid; place-items: center;
+  background: color-mix(in srgb, var(--vurgu) 18%, transparent); color: var(--vurgu);
+  font-size: 11px; font-weight: 800;
+}
+
 /* ---------- sınıf seçici ---------- */
 .segmente {
   display: inline-flex; padding: 4px; gap: 4px;
@@ -219,9 +237,11 @@ button { font-family: inherit; }
   display: block; height: 100%; border-radius: 99px;
   background: linear-gradient(90deg, var(--ders-renk, var(--vurgu)), color-mix(in srgb, var(--ders-renk, var(--vurgu)) 50%, var(--vurgu-2)));
   transition: width .5s cubic-bezier(.4, 0, .2, 1);
-  min-width: 4px;
+  min-width: 6px;
 }
-.cubuk-bilgi { display: flex; justify-content: space-between; font-size: 11.5px; color: var(--soluk); font-weight: 600; }
+.cubuk i[style*="width:0%"] { min-width: 0; }
+.mini-cubuk i[style*="width:0%"] { min-width: 0; }
+.cubuk-bilgi { display: flex; justify-content: space-between; font-size: 11.5px; color: var(--yazi-2); font-weight: 600; }
 
 .rozet {
   display: inline-flex; align-items: center; gap: 5px;
@@ -418,7 +438,7 @@ sub { font-size: .68em; vertical-align: sub; line-height: 0; }
   border-top: 1px solid var(--kenar);
 }
 .altbar button {
-  flex: 1; max-width: 130px;
+  flex: 1; max-width: 150px;
   display: flex; flex-direction: column; align-items: center; gap: 4px;
   padding: 7px 4px; border: 0; border-radius: var(--r-3);
   background: transparent; color: var(--soluk); cursor: pointer;
@@ -426,6 +446,23 @@ sub { font-size: .68em; vertical-align: sub; line-height: 0; }
 }
 .altbar button .gl { display: grid; place-items: center; height: 22px; }
 .altbar button.aktif { color: var(--vurgu); background: color-mix(in srgb, var(--vurgu) 12%, transparent); }
+
+/* masaüstünde üst barda gezinme (alt bar yerine) */
+.ustbar-nav { display: none; gap: 4px; }
+.ustbar-nav button {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 8px 13px; border: 0; border-radius: 10px;
+  background: transparent; color: var(--soluk); cursor: pointer;
+  font-size: 13.5px; font-weight: 650; transition: all .15s ease;
+}
+.ustbar-nav button:hover { color: var(--yazi); background: var(--yuzey); }
+.ustbar-nav button.aktif { color: var(--vurgu); background: color-mix(in srgb, var(--vurgu) 12%, transparent); }
+
+@media (min-width: 1000px) {
+  .altbar { display: none; }
+  .ustbar-nav { display: flex; }
+  .gorunum { padding-bottom: 40px; }
+}
 
 /* ---------- arama ---------- */
 .ara-sar { position: relative; margin-bottom: 14px; }
