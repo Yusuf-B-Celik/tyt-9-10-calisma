@@ -33,4 +33,6 @@ select, #ara { background:var(--kart); color:var(--yazi); border:1px solid #3341
 footer { text-align:center; color:var(--soluk); font-size:12px; padding:20px; }
 .kaynak-kutu { background:var(--kart); border-radius:10px; padding:10px; font-size:13px; }
 .kaynak-kutu a { color:var(--vurgu); display:block; margin:6px 0; }
+.video { position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:10px; margin:8px 0 16px; background:#000; }
+.video iframe { position:absolute; top:0; left:0; width:100%; height:100%; }
 @media (max-width:800px) { .layout { grid-template-columns:1fr; } .top { position:static; } }
